@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Recharge Demon Mode",
+  "description": "Lab research enhancement",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "card_research",
+    "stat_type": "recharge_time",
+    "target": "demon_mode_card",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "demon_mode",
+      "card_enhancement"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": 1500,
+    "increment_per_level": "varies",
+    "total_value": "Decreases recharge time per level",
+    "effect": "Reduces demon mode card recharge time"
+  },
+  "context_fields": {
+    "when_to_use": "When using demon mode card and want faster recharge",
+    "priority_level": "Medium - only affects demon mode card",
+    "upgrade_priority": "After basic card research",
+    "synergy_combinations": [
+      "All demon mode related research",
+      "Card enhancement research",
+      "Damage amplification research"
+    ],
+    "counter_strategies": [
+      "Reduces demon mode recharge time",
+      "Enables more frequent demon mode usage",
+      "Improves demon mode card efficiency"
+    ],
+    "resource_efficiency": "Medium - only useful if using demon mode card"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 550000000000,
+      "time": "5d 4h 59m",
+      "value": 1500,
+      "delta_value": null,
+      "cum_cost": 550000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 1050000000000,
+      "time": "6d 14h 21m",
+      "value": 1250,
+      "delta_value": null,
+      "cum_cost": 1600000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 1550000000000,
+      "time": "8d 0h 54m",
+      "value": 1000,
+      "delta_value": null,
+      "cum_cost": 3150000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 2050000000000,
+      "time": "9d 23h 10m",
+      "value": 750,
+      "delta_value": null,
+      "cum_cost": 5200000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 2560000000000,
+      "time": "14d 1h 58m",
+      "value": 550,
+      "delta_value": -200,
+      "cum_cost": 7760000000000,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 3070000000000,
+      "time": "24d 19h 29m",
+      "value": 400,
+      "delta_value": -150,
+      "cum_cost": 10830000000000,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 3600000000000,
+      "time": "51d 8h 11m",
+      "value": 300,
+      "delta_value": -100,
+      "cum_cost": 14430000000000,
+      "efficiency": -0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Good efficiency for demon mode recharge reduction",
+    "mid_levels": "Decreasing efficiency at higher levels",
+    "late_levels": "Very low efficiency, extremely high cost",
+    "recommended_stop": "Level 3-4 for most players"
+  },
+  "max_level": 7,
+  "cross_references": {
+    "cards": [
+      "recharge_demon_mode.json"
+    ],
+    "perks": [
+      "recharge_demon_mode.json"
+    ]
+  }
+}

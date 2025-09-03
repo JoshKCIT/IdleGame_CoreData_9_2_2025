@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "Perk Choice System",
+  "initial_setup": {
+    "starting_choices": 2,
+    "max_choices": 4,
+    "upgrade_method": "Perk Option Quantity lab"
+  },
+  "important_notes": [
+    "It is possible for all perks to be trade-off perks, even if other perks are available",
+    "Perks are generated randomly based on their appearance chances"
+  ],
+  "first_perk_choice": {
+    "lab_name": "First Perk Choice",
+    "effect": "Will allow your selection to be guaranteed to appear on the first set of choices as the top choice"
+  },
+  "auto_pick_perks": {
+    "selection_behavior": "It will always select the top choice on the list",
+    "first_choice_priority": "This will always pick your first perk choice (if available)",
+    "toggle_method": "Can be toggled during a run by clicking the perk bar at the top of the screen",
+    "fallback_behavior": "When an offering of perks is presented and none are in the auto perk ranking, the first perk will be chosen"
+  },
+  "auto_pick_ranking": {
+    "description": "The Auto Pick Ranking system allows players to prioritize which perks Auto Pick Perks will select from the list of available perks",
+    "upgrade_method": "Each lab level allows prioritization of an additional perk",
+    "priority_override": "Auto Pick Ranking supersedes First Perk Choice. For example, if first choice is \"Perk Waves Required\" but the \"Golden Tower\" perk is ranked above it and both are available as first perk, Golden Tower will be taken instead."
+  }
+}

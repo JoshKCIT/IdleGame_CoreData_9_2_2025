@@ -1,0 +1,364 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Workshop Defense Discount",
+  "description": "Increases tower defense",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "main_research",
+    "stat_type": "cost_reduction",
+    "target": "tower",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "economy",
+      "resource_generation",
+      "efficiency"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction"
+  },
+  "calculation_formulas": {
+    "base_value": "0.005",
+    "increment_per_level": "0.005",
+    "total_discount": "0.005 × Level",
+    "final_discount": "Base Discount + Research Bonus + Card Bonus + Perk Bonus",
+    "cost_reduction": "Workshop Defense Cost × (1 - Discount Percentage)"
+  },
+  "context_fields": {
+    "when_to_use": "Early to mid game - essential for reducing workshop defense costs",
+    "priority_level": "High - significantly improves workshop efficiency",
+    "upgrade_priority": "High priority for economy improvements",
+    "synergy_combinations": [
+      "Buy Multiplier research for bulk purchases",
+      "Workshop Enhancement research for better upgrades",
+      "Game Speed research for faster progression"
+    ],
+    "counter_strategies": [
+      "Effective for all game phases",
+      "Reduces workshop defense costs",
+      "Improves overall efficiency"
+    ],
+    "resource_efficiency": "High - essential for cost reduction"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 30,
+      "time": "0d 0h 0m",
+      "value": 0.005,
+      "delta_value": null,
+      "cum_cost": 30,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 71,
+      "time": "0d 0h 6m",
+      "value": 0.01,
+      "delta_value": 0.005,
+      "cum_cost": 101,
+      "efficiency": 7e-05,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 178,
+      "time": "0d 0h 16m",
+      "value": 0.015,
+      "delta_value": 0.005,
+      "cum_cost": 279,
+      "efficiency": 2.8e-05,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 398,
+      "time": "0d 0h 31m",
+      "value": 0.02,
+      "delta_value": 0.005,
+      "cum_cost": 677,
+      "efficiency": 1.3e-05,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 772,
+      "time": "0d 0h 52m",
+      "value": 0.025,
+      "delta_value": 0.005,
+      "cum_cost": 1449,
+      "efficiency": 6e-06,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 1340,
+      "time": "0d 1h 20m",
+      "value": 0.03,
+      "delta_value": 0.005,
+      "cum_cost": 2789,
+      "efficiency": 4e-06,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 2120,
+      "time": "0d 1h 56m",
+      "value": 0.035,
+      "delta_value": 0.005,
+      "cum_cost": 4909,
+      "efficiency": 2e-06,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 3170,
+      "time": "0d 2h 39m",
+      "value": 0.04,
+      "delta_value": 0.005,
+      "cum_cost": 8079,
+      "efficiency": 2e-06,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 4510,
+      "time": "0d 3h 31m",
+      "value": 0.045,
+      "delta_value": 0.005,
+      "cum_cost": 12589,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 6170,
+      "time": "0d 4h 32m",
+      "value": 0.05,
+      "delta_value": 0.005,
+      "cum_cost": 18759,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 20270,
+      "time": "0d 12h 7m",
+      "value": 0.075,
+      "delta_value": 0.005,
+      "cum_cost": 87689,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 46540,
+      "time": "1d 0h 22m",
+      "value": 0.1,
+      "delta_value": 0.005,
+      "cum_cost": 262319,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 25,
+      "cost": 88120,
+      "time": "1d 17h 56m",
+      "value": 0.125,
+      "delta_value": 0.005,
+      "cum_cost": 613019,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 30,
+      "cost": 147950,
+      "time": "2d 17h 18m",
+      "value": 0.15,
+      "delta_value": 0.005,
+      "cum_cost": 1225239,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 35,
+      "cost": 228820,
+      "time": "3d 22h 57m",
+      "value": 0.175,
+      "delta_value": 0.005,
+      "cum_cost": 2198639,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 40,
+      "cost": 333400,
+      "time": "5d 11h 17m",
+      "value": 0.2,
+      "delta_value": 0.005,
+      "cum_cost": 3646489,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 45,
+      "cost": 464260,
+      "time": "7d 6h 42m",
+      "value": 0.225,
+      "delta_value": 0.005,
+      "cum_cost": 5695059,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 50,
+      "cost": 623890,
+      "time": "9d 9h 31m",
+      "value": 0.25,
+      "delta_value": 0.005,
+      "cum_cost": 8483269,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 55,
+      "cost": 814710,
+      "time": "11d 20h 6m",
+      "value": 0.275,
+      "delta_value": 0.005,
+      "cum_cost": 12162239,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 60,
+      "cost": 1040000,
+      "time": "14d 14h 43m",
+      "value": 0.3,
+      "delta_value": 0.005,
+      "cum_cost": 16895939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 65,
+      "cost": 1300000,
+      "time": "17d 17h 42m",
+      "value": 0.325,
+      "delta_value": 0.005,
+      "cum_cost": 22855939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 70,
+      "cost": 1600000,
+      "time": "21d 5h 17m",
+      "value": 0.35,
+      "delta_value": 0.005,
+      "cum_cost": 30225939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 75,
+      "cost": 1940000,
+      "time": "25d 1h 46m",
+      "value": 0.375,
+      "delta_value": 0.005,
+      "cum_cost": 39225939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 80,
+      "cost": 2320000,
+      "time": "29d 7h 22m",
+      "value": 0.4,
+      "delta_value": 0.005,
+      "cum_cost": 50035939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 85,
+      "cost": 2740000,
+      "time": "33d 22h 21m",
+      "value": 0.425,
+      "delta_value": 0.005,
+      "cum_cost": 62875939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 90,
+      "cost": 3220000,
+      "time": "38d 22h 57m",
+      "value": 0.45,
+      "delta_value": 0.005,
+      "cum_cost": 77995939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 95,
+      "cost": 3740000,
+      "time": "44d 9h 23m",
+      "value": 0.475,
+      "delta_value": 0.005,
+      "cum_cost": 95625939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 99,
+      "cost": 4190000,
+      "time": "49d 0h 57m",
+      "value": 0.495,
+      "delta_value": 0.005,
+      "cum_cost": 111695939,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 20",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 50-75 for most players"
+  },
+  "max_level": 99,
+  "cross_references": {
+    "cards": [
+      "workshop_defense_discount.json"
+    ],
+    "perks": [
+      "workshop_defense_discount.json"
+    ],
+    "modules": [
+      "anti_cube_portal.json",
+      "negative_mass_projector.json",
+      "space_displacer.json"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Range",
+  "description": "Increases tower attack range",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "stat_type": "range",
+    "target": "tower",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "attack_speed",
+      "critical_hits"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_range": "Tower Base Range × Card Multiplier",
+    "total_range": "Base Range × (1 + Perk Bonuses) × (1 + Relic Bonuses)",
+    "card_multiplier": "1 + (Card Level - 1) × 0.05",
+    "mastery_multiplier": "1 + Mastery Level Bonus",
+    "final_multiplier": "Card Multiplier × Mastery Multiplier"
+  },
+  "context_fields": {
+    "when_to_use": "Always active - provides permanent range increase",
+    "priority_level": "High - range is fundamental to target coverage",
+    "upgrade_priority": "Third priority after damage and attack speed",
+    "synergy_combinations": [
+      "Damage for higher DPS output",
+      "Attack Speed for sustained DPS",
+      "Critical Chance for more frequent critical hits"
+    ],
+    "counter_strategies": [
+      "Use against all enemy types for better coverage",
+      "Essential for late-game scaling",
+      "Combines well with damage and attack speed"
+    ],
+    "resource_efficiency": "High - range improves overall combat effectiveness"
+  },
+  "notes": "Additional information",
+  "cross_references": {
+    "related_perk": "perks/data/range.json",
+    "related_research": "lab_upgrades/attack_research/range.json",
+    "related_relics": [
+      "relics/data/t_iv_harmonic.json",
+      "relics/data/t_xiv_arcane.json",
+      "relics/data/t_xix_atomic.json"
+    ],
+    "cards": [
+      "range.json"
+    ],
+    "perks": [
+      "range.json"
+    ],
+    "lab_research": [
+      "range.json"
+    ],
+    "modules": [
+      "astral_deliverance.json"
+    ]
+  },
+  "mastery": {
+    "description": "Adds damage per meter bonus multiplier",
+    "stone_cost": 750,
+    "levels": [
+      {
+        "multiplier": 1.2
+      },
+      {
+        "multiplier": 1.4
+      },
+      {
+        "multiplier": 1.6
+      },
+      {
+        "multiplier": 1.8
+      },
+      {
+        "multiplier": 2.0
+      },
+      {
+        "multiplier": 2.2
+      },
+      {
+        "multiplier": 2.4
+      },
+      {
+        "multiplier": 2.6
+      },
+      {
+        "multiplier": 2.8
+      },
+      {
+        "multiplier": 3.0
+      }
+    ]
+  },
+  "rarities": {
+    "Common": {
+      "description": "Increase tower range by x #",
+      "levels": [
+        1.15,
+        1.2,
+        1.25,
+        1.3,
+        1.35,
+        1.4,
+        1.45
+      ]
+    }
+  }
+}

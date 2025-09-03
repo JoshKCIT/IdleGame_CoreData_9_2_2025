@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "tournament_relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Tournament relics are unlocked through competitive tournament play. These relics reward skilled players with powerful bonuses and serve as status symbols of tournament achievement.",
+  "unlock_requirements": {
+    "requirement": "Finish in top 4 of tournament brackets",
+    "brackets": [
+      "Copper",
+      "Silver",
+      "Gold",
+      "Platinum",
+      "Champion",
+      "Legends"
+    ],
+    "availability": "Ongoing tournaments with regular schedules",
+    "competition": "Requires competitive play against other players"
+  },
+  "rarity_progression": {
+    "rare_relics": {
+      "brackets": [
+        "Copper",
+        "Silver"
+      ],
+      "description": "Entry-level tournament rewards"
+    },
+    "epic_relics": {
+      "brackets": [
+        "Gold",
+        "Platinum"
+      ],
+      "description": "Mid-tier tournament achievements"
+    },
+    "legendary_relics": {
+      "brackets": [
+        "Champion",
+        "Legends"
+      ],
+      "description": "Elite tournament accomplishments"
+    }
+  },
+  "individual_relics": {
+    "copper_tier": {
+      "copper_badge": {
+        "bonus": "Tower damage +3%",
+        "requirement": "Finish top 4 in copper bracket",
+        "rarity": "Rare",
+        "description": "Moderate damage increase"
+      }
+    },
+    "silver_tier": {
+      "silver_badge": {
+        "bonus": "Coins earned +5%",
+        "requirement": "Finish top 4 in silver bracket",
+        "rarity": "Rare",
+        "description": "Good coin generation boost"
+      }
+    },
+    "gold_tier": {
+      "gold_badge": {
+        "bonus": "Critical factor +5%",
+        "requirement": "Finish top 4 in gold bracket",
+        "rarity": "Epic",
+        "description": "Significant critical hit improvement"
+      }
+    },
+    "platinum_tier": {
+      "platinum_badge": {
+        "bonus": "Lab speed +4%",
+        "requirement": "Finish top 4 in platinum bracket",
+        "rarity": "Epic",
+        "description": "Faster research progression"
+      }
+    },
+    "champion_tier": {
+      "champion_badge": {
+        "bonus": "Damage/meter +10%",
+        "requirement": "Finish top 4 in champion bracket",
+        "rarity": "Legendary",
+        "description": "Massive damage scaling improvement"
+      }
+    },
+    "legends_tier": {
+      "tower_master": {
+        "bonus": "Tower health +10%",
+        "requirement": "Finish top 4 in legends bracket",
+        "rarity": "Legendary",
+        "description": "Massive health increase"
+      },
+      "legend_badge": {
+        "bonus": "Critical factor +10%",
+        "requirement": "Win legend tournament",
+        "rarity": "Legendary",
+        "description": "Maximum critical hit improvement"
+      }
+    }
+  },
+  "strategic_importance": [
+    "Reward competitive play and tournament participation",
+    "Provide unique bonuses not available through other methods",
+    "Scale with tournament difficulty and player skill",
+    "Offer prestige and status within the community",
+    "Complement other relic types for comprehensive bonuses"
+  ],
+  "total_tournament_bonuses": {
+    "tower_damage": "+3%",
+    "coins_earned": "+5%",
+    "critical_factor": "+15% (5% + 10%)",
+    "lab_speed": "+4%",
+    "damage_per_meter": "+10%",
+    "tower_health": "+10%"
+  },
+  "tournament_strategy": [
+    "Focus on early brackets (Copper, Silver) for easier wins",
+    "Build strong tournament builds optimized for competitive play",
+    "Participate regularly to improve tournament skills",
+    "Target specific brackets based on current relic needs",
+    "Use tournament relics to improve future tournament performance"
+  ],
+  "summary": "Tournament relics provide some of the most powerful individual bonuses in the game, making tournament participation a key aspect of relic collection strategy."
+}

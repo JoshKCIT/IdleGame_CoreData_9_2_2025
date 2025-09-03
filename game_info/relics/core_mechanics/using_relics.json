@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Using Relics",
+  "how_relics_work": "Relics are **passive buffs** that automatically enhance your tower's abilities once unlocked. Unlike other game systems, relics require no active management or configuration.",
+  "automatic_activation": [
+    "Relics are **automatically active** once unlocked",
+    "No need to equip, activate, or configure relics",
+    "All unlocked relics provide their bonuses simultaneously",
+    "Relics cannot be turned off or disabled"
+  ],
+  "bonus_calculation": {
+    "additive_bonuses": {
+      "description": "Similar relics stack additively with each other",
+      "example": "Multiple \"Tower Damage\" relics add their percentages together",
+      "formula": "Total Bonus = Relic1% + Relic2% + Relic3% + ..."
+    },
+    "multiplicative_bonuses": {
+      "description": "Different bonus types multiply with each other",
+      "example": "Tower Damage relics multiply with other damage bonuses",
+      "formula": "Final Value = Base Value × (1 + Relic Bonus) × (1 + Other Bonuses)"
+    }
+  },
+  "stacking_examples": {
+    "additive_stacking": {
+      "description": "Same Type",
+      "example": {
+        "t_iv_harmonic": "+2% Tower Damage",
+        "copper_badge": "+3% Tower Damage",
+        "1st_tower_birthday": "+2% Tower Damage",
+        "total": "+7% Tower Damage"
+      }
+    },
+    "multiplicative_stacking": {
+      "description": "Different Types",
+      "example": {
+        "tower_damage_relics": "+85% total",
+        "perk_bonuses": "+50% total",
+        "final_calculation": "Base Damage × 1.85 × 1.50"
+      }
+    }
+  },
+  "permanent_benefits": [
+    "Relics provide **permanent stat improvements**",
+    "Bonuses persist across all game modes and runs",
+    "No resource cost to maintain relic bonuses",
+    "Relics enhance all aspects of tower performance"
+  ],
+  "no_management_required": [
+    "Resource investment to maintain",
+    "Active selection or configuration",
+    "Time-based activation",
+    "Conditional requirements"
+  ],
+  "total_impact": {
+    "description": "When all relics are unlocked, they provide massive stat improvements",
+    "bonuses": {
+      "damage": "85% total damage bonus",
+      "health": "91% total health bonus",
+      "coins": "70% total coin bonus",
+      "lab_speed": "61% lab speed bonus"
+    },
+    "note": "This makes relics one of the most powerful progression systems in the game, providing permanent advantages that compound with other game systems."
+  }
+}

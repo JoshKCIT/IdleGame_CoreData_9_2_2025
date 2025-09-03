@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot",
+    "file_format": "json"
+  },
+  "name": "Golden Bot",
+  "description": "Enemies destroyed inside bot's range receive coin multiplier.",
+  "category": "General",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "damage_type": "coin_multiplier",
+    "target_type": "enemies_in_range",
+    "activation": "automatic",
+    "range": "area_of_effect",
+    "synergy_groups": [
+      "economy",
+      "resource_generation"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "effect_category": "economy"
+  },
+  "calculation_formulas": {
+    "coin_multiplier": "Base Bonus + (Level × 0.2x)",
+    "duration_calculation": "Base Duration + (Level × 0.5 seconds)",
+    "cooldown_reduction": "Base Cooldown - (Level × 3 seconds)",
+    "range_calculation": "Base Range × (1 + Tower Range Amplification)"
+  },
+  "context_fields": {
+    "when_to_use": "Always useful for economy builds, especially during coin farming",
+    "priority_level": "High for economy-focused builds",
+    "upgrade_priority": "Bonus > Duration > Range > Cooldown",
+    "synergy_combinations": [
+      "Coin bonus cards and perks",
+      "Interest perks for passive generation",
+      "Range bonuses for better coverage"
+    ],
+    "counter_strategies": [
+      "Works with all enemy types",
+      "Most effective during high enemy density",
+      "Scales well with other economy bonuses"
+    ],
+    "resource_efficiency": "Very High - directly increases resource generation"
+  },
+  "upgrades": {
+    "duration": {
+      "description": "Increases the amount of time Golden Bot is active. Duration starts at 20 seconds and has 30 levels, with each level increasing the duration by 0.5 seconds. The maximum duration is 35 seconds without any labs. This can be further increased to 45 seconds with labs.",
+      "max_levels": 30,
+      "base_value": 20,
+      "increment_per_level": 0.5,
+      "max_without_labs": 35,
+      "max_with_labs": 45
+    },
+    "cooldown": {
+      "description": "The amount of time between initial activations. Cooldown starts at 120 seconds and has 15 levels, with each level decreasing the cooldown by 3 seconds. The minimum cooldown is 75 seconds without any labs. This can be further reduced to 50 seconds with labs.",
+      "max_levels": 15,
+      "base_value": 120,
+      "increment_per_level": -3,
+      "min_without_labs": 75,
+      "min_with_labs": 50
+    },
+    "bonus": {
+      "description": "Increases the coin bonus from enemies destroyed. Bonus starts at 2.0x bonus and has 30 levels, with each level increasing the bonus by 0.2x. The maximum bonus is 8.0x.",
+      "max_levels": 30,
+      "base_value": 2.0,
+      "increment_per_level": 0.2,
+      "max_bonus": 8.0
+    },
+    "range": {
+      "description": "Increases the range the bot covers when active. Range is amplified by tower range. Ranges starts at 20m and has 15 levels, with each level increasing the range by 2m. The maximum range from these upgrades is 50m. This can be further increased with relics and vault upgrades. Additionally, the range of all bots is also amplified based on the tower's range.",
+      "max_levels": 15,
+      "base_value": 20,
+      "increment_per_level": 2,
+      "max_range": 50
+    }
+  },
+  "notes": "Additional information",
+  "unlocking_upgrading": {
+    "description": "Like all bots, Golden Bot is unlocked and upgraded in the Event Shop menu. The unlock cost will depend on how many other bots have been purchased. Each of the 4 Golden Bot upgrades start with a base upgrade cost of 100 medals and increase by 40 medals each level."
+  },
+  "upgrade_costs_and_stats": {
+    "levels": [
+      {
+        "level": 1,
+        "cost": 100,
+        "duration": "20.5s",
+        "cooldown": "117s",
+        "bonus": "2.2x",
+        "range": "22m"
+      },
+      {
+        "level": 2,
+        "cost": 140,
+        "duration": "21.0s",
+        "cooldown": "114s",
+        "bonus": "2.4x",
+        "range": "24m"
+      },
+      {
+        "level": 3,
+        "cost": 180,
+        "duration": "21.5s",
+        "cooldown": "111s",
+        "bonus": "2.6x",
+        "range": "26m"
+      },
+      {
+        "level": 4,
+        "cost": 220,
+        "duration": "22.0s",
+        "cooldown": "108s",
+        "bonus": "2.8x",
+        "range": "28m"
+      },
+      {
+        "level": 5,
+        "cost": 260,
+        "duration": "22.5s",
+        "cooldown": "105s",
+        "bonus": "3.0x",
+        "range": "30m"
+      },
+      {
+        "level": 6,
+        "cost": 300,
+        "duration": "23.0s",
+        "cooldown": "102s",
+        "bonus": "3.2x",
+        "range": "32m"
+      },
+      {
+        "level": 7,
+        "cost": 340,
+        "duration": "23.5s",
+        "cooldown": "99s",
+        "bonus": "3.4x",
+        "range": "34m"
+      },
+      {
+        "level": 8,
+        "cost": 380,
+        "duration": "24.0s",
+        "cooldown": "96s",
+        "bonus": "3.6x",
+        "range": "36m"
+      },
+      {
+        "level": 9,
+        "cost": 420,
+        "duration": "24.5s",
+        "cooldown": "93s",
+        "bonus": "3.8x",
+        "range": "38m"
+      },
+      {
+        "level": 10,
+        "cost": 460,
+        "duration": "25.0s",
+        "cooldown": "90s",
+        "bonus": "4.0x",
+        "range": "40m"
+      },
+      {
+        "level": 11,
+        "cost": 500,
+        "duration": "25.5s",
+        "cooldown": "87s",
+        "bonus": "4.2x",
+        "range": "42m"
+      },
+      {
+        "level": 12,
+        "cost": 540,
+        "duration": "26.0s",
+        "cooldown": "84s",
+        "bonus": "4.4x",
+        "range": "44m"
+      },
+      {
+        "level": 13,
+        "cost": 580,
+        "duration": "26.5s",
+        "cooldown": "81s",
+        "bonus": "4.6x",
+        "range": "46m"
+      },
+      {
+        "level": 14,
+        "cost": 620,
+        "duration": "27.0s",
+        "cooldown": "78s",
+        "bonus": "4.8x",
+        "range": "48m"
+      },
+      {
+        "level": 15,
+        "cost": 660,
+        "duration": "27.5s",
+        "cooldown": "75s",
+        "bonus": "5.0x",
+        "range": "50m"
+      },
+      {
+        "level": 16,
+        "cost": 700,
+        "duration": "28.0s",
+        "cooldown": null,
+        "bonus": "5.2x",
+        "range": null
+      },
+      {
+        "level": 17,
+        "cost": 740,
+        "duration": "28.5s",
+        "cooldown": null,
+        "bonus": "5.4x",
+        "range": null
+      },
+      {
+        "level": 18,
+        "cost": 780,
+        "duration": "29.0s",
+        "cooldown": null,
+        "bonus": "5.6x",
+        "range": null
+      },
+      {
+        "level": 19,
+        "cost": 820,
+        "duration": "29.5s",
+        "cooldown": null,
+        "bonus": "5.8x",
+        "range": null
+      },
+      {
+        "level": 20,
+        "cost": 860,
+        "duration": "30.0s",
+        "cooldown": null,
+        "bonus": "6.0x",
+        "range": null
+      },
+      {
+        "level": 21,
+        "cost": 900,
+        "duration": "30.5s",
+        "cooldown": null,
+        "bonus": "6.2x",
+        "range": null
+      },
+      {
+        "level": 22,
+        "cost": 940,
+        "duration": "31.0s",
+        "cooldown": null,
+        "bonus": "6.4x",
+        "range": null
+      },
+      {
+        "level": 23,
+        "cost": 980,
+        "duration": "31.5s",
+        "cooldown": null,
+        "bonus": "6.6x",
+        "range": null
+      },
+      {
+        "level": 24,
+        "cost": 1020,
+        "duration": "32.0s",
+        "cooldown": null,
+        "bonus": "6.8x",
+        "range": null
+      },
+      {
+        "level": 25,
+        "cost": 1060,
+        "duration": "32.5s",
+        "cooldown": null,
+        "bonus": "7.0x",
+        "range": null
+      },
+      {
+        "level": 26,
+        "cost": 1100,
+        "duration": "33.0s",
+        "cooldown": null,
+        "bonus": "7.2x",
+        "range": null
+      },
+      {
+        "level": 27,
+        "cost": 1140,
+        "duration": "33.5s",
+        "cooldown": null,
+        "bonus": "7.4x",
+        "range": null
+      },
+      {
+        "level": 28,
+        "cost": 1180,
+        "duration": "34.0s",
+        "cooldown": null,
+        "bonus": "7.6x",
+        "range": null
+      },
+      {
+        "level": 29,
+        "cost": 1220,
+        "duration": "34.5s",
+        "cooldown": null,
+        "bonus": "7.8x",
+        "range": null
+      },
+      {
+        "level": 30,
+        "cost": 1260,
+        "duration": "35.0s",
+        "cooldown": null,
+        "bonus": "8.0x",
+        "range": null
+      }
+    ],
+    "total_costs": {
+      "duration": 20400,
+      "cooldown": 5700,
+      "bonus": 20400,
+      "range": 5700
+    }
+  },
+  "labs": {
+    "description": "Golden Bot has lab upgrades available in the Bot Research category",
+    "available_research": [
+      "Golden Bot Cooldown",
+      "Golden Bot-Duration"
+    ]
+  }
+}

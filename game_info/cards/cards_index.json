@@ -1,0 +1,519 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "cards_index",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "total_cards": 35,
+  "categories": {
+    "attack_cards": {
+      "count": 6,
+      "description": "Cards that increase offensive capabilities",
+      "cards": [
+        {
+          "name": "Damage",
+          "file": "cards/data/damage.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Increases tower damage",
+          "optimal_use": [
+            "early_game",
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Highest"
+        },
+        {
+          "name": "Attack Speed",
+          "file": "cards/data/attack_speed.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Increases tower attack speed",
+          "optimal_use": [
+            "early_game",
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "High"
+        },
+        {
+          "name": "Range",
+          "file": "cards/data/range.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Increases tower range",
+          "optimal_use": [
+            "early_game",
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "High"
+        },
+        {
+          "name": "Critical Chance",
+          "file": "cards/data/critical_chance.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Increases critical hit chance",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "High"
+        },
+        {
+          "name": "Critical Coin",
+          "file": "cards/data/critical_coin.json",
+          "primary_function": "economy",
+          "rarity": "Common",
+          "effect": "Critical hits drop coins",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Super Tower",
+          "file": "cards/data/super_tower.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Enhances tower capabilities",
+          "optimal_use": [
+            "late_game"
+          ],
+          "priority": "Medium"
+        }
+      ]
+    },
+    "defense_cards": {
+      "count": 5,
+      "description": "Cards that increase defensive capabilities",
+      "cards": [
+        {
+          "name": "Health",
+          "file": "cards/data/health.json",
+          "primary_function": "defensive",
+          "rarity": "Common",
+          "effect": "Increases tower maximum health",
+          "optimal_use": [
+            "early_game",
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "High"
+        },
+        {
+          "name": "Health Regen",
+          "file": "cards/data/health_regen.json",
+          "primary_function": "defensive",
+          "rarity": "Common",
+          "effect": "Increases health regeneration",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Extra Defense",
+          "file": "cards/data/extra_defense.json",
+          "primary_function": "defensive",
+          "rarity": "Common",
+          "effect": "Provides additional defense",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Energy Shield",
+          "file": "cards/data/energy_shield.json",
+          "primary_function": "defensive",
+          "rarity": "Common",
+          "effect": "Absorbs incoming damage",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Fortress",
+          "file": "cards/data/fortress.json",
+          "primary_function": "defensive",
+          "rarity": "Common",
+          "effect": "Enhances defensive structures",
+          "optimal_use": [
+            "late_game"
+          ],
+          "priority": "Low"
+        }
+      ]
+    },
+    "utility_cards": {
+      "count": 5,
+      "description": "Cards that provide utility and economy benefits",
+      "cards": [
+        {
+          "name": "Cash",
+          "file": "cards/data/cash.json",
+          "primary_function": "economy",
+          "rarity": "Common",
+          "effect": "Increases cash bonuses",
+          "optimal_use": [
+            "early_game",
+            "mid_game"
+          ],
+          "priority": "High"
+        },
+        {
+          "name": "Coins",
+          "file": "cards/data/coins.json",
+          "primary_function": "economy",
+          "rarity": "Common",
+          "effect": "Increases coin bonuses",
+          "optimal_use": [
+            "early_game",
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "High"
+        },
+        {
+          "name": "Free Upgrades",
+          "file": "cards/data/free_upgrades.json",
+          "primary_function": "economy",
+          "rarity": "Common",
+          "effect": "Provides free upgrade opportunities",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Package Chance",
+          "file": "cards/data/package_chance.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Increases recovery package chance",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Low"
+        },
+        {
+          "name": "Recovery Package Chance",
+          "file": "cards/data/recovery_package_chance.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Enhances recovery mechanics",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Low"
+        }
+      ]
+    },
+    "special_ability_cards": {
+      "count": 18,
+      "description": "Cards that provide unique mechanics and special effects",
+      "cards": [
+        {
+          "name": "Area of Effect",
+          "file": "cards/data/area_of_effect.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Enhances area damage",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Berserker",
+          "file": "cards/data/berserker.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Increases damage when health is low",
+          "optimal_use": [
+            "late_game"
+          ],
+          "priority": "Low"
+        },
+        {
+          "name": "Bounce Shot Mechanics",
+          "file": "cards/data/bounce_shot_mechanics.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Enhances projectile bouncing",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Death Ray",
+          "file": "cards/data/death_ray.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Powerful single-target damage",
+          "optimal_use": [
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Demon Mode",
+          "file": "cards/data/demon_mode.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Temporary power boost",
+          "optimal_use": [
+            "late_game"
+          ],
+          "priority": "Low"
+        },
+        {
+          "name": "Energy Net",
+          "file": "cards/data/energy_net.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Captures and damages enemies",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Low"
+        },
+        {
+          "name": "Extra Orb",
+          "file": "cards/data/extra_orb.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Adds additional orbs",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Intro Sprint",
+          "file": "cards/data/intro_sprint.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Provides starting advantages",
+          "optimal_use": [
+            "early_game"
+          ],
+          "priority": "High"
+        },
+        {
+          "name": "Land Mine Stun",
+          "file": "cards/data/land_mine_stun.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Stuns enemies with land mines",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Low"
+        },
+        {
+          "name": "Nuke",
+          "file": "cards/data/nuke.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Massive area damage",
+          "optimal_use": [
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Plasma Cannon",
+          "file": "cards/data/plasma_cannon.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "High-damage plasma shots",
+          "optimal_use": [
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Second Wind",
+          "file": "cards/data/second_wind.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Recovery and enhancement",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Slow Aura",
+          "file": "cards/data/slow_aura.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Slows enemy movement",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Ultimate Crit",
+          "file": "cards/data/ultimate_crit.json",
+          "primary_function": "offensive",
+          "rarity": "Common",
+          "effect": "Enhanced critical hits",
+          "optimal_use": [
+            "late_game"
+          ],
+          "priority": "Medium"
+        },
+        {
+          "name": "Wave Accelerator",
+          "file": "cards/data/wave_accelerator.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Speeds up wave progression",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Low"
+        },
+        {
+          "name": "Wave Skip",
+          "file": "cards/data/wave_skip.json",
+          "primary_function": "utility",
+          "rarity": "Common",
+          "effect": "Allows skipping waves",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ],
+          "priority": "Low"
+        }
+      ]
+    },
+    "reference_cards": {
+      "count": 1,
+      "description": "Reference information for game systems",
+      "cards": [
+        {
+          "name": "Lab Time and Coins Table",
+          "file": "cards/data/lab_time_and_coins_table.json",
+          "primary_function": "reference",
+          "rarity": "N/A",
+          "effect": "Reference for lab costs and times",
+          "optimal_use": [
+            "reference"
+          ],
+          "priority": "N/A"
+        }
+      ]
+    }
+  },
+  "priority_guide": {
+    "early_game": [
+      "Damage",
+      "Attack Speed",
+      "Health",
+      "Cash",
+      "Coins",
+      "Intro Sprint"
+    ],
+    "mid_game": [
+      "Range",
+      "Critical Chance",
+      "Health Regen",
+      "Extra Defense",
+      "Bounce Shot Mechanics",
+      "Extra Orb"
+    ],
+    "late_game": [
+      "Super Tower",
+      "Critical Coin",
+      "Energy Shield",
+      "Fortress",
+      "Berserker",
+      "Death Ray",
+      "Demon Mode",
+      "Nuke",
+      "Plasma Cannon",
+      "Ultimate Crit"
+    ]
+  },
+  "synergy_groups": {
+    "damage_focus": [
+      "Damage",
+      "Attack Speed",
+      "Critical Chance",
+      "Critical Factor",
+      "Berserker"
+    ],
+    "defense_focus": [
+      "Health",
+      "Health Regen",
+      "Extra Defense",
+      "Energy Shield",
+      "Fortress"
+    ],
+    "economy_focus": [
+      "Cash",
+      "Coins",
+      "Free Upgrades",
+      "Critical Coin"
+    ],
+    "area_control": [
+      "Area of Effect",
+      "Bounce Shot Mechanics",
+      "Nuke",
+      "Slow Aura"
+    ],
+    "utility_focus": [
+      "Range",
+      "Extra Orb",
+      "Energy Net",
+      "Second Wind",
+      "Wave Accelerator"
+    ]
+  }
+}

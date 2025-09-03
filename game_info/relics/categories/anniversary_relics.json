@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "anniversary_relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Anniversary relics are unlocked through years of continuous gameplay. These relics reward long-term players with permanent stat improvements and serve as milestones of dedication to the game.",
+  "unlock_requirements": {
+    "requirement": "Play the game for consecutive years",
+    "anniversary_years": "1st through 6th year",
+    "availability": "Automatic upon reaching anniversary dates",
+    "persistence": "Requires continuous gameplay to maintain eligibility"
+  },
+  "anniversary_progression": {
+    "1st_tower_birthday": {
+      "requirement": "Play for 1 year",
+      "bonus": "Tower damage +2%",
+      "rarity": "Rare",
+      "milestone": "First anniversary achievement"
+    },
+    "2nd_tower_birthday": {
+      "requirement": "Play for 2 years",
+      "bonus": "Critical factor +2%",
+      "rarity": "Rare",
+      "milestone": "Second anniversary achievement"
+    },
+    "3rd_tower_birthday": {
+      "requirement": "Play for 3 years",
+      "bonus": "Damage/meter +2%",
+      "rarity": "Rare",
+      "milestone": "Third anniversary achievement"
+    },
+    "4th_tower_birthday": {
+      "requirement": "Play for 4 years",
+      "bonus": "Health +2%",
+      "rarity": "Rare",
+      "milestone": "Fourth anniversary achievement"
+    },
+    "5th_tower_birthday": {
+      "requirement": "Play for 5 years",
+      "bonus": "Critical factor +2%",
+      "rarity": "Rare",
+      "milestone": "Fifth anniversary achievement"
+    },
+    "6th_tower_birthday": {
+      "requirement": "Play for 6 years",
+      "bonus": "Damage/meter +2%",
+      "rarity": "Rare",
+      "milestone": "Sixth anniversary achievement"
+    }
+  },
+  "individual_relics": {
+    "combat_bonuses": {
+      "1st_tower_birthday": "Tower damage +2%",
+      "2nd_tower_birthday": "Critical factor +2%",
+      "3rd_tower_birthday": "Damage/meter +2%",
+      "5th_tower_birthday": "Critical factor +2%",
+      "6th_tower_birthday": "Damage/meter +2%"
+    },
+    "defensive_bonuses": {
+      "4th_tower_birthday": "Health +2%"
+    }
+  },
+  "strategic_importance": [
+    "Reward long-term dedication to the game",
+    "Provide consistent stat improvements across multiple categories",
+    "Are automatically unlocked without additional requirements",
+    "Complement other relic types for comprehensive bonuses",
+    "Serve as progression milestones for veteran players"
+  ],
+  "total_anniversary_bonuses": {
+    "tower_damage": "+2%",
+    "critical_factor": "+4% (2% + 2%)",
+    "damage_per_meter": "+4% (2% + 2%)",
+    "health": "+2%"
+  },
+  "long_term_planning": [
+    "Consistent gameplay over multiple years",
+    "Patience for long-term rewards",
+    "Dedication to the game's progression systems",
+    "Strategic planning around anniversary dates"
+  ],
+  "anniversary_celebration": [
+    "Personal milestones in gaming journey",
+    "Community recognition of veteran players",
+    "Exclusive rewards for dedicated players",
+    "Status symbols of long-term commitment"
+  ],
+  "future_anniversary_potential": [
+    "Continue beyond 6 years for even longer-term players",
+    "Increase in bonus magnitude for higher anniversary years",
+    "Introduce new stat types for variety",
+    "Provide special anniversary events and celebrations"
+  ],
+  "summary": "Anniversary relics provide a unique progression path that rewards the most dedicated players with permanent stat improvements, making them valuable long-term goals for committed players."
+}

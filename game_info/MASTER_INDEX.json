@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "master_index",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "unknown",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "game_overview": {
+    "title": "The Tower: Idle TD",
+    "genre": "Tower Defense Idle Game",
+    "core_mechanic": "Defend tower against waves of enemies using cards, perks, modules, and bots",
+    "progression_systems": [
+      "Cards",
+      "Perks",
+      "Modules",
+      "Bots",
+      "Lab Research",
+      "Relics"
+    ]
+  },
+  "system_summaries": {
+    "cards": {
+      "total_count": 35,
+      "description": "Passive bonuses that enhance tower capabilities",
+      "categories": [
+        "Attack",
+        "Defense",
+        "Utility",
+        "Special Ability"
+      ],
+      "index_file": "cards/cards_index.json",
+      "data_directory": "cards/data/",
+      "priority_items": [
+        "Damage",
+        "Attack Speed",
+        "Health",
+        "Range",
+        "Critical Chance"
+      ]
+    },
+    "perks": {
+      "total_count": 33,
+      "description": "Temporary bonuses that appear during gameplay",
+      "categories": [
+        "Standard Perks",
+        "Ultimate Weapon Perks",
+        "Trade-off Perks"
+      ],
+      "index_file": "perks/perks_index.json",
+      "data_directory": "perks/data/",
+      "priority_items": [
+        "Damage",
+        "Max Health",
+        "All Coin Bonuses",
+        "Defense Absolute"
+      ]
+    },
+    "bots": {
+      "total_count": 4,
+      "description": "Automatic area-of-effect abilities",
+      "types": [
+        "Flame Bot",
+        "Thunder Bot",
+        "Golden Bot",
+        "Amplify Bot"
+      ],
+      "data_directory": "bots/data/",
+      "priority_items": [
+        "Flame Bot",
+        "Amplify Bot"
+      ]
+    },
+    "modules": {
+      "total_count": 22,
+      "description": "Equipment that provides passive bonuses",
+      "categories": [
+        "Armor",
+        "Cannon",
+        "Core",
+        "Generator"
+      ],
+      "data_directory": "modules/data/",
+      "priority_items": [
+        "Anti-Cube Portal",
+        "Bounce Shot Enhancement",
+        "Harmony Conductor"
+      ]
+    },
+    "relics": {
+      "total_count": 194,
+      "description": "Permanent passive bonuses unlocked through various methods",
+      "categories": [
+        "Milestone",
+        "Tournament",
+        "Event",
+        "Guild",
+        "Anniversary"
+      ],
+      "data_directory": "relics/data/",
+      "priority_items": [
+        "T:IV Harmonic",
+        "T:XIV Arcane",
+        "T:XIX Atomic"
+      ]
+    },
+    "enemies": {
+      "total_count": 12,
+      "description": "Hostile units with different abilities and behaviors",
+      "categories": [
+        "Normal",
+        "Elite",
+        "Boss",
+        "Fleet"
+      ],
+      "data_directory": "enemies/data/",
+      "priority_understanding": [
+        "Heat-up Mechanic",
+        "Coin Decay",
+        "Mass Scaling"
+      ]
+    },
+    "lab_research": {
+      "total_count": 100,
+      "description": "Long-term upgrades that enhance all systems",
+      "categories": [
+        "Attack",
+        "Defense",
+        "Utility",
+        "Main",
+        "Module",
+        "Perk",
+        "Ultimate Weapon"
+      ],
+      "data_directory": "lab_upgrades/",
+      "priority_research": [
+        "Damage",
+        "Health",
+        "Labs Speed",
+        "Standard Perk Bonus"
+      ]
+    }
+  },
+  "quick_reference": {
+    "early_game_priorities": {
+      "cards": [
+        "Damage",
+        "Attack Speed",
+        "Health",
+        "Cash",
+        "Coins"
+      ],
+      "perks": [
+        "Damage",
+        "Max Health",
+        "All Coin Bonuses"
+      ],
+      "lab_research": [
+        "Damage",
+        "Health",
+        "Labs Speed"
+      ],
+      "strategy": "Focus on basic offensive and defensive capabilities"
+    },
+    "mid_game_priorities": {
+      "cards": [
+        "Range",
+        "Critical Chance",
+        "Health Regen",
+        "Extra Defense"
+      ],
+      "perks": [
+        "Defense Absolute",
+        "Cash Bonus",
+        "Health Regen"
+      ],
+      "lab_research": [
+        "Defense Absolute",
+        "Health Regen",
+        "Standard Perk Bonus"
+      ],
+      "strategy": "Enhance survivability and critical hit capabilities"
+    },
+    "late_game_priorities": {
+      "cards": [
+        "Super Tower",
+        "Energy Shield",
+        "Berserker",
+        "Nuke"
+      ],
+      "perks": [
+        "Ultimate Weapon Perks",
+        "Trade-off Perks"
+      ],
+      "lab_research": [
+        "Ultimate Weapon Research",
+        "Advanced Defenses"
+      ],
+      "strategy": "Maximize damage output and unlock ultimate abilities"
+    }
+  },
+  "synergy_combinations": {
+    "damage_focus": {
+      "cards": [
+        "Damage",
+        "Attack Speed",
+        "Critical Chance",
+        "Range"
+      ],
+      "perks": [
+        "Damage",
+        "Chain Lightning Damage",
+        "Death Wave"
+      ],
+      "bots": [
+        "Amplify Bot"
+      ],
+      "modules": [
+        "Bounce Shot Enhancement",
+        "Being Annihilator"
+      ],
+      "effect": "Maximum damage output with critical hits and area control"
+    },
+    "defense_focus": {
+      "cards": [
+        "Health",
+        "Health Regen",
+        "Extra Defense",
+        "Energy Shield"
+      ],
+      "perks": [
+        "Max Health",
+        "Defense Absolute",
+        "Defense Percent"
+      ],
+      "bots": [
+        "Thunder Bot"
+      ],
+      "modules": [
+        "Sharp Fortitude",
+        "Space Displacer"
+      ],
+      "effect": "Maximum survivability with health and damage reduction"
+    },
+    "economy_focus": {
+      "cards": [
+        "Cash",
+        "Coins",
+        "Free Upgrades",
+        "Critical Coin"
+      ],
+      "perks": [
+        "All Coin Bonuses",
+        "Cash Bonus",
+        "Interest"
+      ],
+      "bots": [
+        "Golden Bot"
+      ],
+      "modules": [
+        "Project Funding",
+        "Pulsar Harvester"
+      ],
+      "effect": "Maximum resource generation and upgrade efficiency"
+    },
+    "area_control": {
+      "cards": [
+        "Area of Effect",
+        "Bounce Shot Mechanics",
+        "Nuke",
+        "Slow Aura"
+      ],
+      "perks": [
+        "Swamp Radius",
+        "Chrono Field Duration"
+      ],
+      "bots": [
+        "Flame Bot",
+        "Thunder Bot"
+      ],
+      "modules": [
+        "Bounce Shot Enhancement",
+        "Havoc Bringer"
+      ],
+      "effect": "Maximum crowd control and area damage"
+    }
+  },
+  "mathematical_formulas": {
+    "damage_calculation": "Final Damage = Base Damage × Card Multiplier × Perk Multiplier × Relic Multiplier × Bot Multiplier",
+    "health_calculation": "Final Health = Base Health × Card Multiplier × Perk Multiplier × Relic Multiplier",
+    "critical_hit": "Critical Damage = Base Damage × Critical Factor × (1 + Super Critical Factor)",
+    "defense_calculation": "Damage Taken = Enemy Damage × (1 - Defense Absolute) × (1 - Defense Percent)",
+    "economy_calculation": "Final Coins = Base Coins × (1 + Coin Bonus) × (1 + Interest) × (1 + Relic Bonus)"
+  },
+  "progression_milestones": {
+    "wave_100": "Unlock basic perk system",
+    "wave_500": "Access to elite enemies",
+    "wave_1000": "Unlock boss enemies",
+    "wave_2000": "Access to fleet enemies (Tier 14+)",
+    "wave_4500": "Unlock tier milestone relics",
+    "tier_5": "Unlock module system",
+    "tier_10": "Access to advanced lab research",
+    "tier_15": "Unlock ultimate weapon perks"
+  },
+  "resource_efficiency": {
+    "cash": "Use for immediate upgrades and emergency situations",
+    "coins": "Invest in permanent upgrades and card mastery",
+    "medals": "Save for bot upgrades and event relics",
+    "module_shards": "Focus on high-rarity modules first",
+    "lab_time": "Prioritize Standard Perk Bonus and Labs Speed"
+  },
+  "common_mistakes": {
+    "early_game": [
+      "Not prioritizing damage and health cards",
+      "Spending coins on low-priority upgrades",
+      "Ignoring lab research for Standard Perk Bonus"
+    ],
+    "mid_game": [
+      "Not building defense alongside damage",
+      "Ignoring critical hit bonuses",
+      "Not investing in lab research efficiency"
+    ],
+    "late_game": [
+      "Taking trade-off perks without understanding drawbacks",
+      "Not maximizing ultimate weapon synergies",
+      "Ignoring area control capabilities"
+    ]
+  },
+  "advanced_strategies": {
+    "wave_scaling": "Enemy health and damage increase exponentially with waves",
+    "heat_up_mechanic": "Enemy damage increases over time in each wave",
+    "coin_decay": "Enemy coin value decreases over time",
+    "mass_scaling": "Enemy mass increases with waves, affecting knockback",
+    "perk_synergy": "Multiple perks of the same type stack multiplicatively",
+    "bot_timing": "Coordinate bot activations with enemy waves for maximum effect"
+  },
+  "file_structure": {
+    "index_files": [
+      "cards/cards_index.json",
+      "perks/perks_index.json",
+      "MASTER_INDEX.json"
+    ],
+    "reference_files": [
+      "GLOSSARY.md",
+      "CROSS_REFERENCES.md",
+      "DATA_NORMALIZATION_GUIDE.md"
+    ],
+    "data_directories": [
+      "cards/data/",
+      "perks/data/",
+      "relics/data/",
+      "bots/data/",
+      "modules/data/",
+      "enemies/data/",
+      "lab_upgrades/"
+    ]
+  }
+}

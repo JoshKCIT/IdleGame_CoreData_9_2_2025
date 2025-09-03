@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Spotlight Missiles",
+  "description": "Enhances spotlight mechanics",
+  "category": "Abilities",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "ultimate_weapon_research",
+    "stat_type": "missile_cooldown",
+    "target": "enemies",
+    "effect_category": "combat",
+    "scaling_type": "decreasing",
+    "synergy_groups": [
+      "offensive",
+      "spotlight",
+      "missiles"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "multiple_enemies",
+      "swarms",
+      "bosses"
+    ],
+    "target_type": "projectiles",
+    "activation": "automatic",
+    "damage_type": "area_damage"
+  },
+  "calculation_formulas": {
+    "base_value": "19.00",
+    "decrement_per_level": "1.00",
+    "total_cooldown": "19.00 - (1.00 × (Level - 1))",
+    "final_cooldown": "Base Cooldown - Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Decreases cooldown between spotlight missile shots"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - decreases spotlight missile cooldown",
+    "priority_level": "Medium - important for spotlight builds",
+    "upgrade_priority": "Medium priority for spotlight specialization",
+    "synergy_combinations": [
+      "Other spotlight research for comprehensive builds",
+      "Spotlight coin bonus research for economy",
+      "Missile research for damage output"
+    ],
+    "counter_strategies": [
+      "Decreases missile cooldown",
+      "Improves fire rate",
+      "Enhances spotlight effectiveness"
+    ],
+    "resource_efficiency": "Medium - important for spotlight builds but expensive at high levels"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 200000000,
+      "time": "6d 15h 58m",
+      "value": 19.0,
+      "delta_value": null,
+      "cum_cost": 200000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 200313514,
+      "time": "7d 0h 20m",
+      "value": 18.0,
+      "delta_value": -1,
+      "cum_cost": 400313514,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 200854054,
+      "time": "7d 8h 52m",
+      "value": 17.0,
+      "delta_value": -1,
+      "cum_cost": 601167568,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 202551351,
+      "time": "7d 17h 52m",
+      "value": 16.0,
+      "delta_value": -1,
+      "cum_cost": 803718919,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 207502703,
+      "time": "8d 3h 48m",
+      "value": 15.0,
+      "delta_value": -1,
+      "cum_cost": 1011221622,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 219286486,
+      "time": "8d 15h 5m",
+      "value": 14.0,
+      "delta_value": -1,
+      "cum_cost": 1230508108,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 243329730,
+      "time": "9d 4h 17m",
+      "value": 13.0,
+      "delta_value": -1,
+      "cum_cost": 1473837838,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 287156757,
+      "time": "9d 19h 57m",
+      "value": 12.0,
+      "delta_value": -1,
+      "cum_cost": 1760994595,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 360659459,
+      "time": "10d 14h 47m",
+      "value": 11.0,
+      "delta_value": -1,
+      "cum_cost": 2121654054,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 476367568,
+      "time": "11d 13h 30m",
+      "value": 10.0,
+      "delta_value": -1,
+      "cum_cost": 2598021622,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 649686486,
+      "time": "12d 16h 48m",
+      "value": 9.0,
+      "delta_value": -1,
+      "cum_cost": 3247708108,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 899091892,
+      "time": "14d 1h 29m",
+      "value": 8.0,
+      "delta_value": -1,
+      "cum_cost": 4146800000,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 1243243243,
+      "time": "15d 16h 22m",
+      "value": 7.0,
+      "delta_value": -1,
+      "cum_cost": 5390043243,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 1718918919,
+      "time": "17d 14h 20m",
+      "value": 6.0,
+      "delta_value": -1,
+      "cum_cost": 7108962162,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 2335135135,
+      "time": "19d 20h 16m",
+      "value": 5.0,
+      "delta_value": -1,
+      "cum_cost": 9444097297,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 3145945946,
+      "time": "22d 11h 8m",
+      "value": 4.0,
+      "delta_value": -1,
+      "cum_cost": 12590043243,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 17,
+      "cost": 4172972973,
+      "time": "25d 11h 53m",
+      "value": 3.0,
+      "delta_value": -1,
+      "cum_cost": 16763016216,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 18,
+      "cost": 5470270270,
+      "time": "28d 23h 32m",
+      "value": 2.0,
+      "delta_value": -1,
+      "cum_cost": 22233286486,
+      "efficiency": -0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 8 levels",
+    "mid_levels": "Decreasing efficiency after level 10",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 12-14 for most players"
+  },
+  "max_level": 18,
+  "cross_references": {
+    "cards": [
+      "spotlight_missiles.json"
+    ],
+    "perks": [
+      "spotlight_missiles.json"
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Golden Tower Bonus",
+  "description": "Enhances golden tower mechanics",
+  "category": "Abilities",
+  "type": "lab_research",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "research_category": "ultimate_weapon_research",
+    "stat_type": "bonus_multiplier",
+    "target": "tower",
+    "effect_category": "economy",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "economy",
+      "golden_tower",
+      "bonus"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "passive",
+    "damage_type": "coin_multiplier"
+  },
+  "calculation_formulas": {
+    "base_value": "0.15",
+    "increment_per_level": "0.15",
+    "total_bonus": "0.15 × Level",
+    "final_bonus": "Base Bonus + Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Increases bonus multiplier from golden tower ultimate weapon"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - increases golden tower bonus multiplier",
+    "priority_level": "Medium - important for economy builds",
+    "upgrade_priority": "Medium priority for golden tower specialization",
+    "synergy_combinations": [
+      "Other golden tower research for comprehensive builds",
+      "Golden tower duration research for uptime",
+      "Economy research for income"
+    ],
+    "counter_strategies": [
+      "Increases bonus multiplier",
+      "Improves economy scaling",
+      "Enhances golden tower effectiveness"
+    ],
+    "resource_efficiency": "Medium - important for economy but expensive at high levels"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 1000000,
+      "time": "1d 16h 0m",
+      "value": 0.15,
+      "delta_value": null,
+      "cum_cost": 1000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 1310000,
+      "time": "2d 0h 21m",
+      "value": 0.3,
+      "delta_value": 0.15,
+      "cum_cost": 2310000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 1850000,
+      "time": "2d 8h 53m",
+      "value": 0.45,
+      "delta_value": 0.15,
+      "cum_cost": 4160000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 3550000,
+      "time": "2d 17h 54m",
+      "value": 0.6,
+      "delta_value": 0.15,
+      "cum_cost": 7710000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 8500000,
+      "time": "3d 3h 49m",
+      "value": 0.75,
+      "delta_value": 0.15,
+      "cum_cost": 16210000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 20290000,
+      "time": "3d 15h 6m",
+      "value": 0.9,
+      "delta_value": 0.15,
+      "cum_cost": 36500000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 44330000,
+      "time": "4d 4h 17m",
+      "value": 1.05,
+      "delta_value": 0.15,
+      "cum_cost": 80830000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 88160000,
+      "time": "4d 19h 58m",
+      "value": 1.2,
+      "delta_value": 0.15,
+      "cum_cost": 168990000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 161660000,
+      "time": "5d 14h 49m",
+      "value": 1.35,
+      "delta_value": 0.15,
+      "cum_cost": 330650000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 277370000,
+      "time": "6d 13h 31m",
+      "value": 1.5,
+      "delta_value": 0.15,
+      "cum_cost": 608020000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 450680000,
+      "time": "7d 16h 49m",
+      "value": 1.65,
+      "delta_value": 0.15,
+      "cum_cost": 1058700000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 700090000,
+      "time": "9d 1h 30m",
+      "value": 1.8,
+      "delta_value": 0.15,
+      "cum_cost": 1758790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 1050000000,
+      "time": "10d 16h 23m",
+      "value": 1.95,
+      "delta_value": 0.15,
+      "cum_cost": 2808790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 1520000000,
+      "time": "12d 14h 21m",
+      "value": 2.1,
+      "delta_value": 0.15,
+      "cum_cost": 4328790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 2140000000,
+      "time": "14d 20h 18m",
+      "value": 2.25,
+      "delta_value": 0.15,
+      "cum_cost": 6468790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 2950000000,
+      "time": "17d 11h 9m",
+      "value": 2.4,
+      "delta_value": 0.15,
+      "cum_cost": 9418790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 17,
+      "cost": 3980000000,
+      "time": "20d 11h 54m",
+      "value": 2.55,
+      "delta_value": 0.15,
+      "cum_cost": 13398790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 18,
+      "cost": 5270000000,
+      "time": "23d 23h 32m",
+      "value": 2.7,
+      "delta_value": 0.15,
+      "cum_cost": 18668790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 19,
+      "cost": 6880000000,
+      "time": "27d 23h 6m",
+      "value": 2.85,
+      "delta_value": 0.15,
+      "cum_cost": 25548790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 8840000000,
+      "time": "32d 11h 40m",
+      "value": 3,
+      "delta_value": 0.15,
+      "cum_cost": 34388790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 21,
+      "cost": 11220000000,
+      "time": "37d 14h 19m",
+      "value": 3.15,
+      "delta_value": 0.15,
+      "cum_cost": 45608790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 22,
+      "cost": 14080000000,
+      "time": "43d 8h 12m",
+      "value": 3.3,
+      "delta_value": 0.15,
+      "cum_cost": 59688790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 23,
+      "cost": 17480000000,
+      "time": "49d 18h 27m",
+      "value": 3.45,
+      "delta_value": 0.15,
+      "cum_cost": 77168790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 24,
+      "cost": 21490000000,
+      "time": "56d 22h 16m",
+      "value": 3.6,
+      "delta_value": 0.15,
+      "cum_cost": 98658790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 25,
+      "cost": 26190000000,
+      "time": "64d 20h 50m",
+      "value": 3.75,
+      "delta_value": 0.15,
+      "cum_cost": 124848790000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 15",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 20-22 for most players"
+  },
+  "max_level": 25,
+  "cross_references": {
+    "cards": [
+      "golden_tower_bonus.json"
+    ],
+    "perks": [
+      "golden_tower_bonus.json"
+    ]
+  }
+}

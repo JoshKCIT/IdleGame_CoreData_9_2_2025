@@ -1,0 +1,1082 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Health Regen",
+  "description": "Increases tower health",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "defense_research",
+    "stat_type": "health_regen_multiplier",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "defensive",
+      "health",
+      "survival"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "passive",
+    "damage_type": "health_reduction"
+  },
+  "calculation_formulas": {
+    "base_value": "1.03",
+    "increment_per_level": "0.03",
+    "total_multiplier": "1.03 + (0.03 × (Level - 1))",
+    "final_multiplier": "Base Multiplier + Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Increases health regeneration multiplier by +0.03 per level"
+  },
+  "context_fields": {
+    "when_to_use": "Early to late game - increases health regeneration for better survival",
+    "priority_level": "High - essential for survival builds",
+    "upgrade_priority": "High priority for defensive builds",
+    "synergy_combinations": [
+      "Health research for more base health",
+      "Defense research for damage reduction",
+      "Other survival research for comprehensive builds"
+    ],
+    "counter_strategies": [
+      "Increases health regeneration",
+      "Improves survival chances",
+      "Enhances defensive capabilities"
+    ],
+    "resource_efficiency": "High - important for survival but expensive at high levels"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 30,
+      "time": "0d 0h 0m",
+      "value": 1.03,
+      "delta_value": null,
+      "cum_cost": 30,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 71,
+      "time": "0d 0h 6m",
+      "value": 1.06,
+      "delta_value": 0.03,
+      "cum_cost": 101,
+      "efficiency": 0.000423,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 178,
+      "time": "0d 0h 16m",
+      "value": 1.09,
+      "delta_value": 0.03,
+      "cum_cost": 279,
+      "efficiency": 0.000169,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 398,
+      "time": "0d 0h 31m",
+      "value": 1.12,
+      "delta_value": 0.03,
+      "cum_cost": 677,
+      "efficiency": 7.5e-05,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 772,
+      "time": "0d 0h 52m",
+      "value": 1.15,
+      "delta_value": 0.03,
+      "cum_cost": 1449,
+      "efficiency": 3.9e-05,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 1340,
+      "time": "0d 1h 20m",
+      "value": 1.18,
+      "delta_value": 0.03,
+      "cum_cost": 2789,
+      "efficiency": 2.2e-05,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 2120,
+      "time": "0d 1h 56m",
+      "value": 1.21,
+      "delta_value": 0.03,
+      "cum_cost": 4909,
+      "efficiency": 1.4e-05,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 3170,
+      "time": "0d 2h 39m",
+      "value": 1.24,
+      "delta_value": 0.03,
+      "cum_cost": 8079,
+      "efficiency": 9e-06,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 4510,
+      "time": "0d 3h 31m",
+      "value": 1.27,
+      "delta_value": 0.03,
+      "cum_cost": 12589,
+      "efficiency": 7e-06,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 6170,
+      "time": "0d 4h 32m",
+      "value": 1.3,
+      "delta_value": 0.03,
+      "cum_cost": 18759,
+      "efficiency": 5e-06,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 8170,
+      "time": "0d 5h 43m",
+      "value": 1.33,
+      "delta_value": 0.03,
+      "cum_cost": 26929,
+      "efficiency": 4e-06,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 10560,
+      "time": "0d 7h 3m",
+      "value": 1.36,
+      "delta_value": 0.03,
+      "cum_cost": 37489,
+      "efficiency": 3e-06,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 13350,
+      "time": "0d 8h 34m",
+      "value": 1.39,
+      "delta_value": 0.03,
+      "cum_cost": 50839,
+      "efficiency": 2e-06,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 16580,
+      "time": "0d 10h 15m",
+      "value": 1.42,
+      "delta_value": 0.03,
+      "cum_cost": 67419,
+      "efficiency": 2e-06,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 20270,
+      "time": "0d 12h 7m",
+      "value": 1.45,
+      "delta_value": 0.03,
+      "cum_cost": 87689,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 24440,
+      "time": "0d 14h 10m",
+      "value": 1.48,
+      "delta_value": 0.03,
+      "cum_cost": 112129,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 17,
+      "cost": 29130,
+      "time": "0d 16h 25m",
+      "value": 1.51,
+      "delta_value": 0.03,
+      "cum_cost": 141259,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 18,
+      "cost": 34360,
+      "time": "0d 18h 52m",
+      "value": 1.54,
+      "delta_value": 0.03,
+      "cum_cost": 175619,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 19,
+      "cost": 40160,
+      "time": "0d 21h 31m",
+      "value": 1.57,
+      "delta_value": 0.03,
+      "cum_cost": 215779,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 46540,
+      "time": "1d 0h 22m",
+      "value": 1.6,
+      "delta_value": 0.03,
+      "cum_cost": 262319,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 21,
+      "cost": 53530,
+      "time": "1d 3h 26m",
+      "value": 1.63,
+      "delta_value": 0.03,
+      "cum_cost": 315849,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 22,
+      "cost": 61160,
+      "time": "1d 6h 44m",
+      "value": 1.66,
+      "delta_value": 0.03,
+      "cum_cost": 377009,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 23,
+      "cost": 69460,
+      "time": "1d 10h 14m",
+      "value": 1.69,
+      "delta_value": 0.03,
+      "cum_cost": 446469,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 24,
+      "cost": 78430,
+      "time": "1d 13h 58m",
+      "value": 1.72,
+      "delta_value": 0.03,
+      "cum_cost": 524899,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 25,
+      "cost": 88120,
+      "time": "1d 17h 56m",
+      "value": 1.75,
+      "delta_value": 0.03,
+      "cum_cost": 613019,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 26,
+      "cost": 98530,
+      "time": "1d 22h 7m",
+      "value": 1.78,
+      "delta_value": 0.03,
+      "cum_cost": 711549,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 27,
+      "cost": 109700,
+      "time": "2d 2h 33m",
+      "value": 1.81,
+      "delta_value": 0.03,
+      "cum_cost": 821249,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 28,
+      "cost": 121650,
+      "time": "2d 7h 13m",
+      "value": 1.84,
+      "delta_value": 0.03,
+      "cum_cost": 942899,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 29,
+      "cost": 134390,
+      "time": "2d 12h 8m",
+      "value": 1.87,
+      "delta_value": 0.03,
+      "cum_cost": 1077289,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 30,
+      "cost": 147950,
+      "time": "2d 17h 18m",
+      "value": 1.9,
+      "delta_value": 0.03,
+      "cum_cost": 1225239,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 31,
+      "cost": 162350,
+      "time": "2d 22h 43m",
+      "value": 1.93,
+      "delta_value": 0.03,
+      "cum_cost": 1387589,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 32,
+      "cost": 177620,
+      "time": "3d 4h 23m",
+      "value": 1.96,
+      "delta_value": 0.03,
+      "cum_cost": 1565209,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 33,
+      "cost": 193780,
+      "time": "3d 10h 18m",
+      "value": 1.99,
+      "delta_value": 0.03,
+      "cum_cost": 1758989,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 34,
+      "cost": 210830,
+      "time": "3d 16h 30m",
+      "value": 2.02,
+      "delta_value": 0.03,
+      "cum_cost": 1969819,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 35,
+      "cost": 228820,
+      "time": "3d 22h 57m",
+      "value": 2.05,
+      "delta_value": 0.03,
+      "cum_cost": 2198639,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 36,
+      "cost": 247760,
+      "time": "4d 5h 40m",
+      "value": 2.08,
+      "delta_value": 0.03,
+      "cum_cost": 2446399,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 37,
+      "cost": 267660,
+      "time": "4d 12h 40m",
+      "value": 2.11,
+      "delta_value": 0.03,
+      "cum_cost": 2714059,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 38,
+      "cost": 288560,
+      "time": "4d 19h 55m",
+      "value": 2.14,
+      "delta_value": 0.03,
+      "cum_cost": 3002619,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 39,
+      "cost": 310470,
+      "time": "5d 3h 28m",
+      "value": 2.17,
+      "delta_value": 0.03,
+      "cum_cost": 3313089,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 40,
+      "cost": 333400,
+      "time": "5d 11h 17m",
+      "value": 2.2,
+      "delta_value": 0.03,
+      "cum_cost": 3646489,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 41,
+      "cost": 357390,
+      "time": "5d 19h 24m",
+      "value": 2.23,
+      "delta_value": 0.03,
+      "cum_cost": 4003879,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 42,
+      "cost": 382450,
+      "time": "6d 3h 47m",
+      "value": 2.26,
+      "delta_value": 0.03,
+      "cum_cost": 4386329,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 43,
+      "cost": 408600,
+      "time": "6d 12h 28m",
+      "value": 2.29,
+      "delta_value": 0.03,
+      "cum_cost": 4794929,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 44,
+      "cost": 435870,
+      "time": "6d 21h 26m",
+      "value": 2.32,
+      "delta_value": 0.03,
+      "cum_cost": 5230799,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 45,
+      "cost": 464260,
+      "time": "7d 6h 42m",
+      "value": 2.35,
+      "delta_value": 0.03,
+      "cum_cost": 5695059,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 46,
+      "cost": 493810,
+      "time": "7d 16h 15m",
+      "value": 2.38,
+      "delta_value": 0.03,
+      "cum_cost": 6188869,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 47,
+      "cost": 524530,
+      "time": "8d 2h 7m",
+      "value": 2.41,
+      "delta_value": 0.03,
+      "cum_cost": 6713399,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 48,
+      "cost": 556430,
+      "time": "8d 12h 17m",
+      "value": 2.44,
+      "delta_value": 0.03,
+      "cum_cost": 7269829,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 49,
+      "cost": 589550,
+      "time": "8d 22h 45m",
+      "value": 2.47,
+      "delta_value": 0.03,
+      "cum_cost": 7859379,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 50,
+      "cost": 623890,
+      "time": "9d 9h 31m",
+      "value": 2.5,
+      "delta_value": 0.03,
+      "cum_cost": 8483269,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 51,
+      "cost": 659490,
+      "time": "9d 20h 37m",
+      "value": 2.53,
+      "delta_value": 0.03,
+      "cum_cost": 9142759,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 52,
+      "cost": 696340,
+      "time": "10d 8h 0m",
+      "value": 2.56,
+      "delta_value": 0.03,
+      "cum_cost": 9839099,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 53,
+      "cost": 734490,
+      "time": "10d 19h 43m",
+      "value": 2.59,
+      "delta_value": 0.03,
+      "cum_cost": 10573589,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 54,
+      "cost": 773940,
+      "time": "11d 7h 45m",
+      "value": 2.62,
+      "delta_value": 0.03,
+      "cum_cost": 11347529,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 55,
+      "cost": 814710,
+      "time": "11d 20h 6m",
+      "value": 2.65,
+      "delta_value": 0.03,
+      "cum_cost": 12162239,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 56,
+      "cost": 856830,
+      "time": "12d 8h 46m",
+      "value": 2.68,
+      "delta_value": 0.03,
+      "cum_cost": 13019069,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 57,
+      "cost": 900300,
+      "time": "12d 21h 46m",
+      "value": 2.71,
+      "delta_value": 0.03,
+      "cum_cost": 13919369,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 58,
+      "cost": 945160,
+      "time": "13d 11h 5m",
+      "value": 2.74,
+      "delta_value": 0.03,
+      "cum_cost": 14864529,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 59,
+      "cost": 991410,
+      "time": "14d 0h 44m",
+      "value": 2.77,
+      "delta_value": 0.03,
+      "cum_cost": 15855939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 60,
+      "cost": 1040000,
+      "time": "14d 14h 43m",
+      "value": 2.8,
+      "delta_value": 0.03,
+      "cum_cost": 16895939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 61,
+      "cost": 1090000,
+      "time": "15d 5h 3m",
+      "value": 2.83,
+      "delta_value": 0.03,
+      "cum_cost": 17985939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 62,
+      "cost": 1140000,
+      "time": "15d 19h 42m",
+      "value": 2.86,
+      "delta_value": 0.03,
+      "cum_cost": 19125939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 63,
+      "cost": 1190000,
+      "time": "16d 10h 41m",
+      "value": 2.89,
+      "delta_value": 0.03,
+      "cum_cost": 20315939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 64,
+      "cost": 1240000,
+      "time": "17d 2h 1m",
+      "value": 2.92,
+      "delta_value": 0.03,
+      "cum_cost": 21555939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 65,
+      "cost": 1300000,
+      "time": "17d 17h 42m",
+      "value": 2.95,
+      "delta_value": 0.03,
+      "cum_cost": 22855939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 66,
+      "cost": 1360000,
+      "time": "18d 9h 43m",
+      "value": 2.98,
+      "delta_value": 0.03,
+      "cum_cost": 24215939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 67,
+      "cost": 1410000,
+      "time": "19d 2h 5m",
+      "value": 3.01,
+      "delta_value": 0.03,
+      "cum_cost": 25625939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 68,
+      "cost": 1470000,
+      "time": "19d 18h 48m",
+      "value": 3.04,
+      "delta_value": 0.03,
+      "cum_cost": 27095939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 69,
+      "cost": 1530000,
+      "time": "20d 11h 52m",
+      "value": 3.07,
+      "delta_value": 0.03,
+      "cum_cost": 28625939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 70,
+      "cost": 1600000,
+      "time": "21d 5h 17m",
+      "value": 3.1,
+      "delta_value": 0.03,
+      "cum_cost": 30225939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 71,
+      "cost": 1660000,
+      "time": "21d 23h 4m",
+      "value": 3.13,
+      "delta_value": 0.03,
+      "cum_cost": 31885939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 72,
+      "cost": 1730000,
+      "time": "22d 17h 12m",
+      "value": 3.16,
+      "delta_value": 0.03,
+      "cum_cost": 33615939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 73,
+      "cost": 1800000,
+      "time": "23d 11h 41m",
+      "value": 3.19,
+      "delta_value": 0.03,
+      "cum_cost": 35415939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 74,
+      "cost": 1870000,
+      "time": "24d 6h 32m",
+      "value": 3.22,
+      "delta_value": 0.03,
+      "cum_cost": 37285939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 75,
+      "cost": 1940000,
+      "time": "25d 1h 46m",
+      "value": 3.25,
+      "delta_value": 0.03,
+      "cum_cost": 39225939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 76,
+      "cost": 2010000,
+      "time": "25d 21h 20m",
+      "value": 3.28,
+      "delta_value": 0.03,
+      "cum_cost": 41235939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 77,
+      "cost": 2080000,
+      "time": "26d 17h 18m",
+      "value": 3.31,
+      "delta_value": 0.03,
+      "cum_cost": 43315939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 78,
+      "cost": 2160000,
+      "time": "27d 13h 37m",
+      "value": 3.34,
+      "delta_value": 0.03,
+      "cum_cost": 45475939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 79,
+      "cost": 2240000,
+      "time": "28d 10h 18m",
+      "value": 3.37,
+      "delta_value": 0.03,
+      "cum_cost": 47715939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 80,
+      "cost": 2320000,
+      "time": "29d 7h 22m",
+      "value": 3.4,
+      "delta_value": 0.03,
+      "cum_cost": 50035939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 81,
+      "cost": 2400000,
+      "time": "30d 4h 48m",
+      "value": 3.43,
+      "delta_value": 0.03,
+      "cum_cost": 52435939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 82,
+      "cost": 2480000,
+      "time": "31d 2h 37m",
+      "value": 3.46,
+      "delta_value": 0.03,
+      "cum_cost": 54915939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 83,
+      "cost": 2570000,
+      "time": "32d 0h 49m",
+      "value": 3.49,
+      "delta_value": 0.03,
+      "cum_cost": 57485939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 84,
+      "cost": 2650000,
+      "time": "32d 23h 24m",
+      "value": 3.52,
+      "delta_value": 0.03,
+      "cum_cost": 60135939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 85,
+      "cost": 2740000,
+      "time": "33d 22h 21m",
+      "value": 3.55,
+      "delta_value": 0.03,
+      "cum_cost": 62875939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 86,
+      "cost": 2830000,
+      "time": "34d 21h 42m",
+      "value": 3.58,
+      "delta_value": 0.03,
+      "cum_cost": 65705939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 87,
+      "cost": 2930000,
+      "time": "35d 21h 26m",
+      "value": 3.61,
+      "delta_value": 0.03,
+      "cum_cost": 68635939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 88,
+      "cost": 3020000,
+      "time": "36d 21h 33m",
+      "value": 3.64,
+      "delta_value": 0.03,
+      "cum_cost": 71655939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 89,
+      "cost": 3120000,
+      "time": "37d 22h 3m",
+      "value": 3.67,
+      "delta_value": 0.03,
+      "cum_cost": 74775939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 90,
+      "cost": 3220000,
+      "time": "38d 22h 57m",
+      "value": 3.7,
+      "delta_value": 0.03,
+      "cum_cost": 77995939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 91,
+      "cost": 3320000,
+      "time": "40d 0h 15m",
+      "value": 3.73,
+      "delta_value": 0.03,
+      "cum_cost": 81315939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 92,
+      "cost": 3420000,
+      "time": "41d 1h 56m",
+      "value": 3.76,
+      "delta_value": 0.03,
+      "cum_cost": 84735939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 93,
+      "cost": 3520000,
+      "time": "42d 4h 1m",
+      "value": 3.79,
+      "delta_value": 0.03,
+      "cum_cost": 88255939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 94,
+      "cost": 3630000,
+      "time": "43d 6h 30m",
+      "value": 3.82,
+      "delta_value": 0.03,
+      "cum_cost": 91885939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 95,
+      "cost": 3740000,
+      "time": "44d 9h 23m",
+      "value": 3.85,
+      "delta_value": 0.03,
+      "cum_cost": 95625939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 96,
+      "cost": 3850000,
+      "time": "45d 12h 40m",
+      "value": 3.88,
+      "delta_value": 0.03,
+      "cum_cost": 99475939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 97,
+      "cost": 3960000,
+      "time": "46d 16h 22m",
+      "value": 3.91,
+      "delta_value": 0.03,
+      "cum_cost": 103435939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 98,
+      "cost": 4070000,
+      "time": "47d 20h 27m",
+      "value": 3.94,
+      "delta_value": 0.03,
+      "cum_cost": 107505939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 99,
+      "cost": 4190000,
+      "time": "49d 0h 57m",
+      "value": 3.97,
+      "delta_value": 0.03,
+      "cum_cost": 111695939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 100,
+      "cost": 4310000,
+      "time": "50d 5h 52m",
+      "value": 4.0,
+      "delta_value": 0.03,
+      "cum_cost": 116005939,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 20",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 30-50 for most players"
+  },
+  "max_level": 100,
+  "cross_references": {
+    "cards": [
+      "health_regen.json"
+    ],
+    "perks": [
+      "health_regen.json"
+    ],
+    "modules": [
+      "sharp_fortitude.json"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Energy Shield",
+  "description": "Enhances energy shield mechanics",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "Shield that ignores a single attack, replenishes after [x] min",
+      "levels": [
+        "20 min",
+        "18 min",
+        "16 min",
+        "14 min",
+        "12 min",
+        "10 min",
+        "8 min"
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Causes a pushback of enemies by a percentage of tower range when shield charge is used",
+      "stone_cost": "1000",
+      "levels": [
+        "5%",
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%",
+        "35%",
+        "40%",
+        "45%",
+        "50%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Causes a pushback of enemies by a percentage of tower range when shield charge is used",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 25.0
+        },
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 35.0
+        },
+        {
+          "percent": 40.0
+        },
+        {
+          "percent": 45.0
+        },
+        {
+          "percent": 50.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "energy_shield.json"
+    ],
+    "lab_research": [
+      "energy_shield.json"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Space Displacer",
+  "description": "This module upgrades landmines to autonomous Inner Land Mines that actively position themselves around the tower for optimal defense coverage.",
+  "category": "General",
+  "type": "Armor",
+  "focus": "Defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "module_type": "armor",
+    "focus_area": "defense",
+    "target_type": "landmines",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "landmines",
+      "inner_land_mines",
+      "defensive"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "spawn_chance": "Base Percentage × Rarity Multiplier",
+    "max_inner_mines": 20,
+    "damage_multiplier": "Uses lv1 x30 damage multiplier if ultimate weapon not unlocked, otherwise uses ILM stats"
+  },
+  "context_fields": {
+    "when_to_use": "When using landmine systems and need enhanced defensive coverage",
+    "priority_level": "High - autonomous mines provide better defensive positioning",
+    "upgrade_priority": "Focus on higher rarity versions for better spawn chances",
+    "synergy_combinations": [
+      "Inner Land Mine ultimate weapon for enhanced effectiveness",
+      "Land mine damage research for increased damage",
+      "Other defensive modules for comprehensive builds"
+    ],
+    "counter_strategies": [
+      "Autonomous positioning improves defensive coverage",
+      "Higher spawn chance with better rarity",
+      "Combines well with ILM ultimate weapon"
+    ],
+    "resource_efficiency": "High - autonomous mines provide better defensive positioning"
+  },
+  "rarity_scaling": {
+    "Epic": "15%",
+    "Legendary": "20%",
+    "Mythic": "25%",
+    "Ancestral": "30%"
+  },
+  "notes": [
+    "Space displacer uses the lv1 x30 damage multiplier if the ultimate weapon is not unlocked",
+    "If you do have the ILM unlocked, the stats and effects of your ILM will be used",
+    "This means sub effects such as +ILM damage multiplier will affect total damage"
+  ],
+  "unique_effect": "Landmines have a [x]% chance to spawn as an Inner Land Mine (20 max) instead of a normal mine. These mines autonomously move and organize around the tower."
+}

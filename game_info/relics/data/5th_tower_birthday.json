@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "5th Tower Birthday",
+  "description": "Increase critical factor by 2%",
+  "category": "Anniversary Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "critical_hit",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "critical_hits"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Fifth anniversary relic, further enhances critical hits",
+  "unlock_method": "Anniversary",
+  "bonus_type": "critical_factor",
+  "bonus_value": 2,
+  "anniversary_year": 5,
+  "unlock_requirement": "Play for 5 years",
+  "rarity": "Rare",
+  "effect": "Critical factor +2%"
+}

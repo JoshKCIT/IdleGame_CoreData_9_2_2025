@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Cash",
+  "description": "Increases cash generation",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "coin_multiplier"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Common": {
+      "description": "Increase all cash earned by x #",
+      "levels": [
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Adds chance for elites to drop reroll dice",
+      "stone_cost": "500",
+      "levels": [
+        "0.4%",
+        "0.8%",
+        "1.2%",
+        "1.6%",
+        "2%",
+        "2.4%",
+        "2.8%",
+        "3.2%",
+        "3.6%",
+        "4%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Adds chance for elites to drop reroll dice",
+      "stone_cost": "500",
+      "levels": [
+        {
+          "percent": 0.4
+        },
+        {
+          "percent": 0.8
+        },
+        {
+          "percent": 1.2
+        },
+        {
+          "percent": 1.6
+        },
+        {
+          "percent": 2.0
+        },
+        {
+          "percent": 2.4
+        },
+        {
+          "percent": 2.8
+        },
+        {
+          "percent": 3.2
+        },
+        {
+          "percent": 3.6
+        },
+        {
+          "percent": 4.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "cash.json"
+    ],
+    "lab_research": [
+      "cash.json"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Dimension Core",
+  "description": "This module enhances chain lightning mechanics by improving targeting, doubling shock effects, and allowing shock multipliers to stack on the same enemy.",
+  "category": "General",
+  "type": "Core",
+  "focus": "Ultimate Weapons",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "module_type": "core",
+    "focus_area": "ultimate_weapons",
+    "target_type": "chain_lightning",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "chain_lightning",
+      "shock_effects"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "initial_target_chance": "60%",
+    "shock_chance_multiplier": "2x",
+    "shock_multiplier_multiplier": "2x",
+    "max_stacks": "Rarity Value (5-20)",
+    "stack_formula": "1 + 1.32 × Stack_Count"
+  },
+  "context_fields": {
+    "when_to_use": "When using chain lightning ultimate weapon and need enhanced shock effects",
+    "priority_level": "High for chain lightning builds",
+    "upgrade_priority": "Focus on higher rarity versions for more stack capacity",
+    "synergy_combinations": [
+      "Chain lightning ultimate weapon",
+      "Shock chance and multiplier perks",
+      "Attack speed for more shock applications"
+    ],
+    "counter_strategies": [
+      "Most effective with chain lightning active",
+      "Scales with shock application frequency",
+      "Combines well with shock-related bonuses"
+    ],
+    "resource_efficiency": "Very High - significant enhancement for chain lightning builds"
+  },
+  "rarity_scaling": {
+    "Epic": "5 stacks",
+    "Legendary": "10 stacks",
+    "Mythic": "15 stacks",
+    "Ancestral": "20 stacks"
+  },
+  "notes": [
+    "Base shock mult with lab maxed is 1.66x (1 + 0.66)",
+    "Base shock mult after doubled by dim core effect 2.32x (1 + 1.32)",
+    "Shock mult stacking is additive and of the form: 1 + 1.32*n so for 20 stacks this would be 1 + 1.32*20 = 27.4x total mult once fully stacked"
+  ],
+  "unique_effect": "Chain lightning have 60% chance of hitting the initial target. Shock chance and multiplier is doubled. If shock is applied again to the same enemy the shock multiplier will add up to a max stack of [x]"
+}

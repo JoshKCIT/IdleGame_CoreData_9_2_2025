@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "T:X Plasma",
+  "description": "Increase damage/meter by 5%",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "manual",
+    "damage_type": "area_damage",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Final epic milestone relic, completes damage/meter epic bonuses",
+  "tier": 10,
+  "unlock_method": "Milestone",
+  "bonus_type": "damage_per_meter",
+  "bonus_value": 5,
+  "unlock_requirement": "Milestone: Beat wave 4500 in tier 10",
+  "rarity": "Epic",
+  "effect": "Damage/meter +5%"
+}

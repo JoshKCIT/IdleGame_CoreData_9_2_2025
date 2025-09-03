@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Attack Speed",
+  "description": "Increases tower attack speed",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "attack_research",
+    "stat_type": "attack_speed",
+    "target": "tower",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "critical_hits",
+      "super_critical"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_multiplier": "1.02",
+    "increment_per_level": "0.02",
+    "total_multiplier": "1 + (Level × 0.02)",
+    "final_attack_speed": "Base Attack Speed × Research Multiplier × Card Multiplier × Perk Multiplier",
+    "dps_increase": "Damage × Attack Speed Multiplier"
+  },
+  "context_fields": {
+    "when_to_use": "Always prioritize alongside damage - attack speed scales DPS multiplicatively",
+    "priority_level": "Highest - attack speed directly increases DPS",
+    "upgrade_priority": "Second priority after damage for offensive builds",
+    "synergy_combinations": [
+      "Damage research for multiplicative scaling",
+      "Critical hit bonuses for burst damage",
+      "Range bonuses for better target coverage"
+    ],
+    "counter_strategies": [
+      "Essential against all enemy types",
+      "Scales multiplicatively with damage bonuses",
+      "Combines with critical hit effects"
+    ],
+    "resource_efficiency": "Extremely High - multiplicative DPS scaling"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 30,
+      "time": "0d 0h 0m",
+      "value": 1.02,
+      "delta_value": null,
+      "cum_cost": 30,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 71,
+      "time": "0d 0h 6m",
+      "value": 1.04,
+      "delta_value": 0.02,
+      "cum_cost": 101,
+      "efficiency": 0.000282,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 178,
+      "time": "0d 0h 16m",
+      "value": 1.06,
+      "delta_value": 0.02,
+      "cum_cost": 279,
+      "efficiency": 0.000112,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 398,
+      "time": "0d 0h 31m",
+      "value": 1.08,
+      "delta_value": 0.02,
+      "cum_cost": 677,
+      "efficiency": 5e-05,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 772,
+      "time": "0d 0h 52m",
+      "value": 1.1,
+      "delta_value": 0.02,
+      "cum_cost": 1449,
+      "efficiency": 2.6e-05,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 6170,
+      "time": "0d 4h 32m",
+      "value": 1.2,
+      "delta_value": 0.02,
+      "cum_cost": 18759,
+      "efficiency": 3e-06,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 46540,
+      "time": "1d 0h 22m",
+      "value": 1.4,
+      "delta_value": 0.02,
+      "cum_cost": 262319,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 50,
+      "cost": 623890,
+      "time": "9d 9h 31m",
+      "value": 2.0,
+      "delta_value": 0.02,
+      "cum_cost": 8483269,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 99,
+      "cost": 19360000,
+      "time": "32d 22h 4m",
+      "value": 2.98,
+      "delta_value": 0.02,
+      "cum_cost": 472468456,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 20",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 50-75 for most players"
+  },
+  "max_level": 99,
+  "cross_references": {
+    "cards": [
+      "attack_speed.json"
+    ],
+    "perks": [
+      "attack_speed.json"
+    ],
+    "modules": [
+      "astral_deliverance.json"
+    ]
+  }
+}

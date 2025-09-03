@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Negative Mass Projector",
+  "description": "This module projects negative mass fields that affect enemy movement and positioning.",
+  "category": "General",
+  "type": "Armor",
+  "focus": "Defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "module_type": "armor",
+    "focus_area": "defense",
+    "target_type": "enemies",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "defensive",
+      "movement_control"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "fast_enemies",
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "effect_strength": "Base Percentage × Rarity Multiplier",
+    "effect_duration": "Variable based on module level",
+    "effect_range": "Area of effect around tower"
+  },
+  "context_fields": {
+    "when_to_use": "When needing to control enemy movement and positioning",
+    "priority_level": "Medium - useful for movement control",
+    "upgrade_priority": "Medium priority for defensive builds",
+    "synergy_combinations": [
+      "Other defensive modules for comprehensive protection",
+      "Slow effects for enhanced movement control",
+      "Area-of-effect abilities for controlled enemies"
+    ],
+    "counter_strategies": [
+      "Affects enemy movement and positioning",
+      "Effective against fast-moving enemies",
+      "Provides tactical advantage through positioning control"
+    ],
+    "resource_efficiency": "Medium - useful for movement control strategies"
+  },
+  "rarity_scaling": {
+    "Epic": "10%",
+    "Legendary": "15%",
+    "Mythic": "20%",
+    "Ancestral": "25%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Projects negative mass fields that affect enemy movement and positioning."
+}

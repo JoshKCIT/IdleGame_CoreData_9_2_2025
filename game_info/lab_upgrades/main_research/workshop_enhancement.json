@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Workshop Enhancement",
+  "description": "Lab research enhancement",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "main_research",
+    "stat_type": "workshop_enhancement",
+    "target": "tower",
+    "effect_category": "efficiency",
+    "scaling_type": "unlock",
+    "synergy_groups": [
+      "economy",
+      "resource_generation",
+      "efficiency"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "effect": "Unlocks workshop enhancement functionality",
+    "enhancement_capability": "Improved workshop features",
+    "upgrade_efficiency": "Better workshop performance",
+    "resource_optimization": "Enhanced workshop resource usage"
+  },
+  "context_fields": {
+    "when_to_use": "Late game only - expensive research for workshop improvements",
+    "priority_level": "Low - only after core stats are maximized",
+    "upgrade_priority": "Last priority after core research",
+    "synergy_combinations": [
+      "Buy Multiplier research for bulk purchases",
+      "Card Presets research for efficient management",
+      "Game Speed research for faster progression"
+    ],
+    "counter_strategies": [
+      "Effective for all game phases",
+      "Improves workshop efficiency",
+      "Enables enhanced workshop features"
+    ],
+    "resource_efficiency": "Low - expensive for utility improvement"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 5000000000,
+      "time": "6d 15h 59m",
+      "value": "Unlocked",
+      "delta_value": null,
+      "cum_cost": 5000000000,
+      "efficiency": null,
+      "notes": "Unlocks workshop enhancement functionality"
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "One-time unlock - no further levels",
+    "mid_levels": "N/A - single level research",
+    "late_levels": "N/A - single level research",
+    "recommended_stop": "Level 1 (maximum)"
+  },
+  "max_level": 1,
+  "cross_references": {
+    "cards": [
+      "workshop_enhancement.json"
+    ],
+    "perks": [
+      "workshop_enhancement.json"
+    ]
+  }
+}

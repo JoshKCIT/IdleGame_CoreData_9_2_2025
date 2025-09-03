@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Shockwave Size",
+  "description": "Enhances shockwave effects",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "defense_research",
+    "stat_type": "shockwave_size",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "shockwave",
+      "defensive_utility",
+      "wall_defense"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "melee_enemies",
+      "high_health_enemies",
+      "tanks"
+    ],
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "shock"
+  },
+  "calculation_formulas": {
+    "base_value": "0.05",
+    "increment_per_level": "0.05",
+    "total_size": "0.05 × Level",
+    "final_shockwave_size": "Base Shockwave Size + Research Bonus + Card Bonus + Perk Bonus",
+    "area_coverage": "Shockwave Size × Radius Factor"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - enhances defensive shockwave area coverage",
+    "priority_level": "Low - expensive research for defensive utility",
+    "upgrade_priority": "After core defense and health research",
+    "synergy_combinations": [
+      "Defense research for maximum survivability",
+      "Health research for sustained survival",
+      "Wall defense for additional protection layers"
+    ],
+    "counter_strategies": [
+      "Effective against melee enemies",
+      "Increases shockwave area coverage",
+      "Combines with high health for maximum effect"
+    ],
+    "resource_efficiency": "Low - expensive for defensive utility"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 100000,
+      "time": "0d 2h 46m",
+      "value": 0.05,
+      "delta_value": null,
+      "cum_cost": 100000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 119000,
+      "time": "0d 6h 41m",
+      "value": 0.1,
+      "delta_value": 0.05,
+      "cum_cost": 219000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 314980,
+      "time": "0d 10h 47m",
+      "value": 0.15,
+      "delta_value": 0.05,
+      "cum_cost": 533980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 1250000,
+      "time": "0d 15h 31m",
+      "value": 0.2,
+      "delta_value": 0.05,
+      "cum_cost": 1783980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 4020000,
+      "time": "0d 21h 23m",
+      "value": 0.25,
+      "delta_value": 0.05,
+      "cum_cost": 5803980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 127020000,
+      "time": "4d 0h 54m",
+      "value": 0.5,
+      "delta_value": 0.05,
+      "cum_cost": 285253980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 848140000,
+      "time": "14d 17h 48m",
+      "value": 0.75,
+      "delta_value": 0.05,
+      "cum_cost": 2687873980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 3150000000,
+      "time": "40d 20h 49m",
+      "value": 1.0,
+      "delta_value": 0.05,
+      "cum_cost": 12937873980,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Low efficiency - expensive for minimal benefit",
+    "mid_levels": "Very low efficiency - requires weeks of research time",
+    "late_levels": "Minimal efficiency - luxury research only",
+    "recommended_stop": "Level 5-10 for most players"
+  },
+  "max_level": 20,
+  "cross_references": {
+    "cards": [
+      "shockwave_size.json"
+    ],
+    "perks": [
+      "shockwave_size.json"
+    ]
+  }
+}

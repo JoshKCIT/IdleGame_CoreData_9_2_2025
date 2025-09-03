@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "milestone_relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Milestone relics are unlocked by reaching wave 4500 in different tiers. These relics provide the foundation for relic bonuses and scale in power from early tiers to late tiers.",
+  "unlock_requirements": {
+    "requirement": "Beat wave 4500 in the specified tier",
+    "progression": "Must complete tiers in order (T:I → T:II → T:III, etc.)",
+    "availability": "Permanent - no time limits or special conditions"
+  },
+  "rarity_progression": {
+    "rare_relics": {
+      "tiers": "T:I - T:V",
+      "bonus": "2% each",
+      "total_relics": 5,
+      "description": "Foundation bonuses for basic stats"
+    },
+    "epic_relics": {
+      "tiers": "T:VI - T:X",
+      "bonus": "5% each",
+      "total_relics": 5,
+      "description": "Enhanced bonuses for mid-game progression"
+    },
+    "legendary_relics": {
+      "tiers": "T:XI - T:XXI",
+      "bonus": "8-10% each",
+      "total_relics": 11,
+      "description": "Powerful bonuses for end-game content"
+    }
+  },
+  "individual_relics": {
+    "rare_tier": {
+      "t_i_flux": {
+        "bonus": "Coins earned +2%"
+      },
+      "t_ii_lumin": {
+        "bonus": "Lab speed +1.5%"
+      },
+      "t_iii_pulse": {
+        "bonus": "Critical factor +2%"
+      },
+      "t_iv_harmonic": {
+        "bonus": "Tower damage +2%"
+      },
+      "t_v_ether": {
+        "bonus": "Tower health +2%"
+      }
+    },
+    "epic_tier": {
+      "t_vi_nova": {
+        "bonus": "Defense absolute +5%"
+      },
+      "t_vii_aether": {
+        "bonus": "Coins earned +5%"
+      },
+      "t_viii_graviton": {
+        "bonus": "Damage/meter +5%"
+      },
+      "t_ix_fusion": {
+        "bonus": "Tower health +5%"
+      },
+      "t_x_plasma": {
+        "bonus": "Damage/meter +5%"
+      }
+    },
+    "legendary_tier": {
+      "t_xi_resonance": {
+        "bonus": "Defense absolute +10%"
+      },
+      "t_xii_chrono": {
+        "bonus": "Lab speed +10%"
+      },
+      "t_xiii_hyper": {
+        "bonus": "Coins earned +10%"
+      },
+      "t_xiv_arcane": {
+        "bonus": "Tower damage +10%"
+      },
+      "t_xv_celestial": {
+        "bonus": "Critical factor +10%"
+      },
+      "t_xvi_quantum": {
+        "bonus": "Tower health +10%"
+      },
+      "t_xvii_nebula": {
+        "bonus": "Damage/meter +10%"
+      },
+      "t_xviii_quantum": {
+        "bonus": "Lab speed +10%"
+      },
+      "t_xix_atomic": {
+        "bonus": "Tower damage +10%"
+      },
+      "t_xx_cyber": {
+        "bonus": "Ultimate damage +8%"
+      },
+      "t_xxi_eclipse": {
+        "bonus": "Lab speed +10%"
+      }
+    }
+  },
+  "strategic_importance": [
+    "Provide consistent progression rewards for tier advancement",
+    "Scale appropriately with game difficulty",
+    "Offer comprehensive coverage of all major stats",
+    "Form the foundation for relic bonus calculations",
+    "Are permanently available unlike event-limited relics"
+  ],
+  "total_milestone_bonuses": {
+    "coins_earned": "+12% (2% + 5% + 5%)",
+    "lab_speed": "+21.5% (1.5% + 4% + 10% + 10%)",
+    "critical_factor": "+12% (2% + 10%)",
+    "tower_damage": "+22% (2% + 10% + 10%)",
+    "tower_health": "+17% (2% + 5% + 10%)",
+    "defense_absolute": "+15% (5% + 10%)",
+    "damage_per_meter": "+20% (5% + 5% + 10%)",
+    "ultimate_damage": "+8%"
+  },
+  "summary": "These bonuses provide significant stat improvements and are the core foundation of the relic system."
+}

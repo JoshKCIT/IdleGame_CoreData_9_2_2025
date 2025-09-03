@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Saboteur Enemy",
+  "description": "Fleet enemy that disables random ultimate weapons (Tier 14+).",
+  "category": "Fleet Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+
+    "target_type": "ultimate_weapons",
+    "effect_category": "utility",
+    "scaling_type": "exponential",
+    "synergy_groups": [
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Saboteur enemies disable random ultimate weapons in Tier 14+",
+    "priority_level": "Highest - ultimate weapon disable affects combat effectiveness",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High damage to eliminate quickly and restore ultimate weapons",
+      "Non-ultimate weapon damage sources",
+      "Single-target focus to eliminate saboteurs first"
+    ],
+    "counter_strategies": [
+      "Priority targets due to ultimate weapon disable",
+      "Eliminate saboteurs quickly to restore ultimate weapons",
+      "High coin value makes them worth targeting"
+    ],
+    "resource_efficiency": "High - saboteur enemies provide high coin income and affect ultimate weapons"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 5.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 8,
+    "attack_type": "standard"
+  },
+  "abilities": [
+    {
+      "name": "Sabotage",
+      "description": "Disables random ultimate weapons",
+      "effect_type": "debuff",
+      "target": "ultimate_weapons"
+    }
+  ],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "fleet",
+    "spawn_percentage": "appears in Tier 14+",
+    "spawn_cap": 5,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 8,
+    "special_drops": []
+  },
+  "strategy": {
+    "description": "Saboteur enemies disable random ultimate weapons in Tier 14+",
+    "tips": [
+      "Priority targets due to ultimate weapon disable",
+      "Eliminate saboteurs quickly to restore ultimate weapons",
+      "High coin value makes them worth targeting",
+      "Only appear in Tier 14 and above"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Harmony Conductor",
+  "description": "This module provides defensive utility by causing poisoned enemies to miss their attacks, with reduced effectiveness against bosses.",
+  "category": "General",
+  "type": "Core",
+  "focus": "Ultimate Weapons",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "module_type": "core",
+    "focus_area": "ultimate_weapons",
+    "target_type": "enemies",
+    "effect_category": "survival",
+    "synergy_groups": [
+      "poison",
+      "defensive_utility"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "poisoned_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "miss_chance": "Base Chance × Rarity Multiplier",
+    "boss_miss_chance": "Base Chance × Rarity Multiplier × 0.5",
+    "trigger_condition": "Poisoned enemies attacking"
+  },
+  "context_fields": {
+    "when_to_use": "When using poison effects and need additional defensive utility",
+    "priority_level": "Medium for poison builds",
+    "upgrade_priority": "Focus on higher rarity versions for better miss chance",
+    "synergy_combinations": [
+      "Poison swamp ultimate weapon",
+      "Poison-related perks and cards",
+      "Defense bonuses for survivability"
+    ],
+    "counter_strategies": [
+      "Most effective against poisoned enemies",
+      "Reduced effectiveness against bosses",
+      "Provides defensive utility through miss chance"
+    ],
+    "resource_efficiency": "Medium - specialized for poison builds"
+  },
+  "rarity_scaling": {
+    "Epic": "15%",
+    "Legendary": "20%",
+    "Mythic": "25%",
+    "Ancestral": "30%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "[x]% chance of poisoned enemies to miss-attack (bosses chance is halved)."
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Wall Rebuild",
+  "description": "Enhances wall mechanics",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "defense_research",
+    "stat_type": "wall_regen",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "wall_defense",
+      "defensive_utility",
+      "thorns"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "melee_enemies",
+      "high_health_enemies",
+      "tanks"
+    ],
+    "target_type": "walls",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "-10.0s",
+    "increment_per_level": "-10.0s",
+    "total_reduction": "-10.0s × Level",
+    "final_rebuild_time": "Base Rebuild Time + Research Bonus + Card Bonus + Perk Bonus",
+    "wall_recovery": "Rebuild Time Reduction × Efficiency Factor"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - reduces wall rebuild time for sustained defense",
+    "priority_level": "Medium - useful for defensive builds",
+    "upgrade_priority": "After core defense and wall health research",
+    "synergy_combinations": [
+      "Wall Fortification research for base health",
+      "Defense research for maximum survivability",
+      "Health research for sustained survival"
+    ],
+    "counter_strategies": [
+      "Effective against melee enemies",
+      "Reduces wall recovery time",
+      "Combines with wall health for maximum effect"
+    ],
+    "resource_efficiency": "Medium - reasonable cost for defensive utility"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 1600000000,
+      "time": "0d 13h 53m",
+      "value": "-10.0s",
+      "delta_value": null,
+      "cum_cost": 1600000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 1910000000,
+      "time": "1d 1h 1m",
+      "value": "-20.0s",
+      "delta_value": "-10.0s",
+      "cum_cost": 3510000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 2230000000,
+      "time": "1d 12h 20m",
+      "value": "-30.0s",
+      "delta_value": "-10.0s",
+      "cum_cost": 5740000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 2610000000,
+      "time": "2d 0h 14m",
+      "value": "-40.0s",
+      "delta_value": "-10.0s",
+      "cum_cost": 8350000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 3040000000,
+      "time": "2d 13h 11m",
+      "value": "-50.0s",
+      "delta_value": "-10.0s",
+      "cum_cost": 11390000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 6650000000,
+      "time": "6d 22h 51m",
+      "value": "-100.0s",
+      "delta_value": "-10.0s",
+      "cum_cost": 36290000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 13890000000,
+      "time": "17d 21h 22m",
+      "value": "-150.0s",
+      "delta_value": "-10.0s",
+      "cum_cost": 89490000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 26330000000,
+      "time": "41d 21h 23m",
+      "value": "-200.0s",
+      "delta_value": "-10.0s",
+      "cum_cost": 193900000000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Medium efficiency in first 5 levels",
+    "mid_levels": "Decreasing efficiency after level 10",
+    "late_levels": "Low efficiency, high cost",
+    "recommended_stop": "Level 10-15 for most players"
+  },
+  "max_level": 20,
+  "cross_references": {
+    "cards": [
+      "wall_rebuild.json"
+    ],
+    "perks": [
+      "wall_rebuild.json"
+    ]
+  }
+}

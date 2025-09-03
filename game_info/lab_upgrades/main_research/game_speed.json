@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Game Speed",
+  "description": "Increases game speed",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "main_research",
+    "stat_type": "game_speed",
+    "target": "tower",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "economy",
+      "resource_generation",
+      "efficiency"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "x2.0",
+    "increment_per_level": "0.5",
+    "total_speed": "2.0 + (Level - 1) × 0.5",
+    "final_game_speed": "Base Game Speed + Research Bonus + Card Bonus + Perk Bonus",
+    "time_compression": "Game Speed × Real Time = Game Time"
+  },
+  "context_fields": {
+    "when_to_use": "Early to mid game - essential for faster progression",
+    "priority_level": "High - significantly improves gameplay speed",
+    "upgrade_priority": "First priority for quality of life improvements",
+    "synergy_combinations": [
+      "Buy Multiplier research for bulk purchases",
+      "Card Presets research for efficient management",
+      "Labs Speed research for faster research"
+    ],
+    "counter_strategies": [
+      "Effective for all game phases",
+      "Improves progression speed",
+      "Reduces waiting time"
+    ],
+    "resource_efficiency": "High - essential quality of life improvement"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 300,
+      "time": "0d 0h 9m",
+      "value": "x2.0",
+      "delta_value": null,
+      "cum_cost": 300,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 2500,
+      "time": "0d 2h 30m",
+      "value": "x2.5",
+      "delta_value": "0.5",
+      "cum_cost": 2800,
+      "efficiency": 0.0002,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 12000,
+      "time": "0d 9h 48m",
+      "value": "x3.0",
+      "delta_value": "0.5",
+      "cum_cost": 14800,
+      "efficiency": 4.2e-05,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 50000,
+      "time": "1d 10h 2m",
+      "value": "x3.5",
+      "delta_value": "0.5",
+      "cum_cost": 64800,
+      "efficiency": 1e-05,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 150000,
+      "time": "3d 19h 39m",
+      "value": "x4.0",
+      "delta_value": "0.5",
+      "cum_cost": 214800,
+      "efficiency": 3e-06,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 500000,
+      "time": "14d 1h 46m",
+      "value": "x4.5",
+      "delta_value": "0.5",
+      "cum_cost": 714800,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 1000000,
+      "time": "25d 11h 6m",
+      "value": "x5.0",
+      "delta_value": "0.5",
+      "cum_cost": 1714800,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 3 levels",
+    "mid_levels": "Medium efficiency after level 4",
+    "late_levels": "Low efficiency, high cost",
+    "recommended_stop": "Level 5-6 for most players"
+  },
+  "max_level": 7,
+  "cross_references": {
+    "cards": [
+      "game_speed.json"
+    ],
+    "perks": [
+      "game_speed.json"
+    ]
+  }
+}

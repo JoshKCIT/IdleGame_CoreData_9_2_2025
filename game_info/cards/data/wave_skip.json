@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Wave Skip",
+  "description": "Enhances wave mechanics",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Rare": {
+      "description": "Chance to skip a wave and earning coins and cash equal to the previous wave x1.10 of #%",
+      "levels": [
+        {
+          "percent": 9.0
+        },
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 11.0
+        },
+        {
+          "percent": 13.0
+        },
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 17.0
+        },
+        {
+          "percent": 19.0
+        }
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Chance to double wave skip",
+      "stone_cost": "1000",
+      "levels": [
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%",
+        "35%",
+        "40%",
+        "45%",
+        "50%",
+        "55%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Chance to double wave skip",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 25.0
+        },
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 35.0
+        },
+        {
+          "percent": 40.0
+        },
+        {
+          "percent": 45.0
+        },
+        {
+          "percent": 50.0
+        },
+        {
+          "percent": 55.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "wave_skip.json"
+    ],
+    "lab_research": [
+      "wave_skip.json"
+    ]
+  }
+}

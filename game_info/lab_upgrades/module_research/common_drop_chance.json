@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Common Drop Chance",
+  "description": "Lab research enhancement",
+  "category": "Enemy Research",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "module_research",
+    "stat_type": "drop_chance",
+    "target": "module_drops",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "module_system"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": 0.001,
+    "increment_per_level": 0.001,
+    "total_value": "0.001 × Level",
+    "effect": "Increases common module drop chance by +0.1% per level"
+  },
+  "context_fields": {
+    "when_to_use": "When you want to increase common module drop rates",
+    "priority_level": "Medium - affects module acquisition",
+    "upgrade_priority": "After basic module research",
+    "synergy_combinations": [
+      "All module-related research",
+      "Module shard cost research",
+      "Module coin cost research"
+    ],
+    "counter_strategies": [
+      "Increases common module availability",
+      "Improves module acquisition rates",
+      "Enhances module system progression"
+    ],
+    "resource_efficiency": "Medium - improves module drop rates"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 5000000,
+      "time": "4d 4h 0m",
+      "value": 0.001,
+      "delta_value": null,
+      "cum_cost": 5000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 40000000,
+      "time": "4d 12h 21m",
+      "value": 0.002,
+      "delta_value": 0.001,
+      "cum_cost": 45000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 114250000,
+      "time": "4d 20h 50m",
+      "value": 0.003,
+      "delta_value": 0.001,
+      "cum_cost": 159250000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 282700000,
+      "time": "5d 5h 39m",
+      "value": 0.004,
+      "delta_value": 0.001,
+      "cum_cost": 441950000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 610030000,
+      "time": "5d 14h 58m",
+      "value": 0.005,
+      "delta_value": 0.001,
+      "cum_cost": 1051980000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 1170000000,
+      "time": "6d 1h 1m",
+      "value": 0.006,
+      "delta_value": 0.001,
+      "cum_cost": 2221980000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 2030000000,
+      "time": "6d 12h 0m",
+      "value": 0.007,
+      "delta_value": 0.001,
+      "cum_cost": 4251980000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 3290000000,
+      "time": "7d 0h 10m",
+      "value": 0.008,
+      "delta_value": 0.001,
+      "cum_cost": 7541980000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 5020000000,
+      "time": "7d 13h 45m",
+      "value": 0.009,
+      "delta_value": 0.001,
+      "cum_cost": 12561980000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 7320000000,
+      "time": "8d 5h 0m",
+      "value": 0.01,
+      "delta_value": 0.001,
+      "cum_cost": 19881980000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Good efficiency for module drop improvement",
+    "mid_levels": "Decreasing efficiency at higher levels",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 5-7 for most players"
+  },
+  "max_level": 10,
+  "cross_references": {
+    "cards": [
+      "common_drop_chance.json"
+    ],
+    "perks": [
+      "common_drop_chance.json"
+    ]
+  }
+}

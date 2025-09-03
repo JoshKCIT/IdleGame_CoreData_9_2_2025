@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "Unlocking Perks",
+  "overview": "Perks are initially unlocked in labs. To access the lab you will need to unlock and complete the Unlock Perks lab in Milestones at tier 2 wave 150.",
+  "requirements": {
+    "tier_requirement": "Must reach tier 2 wave 150 in Milestones",
+    "lab_requirement": "Must complete the \"Unlock Perks\" lab research",
+    "unlock_chain": "This lab unlocks other perk-related labs after completion"
+  },
+  "unlocks": {
+    "perk_selection": "Perk selection during rounds",
+    "additional_labs": "Additional perk-related lab research",
+    "perk_management": "Perk management features"
+  }
+}

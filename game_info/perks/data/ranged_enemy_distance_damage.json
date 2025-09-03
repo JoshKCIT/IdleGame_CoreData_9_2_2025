@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Ranged Enemy Distance Damage",
+  "description": "Increases damage based on ranged enemy distance",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "offensive",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "damage_type": "physical",
+    "target_type": "enemies",
+    "activation": "automatic",
+    "range": "tower_range",
+    "stat_type": "damage_amplification",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "high_damage_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "0.30 per perk level",
+    "total_bonus": "(1 + 0.30 × Quantity) × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_damage": "Base Damage × (1 + Perk Bonus) × (1 + Card Bonus) × (1 + Relic Bonus)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for countering ranged enemies and distance-based threats",
+    "priority_level": "Medium-High - situational but powerful",
+    "upgrade_priority": "Medium priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Range for better target coverage",
+      "Damage for increased base damage",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against ranged enemies and distance-based threats",
+      "Scales multiplicatively with other damage bonuses",
+      "Combines with range perks for maximum effectiveness"
+    ],
+    "resource_efficiency": "High - excellent situational damage scaling",
+    "effect": "Ranged Enemy Distance Damage x1.30",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "multiplicative",
+    "formula": "Total Bonus = (1 + Base Value x Quantity) x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/damage.json",
+    "related_research": "lab_upgrades/attack_research/damage.json",
+    "cards": [
+      "ranged_enemy_distance_damage.json"
+    ],
+    "perks": [
+      "range.json"
+    ],
+    "relics": [
+      "t_iv_harmonic.json",
+      "t_xiv_arcane.json",
+      "t_xix_atomic.json"
+    ],
+    "lab_research": [
+      "ranged_enemy_distance_damage.json"
+    ],
+    "modules": [
+      "astral_deliverance.json"
+    ]
+  }
+}

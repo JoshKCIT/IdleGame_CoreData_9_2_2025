@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Orbs",
+  "description": "Increases orb count",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "defensive",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "damage_type": "area_damage",
+    "target_type": "projectiles",
+    "activation": "automatic",
+    "range": "tower_range",
+    "stat_type": "damage_amplification",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "shockwave",
+      "area_damage",
+      "defensive_utility"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "swarms",
+      "grouped_enemies",
+      "melee_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "1 per perk level",
+    "total_bonus": "Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_orb_count": "Base Orb Count + (Perk Bonus × Quantity)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for area damage and crowd control",
+    "priority_level": "Medium-High - powerful defensive utility",
+    "upgrade_priority": "Medium priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Orb Speed for faster area coverage",
+      "Shockwave Size for larger area damage",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against swarms and grouped enemies",
+      "Scales additively with other orb bonuses",
+      "Combines with shockwave perks for area control"
+    ],
+    "resource_efficiency": "High - excellent defensive area damage",
+    "effect": "Orbs +1",
+    "appearance_chance": "65%",
+    "max_quantity": 2,
+    "calculation_type": "additive",
+    "formula": "Total Bonus = Base Value x Quantity x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/extra_orb.json",
+    "related_research": "lab_upgrades/defense_research/orb_speed.json",
+    "cards": [
+      "orbs.json"
+    ],
+    "lab_research": [
+      "orbs.json"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Wave Accelerator",
+  "description": "Enhances wave mechanics",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "Reduce the cooldown between waves by [x]",
+      "levels": [
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 34.0
+        },
+        {
+          "percent": 38.0
+        },
+        {
+          "percent": 42.0
+        },
+        {
+          "percent": 46.0
+        },
+        {
+          "percent": 50.0
+        },
+        {
+          "percent": 54.0
+        }
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Increases spawn rate acceleration",
+      "stone_cost": "1000",
+      "levels": [
+        "+110.0%+",
+        "120.0%+",
+        "130.0%+",
+        "140.0%+",
+        "150.0%+",
+        "160.0%+",
+        "170.0%+",
+        "180.0%+",
+        "190.0%+",
+        "200.0%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Increases spawn rate acceleration",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "percent": 110.0
+        },
+        {
+          "percent": 120.0
+        },
+        {
+          "percent": 130.0
+        },
+        {
+          "percent": 140.0
+        },
+        {
+          "percent": 150.0
+        },
+        {
+          "percent": 160.0
+        },
+        {
+          "percent": 170.0
+        },
+        {
+          "percent": 180.0
+        },
+        {
+          "percent": 190.0
+        },
+        {
+          "percent": 200.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "wave_accelerator.json"
+    ],
+    "lab_research": [
+      "wave_accelerator.json"
+    ]
+  }
+}

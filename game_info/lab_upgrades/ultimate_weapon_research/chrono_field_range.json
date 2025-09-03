@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Chrono Field Range",
+  "description": "Increases tower attack range",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "ultimate_weapon_research",
+    "stat_type": "field_range",
+    "target": "enemies",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "defensive",
+      "chrono_field",
+      "coverage"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "3.00",
+    "increment_per_level": "3.00",
+    "total_range": "3.00 × Level",
+    "final_range": "Base Range + Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Increases range of chrono field ultimate weapon"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - increases chrono field range",
+    "priority_level": "Medium - important for chrono field builds",
+    "upgrade_priority": "Medium priority for chrono field specialization",
+    "synergy_combinations": [
+      "Other chrono field research for comprehensive builds",
+      "Chrono field duration research for uptime",
+      "Chrono field damage reduction research for survival"
+    ],
+    "counter_strategies": [
+      "Increases field range",
+      "Improves coverage area",
+      "Enhances chrono field effectiveness"
+    ],
+    "resource_efficiency": "Medium - important for chrono field builds but expensive at high levels"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 250000,
+      "time": "0d 20h 0m",
+      "value": 3.0,
+      "delta_value": null,
+      "cum_cost": 250000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 560000,
+      "time": "1d 4h 21m",
+      "value": 6.0,
+      "delta_value": 3,
+      "cum_cost": 810000,
+      "efficiency": 5e-06,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 1100000,
+      "time": "1d 12h 53m",
+      "value": 9.0,
+      "delta_value": 3,
+      "cum_cost": 1910000,
+      "efficiency": 3e-06,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 2800000,
+      "time": "1d 21h 54m",
+      "value": 12.0,
+      "delta_value": 3,
+      "cum_cost": 4710000,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 7750000,
+      "time": "2d 7h 49m",
+      "value": 15.0,
+      "delta_value": 3,
+      "cum_cost": 12460000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 19540000,
+      "time": "2d 19h 6m",
+      "value": 18.0,
+      "delta_value": 3,
+      "cum_cost": 32000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 43580000,
+      "time": "3d 8h 17m",
+      "value": 21.0,
+      "delta_value": 3,
+      "cum_cost": 75580000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 87410000,
+      "time": "3d 23h 58m",
+      "value": 24.0,
+      "delta_value": 3,
+      "cum_cost": 162990000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 160910000,
+      "time": "4d 18h 49m",
+      "value": 27.0,
+      "delta_value": 3,
+      "cum_cost": 323900000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 276620000,
+      "time": "5d 17h 31m",
+      "value": 30.0,
+      "delta_value": 3,
+      "cum_cost": 600520000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 449930000,
+      "time": "6d 20h 49m",
+      "value": 33.0,
+      "delta_value": 3,
+      "cum_cost": 1050450000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 699340000,
+      "time": "8d 5h 30m",
+      "value": 36.0,
+      "delta_value": 3,
+      "cum_cost": 1749790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 1050000000,
+      "time": "9d 20h 23m",
+      "value": 39.0,
+      "delta_value": 3,
+      "cum_cost": 2799790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 1520000000,
+      "time": "11d 18h 21m",
+      "value": 42.0,
+      "delta_value": 3,
+      "cum_cost": 4319790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 2140000000,
+      "time": "14d 0h 18m",
+      "value": 45.0,
+      "delta_value": 3,
+      "cum_cost": 6459790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 2950000000,
+      "time": "16d 15h 9m",
+      "value": 48.0,
+      "delta_value": 3,
+      "cum_cost": 9409790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 17,
+      "cost": 3980000000,
+      "time": "19d 15h 54m",
+      "value": 51.0,
+      "delta_value": 3,
+      "cum_cost": 13389790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 18,
+      "cost": 5270000000,
+      "time": "23d 3h 32m",
+      "value": 54.0,
+      "delta_value": 3,
+      "cum_cost": 18659790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 19,
+      "cost": 6880000000,
+      "time": "27d 3h 6m",
+      "value": 57.0,
+      "delta_value": 3,
+      "cum_cost": 25539790000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 8840000000,
+      "time": "31d 15h 40m",
+      "value": 60.0,
+      "delta_value": 3,
+      "cum_cost": 34379790000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 8 levels",
+    "mid_levels": "Decreasing efficiency after level 12",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 15-17 for most players"
+  },
+  "max_level": 20,
+  "cross_references": {
+    "cards": [
+      "chrono_field_range.json"
+    ],
+    "perks": [
+      "chrono_field_range.json"
+    ],
+    "modules": [
+      "astral_deliverance.json"
+    ]
+  }
+}

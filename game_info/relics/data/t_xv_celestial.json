@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "T:XV Celestial",
+  "description": "Increase critical factor by 10%",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "critical_hit",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "critical_hits"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Legendary milestone relic, massive critical hit improvement",
+  "tier": 15,
+  "unlock_method": "Milestone",
+  "bonus_type": "critical_factor",
+  "bonus_value": 10,
+  "unlock_requirement": "Milestone: Beat wave 4500 in tier 15",
+  "rarity": "Legendary",
+  "effect": "Critical factor +10%"
+}

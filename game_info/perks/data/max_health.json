@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Max Health",
+  "description": "Increases tower maximum health",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "defensive",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "damage_type": "health_reduction",
+    "target_type": "tower",
+    "activation": "automatic",
+    "range": "tower_range",
+    "stat_type": "health",
+    "effect_category": "survival",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "health_regen",
+      "defense",
+      "wall_defense"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "high_damage_enemies",
+      "bosses",
+      "fast_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "0.20 per perk level",
+    "total_bonus": "(1 + 0.20 × Quantity) × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_health": "Base Health × (1 + Perk Bonus) × (1 + Card Bonus) × (1 + Relic Bonus)"
+  },
+  "context_fields": {
+    "when_to_use": "Essential for survival against high-damage enemies",
+    "priority_level": "High - fundamental for tower survival",
+    "upgrade_priority": "High priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Health Regen for sustained survival",
+      "Defense Absolute/Percent for damage mitigation",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against high-damage enemies and bosses",
+      "Scales multiplicatively with other health bonuses",
+      "Combines with defense perks for maximum survivability"
+    ],
+    "resource_efficiency": "Very High - fundamental survival stat",
+    "effect": "x1.20 Max Health",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "multiplicative",
+    "formula": "Total Bonus = (1 + Base Value x Quantity) x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/health.json",
+    "related_research": "lab_upgrades/defense_research/health.json",
+    "cards": [
+      "max_health.json"
+    ],
+    "perks": [
+      "max_health.json",
+      "health_regen.json"
+    ],
+    "lab_research": [
+      "max_health.json"
+    ],
+    "modules": [
+      "sharp_fortitude.json"
+    ]
+  }
+}

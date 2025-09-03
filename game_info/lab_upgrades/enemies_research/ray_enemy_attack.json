@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Ray Enemy Attack",
+  "description": "Enemy mechanics enhancement",
+  "category": "Enemy Research",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "enemies_research",
+    "stat_type": "enemy_attack_reduction",
+    "target": "ray_enemies",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "ray_enemies"
+    ],
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": -0.016,
+    "increment_per_level": -0.016,
+    "total_value": "-0.016 × Level",
+    "effect": "Reduces ray enemy attack by -1.6% per level"
+  },
+  "context_fields": {
+    "when_to_use": "When ray enemies are dealing too much damage",
+    "priority_level": "Medium - only affects ray enemies",
+    "upgrade_priority": "After basic enemy research",
+    "synergy_combinations": [
+      "Ray enemy health research",
+      "All enemy weakening research",
+      "Elite enemy research"
+    ],
+    "counter_strategies": [
+      "Reduces ray enemy attack damage",
+      "Makes ray enemies less threatening",
+      "Improves survival against ray enemies"
+    ],
+    "resource_efficiency": "Medium - only useful against ray enemies"
+  },
+  "research_levels": [
+    {
+      "level": 4,
+      "cost": 1,
+      "time": "43d 4h 45m",
+      "value": -0.016,
+      "delta_value": null,
+      "cum_cost": 1,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 2,
+      "time": "86d 9h 30m",
+      "value": -0.032,
+      "delta_value": -0.016,
+      "cum_cost": 3,
+      "efficiency": -0.008,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 3,
+      "time": "129d 14h 15m",
+      "value": -0.048,
+      "delta_value": -0.016,
+      "cum_cost": 6,
+      "efficiency": -0.005333,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 4,
+      "time": "172d 19h 0m",
+      "value": -0.064,
+      "delta_value": -0.016,
+      "cum_cost": 10,
+      "efficiency": -0.004,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 5,
+      "time": "215d 23h 46m",
+      "value": -0.08,
+      "delta_value": -0.016,
+      "cum_cost": 15,
+      "efficiency": -0.0032,
+      "notes": null
+    },
+    {
+      "level": 24,
+      "cost": 6,
+      "time": "259d 4h 31m",
+      "value": -0.096,
+      "delta_value": -0.016,
+      "cum_cost": 21,
+      "efficiency": -0.002667,
+      "notes": null
+    },
+    {
+      "level": 28,
+      "cost": 7,
+      "time": "302d 9h 16m",
+      "value": -0.112,
+      "delta_value": -0.016,
+      "cum_cost": 28,
+      "efficiency": -0.002286,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Good efficiency for ray enemy weakening",
+    "mid_levels": "Decreasing efficiency at higher levels",
+    "late_levels": "Very low efficiency, high time cost",
+    "recommended_stop": "Level 16-20 for most players"
+  },
+  "max_level": 28,
+  "cross_references": {
+    "cards": [
+      "ray_enemy_attack.json"
+    ],
+    "perks": [
+      "ray_enemy_attack.json"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Smart Missiles",
+  "description": "Increases smart missile count",
+  "category": "Ultimate Weapon Perks",
+  "type": "perk",
+  "focus": "offensive",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "damage_type": "area_damage",
+    "target_type": "projectiles",
+    "activation": "automatic",
+    "range": "projectile_based",
+    "stat_type": "damage_amplification",
+    "effect_category": "combat",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "ultimate_weapons",
+      "projectile_enhancement",
+      "area_damage"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "swarms",
+      "grouped_enemies",
+      "low_health_groups"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "1 per perk level",
+    "total_bonus": "Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_missile_count": "Base Smart Missile Count + (Perk Bonus × Quantity)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for ultimate weapon enhancement and area damage",
+    "priority_level": "Medium-High - powerful ultimate weapon enhancement",
+    "upgrade_priority": "Medium priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Smart Missile Damage for increased missile damage",
+      "Damage for increased base missile damage",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential for ultimate weapon effectiveness",
+      "Scales additively with other smart missile bonuses",
+      "Combines with damage perks for maximum ultimate weapon damage"
+    ],
+    "resource_efficiency": "High - excellent ultimate weapon scaling",
+    "effect": "Smart Missiles +1",
+    "appearance_chance": "20%",
+    "max_quantity": 1,
+    "calculation_type": "special",
+    "formula": "N/A"
+  },
+  "notes": "Ultimate weapon perks will only be shown when the affected Ultimate Weapon is unlocked. If the ultimate weapon is unlocked from the 'Unlock a random ultimate weapon' perk, the Ultimate Weapon perk will become available for that run.",
+  "cross_references": {
+    "related_card": "cards/data/smart_missiles.json",
+    "related_research": "lab_upgrades/ultimate_weapon_research/smart_missiles.json",
+    "cards": [
+      "smart_missiles.json"
+    ],
+    "lab_research": [
+      "smart_missiles.json"
+    ]
+  }
+}

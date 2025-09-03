@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module_system",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "module",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "system_type": "module_system_overview",
+  "module_types": {
+    "cannon": "Focuses on Attack",
+    "armor": "Focuses on Defense",
+    "generator": "Focuses on Utility",
+    "core": "Focuses on Ultimate Weapons"
+  },
+  "acquiring_modules": {
+    "unlock_requirement": "Tier 2 wave 90",
+    "acquisition_methods": [
+      "module tickets",
+      "gems"
+    ],
+    "free_tickets": "10 module tickets are given for free when modules are first unlocked",
+    "gem_costs": {
+      "single_draw": "20 gems",
+      "ten_draws": "200 gems"
+    }
+  },
+  "banners": {
+    "standard_banner": {
+      "description": "Allows \"normal\" chances of drawing each epic",
+      "special_rule": "Modules owned that are 5* Anc are less likely to be pulled"
+    },
+    "featured_banner": {
+      "description": "Showcases a specific module that will have a subset chance of 50% of epic pulls being that specific module",
+      "duration": "two week duration followed by a one week break"
+    }
+  },
+  "pull_rates": {
+    "common_module": "68.5%",
+    "rare_module": "29%",
+    "epic_module": "2.5%",
+    "bad_luck_protection": "if you don't get an epic Module for 150 purchases, you're guaranteed an Epic Module",
+    "guaranteed_rare": "It is guaranteed to have at least 1 rare module in every 10-pull"
+  },
+  "upgrading_modules": {
+    "leveling": "Modules can be leveled up to improve their main stat using shards and coins",
+    "max_level": "The maximum level of a module is determined by its current rarity",
+    "merging": "By merging modules to higher rarities, you can increase the module to its new max",
+    "level_preservation": "Merging will not reset the current level of the module"
+  },
+  "rarity_and_max_levels": {
+    "rare": {
+      "max_level": 30
+    },
+    "rare_plus": {
+      "max_level": 40
+    },
+    "epic": {
+      "max_level": 60
+    },
+    "epic_plus": {
+      "max_level": 80
+    },
+    "legendary": {
+      "max_level": 100
+    },
+    "legendary_plus": {
+      "max_level": 120
+    },
+    "mythic": {
+      "max_level": 140
+    },
+    "mythic_plus": {
+      "max_level": 160
+    },
+    "ancestral": {
+      "max_level": 200
+    },
+    "1_star": {
+      "max_level": 220
+    },
+    "2_star": {
+      "max_level": 240
+    },
+    "3_star": {
+      "max_level": 260
+    },
+    "4_star": {
+      "max_level": 280
+    },
+    "5_star": {
+      "max_level": 300
+    }
+  },
+  "shards": {
+    "shattering_rates": {
+      "common": "5 per common",
+      "rare": "10 per rare"
+    },
+    "shattering_note": "after merging, the shards earned from shattering keep the value of all merged modules combined",
+    "other_sources": [
+      "Completing daily events",
+      "Buying them from the event shop",
+      "Natural epics may be shattered once a 5-star Ancestral Mod is formed of the same type"
+    ]
+  },
+  "module_reset": {
+    "method": "Modules can be reset by using the \"restore\" button",
+    "cost": "The button does not cost resources",
+    "returns": "will return all shards spent and all coins spent",
+    "not_returned": [
+      "reroll shards",
+      "gems"
+    ],
+    "sub_module_preservation": "All sub-module effects will be kept until the module is levelled again, even those that require higher levels, so there is no harm in having several modules with different effects that you swap levels between"
+  },
+  "boss_drops": {
+    "shards": {
+      "drop_chance": "15%",
+      "scaling": "The amount of shards dropped by bosses increase depending on the tier you are running"
+    },
+    "common_modules": {
+      "base_chance": "2%",
+      "lab_improvement": "can be increased with their respective labs"
+    },
+    "rare_modules": {
+      "base_chance": "0.5%",
+      "lab_improvement": "can be increased with their respective labs"
+    }
+  },
+  "shard_drop_rates_by_tier": {
+    "T1": 1,
+    "T2": 2,
+    "T3": 3,
+    "T4": 4,
+    "T5": 6,
+    "T6": 8,
+    "T7": 12,
+    "T8": 18,
+    "T9": 25,
+    "T10": 32,
+    "T11": 40,
+    "T12": 45,
+    "T13": 50,
+    "T14": 55,
+    "T15": 60,
+    "T16": 65,
+    "T17": 70,
+    "T18": 75
+  },
+  "merging_modules": {
+    "starting_rarities": "Modules start as 1 of 3 rarities",
+    "merge_determination": "The starting rarity determines how far a module can be merged and what rarity that module can be merged to",
+    "merge_capabilities": {
+      "common": "Cannot be merged",
+      "rare": "Can be merged to Legendary+",
+      "epic": "Can be merged to Ancestral with 5 stars (ancestral is the only rarity with stars)"
+    },
+    "important_notes": [
+      "Rare modules will never receive a unique ability when merging even to epic or higher",
+      "Rare modules keep their original name. No rare will ever match with an epic that you pulled with gems",
+      "Ancestral modules can be upgraded to 5 stars, each star requires an natural epic+ module and increases the main effect"
+    ]
+  },
+  "module_stats": {
+    "main_effect": "The primary stat boost (damage, health, coin bonus, or ultimate weapon damage)",
+    "sub_module_effects": "Secondary effects that can be rerolled",
+    "unique_effects": "Special abilities only available on epic+ modules drawn from gems"
+  }
+}

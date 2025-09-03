@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Lunar Cat Paw",
+  "description": "Increase critical chance by 1%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "critical_hit",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "critical_hits"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Rare event relic with unique critical chance bonus",
+  "bonus_type": "critical_chance",
+  "unlock_requirement": "Event: Earn 350 medals during the \"Meowy Night\"",
+  "rarity": "Rare",
+  "unlock_method": "Event",
+  "bonus_value": 1,
+  "medal_requirement": 350,
+  "effect": "Critical chance +1%",
+  "event_name": "Meowy Night"
+}

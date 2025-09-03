@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_research",
+    "file_format": "json"
+  },
+  "name": "Thunder Bot Cooldown",
+  "description": "This lab research reduces the cooldown time for Thunder Bot activations, allowing it to stun enemies more frequently.",
+  "category": "Bot Research",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "bot_research",
+    "stat_type": "attack_speed",
+    "target": "thunder_bot",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "utility",
+      "attack_speed",
+      "crowd_control"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "fast_enemies",
+      "swarms"
+    ],
+    "target_type": "tower",
+    "activation": "cooldown_based"
+  },
+  "calculation_formulas": {
+    "base_cooldown": "75 seconds",
+    "cooldown_reduction": "3 seconds per level",
+    "final_cooldown": "Base Cooldown - (Level × 3 seconds)",
+    "effect": "Reduces Thunder Bot cooldown for more frequent stun activations"
+  },
+  "context_fields": {
+    "when_to_use": "When using Thunder Bot and need more frequent crowd control",
+    "priority_level": "High for Thunder Bot builds",
+    "upgrade_priority": "High priority for Thunder Bot optimization",
+    "synergy_combinations": [
+      "Thunder Bot linger time research for extended stun effects",
+      "Thunder Bot duration research for longer active stuns",
+      "Other crowd control research"
+    ],
+    "counter_strategies": [
+      "More frequent crowd control coverage",
+      "Better stun uptime",
+      "Enhanced protection against enemy waves"
+    ],
+    "resource_efficiency": "High - increases Thunder Bot effectiveness significantly"
+  },
+  "notes": "Additional information",
+  "research_details": {
+    "category": "Bot Research",
+    "effect": "Reduces Thunder Bot cooldown",
+    "research_type": "Cooldown reduction"
+  },
+  "benefits": [
+    "More frequent Thunder Bot activations",
+    "Increased crowd control coverage",
+    "Better stun uptime",
+    "Enhanced protection against enemy waves"
+  ],
+  "strategic_value": {
+    "early_game": "Provides more frequent crowd control",
+    "mid_game": "Enhances stun coverage and protection",
+    "late_game": "Maximizes Thunder Bot uptime for optimal crowd control"
+  },
+  "synergies": [
+    "Works well with Thunder Bot linger time research",
+    "Complements duration research",
+    "Enhances overall Thunder Bot effectiveness"
+  ]
+}

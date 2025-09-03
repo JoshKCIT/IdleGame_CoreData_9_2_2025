@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Shrink Ray",
+  "description": "This module adds shrink ray effects that reduce enemy size and potentially their effectiveness.",
+  "category": "General",
+  "type": "Cannon",
+  "focus": "Attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "module_type": "cannon",
+    "focus_area": "attack",
+    "target_type": "enemies",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "offensive",
+      "enemy_debuff"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "shrink_effect": "Base Percentage × Rarity Multiplier",
+    "effect_duration": "Variable based on module level",
+    "size_reduction": "Reduces enemy size and potentially effectiveness"
+  },
+  "context_fields": {
+    "when_to_use": "When needing to debuff enemies and reduce their effectiveness",
+    "priority_level": "Medium - useful for enemy debuffing",
+    "upgrade_priority": "Medium priority for offensive builds",
+    "synergy_combinations": [
+      "Other offensive modules for enhanced damage",
+      "Debuff effects for comprehensive enemy weakening",
+      "Area-of-effect abilities for multiple shrunk enemies"
+    ],
+    "counter_strategies": [
+      "Reduces enemy size and effectiveness",
+      "Makes enemies easier to target and eliminate",
+      "Provides tactical advantage through enemy debuffing"
+    ],
+    "resource_efficiency": "Medium - useful for enemy debuffing strategies"
+  },
+  "rarity_scaling": {
+    "Epic": "10%",
+    "Legendary": "15%",
+    "Mythic": "20%",
+    "Ancestral": "25%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Adds shrink ray effects that reduce enemy size and effectiveness."
+}

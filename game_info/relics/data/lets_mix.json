@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Let's Mix",
+  "description": "Increase coins earned by 2%",
+  "category": "Guild Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "effect_category": "economy",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "coin_multiplier",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "economy",
+      "resource_generation"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Guild Season 3 relic, enhances coin generation",
+  "bonus_type": "coins_earned",
+  "unlock_requirement": "Guild: Spend 75 Tokens during the \"Season 3\"",
+  "rarity": "Rare",
+  "unlock_method": "Guild",
+  "bonus_value": 2,
+  "guild_season": 3,
+  "effect": "Coins earned +2%",
+  "token_requirement": 75
+}

@@ -1,0 +1,636 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module_system",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "module",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "system_type": "sub_module_effects",
+  "overview": "Sub-module effects are dependent on the type of module. For instance, cannon modules will get sub-module effects that increase damage workshop stats. The rarity for the sub-module is not determined by the rarity of the module but the maximum rarity for the effect is the same as the current module rarity. This means a legendary module may have a common sub-module effect but can receive a legendary effect on a reroll.",
+  "sub_module_rarity_chances": {
+    "common": "46.2%",
+    "rare": "40%",
+    "epic": "10%",
+    "legendary": "2.5%",
+    "mythic": "1.0%",
+    "ancestral": "0.3%"
+  },
+  "reroll_system": {
+    "description": "Sub-module effects that you do not want to be rerolled can be locked. Locking sub-module effects will raise the cost of rerolls. In addition, there is an Auto Roll feature that a player can define what effects and rarities are acceptable and have the game reroll at a fast speed until one of the acceptable selection is found. Auto roll can be canceled mid process if desired. If effect bans, such as Cannon Effect Bans are researched, players can define their ban selections and these will not be included in the reroll pool."
+  },
+  "cannon_submodules": {
+    "attack_speed": {
+      "common": 0.3,
+      "rare": 0.5,
+      "epic": 0.7,
+      "legendary": 1,
+      "mythic": 3,
+      "ancestral": 5
+    },
+    "crit_chance_percent": {
+      "common": 2,
+      "rare": 3,
+      "epic": 4,
+      "legendary": 6,
+      "mythic": 8,
+      "ancestral": 10
+    },
+    "crit_factor": {
+      "common": 2,
+      "rare": 4,
+      "epic": 6,
+      "legendary": 8,
+      "mythic": 12,
+      "ancestral": 15
+    },
+    "attack_range_m": {
+      "common": 2,
+      "rare": 4,
+      "epic": 8,
+      "legendary": 12,
+      "mythic": 20,
+      "ancestral": 30
+    },
+    "damage_per_meter_m": {
+      "common": 0.005,
+      "rare": 0.01,
+      "epic": 0.025,
+      "legendary": 0.04,
+      "mythic": 0.075,
+      "ancestral": 0.15
+    },
+    "multishot_chance_percent": {
+      "common": "n/a",
+      "rare": 3,
+      "epic": 5,
+      "legendary": 7,
+      "mythic": 10,
+      "ancestral": 13
+    },
+    "multishot_targets": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 1,
+      "legendary": 2,
+      "mythic": 3,
+      "ancestral": 4
+    },
+    "rapid_fire_chance_percent": {
+      "common": "n/a",
+      "rare": 2,
+      "epic": 4,
+      "legendary": 6,
+      "mythic": 9,
+      "ancestral": 12
+    },
+    "rapid_fire_duration": {
+      "common": "n/a",
+      "rare": "0.4s",
+      "epic": "0.8s",
+      "legendary": "1.4s",
+      "mythic": "2.5s",
+      "ancestral": "3.5s"
+    },
+    "bounce_shot_chance": {
+      "common": "n/a",
+      "rare": "2%",
+      "epic": "3%",
+      "legendary": "5%",
+      "mythic": "9%",
+      "ancestral": "12%"
+    },
+    "bounce_shot_targets": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 1,
+      "legendary": 2,
+      "mythic": 3,
+      "ancestral": 4
+    },
+    "bounce_shot_range": {
+      "common": "n/a",
+      "rare": "0.5m",
+      "epic": "0.8m",
+      "legendary": "1.2m",
+      "mythic": "1.8m",
+      "ancestral": "2.0m"
+    },
+    "super_crit_chance": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "3%",
+      "legendary": "5%",
+      "mythic": "7%",
+      "ancestral": "10%"
+    },
+    "super_crit_multi": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 2,
+      "legendary": 3,
+      "mythic": 5,
+      "ancestral": 7
+    },
+    "rend_armor_chance": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": "2%",
+      "mythic": "5%",
+      "ancestral": "8%"
+    },
+    "rend_armor_multi": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": "2%",
+      "mythic": "5%",
+      "ancestral": "8%"
+    },
+    "max_rend_armor_multi": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": "200%",
+      "mythic": "300%",
+      "ancestral": "500%"
+    }
+  },
+  "armor_submodules": {
+    "health_regen_percent": {
+      "common": 20,
+      "rare": 40,
+      "epic": 60,
+      "legendary": 100,
+      "mythic": 200,
+      "ancestral": 400
+    },
+    "defense_percent": {
+      "common": 1,
+      "rare": 2,
+      "epic": 3,
+      "legendary": 5,
+      "mythic": 6,
+      "ancestral": 8
+    },
+    "defense_absolute_percent": {
+      "common": 15,
+      "rare": 25,
+      "epic": 40,
+      "legendary": 100,
+      "mythic": 500,
+      "ancestral": 1000
+    },
+    "thorns_damage": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 2,
+      "legendary": 4,
+      "mythic": 7,
+      "ancestral": 10
+    },
+    "lifesteal_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 0.3,
+      "legendary": 0.5,
+      "mythic": 1.5,
+      "ancestral": 2.0
+    },
+    "knockback_chance_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 2,
+      "legendary": 4,
+      "mythic": 6,
+      "ancestral": 9
+    },
+    "knockback_force": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 0.1,
+      "legendary": 0.4,
+      "mythic": 0.9,
+      "ancestral": 1.5
+    },
+    "orb_speed": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 1,
+      "legendary": 1.5,
+      "mythic": 2,
+      "ancestral": 3
+    },
+    "orbs": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": "n/a",
+      "mythic": 1,
+      "ancestral": 2
+    },
+    "shockwave_size": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 0.1,
+      "legendary": 0.3,
+      "mythic": 0.7,
+      "ancestral": 1
+    },
+    "shockwave_frequency_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": -1,
+      "legendary": -2,
+      "mythic": -3,
+      "ancestral": -4
+    },
+    "land_mine_damage_percent": {
+      "common": "n/a",
+      "rare": 30,
+      "epic": 50,
+      "legendary": 150,
+      "mythic": 500,
+      "ancestral": 800
+    },
+    "land_mine_chance_percent": {
+      "common": "n/a",
+      "rare": 1.5,
+      "epic": 3,
+      "legendary": 6,
+      "mythic": 9,
+      "ancestral": 12
+    },
+    "land_mine_radius": {
+      "common": "n/a",
+      "rare": 0.1,
+      "epic": 0.15,
+      "legendary": 0.3,
+      "mythic": 0.75,
+      "ancestral": 1
+    },
+    "death_defy": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": "1.5%",
+      "mythic": "3.5%",
+      "ancestral": "5%"
+    },
+    "wall_health_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 20,
+      "legendary": 40,
+      "mythic": 90,
+      "ancestral": 120
+    },
+    "wall_rebuild_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": -20,
+      "legendary": -40,
+      "mythic": -80,
+      "ancestral": -100
+    }
+  },
+  "generator_submodules": {
+    "cash_bonus": {
+      "common": 0.1,
+      "rare": 0.2,
+      "epic": 0.3,
+      "legendary": 0.5,
+      "mythic": 1.2,
+      "ancestral": 2.5
+    },
+    "cash_per_wave": {
+      "common": 30,
+      "rare": 50,
+      "epic": 100,
+      "legendary": 200,
+      "mythic": 500,
+      "ancestral": 1000
+    },
+    "coins_per_kill_bonus": {
+      "common": 0.1,
+      "rare": 0.2,
+      "epic": 0.3,
+      "legendary": 0.4,
+      "mythic": 0.5,
+      "ancestral": 0.6
+    },
+    "coins_per_wave": {
+      "common": 20,
+      "rare": 35,
+      "epic": 60,
+      "legendary": 120,
+      "mythic": 200,
+      "ancestral": 350
+    },
+    "free_attack_upgrade_percent": {
+      "common": 2,
+      "rare": 4,
+      "epic": 6,
+      "legendary": 8,
+      "mythic": 10,
+      "ancestral": 12
+    },
+    "free_defense_upgrade_percent": {
+      "common": 2,
+      "rare": 4,
+      "epic": 6,
+      "legendary": 8,
+      "mythic": 10,
+      "ancestral": 12
+    },
+    "free_utility_upgrade_percent": {
+      "common": 2,
+      "rare": 4,
+      "epic": 6,
+      "legendary": 8,
+      "mythic": 10,
+      "ancestral": 12
+    },
+    "interest_per_wave_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 2,
+      "legendary": 4,
+      "mythic": 6,
+      "ancestral": 8
+    },
+    "recovery_amount_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 3,
+      "legendary": 5,
+      "mythic": 7,
+      "ancestral": 10
+    },
+    "max_recovery": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 0.4,
+      "legendary": 0.7,
+      "mythic": 1.0,
+      "ancestral": 1.5
+    },
+    "package_chance_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 5,
+      "legendary": 8,
+      "mythic": 11,
+      "ancestral": 15
+    },
+    "enemy_attack_level_skip_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 2,
+      "legendary": 4,
+      "mythic": 6,
+      "ancestral": 8
+    },
+    "enemy_health_level_skip_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 2,
+      "legendary": 4,
+      "mythic": 6,
+      "ancestral": 8
+    }
+  },
+  "cores_sub_modules": {
+    "golden_tower_bonus": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 1,
+      "legendary": 2,
+      "mythic": 3,
+      "ancestral": 4
+    },
+    "golden_tower_duration_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": 2,
+      "mythic": 4,
+      "ancestral": 7
+    },
+    "golden_tower_cooldown_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": -5,
+      "mythic": -8,
+      "ancestral": -12
+    },
+    "black_hole_size_m": {
+      "common": 2,
+      "rare": 4,
+      "epic": 6,
+      "legendary": 8,
+      "mythic": 10,
+      "ancestral": 12
+    },
+    "black_hole_duration_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": 2,
+      "mythic": 3,
+      "ancestral": 4
+    },
+    "black_hole_cooldown_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": -2,
+      "mythic": -3,
+      "ancestral": -4
+    },
+    "spotlight_bonus": {
+      "common": 1.2,
+      "rare": 2.5,
+      "epic": 3.5,
+      "legendary": 10,
+      "mythic": 15,
+      "ancestral": 20
+    },
+    "spotlight_angle": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 3,
+      "legendary": 6,
+      "mythic": 11,
+      "ancestral": 15
+    },
+    "chrono_field_duration_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": 4,
+      "mythic": 7,
+      "ancestral": 10
+    },
+    "chrono_field_speed_reduction_percent": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 3,
+      "legendary": 8,
+      "mythic": 11,
+      "ancestral": 15
+    },
+    "chrono_field_cooldown_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": -4,
+      "mythic": -7,
+      "ancestral": -10
+    },
+    "death_wave_damage_x": {
+      "common": 8,
+      "rare": 15,
+      "epic": 25,
+      "legendary": 50,
+      "mythic": 100,
+      "ancestral": 250
+    },
+    "death_wave_quantity": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": 1,
+      "mythic": 2,
+      "ancestral": 3
+    },
+    "death_wave_cooldown_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": -6,
+      "mythic": -10,
+      "ancestral": -13
+    },
+    "smart_missiles_damage": {
+      "common": 8,
+      "rare": 15,
+      "epic": 25,
+      "legendary": 50,
+      "mythic": 100,
+      "ancestral": 250
+    },
+    "smart_missiles_quantity": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 1,
+      "legendary": 2,
+      "mythic": 4,
+      "ancestral": 5
+    },
+    "smart_missiles_cooldown_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": -2,
+      "mythic": -4,
+      "ancestral": -6
+    },
+    "inner_land_mines_damage_x": {
+      "common": 8,
+      "rare": 15,
+      "epic": 25,
+      "legendary": 50,
+      "mythic": 100,
+      "ancestral": 250
+    },
+    "inner_land_mines_quantity": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": 1,
+      "mythic": 2,
+      "ancestral": 3
+    },
+    "inner_land_mines_cooldown_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": -5,
+      "legendary": -8,
+      "mythic": -10,
+      "ancestral": -13
+    },
+    "poison_swamp_damage_x": {
+      "common": 8,
+      "rare": 15,
+      "epic": 25,
+      "legendary": 50,
+      "mythic": 100,
+      "ancestral": 250
+    },
+    "poison_swamp_duration_s": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": "n/a",
+      "legendary": 2,
+      "mythic": 5,
+      "ancestral": 10
+    },
+    "poison_swamp_cooldown_s": {
+      "common": "n/a",
+      "rare": -2,
+      "epic": -4,
+      "legendary": -6,
+      "mythic": -8,
+      "ancestral": -10
+    },
+    "chain_lightning_damage_x": {
+      "common": 8,
+      "rare": 15,
+      "epic": 25,
+      "legendary": 50,
+      "mythic": 100,
+      "ancestral": 250
+    },
+    "chain_lightning_quantity": {
+      "common": "n/a",
+      "rare": "n/a",
+      "epic": 1,
+      "legendary": 2,
+      "mythic": 3,
+      "ancestral": 4
+    },
+    "chain_lightning_chance_percent": {
+      "common": 2,
+      "rare": 4,
+      "epic": 6,
+      "legendary": 9,
+      "mythic": 12,
+      "ancestral": 15
+    }
+  },
+  "special_notes": "When Spotlight angle is 90 degrees or Chrono field duration is maxed with Workshop stat and lab, the respective sub effects will be banned from rolls for free."
+}

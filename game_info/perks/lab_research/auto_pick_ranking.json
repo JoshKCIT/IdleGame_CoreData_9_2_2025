@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_research",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "Auto Pick Ranking Lab",
+  "overview": "Unlocks in Milestones at tier 6 wave 10 and after Auto Pick Perks completed. Allows players to prioritize which perks Auto Pick Perks will select from the list of available perks. Each lab level allows prioritization of an additional perk. Has 32 levels.",
+  "how_it_works": [
+    "Each level allows you to prioritize one additional perk",
+    "Auto Pick Ranking supersedes First Perk Choice",
+    "Example: if first choice is \"Perk Waves Required\" but the \"Golden Tower\" perk is ranked above it and both are available as first perk, Golden Tower will be taken instead"
+  ],
+  "lab_details": [
+    {
+      "level": 1,
+      "time": "1d 23h 46m",
+      "cost": "100.00K",
+      "value": "1"
+    },
+    {
+      "level": 2,
+      "time": "2d 5h 21m",
+      "cost": "180.00K",
+      "value": "2"
+    },
+    {
+      "level": 3,
+      "time": "2d 11h 18m",
+      "cost": "878.82K",
+      "value": "3"
+    },
+    {
+      "level": 4,
+      "time": "2d 18h 27m",
+      "cost": "4.46M",
+      "value": "4"
+    },
+    {
+      "level": 5,
+      "time": "3d 4h 11m",
+      "cost": "15.66M",
+      "value": "5"
+    },
+    {
+      "level": 6,
+      "time": "3d 18h 20m",
+      "cost": "42.28M",
+      "value": "6"
+    },
+    {
+      "level": 7,
+      "time": "4d 15h 12m",
+      "cost": "95.64M",
+      "value": "7"
+    },
+    {
+      "level": 8,
+      "time": "5d 21h 34m",
+      "cost": "191.02M",
+      "value": "8"
+    },
+    {
+      "level": 9,
+      "time": "7d 16h 38m",
+      "cost": "348.06M",
+      "value": "9"
+    },
+    {
+      "level": 10,
+      "time": "10d 4h 4m",
+      "cost": "591.04M",
+      "value": "10"
+    },
+    {
+      "level": 11,
+      "time": "13d 11h 58m",
+      "cost": "949.28M",
+      "value": "11"
+    },
+    {
+      "level": 12,
+      "time": "17d 20h 52m",
+      "cost": "1.46B",
+      "value": "12"
+    },
+    {
+      "level": 13,
+      "time": "23d 11h 42m",
+      "cost": "2.16B",
+      "value": "13"
+    },
+    {
+      "level": 14,
+      "time": "30d 13h 52m",
+      "cost": "3.09B",
+      "value": "14"
+    },
+    {
+      "level": 15,
+      "time": "39d 9h 8m",
+      "cost": "4.31B",
+      "value": "15"
+    },
+    {
+      "level": 16,
+      "time": "50d 3h 44m",
+      "cost": "5.88B",
+      "value": "16"
+    },
+    {
+      "level": 17,
+      "time": "63d 4h 18m",
+      "cost": "7.87B",
+      "value": "17"
+    },
+    {
+      "level": 18,
+      "time": "78d 17h 50m",
+      "cost": "10.33B",
+      "value": "18"
+    },
+    {
+      "level": 19,
+      "time": "97d 3h 49m",
+      "cost": "13.36B",
+      "value": "19"
+    },
+    {
+      "level": 20,
+      "time": "118d 18h 3m",
+      "cost": "17.04B",
+      "value": "20"
+    },
+    {
+      "level": 21,
+      "time": "143d 20h 49m",
+      "cost": "21.47B",
+      "value": "21"
+    },
+    {
+      "level": 22,
+      "time": "172d 20h 45m",
+      "cost": "26.74B",
+      "value": "22"
+    },
+    {
+      "level": 23,
+      "time": "206d 2h 53m",
+      "cost": "32.96B",
+      "value": "23"
+    },
+    {
+      "level": 24,
+      "time": "244d 42m 18s",
+      "cost": "40.26B",
+      "value": "24"
+    },
+    {
+      "level": 25,
+      "time": "287d 19s",
+      "cost": "48.76B",
+      "value": "25"
+    },
+    {
+      "level": 26,
+      "time": "335d 11h 1m",
+      "cost": "58.60B",
+      "value": "26"
+    },
+    {
+      "level": 27,
+      "time": "1y 24d 20h",
+      "cost": "69.91B",
+      "value": "27"
+    },
+    {
+      "level": 28,
+      "time": "1y 85d 15h",
+      "cost": "82.84B",
+      "value": "28"
+    },
+    {
+      "level": 29,
+      "time": "1y 153d 6h",
+      "cost": "97.58B",
+      "value": "29"
+    },
+    {
+      "level": 30,
+      "time": "1y 228d 6h",
+      "cost": "114.27B",
+      "value": "30"
+    },
+    {
+      "level": 31,
+      "time": "1y 311d 3h",
+      "cost": "133.10B",
+      "value": "31"
+    },
+    {
+      "level": 32,
+      "time": "2y 37d 9h",
+      "cost": "154.26B",
+      "value": "32"
+    }
+  ],
+  "requirements": [
+    "Must reach tier 6 wave 10 in Milestones",
+    "Must complete Auto Pick Perks lab first"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Area of Effect",
+  "description": "Card enhancement",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "Increase area of effect damage for Inner Land Mine, Poison Swamp, Smart Missile, Flame Bot, and Land Mine by [x]",
+      "levels": [
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 8.0
+        },
+        {
+          "percent": 11.0
+        },
+        {
+          "percent": 14.0
+        },
+        {
+          "percent": 17.0
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 25.0
+        }
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Increases Area of Effect radius",
+      "stone_cost": "1000",
+      "levels": [
+        "2.5%",
+        "5%",
+        "7.5%",
+        "10%",
+        "12.5%",
+        "15%",
+        "17.5%",
+        "20%",
+        "22.5%",
+        "25%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Increases Area of Effect radius",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "percent": 2.5
+        },
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 7.5
+        },
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 12.5
+        },
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 17.5
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 22.5
+        },
+        {
+          "percent": 25.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "area_of_effect.json"
+    ],
+    "lab_research": [
+      "area_of_effect.json"
+    ]
+  }
+}

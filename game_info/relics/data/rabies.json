@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Rabies",
+  "description": "Increase Lab Speed by 2%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "efficiency",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "research_efficiency",
+      "time_optimization"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Rare event relics",
+  "bonus_type": "lab_speed",
+  "unlock_requirement": "Event: Earn 350 medals during the \"Viral Outbreak (II)\"",
+  "rarity": "Rare",
+  "unlock_method": "Event",
+  "bonus_value": 2.0,
+  "medal_requirement": 350,
+  "effect": "Increase Lab Speed by 2%",
+  "event_name": "Viral Outbreak (II)"
+}

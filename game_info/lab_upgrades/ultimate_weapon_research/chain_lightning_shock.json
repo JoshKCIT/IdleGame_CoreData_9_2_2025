@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Chain Lightning Shock",
+  "description": "Enhances chain lightning effects",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "ultimate_weapon_research",
+    "stat_type": "unlock_mechanic",
+    "target": "enemies",
+    "effect_category": "combat",
+    "scaling_type": "flat",
+    "synergy_groups": [
+      "offensive",
+      "chain_lightning",
+      "shock"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "multiple_enemies",
+      "swarms"
+    ],
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "shock"
+  },
+  "calculation_formulas": {
+    "base_value": "Unlocked",
+    "increment_per_level": "N/A",
+    "effect": "Enables chain lightning shock effect",
+    "unlock_cost": "950,000 coins"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - unlocks chain lightning shock effect",
+    "priority_level": "Medium - important for chain lightning builds",
+    "upgrade_priority": "Medium priority for chain lightning specialization",
+    "synergy_combinations": [
+      "Other chain lightning research for comprehensive builds",
+      "Shock chance research for better effects",
+      "Shock multiplier research for damage"
+    ],
+    "counter_strategies": [
+      "Enables chain lightning shock",
+      "Improves crowd control",
+      "Enhances chain lightning effectiveness"
+    ],
+    "resource_efficiency": "Medium - reasonable cost for unlock"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 950000,
+      "time": "0d 23h 53m",
+      "value": "Unlocked",
+      "delta_value": null,
+      "cum_cost": 950000,
+      "efficiency": null,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "N/A - single level unlock",
+    "mid_levels": "N/A - single level unlock",
+    "late_levels": "Reasonable cost unlock",
+    "recommended_stop": "Single level unlock only"
+  },
+  "max_level": 1,
+  "cross_references": {
+    "cards": [
+      "chain_lightning_shock.json"
+    ],
+    "perks": [
+      "chain_lightning_shock.json"
+    ]
+  }
+}

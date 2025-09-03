@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "semantic_schema",
+    "file_format": "json"
+  },
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "semantic_tag_schema": {
+    "primary_function": {
+      "description": "The main purpose or role of the item",
+      "values": [
+        "offensive",
+        "defensive",
+        "utility",
+        "economy",
+        "support",
+        "hybrid"
+      ]
+    },
+    "damage_type": {
+      "description": "Type of damage or effect dealt",
+      "values": [
+        "physical",
+        "magical",
+        "burn",
+        "poison",
+        "stun",
+        "freeze",
+        "shock",
+        "critical_hit",
+        "super_critical",
+        "area_damage",
+        "single_target",
+        "damage_amplification",
+        "coin_multiplier",
+        "health_reduction",
+        "armor_stripping"
+      ]
+    },
+    "target_type": {
+      "description": "What the item affects or targets",
+      "values": [
+        "tower",
+        "enemies",
+        "enemies_in_range",
+        "multiple_enemies",
+        "single_enemy",
+        "swarms",
+        "bosses",
+        "projectiles",
+        "walls",
+        "chain_lightning",
+        "all_enemies",
+        "high_level_enemies",
+        "fast_enemies",
+        "high_damage_enemies",
+        "low_health_groups",
+        "melee_enemies",
+        "poisoned_enemies",
+        "high_health_enemies",
+        "tanks"
+      ]
+    },
+    "activation": {
+      "description": "How the item is activated",
+      "values": [
+        "automatic",
+        "manual",
+        "cooldown_based",
+        "trigger_based",
+        "passive",
+        "active"
+      ]
+    },
+    "range": {
+      "description": "Range or area of effect",
+      "values": [
+        "area_of_effect",
+        "single_target",
+        "global",
+        "limited_range",
+        "tower_range",
+        "projectile_based"
+      ]
+    },
+    "module_type": {
+      "description": "Type of module (for modules only)",
+      "values": [
+        "cannon",
+        "armor",
+        "core",
+        "generator"
+      ]
+    },
+    "focus_area": {
+      "description": "Specific focus or specialization",
+      "values": [
+        "attack",
+        "defense",
+        "attack_enhancement",
+        "ultimate_weapons",
+        "utility",
+        "survival",
+        "combat",
+        "efficiency"
+      ]
+    },
+    "effect_category": {
+      "description": "Category of the effect",
+      "values": [
+        "combat",
+        "survival",
+        "economy",
+        "efficiency",
+        "utility"
+      ]
+    },
+    "scaling_type": {
+      "description": "How the item scales with levels",
+      "values": [
+        "multiplicative",
+        "additive",
+        "exponential",
+        "logarithmic",
+        "flat"
+      ]
+    },
+    "research_category": {
+      "description": "Category of lab research",
+      "values": [
+        "tower_stats",
+        "general_labs",
+        "attack_research",
+        "defense_research",
+        "utility_research",
+        "main_research",
+        "ultimate_weapon_research",
+        "perk_research",
+        "module_research",
+        "enemies_research",
+        "card_research",
+        "bot_research"
+      ]
+    },
+    "stat_type": {
+      "description": "Type of stat being modified",
+      "values": [
+        "damage",
+        "health",
+        "defense",
+        "attack_speed",
+        "range",
+        "critical_chance",
+        "critical_factor",
+        "super_crit_chance",
+        "super_crit_factor",
+        "health_regen",
+        "cash_bonus",
+        "coin_bonus",
+        "research_speed",
+        "damage_per_meter",
+        "light_speed_shots",
+        "wall_health",
+        "wall_regen",
+        "thorns_damage",
+        "shockwave_size",
+        "orb_speed",
+        "land_mine_damage",
+        "land_mine_decay",
+        "cooldown",
+        "duration",
+        "burn_damage",
+        "stun_duration",
+        "freeze_duration",
+        "shock_damage",
+        "poison_damage",
+        "armor_penetration",
+        "life_steal",
+        "knockback",
+        "slow_effect",
+        "speed_boost",
+        "efficiency",
+        "cost_reduction",
+        "drop_chance",
+        "spawn_rate",
+        "wave_speed",
+        "game_speed"
+      ]
+    },
+    "synergy_groups": {
+      "description": "Groups of items that work well together",
+      "values": [
+        "damage_amplification",
+        "crowd_control",
+        "critical_hits",
+        "super_critical",
+        "bounce_shot",
+        "projectile_enhancement",
+        "shockwave",
+        "wall_defense",
+        "thorns",
+        "poison",
+        "defensive_utility",
+        "chain_lightning",
+        "enemy_weakening",
+        "economy",
+        "resource_generation",
+        "research_efficiency",
+        "time_optimization",
+        "attack_speed",
+        "range",
+        "health_regen",
+        "defense",
+        "energy_shield",
+        "offensive_support",
+        "bot_optimization",
+        "cooldown_reduction",
+        "burn_effects",
+        "duration_enhancement",
+        "stun_effects",
+        "freeze_effects",
+        "shock_effects",
+        "life_steal_builds",
+        "knockback_combos",
+        "slow_combos",
+        "speed_optimization",
+        "efficiency_builds",
+        "cost_optimization",
+        "drop_rate_enhancement",
+        "spawn_manipulation",
+        "wave_control",
+        "game_speed_optimization"
+      ]
+    },
+    "optimal_use": {
+      "description": "When the item is most effective",
+      "values": [
+        "early_game",
+        "mid_game",
+        "late_game",
+        "all_phases"
+      ]
+    },
+    "counter_enemies": {
+      "description": "Enemy types this item is effective against",
+      "values": [
+        "all_enemies",
+        "swarms",
+        "fast_enemies",
+        "low_health_groups",
+        "high_damage_enemies",
+        "bosses",
+        "high_level_enemies",
+        "melee_enemies",
+        "poisoned_enemies",
+        "high_health_enemies",
+        "tanks",
+        "grouped_enemies"
+      ]
+    }
+  },
+  "standardized_formats": {
+    "effect_descriptions": {
+      "multiplier_format": "x1.15 Damage",
+      "percentage_format": "+15% Damage",
+      "flat_format": "+100 Health",
+      "time_format": "7 seconds",
+      "range_format": "30m",
+      "cooldown_format": "75s"
+    },
+    "metadata_structure": {
+      "required_order": [
+        "metadata",
+        "name",
+        "description",
+        "category",
+        "type",
+        "focus",
+        "semantic_tags",
+        "calculation_formulas",
+        "context_fields",
+        "rarity_scaling",
+        "upgrades",
+        "research_levels",
+        "notes",
+        "efficiency_analysis"
+      ]
+    },
+    "naming_conventions": {
+      "files": "snake_case.json",
+      "directories": "snake_case",
+      "fields": "snake_case",
+      "values": "snake_case"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Enhances wave mechanics",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "Waves Required for Perks",
+  "base_wave_requirements": {
+    "waves_1_20": 200,
+    "waves_21_30": 250,
+    "waves_31_40": 300,
+    "waves_41_plus": 350
+  },
+  "wave_reduction_sources": [
+    "Upgrading the \"Waves Required\" lab",
+    "Selecting the \"Perk Wave Requirement\" perk"
+  ],
+  "calculation_formula": "Waves Required* = (Base Waves Required - Waves Required lab) × (1 - (Perk Wave Required Perk × (1 + Standard Perk Bonus / 100)))",
+  "important_notes": [
+    "The formula should only be used to find the 1st perk for each base wave requirement",
+    "If you get a decimal, round the answer down",
+    "The rounded answer can be multiplied by the number of perks"
+  ],
+  "example": {
+    "standard_perk_bonus": "8%",
+    "perk_wave_requirement_perks": 3,
+    "total_reduction": "64.8%",
+    "calculation": "(200 - 3) × (1 - 0.648) = 69.344 = 69 waves required"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "system_data",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Number of times a projectile can bounce from enemy to enemy",
+  "category": "General",
+  "type": "unknown",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "unit": "targets",
+  "upgrade_name": "Bounce Shot Targets",
+  "max_value": 8,
+  "costs": [
+    {
+      "level": 1,
+      "value": 2,
+      "cost": 700,
+      "total_cost": 700
+    },
+    {
+      "level": 2,
+      "value": 3,
+      "cost": 3000,
+      "total_cost": 3700
+    },
+    {
+      "level": 3,
+      "value": 4,
+      "cost": 12000,
+      "total_cost": 15700
+    },
+    {
+      "level": 4,
+      "value": 5,
+      "cost": 25000,
+      "total_cost": 40700
+    },
+    {
+      "level": 5,
+      "value": 6,
+      "cost": 80000,
+      "total_cost": 120700
+    },
+    {
+      "level": 6,
+      "value": 7,
+      "cost": 200000,
+      "total_cost": 320700
+    },
+    {
+      "level": 7,
+      "value": 8,
+      "cost": 650000,
+      "total_cost": 970700
+    }
+  ],
+  "increase_per_level": 1,
+  "max_levels": 7,
+  "perk_enhancement": "Can be increased to 14 targets with Bounce Shot perk",
+  "base_value": 1,
+  "cross_references": {
+    "cards": [
+      "bounce_shot_mechanics.json"
+    ],
+    "perks": [
+      "bounce_shot.json"
+    ],
+    "lab_research": [
+      "bounce_shot.json"
+    ],
+    "modules": [
+      "bounce_shot_enhancement.json",
+      "astral_deliverance.json"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_research",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "Unlock Perks Lab",
+  "overview": "Unlocks perks to be accessed in rounds. Has 1 level. Unlocks other perk labs after completion.",
+  "requirements": [
+    "Must reach tier 2 wave 150 in Milestones",
+    "Must complete this lab to access other perk-related labs"
+  ],
+  "lab_details": [
+    {
+      "level": 1,
+      "time": "3d 11h 19m",
+      "cost": "1,500,000",
+      "value": "Unlocked"
+    }
+  ],
+  "what_this_unlocks": [
+    "Perk selection during rounds",
+    "Waves Required lab",
+    "Standard Perk Bonus lab",
+    "All other perk-related lab research"
+  ]
+}

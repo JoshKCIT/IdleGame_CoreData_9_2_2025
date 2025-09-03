@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Light Speedometer",
+  "description": "Increase enemy attack level skip by 2%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "physical",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Epic event relics",
+  "bonus_type": "enemy_attack_level_skip",
+  "unlock_requirement": "Event: Earn 700 medals during the \"Faster Than Light (II)\"",
+  "rarity": "Epic",
+  "unlock_method": "Event",
+  "bonus_value": 2.0,
+  "medal_requirement": 700,
+  "effect": "Increase enemy attack level skip by 2%",
+  "event_name": "Faster Than Light (II)"
+}

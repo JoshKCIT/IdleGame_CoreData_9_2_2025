@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Whispering Web",
+  "description": "Increase free defense upgrade by 1%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "damage_type": "health_reduction",
+    "target_type": "tower",
+    "activation": "automatic",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "defense",
+      "defensive_utility"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Rare event relics",
+  "bonus_type": "free_defense_upgrade",
+  "unlock_requirement": "Event Premium: Earn 550 medals during the \"Dark Strands (II)\"",
+  "rarity": "Rare",
+  "unlock_method": "Event",
+  "bonus_value": 1.0,
+  "medal_requirement": 550,
+  "effect": "Increase free defense upgrade by 1%",
+  "event_name": "Dark Strands (II)"
+}

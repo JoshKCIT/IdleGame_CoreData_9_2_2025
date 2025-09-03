@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "OM Chip",
+  "description": "This module provides OM (Omnipotent Matrix) capabilities that enhance all tower systems.",
+  "category": "General",
+  "type": "Core",
+  "focus": "Utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "module_type": "core",
+    "focus_area": "utility",
+    "target_type": "tower",
+    "effect_category": "utility",
+    "synergy_groups": [
+      "utility",
+      "om_capabilities",
+      "system_enhancement"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "om_enhancement": "Base Percentage × Rarity Multiplier",
+    "system_bonus": "Enhances all tower systems",
+    "effect_duration": "Variable based on module level"
+  },
+  "context_fields": {
+    "when_to_use": "When needing comprehensive system enhancement and OM capabilities",
+    "priority_level": "High - enhances all tower systems",
+    "upgrade_priority": "High priority for utility builds",
+    "synergy_combinations": [
+      "Other utility modules for enhanced effects",
+      "System-wide enhancements",
+      "Comprehensive build strategies"
+    ],
+    "counter_strategies": [
+      "Enhances all tower systems",
+      "Provides comprehensive improvements",
+      "Offers system-wide advantages"
+    ],
+    "resource_efficiency": "High - system-wide enhancements provide significant benefits"
+  },
+  "rarity_scaling": {
+    "Epic": "10%",
+    "Legendary": "15%",
+    "Mythic": "20%",
+    "Ancestral": "25%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Provides OM (Omnipotent Matrix) capabilities that enhance all tower systems."
+}

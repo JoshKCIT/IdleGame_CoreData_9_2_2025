@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Land Mine Decay",
+  "description": "Enhances land mine mechanics",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "defense_research",
+    "stat_type": "land_mine_decay",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "thorns",
+      "defensive_utility",
+      "wall_defense"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "melee_enemies",
+      "high_health_enemies",
+      "tanks"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "0.5",
+    "increment_per_level": "0.5",
+    "total_decay": "0.5 × Level",
+    "final_mine_decay": "Base Mine Decay + Research Bonus + Card Bonus + Perk Bonus",
+    "decay_rate": "Mine Decay × Time Factor"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - extends land mine effectiveness duration",
+    "priority_level": "Low - expensive research for defensive utility",
+    "upgrade_priority": "After core defense and land mine damage research",
+    "synergy_combinations": [
+      "Land Mine Damage research for base damage",
+      "Defense research for maximum survivability",
+      "Health research for sustained survival"
+    ],
+    "counter_strategies": [
+      "Effective against melee enemies",
+      "Extends mine effectiveness duration",
+      "Combines with mine damage for maximum effect"
+    ],
+    "resource_efficiency": "Low - very expensive for defensive utility"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 25000,
+      "time": "0d 1h 39m",
+      "value": 0.5,
+      "delta_value": null,
+      "cum_cost": 25000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 40000,
+      "time": "0d 5h 1m",
+      "value": 1.0,
+      "delta_value": 0.5,
+      "cum_cost": 65000,
+      "efficiency": 1.3e-05,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 231980,
+      "time": "0d 8h 33m",
+      "value": 1.5,
+      "delta_value": 0.5,
+      "cum_cost": 296980,
+      "efficiency": 2e-06,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 1170000,
+      "time": "0d 12h 34m",
+      "value": 2.0,
+      "delta_value": 0.5,
+      "cum_cost": 1466980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 3930000,
+      "time": "0d 17h 29m",
+      "value": 2.5,
+      "delta_value": 0.5,
+      "cum_cost": 5396980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 126910000,
+      "time": "3d 2h 11m",
+      "value": 5.0,
+      "delta_value": 0.5,
+      "cum_cost": 284326980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 3150000000,
+      "time": "26d 22h 20m",
+      "value": 10.0,
+      "delta_value": 0.5,
+      "cum_cost": 12936316980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 30,
+      "cost": 19420000000,
+      "time": "110d 12h 8m",
+      "value": 15.0,
+      "delta_value": 0.5,
+      "cum_cost": 116216316980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 35,
+      "cost": 38490000000,
+      "time": "190d 11h 16m",
+      "value": 17.5,
+      "delta_value": 0.5,
+      "cum_cost": 266556316980,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Low efficiency - expensive for minimal benefit",
+    "mid_levels": "Very low efficiency - requires weeks of research time",
+    "late_levels": "Minimal efficiency - luxury research only",
+    "recommended_stop": "Level 10-15 for most players"
+  },
+  "max_level": 35,
+  "cross_references": {
+    "cards": [
+      "land_mine_decay.json"
+    ],
+    "perks": [
+      "land_mine_decay.json"
+    ]
+  }
+}

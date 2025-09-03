@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "spawn_table",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Fleet enemy enhancement",
+  "category": "General",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "notes": [
+    "Fleet enemies are only available on Tier 14 and higher",
+    "Fleet spawn frequency increases significantly with tier progression",
+    "Higher tiers have much more frequent fleet encounters",
+    "Fleet enemies provide valuable rewards in the form of shards",
+    "The spawn system ensures fleet enemies always appear when scheduled"
+  ],
+  "table_type": "fleet_spawn_rates",
+  "overview": "Fleet enemies will always spawn when they should. Wave skipping a wave where a Fleet Enemy would spawn will spawn the fleet enemy. Fleet enemies spawn with a group of their related enemies. The count of spawned enemies appears to be a random number in the 10-14 range. Fleet spawn time is random within the wave it will spawn. If the enemy spawn count is capped, a related enemy will despawn to allow the fleet to spawn.",
+  "fleet_rewards": {
+    "reroll_shards": {
+      "drop_chance": "80%",
+      "tier_data": {
+        "T14": {
+          "shards": 1080,
+          "wave": 1
+        },
+        "T15": {
+          "shards": 1200,
+          "wave": 250
+        },
+        "T16": {
+          "shards": 1350,
+          "wave": 500
+        },
+        "T17": {
+          "shards": 1500,
+          "wave": 750
+        },
+        "T18": {
+          "shards": 1650,
+          "wave": 1000
+        },
+        "T19": {
+          "shards": 1800,
+          "wave": 1250
+        },
+        "T20": {
+          "shards": 1950,
+          "wave": 1500
+        },
+        "T21": {
+          "shards": 2100,
+          "wave": 1750
+        },
+        "T22": {
+          "shards": 2250,
+          "wave": 2000
+        },
+        "T23": {
+          "shards": 2500,
+          "wave": 2250
+        },
+        "T24": {
+          "shards": 2750,
+          "wave": 2500
+        },
+        "T25": {
+          "shards": 3000,
+          "wave": 2750
+        },
+        "T26": {
+          "shards": 3250,
+          "wave": 3000
+        },
+        "T27": {
+          "shards": 3500,
+          "wave": 3250
+        },
+        "T28": {
+          "shards": 3750,
+          "wave": 3500
+        },
+        "T29": {
+          "shards": 4000,
+          "wave": 3750
+        },
+        "T30": {
+          "shards": 4250,
+          "wave": 4000
+        },
+        "T31": {
+          "shards": 4500,
+          "wave": 4250
+        },
+        "T32": {
+          "shards": 4750,
+          "wave": 4500
+        },
+        "T33+": {
+          "shards": "5000+",
+          "wave": "4750+"
+        }
+      }
+    },
+    "module_shards": {
+      "drop_chance": "20% (5% per type)",
+      "tier_data": {
+        "T14": {
+          "shards": 5,
+          "wave": 1
+        },
+        "T15": {
+          "shards": 6,
+          "wave": 250
+        },
+        "T16": {
+          "shards": 7,
+          "wave": 500
+        },
+        "T17": {
+          "shards": 8,
+          "wave": 750
+        },
+        "T18": {
+          "shards": 9,
+          "wave": 1000
+        },
+        "T19": {
+          "shards": 10,
+          "wave": 1250
+        },
+        "T20": {
+          "shards": 11,
+          "wave": 1500
+        },
+        "T21": {
+          "shards": 12,
+          "wave": 1750
+        },
+        "T22": {
+          "shards": 13,
+          "wave": 2000
+        },
+        "T23": {
+          "shards": 14,
+          "wave": 2250
+        },
+        "T24": {
+          "shards": 15,
+          "wave": 2500
+        },
+        "T25": {
+          "shards": 16,
+          "wave": 2750
+        },
+        "T26": {
+          "shards": 17,
+          "wave": 3000
+        },
+        "T27": {
+          "shards": 18,
+          "wave": 3250
+        },
+        "T28": {
+          "shards": 19,
+          "wave": 3500
+        },
+        "T29": {
+          "shards": 20,
+          "wave": 3750
+        },
+        "T30": {
+          "shards": 21,
+          "wave": 4000
+        },
+        "T31": {
+          "shards": 22,
+          "wave": 4250
+        },
+        "T32": {
+          "shards": 23,
+          "wave": 4500
+        },
+        "T33+": {
+          "shards": 25,
+          "wave": "4750+"
+        }
+      }
+    }
+  },
+  "spawning_behavior": {
+    "Tier_14_Legends": {
+      "first_wave": 895,
+      "frequency": "30 waves/fleet"
+    },
+    "Tier_14": {
+      "first_wave": 2495,
+      "frequency": "1000 waves/fleet"
+    },
+    "Tier_15": {
+      "first_wave": 1495,
+      "frequency": "750 waves/fleet"
+    },
+    "Tier_16": {
+      "first_wave": 995,
+      "frequency": "500 waves/fleet"
+    },
+    "Tier_17": {
+      "first_wave": 495,
+      "frequency": "250 waves/fleet"
+    },
+    "Tier_18": {
+      "first_wave": 95,
+      "frequency": "100 waves/fleet"
+    },
+    "Tier_19": {
+      "first_wave": 45,
+      "frequency": "50 waves/fleet"
+    },
+    "Tier_20": {
+      "first_wave": 5,
+      "frequency": "10 waves/1fleet"
+    },
+    "Tier_21": {
+      "first_wave": 5,
+      "frequency": "10 waves/2fleet"
+    }
+  },
+  "related_enemy_types": {
+    "saboteur": "Spawns with Fast enemies",
+    "commander": "Spawns with Tank enemies",
+    "overcharge": "Spawns with Ranged enemies"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Commander Enemy",
+  "description": "Fleet enemy that buffs nearby enemies (Tier 14+).",
+  "category": "Fleet Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "support",
+
+    "target_type": "multiple_enemies",
+    "effect_category": "combat",
+    "scaling_type": "exponential",
+    "synergy_groups": [
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Commander enemies buff nearby enemies in Tier 14+",
+    "priority_level": "Highest - buffing aura affects multiple enemies",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High damage to eliminate quickly and remove buffs",
+      "Area-of-effect abilities to target multiple buffed enemies",
+      "Single-target focus to eliminate commanders first"
+    ],
+    "counter_strategies": [
+      "Priority targets due to buffing aura",
+      "Eliminate commanders first to remove enemy buffs",
+      "High coin value makes them worth targeting"
+    ],
+    "resource_efficiency": "High - commander enemies provide high coin income and affect other enemies"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 5.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 8,
+    "attack_type": "standard"
+  },
+  "abilities": [
+    {
+      "name": "Command Aura",
+      "description": "Buffs nearby enemies with increased stats",
+      "effect_type": "buff",
+      "range": "area_of_effect"
+    }
+  ],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "fleet",
+    "spawn_percentage": "appears in Tier 14+",
+    "spawn_cap": 5,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 8,
+    "special_drops": []
+  },
+  "strategy": {
+    "description": "Commander enemies buff nearby enemies in Tier 14+",
+    "tips": [
+      "Priority targets due to their buffing aura",
+      "Eliminate commanders first to remove enemy buffs",
+      "High coin value makes them worth targeting",
+      "Only appear in Tier 14 and above"
+    ]
+  }
+}

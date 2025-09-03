@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "The Heat-up Mechanic is a scaling system that makes enemies more dangerous the longer they survive in combat.",
+  "category": "General",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Heat-up Mechanic",
+  "mechanics": {
+    "damage_increase": "Enemies gain 4% more damage per hit over time",
+    "cumulative_effect": "This damage increase is cumulative and continues to stack",
+    "applies_to_all": "The mechanic applies to all enemy types (Normal, Elite, Boss, Fleet)",
+    "encourages_quick_defeat": "This encourages players to defeat enemies quickly to prevent them from becoming too powerful"
+  },
+  "strategic_implications": [
+    "Early wave enemies that survive multiple waves become significantly more dangerous",
+    "Players should prioritize defeating enemies quickly rather than letting them accumulate",
+    "The mechanic creates urgency in combat and prevents players from simply tanking damage indefinitely",
+    "Boss enemies that survive for extended periods become extremely dangerous due to their high base damage"
+  ],
+  "counterplay": [
+    "Focus fire on enemies that have been alive for multiple waves",
+    "Use area-of-effect abilities to clear groups of enemies before they can heat up",
+    "Prioritize high-damage enemies that are approaching the tower",
+    "Consider using ultimate weapons to eliminate heated-up enemies quickly"
+  ]
+}

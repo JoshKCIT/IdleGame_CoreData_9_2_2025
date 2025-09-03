@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Health",
+  "description": "Increases tower health",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "tower_stats",
+    "stat_type": "health",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "health_regen",
+      "defense",
+      "energy_shield"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction"
+  },
+  "calculation_formulas": {
+    "base_multiplier": "1.03",
+    "increment_per_level": "0.03",
+    "total_multiplier": "1 + (Level × 0.03)",
+    "final_health": "Base Health × Research Multiplier × Card Multiplier × Perk Multiplier"
+  },
+  "context_fields": {
+    "when_to_use": "Always prioritize alongside damage - health is fundamental to survival",
+    "priority_level": "Highest - health is essential for tower survival",
+    "upgrade_priority": "Second priority after damage for balanced builds",
+    "synergy_combinations": [
+      "Health Regen for sustained survivability",
+      "Defense bonuses for damage reduction",
+      "Energy Shield for additional protection"
+    ],
+    "counter_strategies": [
+      "Essential against all enemy types",
+      "Scales with enemy damage output",
+      "Combines with defensive bonuses"
+    ],
+    "resource_efficiency": "Extremely High - essential for survival"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 30,
+      "time": "0d 0h 0m",
+      "value": 1.03,
+      "delta_value": null,
+      "cum_cost": 30,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 71,
+      "time": "0d 0h 6m",
+      "value": 1.06,
+      "delta_value": 0.03,
+      "cum_cost": 101,
+      "efficiency": 0.000423,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 178,
+      "time": "0d 0h 16m",
+      "value": 1.09,
+      "delta_value": 0.03,
+      "cum_cost": 279,
+      "efficiency": 0.000169,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 398,
+      "time": "0d 0h 31m",
+      "value": 1.12,
+      "delta_value": 0.03,
+      "cum_cost": 677,
+      "efficiency": 7.5e-05,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 772,
+      "time": "0d 0h 52m",
+      "value": 1.15,
+      "delta_value": 0.03,
+      "cum_cost": 1449,
+      "efficiency": 3.9e-05,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 6170,
+      "time": "0d 4h 32m",
+      "value": 1.3,
+      "delta_value": 0.03,
+      "cum_cost": 18759,
+      "efficiency": 5e-06,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 46540,
+      "time": "1d 0h 22m",
+      "value": 1.6,
+      "delta_value": 0.03,
+      "cum_cost": 262319,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 50,
+      "cost": 623890,
+      "time": "9d 9h 31m",
+      "value": 2.5,
+      "delta_value": 0.03,
+      "cum_cost": 8483269,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 100,
+      "cost": 4310000,
+      "time": "50d 5h 52m",
+      "value": 4.0,
+      "delta_value": 0.03,
+      "cum_cost": 116005939,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 20",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 50-75 for most players"
+  },
+  "max_level": 100,
+  "cross_references": {
+    "cards": [
+      "health.json"
+    ],
+    "perks": [
+      "health.json"
+    ],
+    "modules": [
+      "sharp_fortitude.json"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "standard_perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "overview": "Standard perks have a 65% chance of appearing and provide basic stat improvements and utility bonuses.",
+  "key_features": [
+    "Most can be selected multiple times in a round",
+    "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+    "Use either additive or multiplicative calculation formulas"
+  ],
+  "special_notes": {
+    "bounce_shot_perk": "is not available if bounce shot has not been unlocked",
+    "game_speed_perk": "When the standard perk bonus lab is maxed, the Game Speed perk will be increased to 1.25 making the max game speed 6.25. It will display as 6.3, as Game speed visually rounds to the tenths place"
+  },
+  "individual_perks_info": "Each standard perk has detailed information in its corresponding JSON file, including:",
+  "perk_details": [
+    "Effect description",
+    "Maximum quantity",
+    "Calculation type",
+    "Formula used",
+    "Special requirements or notes"
+  ],
+  "available_standard_perks": [
+    "Max Health",
+    "Damage",
+    "All Coin Bonuses",
+    "Defense Absolute",
+    "Cash Bonus",
+    "Health Regen",
+    "Interest",
+    "Land Mine Damage",
+    "Free Upgrade Chance",
+    "Defense Percent",
+    "Bounce Shot",
+    "Perk Wave Requirement",
+    "Orbs",
+    "Unlock a Random Ultimate Weapon",
+    "Increase Max Game Speed"
+  ]
+}

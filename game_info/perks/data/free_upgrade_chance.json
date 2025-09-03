@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Free Upgrade Chance for All",
+  "description": "Increases free upgrade chance for all upgrades",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "damage_type": "coin_multiplier",
+    "target_type": "tower",
+    "activation": "automatic",
+    "range": "global",
+    "stat_type": "cash_bonus",
+    "effect_category": "economy",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "economy",
+      "resource_generation"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "5.0% per perk level",
+    "total_bonus": "Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_upgrade_chance": "Base Free Upgrade Chance + (Perk Bonus × Quantity)"
+  },
+  "context_fields": {
+    "when_to_use": "Always valuable for economy efficiency and resource savings",
+    "priority_level": "High - significant economy impact",
+    "upgrade_priority": "High priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Cash Bonus and Interest for comprehensive economy scaling",
+      "Standard Perk Bonus lab research for maximum effect",
+      "Economy-focused relics and cards"
+    ],
+    "counter_strategies": [
+      "Provides passive resource savings for all upgrades",
+      "Scales additively with other free upgrade bonuses",
+      "Essential for efficient progression and resource management"
+    ],
+    "resource_efficiency": "Very High - significant economy impact",
+    "effect": "Free Upgrade Chance for All +5.0%",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "additive",
+    "formula": "Total Bonus = Base Value x Quantity x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/free_upgrades.json",
+    "related_research": "lab_upgrades/utility_research/free_upgrade_chance.json",
+    "cards": [
+      "free_upgrade_chance.json"
+    ],
+    "lab_research": [
+      "free_upgrade_chance.json"
+    ]
+  }
+}

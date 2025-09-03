@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "T:I Flux",
+  "description": "Increase coins earned by 2%",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "effect_category": "economy",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "coin_multiplier",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "economy",
+      "resource_generation"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "First milestone relic, provides foundation for coin generation bonuses",
+  "tier": 1,
+  "unlock_method": "Milestone",
+  "bonus_type": "coins_earned",
+  "bonus_value": 2,
+  "unlock_requirement": "Milestone: Beat Wave 4500 in tier 1",
+  "rarity": "Rare",
+  "effect": "Coins earned +2%"
+}

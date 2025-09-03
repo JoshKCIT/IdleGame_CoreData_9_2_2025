@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Fancy Wings",
+  "description": "Increase health regen by 2%",
+  "category": "Guild Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "survival",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "defense",
+      "health_regen"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Guild Season 2 relic, enhances health regeneration",
+  "bonus_type": "health_regen",
+  "unlock_requirement": "Guild: Spend 75 Tokens during the \"Season 2\"",
+  "rarity": "Rare",
+  "unlock_method": "Guild",
+  "bonus_value": 2,
+  "guild_season": 2,
+  "effect": "Health regen +2%",
+  "token_requirement": 75
+}

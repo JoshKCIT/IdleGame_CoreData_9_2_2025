@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_research",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Enhances wave mechanics",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "Waves Required Lab",
+  "overview": "Unlocked by the \"Unlock Perks\" lab. Reduces the base waves required to unlock the next perk. Has 100 levels. Available after finishing Unlock Perks.",
+  "how_it_works": [
+    "Each level reduces the base wave requirement by 1.00",
+    "Maximum reduction of 100 waves at level 100",
+    "Works in conjunction with the Perk Wave Requirement perk",
+    "See the waves required calculation formula for details"
+  ],
+  "lab_details": [
+    {
+      "level": 1,
+      "time": "0d 1h 39m",
+      "cost": "100K",
+      "value": "-1.00"
+    },
+    {
+      "level": 2,
+      "time": "0d 5h 1m",
+      "cost": "220K",
+      "value": "-2.00"
+    },
+    {
+      "level": 3,
+      "time": "0d 8h 33m",
+      "cost": "940K",
+      "value": "-3.00"
+    },
+    {
+      "level": 4,
+      "time": "0d 12h 34m",
+      "cost": "5.26M",
+      "value": "-4.00"
+    },
+    {
+      "level": 5,
+      "time": "0d 17h 29m",
+      "cost": "20.98M",
+      "value": "-5.00"
+    },
+    {
+      "level": 6,
+      "time": "0d 23h 46m",
+      "cost": "63.1M",
+      "value": "-6.00"
+    },
+    {
+      "level": 7,
+      "time": "1d 7h 57m",
+      "cost": "156.22M",
+      "value": "-7.00"
+    },
+    {
+      "level": 8,
+      "time": "1d 18h 38m",
+      "cost": "336.94M",
+      "value": "-8.00"
+    },
+    {
+      "level": 9,
+      "time": "2d 8h 29m",
+      "cost": "656.26M",
+      "value": "-9.00"
+    },
+    {
+      "level": 10,
+      "time": "3d 2h 11m",
+      "cost": "1.18B",
+      "value": "-10.00"
+    },
+    {
+      "level": 11,
+      "time": "4d 0h 29m",
+      "cost": "2B",
+      "value": "-11.00"
+    },
+    {
+      "level": 12,
+      "time": "5d 4h 10m",
+      "cost": "3.22B",
+      "value": "-12.00"
+    },
+    {
+      "level": 13,
+      "time": "6d 14h 3m",
+      "cost": "4.98B",
+      "value": "-13.00"
+    },
+    {
+      "level": 14,
+      "time": "8d 7h 1m",
+      "cost": "7.43B",
+      "value": "-14.00"
+    },
+    {
+      "level": 15,
+      "time": "10d 7h 58m",
+      "cost": "10.76B",
+      "value": "-15.00"
+    },
+    {
+      "level": 16,
+      "time": "12d 17h 49m",
+      "cost": "15.19B",
+      "value": "-16.00"
+    },
+    {
+      "level": 17,
+      "time": "15d 13h 34m",
+      "cost": "20.97B",
+      "value": "-17.00"
+    },
+    {
+      "level": 18,
+      "time": "18d 20h 12m",
+      "cost": "28.4B",
+      "value": "-18.00"
+    },
+    {
+      "level": 19,
+      "time": "22d 14h 46m",
+      "cost": "37.79B",
+      "value": "-19.00"
+    },
+    {
+      "level": 20,
+      "time": "26d 22h 20m",
+      "cost": "49.52B",
+      "value": "-20.00"
+    },
+    {
+      "level": 21,
+      "time": "31d 19h 59m",
+      "cost": "64B",
+      "value": "-21.00"
+    },
+    {
+      "level": 22,
+      "time": "37d 8h 53m",
+      "cost": "81.68B",
+      "value": "-22.00"
+    },
+    {
+      "level": 23,
+      "time": "43d 14h 7m",
+      "cost": "103.07B",
+      "value": "-23.00"
+    },
+    {
+      "level": 24,
+      "time": "50d 12h 56m",
+      "cost": "128.37B",
+      "value": "-24.00"
+    },
+    {
+      "level": 25,
+      "time": "58d 6h 30m",
+      "cost": "159.25B",
+      "value": "-25.00"
+    },
+    {
+      "level": 26,
+      "time": "66d 20h 5m",
+      "cost": "195.32B",
+      "value": "-26.00"
+    },
+    {
+      "level": 27,
+      "time": "76d 6h 57m",
+      "cost": "237.63B",
+      "value": "-27.00"
+    },
+    {
+      "level": 28,
+      "time": "86d 16h 21m",
+      "cost": "286.98B",
+      "value": "-28.00"
+    },
+    {
+      "level": 29,
+      "time": "98d 1h 38m",
+      "cost": "344.21B",
+      "value": "-29.00"
+    },
+    {
+      "level": 30,
+      "time": "110d 12h 8m",
+      "cost": "410.23B",
+      "value": "-30.00"
+    },
+    {
+      "level": 31,
+      "time": "124d 1h 12m",
+      "cost": "486B",
+      "value": "-31.00"
+    },
+    {
+      "level": 32,
+      "time": "138d 18h 14m",
+      "cost": "572.59B",
+      "value": "-32.00"
+    },
+    {
+      "level": 33,
+      "time": "154d 16h 37m",
+      "cost": "671.09B",
+      "value": "-33.00"
+    },
+    {
+      "level": 34,
+      "time": "171d 21h 49m",
+      "cost": "782.71B",
+      "value": "-34.00"
+    },
+    {
+      "level": 35,
+      "time": "190d 11h 16m",
+      "cost": "908.71B",
+      "value": "-35.00"
+    },
+    {
+      "level": 36,
+      "time": "210d 10h 27m",
+      "cost": "1.05T",
+      "value": "-36.00"
+    },
+    {
+      "level": 37,
+      "time": "231d 20h 51m",
+      "cost": "1.21T",
+      "value": "-37.00"
+    },
+    {
+      "level": 38,
+      "time": "254d 20h 1m",
+      "cost": "1.39T",
+      "value": "-38.00"
+    },
+    {
+      "level": 39,
+      "time": "279d 9h 29m",
+      "cost": "1.58T",
+      "value": "-39.00"
+    },
+    {
+      "level": 40,
+      "time": "305d 14h 48m",
+      "cost": "1.8T",
+      "value": "-40.00"
+    },
+    {
+      "level": 41,
+      "time": "333d 13h 33m",
+      "cost": "2.05T",
+      "value": "-41.00"
+    },
+    {
+      "level": 42,
+      "time": "363d 7h 21m",
+      "cost": "2.32T",
+      "value": "-42.00"
+    },
+    {
+      "level": 43,
+      "time": "394d 21h 49m",
+      "cost": "2.61T",
+      "value": "-43.00"
+    },
+    {
+      "level": 44,
+      "time": "428d 10h 35m",
+      "cost": "2.94T",
+      "value": "-44.00"
+    },
+    {
+      "level": 45,
+      "time": "463d 23h 21m",
+      "cost": "3.3T",
+      "value": "-45.00"
+    },
+    {
+      "level": 46,
+      "time": "501d 13h 45m",
+      "cost": "3.69T",
+      "value": "-46.00"
+    },
+    {
+      "level": 47,
+      "time": "541d 7h 32m",
+      "cost": "4.12T",
+      "value": "-47.00"
+    },
+    {
+      "level": 48,
+      "time": "583d 6h 23m",
+      "cost": "4.59T",
+      "value": "-48.00"
+    },
+    {
+      "level": 49,
+      "time": "627d 12h 4m",
+      "cost": "5.1T",
+      "value": "-49.00"
+    },
+    {
+      "level": 50,
+      "time": "674d 2h 20m",
+      "cost": "5.65T",
+      "value": "-50.00"
+    },
+    {
+      "level": 51,
+      "time": "723d 2h 57m",
+      "cost": "6.25T",
+      "value": "-51.00"
+    },
+    {
+      "level": 52,
+      "time": "774d 15h 43m",
+      "cost": "6.9T",
+      "value": "-52.00"
+    },
+    {
+      "level": 53,
+      "time": "828d 18h 28m",
+      "cost": "7.6T",
+      "value": "-53.00"
+    },
+    {
+      "level": 54,
+      "time": "885d 13h 1m",
+      "cost": "8.36T",
+      "value": "-54.00"
+    },
+    {
+      "level": 55,
+      "time": "945d 1h 12m",
+      "cost": "9.18T",
+      "value": "-55.00"
+    },
+    {
+      "level": 56,
+      "time": "1007d 8h 54m",
+      "cost": "10.07T",
+      "value": "-56.00"
+    },
+    {
+      "level": 57,
+      "time": "1072d 14h 1m",
+      "cost": "11.01T",
+      "value": "-57.00"
+    },
+    {
+      "level": 58,
+      "time": "1140d 18h 25m",
+      "cost": "12.03T",
+      "value": "-58.00"
+    },
+    {
+      "level": 59,
+      "time": "1212d 0h 3m",
+      "cost": "13.13T",
+      "value": "-59.00"
+    },
+    {
+      "level": 60,
+      "time": "1286d 8h 50m",
+      "cost": "14.3T",
+      "value": "-60.00"
+    },
+    {
+      "level": 61,
+      "time": "1363d 22h 43m",
+      "cost": "15.55T",
+      "value": "-61.00"
+    },
+    {
+      "level": 62,
+      "time": "1444d 19h 41m",
+      "cost": "16.89T",
+      "value": "-62.00"
+    },
+    {
+      "level": 63,
+      "time": "1529d 1h 42m",
+      "cost": "18.32T",
+      "value": "-63.00"
+    },
+    {
+      "level": 64,
+      "time": "1616d 18h 47m",
+      "cost": "19.85T",
+      "value": "-64.00"
+    },
+    {
+      "level": 65,
+      "time": "1708d 0h 57m",
+      "cost": "21.47T",
+      "value": "-65.00"
+    },
+    {
+      "level": 66,
+      "time": "1802d 22h 13m",
+      "cost": "23.21T",
+      "value": "-66.00"
+    },
+    {
+      "level": 67,
+      "time": "1901d 12h 39m",
+      "cost": "25.05T",
+      "value": "-67.00"
+    },
+    {
+      "level": 68,
+      "time": "2003d 22h 0m",
+      "cost": "27T",
+      "value": "-68.00"
+    },
+    {
+      "level": 69,
+      "time": "2110d 5h 18m",
+      "cost": "29.08T",
+      "value": "-69.00"
+    },
+    {
+      "level": 70,
+      "time": "2220d 11h 40m",
+      "cost": "31.28T",
+      "value": "-70.00"
+    },
+    {
+      "level": 71,
+      "time": "2334d 19h 34m",
+      "cost": "33.61T",
+      "value": "-71.00"
+    },
+    {
+      "level": 72,
+      "time": "2453d 7h 6m",
+      "cost": "36.08T",
+      "value": "-72.00"
+    },
+    {
+      "level": 73,
+      "time": "2576d 0h 26m",
+      "cost": "38.7T",
+      "value": "-73.00"
+    },
+    {
+      "level": 74,
+      "time": "2703d 1h 43m",
+      "cost": "41.46T",
+      "value": "-74.00"
+    },
+    {
+      "level": 75,
+      "time": "2834d 13h 6m",
+      "cost": "44.38T",
+      "value": "-75.00"
+    },
+    {
+      "level": 76,
+      "time": "2970d 12h 0m",
+      "cost": "47.46T",
+      "value": "-76.00"
+    },
+    {
+      "level": 77,
+      "time": "3111d 3h 1m",
+      "cost": "50.71T",
+      "value": "-77.00"
+    },
+    {
+      "level": 78,
+      "time": "3256d 9h 57m",
+      "cost": "54.14T",
+      "value": "-78.00"
+    },
+    {
+      "level": 79,
+      "time": "3406d 11h 51m",
+      "cost": "57.74T",
+      "value": "-79.00"
+    },
+    {
+      "level": 80,
+      "time": "3561d 10h 57m",
+      "cost": "61.54T",
+      "value": "-80.00"
+    },
+    {
+      "level": 81,
+      "time": "3721d 9h 31m",
+      "cost": "65.54T",
+      "value": "-81.00"
+    },
+    {
+      "level": 82,
+      "time": "3886d 9h 50m",
+      "cost": "69.74T",
+      "value": "-82.00"
+    },
+    {
+      "level": 83,
+      "time": "4056d 14h 11m",
+      "cost": "74.15T",
+      "value": "-83.00"
+    },
+    {
+      "level": 84,
+      "time": "4232d 0h 52m",
+      "cost": "78.78T",
+      "value": "-84.00"
+    },
+    {
+      "level": 85,
+      "time": "4412d 20h 12m",
+      "cost": "83.64T",
+      "value": "-85.00"
+    },
+    {
+      "level": 86,
+      "time": "4640d 18h 31m",
+      "cost": "88.74T",
+      "value": "-86.00"
+    },
+    {
+      "level": 87,
+      "time": "4790d 20h 0m",
+      "cost": "94.09T",
+      "value": "-87.00"
+    },
+    {
+      "level": 88,
+      "time": "4922d 9h 31m",
+      "cost": "99.68T",
+      "value": "-88.00"
+    },
+    {
+      "level": 89,
+      "time": "5191d 14h 55m",
+      "cost": "105.55T",
+      "value": "-89.00"
+    },
+    {
+      "level": 90,
+      "time": "5400d 16h 0m",
+      "cost": "111.68T",
+      "value": "-90.00"
+    },
+    {
+      "level": 91,
+      "time": "5615d 17h 30m",
+      "cost": "118.1T",
+      "value": "-91.00"
+    },
+    {
+      "level": 92,
+      "time": "5836d 19h 30m",
+      "cost": "124.81T",
+      "value": "-92.00"
+    },
+    {
+      "level": 93,
+      "time": "6064d 1h 11m",
+      "cost": "131.82T",
+      "value": "-93.00"
+    },
+    {
+      "level": 94,
+      "time": "6297d 13h 0m",
+      "cost": "139.14T",
+      "value": "-94.00"
+    },
+    {
+      "level": 95,
+      "time": "6537d 9h 25m",
+      "cost": "146.78T",
+      "value": "-95.00"
+    },
+    {
+      "level": 96,
+      "time": "6783d 16h 55m",
+      "cost": "154.76T",
+      "value": "-96.00"
+    },
+    {
+      "level": 97,
+      "time": "7036d 13h 55m",
+      "cost": "163.07T",
+      "value": "-97.00"
+    },
+    {
+      "level": 98,
+      "time": "7296d 2h 59m",
+      "cost": "171.75T",
+      "value": "-98.00"
+    },
+    {
+      "level": 99,
+      "time": "7562d 10h 32m",
+      "cost": "180.78T",
+      "value": "-99.00"
+    },
+    {
+      "level": 100,
+      "time": "7835d 15h 13m",
+      "cost": "190.2T",
+      "value": "-100.00"
+    }
+  ]
+}

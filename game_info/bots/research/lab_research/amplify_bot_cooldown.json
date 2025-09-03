@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_research",
+    "file_format": "json"
+  },
+  "name": "Amplify Bot Cooldown",
+  "description": "This lab research reduces the cooldown time for Amplify Bot activations, allowing it to provide damage amplification more frequently.",
+  "category": "Bot Research",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "bot_research",
+    "stat_type": "attack_speed",
+    "target": "amplify_bot",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "utility",
+      "damage_amplification",
+      "attack_speed"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "cooldown_based"
+  },
+  "calculation_formulas": {
+    "base_cooldown": "75 seconds",
+    "cooldown_reduction": "3 seconds per level",
+    "final_cooldown": "Base Cooldown - (Level × 3 seconds)",
+    "effect": "Reduces Amplify Bot cooldown for more frequent damage amplification"
+  },
+  "context_fields": {
+    "when_to_use": "When using Amplify Bot and need more frequent damage bonuses",
+    "priority_level": "High for damage-focused builds",
+    "upgrade_priority": "High priority for Amplify Bot optimization",
+    "synergy_combinations": [
+      "Amplify Bot duration research for extended uptime",
+      "Amplify Bot bonus research for stronger damage amplification",
+      "Other damage amplification research"
+    ],
+    "counter_strategies": [
+      "More frequent damage amplification uptime",
+      "Better damage coverage",
+      "Enhanced overall damage output"
+    ],
+    "resource_efficiency": "High - increases Amplify Bot effectiveness significantly"
+  },
+  "notes": "Additional information",
+  "research_details": {
+    "category": "Bot Research",
+    "effect": "Reduces Amplify Bot cooldown",
+    "research_type": "Cooldown reduction"
+  },
+  "benefits": [
+    "More frequent Amplify Bot activations",
+    "Increased damage amplification uptime",
+    "Better damage coverage",
+    "Enhanced overall damage output"
+  ],
+  "strategic_value": {
+    "early_game": "Provides more frequent damage bonuses",
+    "mid_game": "Enhances damage output and enemy clearing",
+    "late_game": "Maximizes Amplify Bot uptime for optimal damage amplification"
+  },
+  "synergies": [
+    "Works well with Amplify Bot duration research",
+    "Complements bonus research for stronger damage amplification",
+    "Enhances overall Amplify Bot damage effectiveness"
+  ]
+}

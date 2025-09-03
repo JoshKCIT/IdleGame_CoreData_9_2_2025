@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Tower Master",
+  "description": "Increase tower health by 10%",
+  "category": "Tournament Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "survival",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "defense",
+      "health_regen"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Legendary tournament relic, massive health increase",
+  "tournament_bracket": "Legends",
+  "unlock_method": "Tournament",
+  "bonus_type": "tower_health",
+  "bonus_value": 10,
+  "unlock_requirement": "Tournament: Finish top 4 in Legends",
+  "rarity": "Legendary",
+  "effect": "Tower health +10%"
+}

@@ -1,0 +1,550 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module_system",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "module",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "system_type": "assist_modules",
+  "unlock_requirement": "Tier 19, wave 40",
+  "overview": "For stones, you may purchase an ability to equip a second module to the same slot, providing weaker versions of its unique effect, main effect and substats. You can increase the efficiencies of these values with stones and through lab research (unlocked Tier 19, Wave 50). You won't be able to equip modules that share the same name. The assist module will need its level upgraded for module shard to provide effects beyond first two and higher main effect; its level is distinct from the main one. Quantity Substats, like ILMq ,use a FLOOR function and not a ROUND function, meaning the quantity will not round up.",
+  "unlocking_assist_slots": {
+    "cost": "1000 stones each",
+    "benefits": "will provide you with a unique effect of Epic quality, and 1% main and sub effect bonus",
+    "improvement": "These can be improved for stones, as well as via labs (unlocked at Tier 19, wave 50)"
+  },
+  "important_notes": "Note that this does not bypass hard caps on stats, such as limit of 98% defense, 90% slow for Chrono Field Speed reduction, 150s Wall rebuild, 7s Shockwave Frequency, and Inner Land Mine CD of 37s.",
+  "assist_module_rarity_of_unique_effect": {
+    "1000": "Legendary",
+    "1200": "Mythic",
+    "1400": "Ancestral",
+    "total": "4600 Stones"
+  },
+  "assist_module_main_effect_substat_stone_upgrade": {
+    "1%": {
+      "stone_cost_this_level": 0,
+      "total_cost_cumulative": 0,
+      "stones_needed_to_max": 8073
+    },
+    "2%": {
+      "stone_cost_this_level": 15,
+      "total_cost_cumulative": 15,
+      "stones_needed_to_max": 8058
+    },
+    "3%": {
+      "stone_cost_this_level": 18,
+      "total_cost_cumulative": 33,
+      "stones_needed_to_max": 8040
+    },
+    "4%": {
+      "stone_cost_this_level": 21,
+      "total_cost_cumulative": 54,
+      "stones_needed_to_max": 8019
+    },
+    "5%": {
+      "stone_cost_this_level": 24,
+      "total_cost_cumulative": 78,
+      "stones_needed_to_max": 7995
+    },
+    "6%": {
+      "stone_cost_this_level": 27,
+      "total_cost_cumulative": 105,
+      "stones_needed_to_max": 7968
+    },
+    "7%": {
+      "stone_cost_this_level": 30,
+      "total_cost_cumulative": 135,
+      "stones_needed_to_max": 7938
+    },
+    "8%": {
+      "stone_cost_this_level": 33,
+      "total_cost_cumulative": 168,
+      "stones_needed_to_max": 7905
+    },
+    "9%": {
+      "stone_cost_this_level": 36,
+      "total_cost_cumulative": 204,
+      "stones_needed_to_max": 7869
+    },
+    "10%": {
+      "stone_cost_this_level": 39,
+      "total_cost_cumulative": 243,
+      "stones_needed_to_max": 7830
+    },
+    "11%": {
+      "stone_cost_this_level": 42,
+      "total_cost_cumulative": 285,
+      "stones_needed_to_max": 7788
+    },
+    "12%": {
+      "stone_cost_this_level": 45,
+      "total_cost_cumulative": 330,
+      "stones_needed_to_max": 7743
+    },
+    "13%": {
+      "stone_cost_this_level": 48,
+      "total_cost_cumulative": 378,
+      "stones_needed_to_max": 7695
+    },
+    "14%": {
+      "stone_cost_this_level": 51,
+      "total_cost_cumulative": 429,
+      "stones_needed_to_max": 7644
+    },
+    "15%": {
+      "stone_cost_this_level": 54,
+      "total_cost_cumulative": 483,
+      "stones_needed_to_max": 7590
+    },
+    "16%": {
+      "stone_cost_this_level": 57,
+      "total_cost_cumulative": 540,
+      "stones_needed_to_max": 7533
+    },
+    "17%": {
+      "stone_cost_this_level": 60,
+      "total_cost_cumulative": 600,
+      "stones_needed_to_max": 7473
+    },
+    "18%": {
+      "stone_cost_this_level": 63,
+      "total_cost_cumulative": 663,
+      "stones_needed_to_max": 7410
+    },
+    "19%": {
+      "stone_cost_this_level": 66,
+      "total_cost_cumulative": 729,
+      "stones_needed_to_max": 7344
+    },
+    "20%": {
+      "stone_cost_this_level": 69,
+      "total_cost_cumulative": 798,
+      "stones_needed_to_max": 7275
+    },
+    "21%": {
+      "stone_cost_this_level": 72,
+      "total_cost_cumulative": 870,
+      "stones_needed_to_max": 7203
+    },
+    "22%": {
+      "stone_cost_this_level": 75,
+      "total_cost_cumulative": 945,
+      "stones_needed_to_max": 7128
+    },
+    "23%": {
+      "stone_cost_this_level": 78,
+      "total_cost_cumulative": 1023,
+      "stones_needed_to_max": 7050
+    },
+    "24%": {
+      "stone_cost_this_level": 81,
+      "total_cost_cumulative": 1104,
+      "stones_needed_to_max": 6969
+    },
+    "25%": {
+      "stone_cost_this_level": 84,
+      "total_cost_cumulative": 1188,
+      "stones_needed_to_max": 6885
+    },
+    "26%": {
+      "stone_cost_this_level": 87,
+      "total_cost_cumulative": 1275,
+      "stones_needed_to_max": 6798
+    },
+    "27%": {
+      "stone_cost_this_level": 90,
+      "total_cost_cumulative": 1365,
+      "stones_needed_to_max": 6708
+    },
+    "28%": {
+      "stone_cost_this_level": 93,
+      "total_cost_cumulative": 1458,
+      "stones_needed_to_max": 6615
+    },
+    "29%": {
+      "stone_cost_this_level": 96,
+      "total_cost_cumulative": 1554,
+      "stones_needed_to_max": 6519
+    },
+    "30%": {
+      "stone_cost_this_level": 99,
+      "total_cost_cumulative": 1653,
+      "stones_needed_to_max": 6420
+    },
+    "31%": {
+      "stone_cost_this_level": 102,
+      "total_cost_cumulative": 1755,
+      "stones_needed_to_max": 6318
+    },
+    "32%": {
+      "stone_cost_this_level": 105,
+      "total_cost_cumulative": 1860,
+      "stones_needed_to_max": 6213
+    },
+    "33%": {
+      "stone_cost_this_level": 108,
+      "total_cost_cumulative": 1968,
+      "stones_needed_to_max": 6105
+    },
+    "34%": {
+      "stone_cost_this_level": 111,
+      "total_cost_cumulative": 2079,
+      "stones_needed_to_max": 5994
+    },
+    "35%": {
+      "stone_cost_this_level": 114,
+      "total_cost_cumulative": 2193,
+      "stones_needed_to_max": 5880
+    },
+    "36%": {
+      "stone_cost_this_level": 117,
+      "total_cost_cumulative": 2310,
+      "stones_needed_to_max": 5763
+    },
+    "37%": {
+      "stone_cost_this_level": 120,
+      "total_cost_cumulative": 2430,
+      "stones_needed_to_max": 5643
+    },
+    "38%": {
+      "stone_cost_this_level": 123,
+      "total_cost_cumulative": 2553,
+      "stones_needed_to_max": 5520
+    },
+    "39%": {
+      "stone_cost_this_level": 126,
+      "total_cost_cumulative": 2679,
+      "stones_needed_to_max": 5394
+    },
+    "40%": {
+      "stone_cost_this_level": 129,
+      "total_cost_cumulative": 2808,
+      "stones_needed_to_max": 5265
+    },
+    "41%": {
+      "stone_cost_this_level": 132,
+      "total_cost_cumulative": 2940,
+      "stones_needed_to_max": 5133
+    },
+    "42%": {
+      "stone_cost_this_level": 135,
+      "total_cost_cumulative": 3075,
+      "stones_needed_to_max": 4998
+    },
+    "43%": {
+      "stone_cost_this_level": 138,
+      "total_cost_cumulative": 3213,
+      "stones_needed_to_max": 4860
+    },
+    "44%": {
+      "stone_cost_this_level": 141,
+      "total_cost_cumulative": 3354,
+      "stones_needed_to_max": 4719
+    },
+    "45%": {
+      "stone_cost_this_level": 144,
+      "total_cost_cumulative": 3498,
+      "stones_needed_to_max": 4575
+    },
+    "46%": {
+      "stone_cost_this_level": 147,
+      "total_cost_cumulative": 3645,
+      "stones_needed_to_max": 4428
+    },
+    "47%": {
+      "stone_cost_this_level": 150,
+      "total_cost_cumulative": 3795,
+      "stones_needed_to_max": 4278
+    },
+    "48%": {
+      "stone_cost_this_level": 153,
+      "total_cost_cumulative": 3948,
+      "stones_needed_to_max": 4125
+    },
+    "49%": {
+      "stone_cost_this_level": 156,
+      "total_cost_cumulative": 4104,
+      "stones_needed_to_max": 3969
+    },
+    "50%": {
+      "stone_cost_this_level": 159,
+      "total_cost_cumulative": 4263,
+      "stones_needed_to_max": 3810
+    },
+    "51%": {
+      "stone_cost_this_level": 162,
+      "total_cost_cumulative": 4425,
+      "stones_needed_to_max": 3648
+    },
+    "52%": {
+      "stone_cost_this_level": 165,
+      "total_cost_cumulative": 4590,
+      "stones_needed_to_max": 3483
+    },
+    "53%": {
+      "stone_cost_this_level": 168,
+      "total_cost_cumulative": 4758,
+      "stones_needed_to_max": 3315
+    },
+    "54%": {
+      "stone_cost_this_level": 171,
+      "total_cost_cumulative": 4929,
+      "stones_needed_to_max": 3144
+    },
+    "55%": {
+      "stone_cost_this_level": 174,
+      "total_cost_cumulative": 5103,
+      "stones_needed_to_max": 2970
+    },
+    "56%": {
+      "stone_cost_this_level": 177,
+      "total_cost_cumulative": 5280,
+      "stones_needed_to_max": 2793
+    },
+    "57%": {
+      "stone_cost_this_level": 180,
+      "total_cost_cumulative": 5460,
+      "stones_needed_to_max": 2613
+    },
+    "58%": {
+      "stone_cost_this_level": 183,
+      "total_cost_cumulative": 5643,
+      "stones_needed_to_max": 2430
+    },
+    "59%": {
+      "stone_cost_this_level": 186,
+      "total_cost_cumulative": 5829,
+      "stones_needed_to_max": 2244
+    },
+    "60%": {
+      "stone_cost_this_level": 189,
+      "total_cost_cumulative": 6018,
+      "stones_needed_to_max": 2055
+    },
+    "61%": {
+      "stone_cost_this_level": 192,
+      "total_cost_cumulative": 6210,
+      "stones_needed_to_max": 1863
+    },
+    "62%": {
+      "stone_cost_this_level": 195,
+      "total_cost_cumulative": 6405,
+      "stones_needed_to_max": 1668
+    },
+    "63%": {
+      "stone_cost_this_level": 198,
+      "total_cost_cumulative": 6603,
+      "stones_needed_to_max": 1470
+    },
+    "64%": {
+      "stone_cost_this_level": 201,
+      "total_cost_cumulative": 6804,
+      "stones_needed_to_max": 1269
+    },
+    "65%": {
+      "stone_cost_this_level": 204,
+      "total_cost_cumulative": 7008,
+      "stones_needed_to_max": 1065
+    },
+    "66%": {
+      "stone_cost_this_level": 207,
+      "total_cost_cumulative": 7215,
+      "stones_needed_to_max": 858
+    },
+    "67%": {
+      "stone_cost_this_level": 210,
+      "total_cost_cumulative": 7425,
+      "stones_needed_to_max": 648
+    },
+    "68%": {
+      "stone_cost_this_level": 213,
+      "total_cost_cumulative": 7638,
+      "stones_needed_to_max": 435
+    },
+    "69%": {
+      "stone_cost_this_level": 216,
+      "total_cost_cumulative": 7854,
+      "stones_needed_to_max": 219
+    },
+    "70%": {
+      "stone_cost_this_level": 219,
+      "total_cost_cumulative": 8073,
+      "stones_needed_to_max": 0
+    },
+    "total": "8073 Stones"
+  },
+  "assist_module_main_effect_substat_labs": {
+    "1": {
+      "time": "10d 19h 11m",
+      "cost_q_coins": 0.25,
+      "value": "1%"
+    },
+    "2": {
+      "time": "21d 14h 22m",
+      "cost_q_coins": 0.5,
+      "value": "2%"
+    },
+    "3": {
+      "time": "32d 9h 33m",
+      "cost_q_coins": 0.75,
+      "value": "3%"
+    },
+    "4": {
+      "time": "43d 4h 45m",
+      "cost_q_coins": 1,
+      "value": "4%"
+    },
+    "5": {
+      "time": "53d 23h 56m",
+      "cost_q_coins": 1.25,
+      "value": "5%"
+    },
+    "6": {
+      "time": "64d 19h 7m",
+      "cost_q_coins": 1.5,
+      "value": "6%"
+    },
+    "7": {
+      "time": "75d 14h 19m",
+      "cost_q_coins": 1.75,
+      "value": "7%"
+    },
+    "8": {
+      "time": "86d 9h 30m",
+      "cost_q_coins": 2,
+      "value": "8%"
+    },
+    "9": {
+      "time": "97d 4h 41m",
+      "cost_q_coins": 2.25,
+      "value": "9%"
+    },
+    "10": {
+      "time": "107d 23h 53m",
+      "cost_q_coins": 2.5,
+      "value": "10%"
+    },
+    "11": {
+      "time": "118d 19h 4m",
+      "cost_q_coins": 2.75,
+      "value": "11%"
+    },
+    "12": {
+      "time": "129d 14h 15m",
+      "cost_q_coins": 3,
+      "value": "12%"
+    },
+    "13": {
+      "time": "140d 9h 27m",
+      "cost_q_coins": 3.25,
+      "value": "13%"
+    },
+    "14": {
+      "time": "151d 4h 38m",
+      "cost_q_coins": 3.5,
+      "value": "14%"
+    },
+    "15": {
+      "time": "161d 23h 49m",
+      "cost_q_coins": 3.75,
+      "value": "15%"
+    },
+    "16": {
+      "time": "172d 19h 0m",
+      "cost_q_coins": 4,
+      "value": "16%"
+    },
+    "17": {
+      "time": "183d 14h 12m",
+      "cost_q_coins": 4.25,
+      "value": "17%"
+    },
+    "18": {
+      "time": "194d 9h 23m",
+      "cost_q_coins": 4.5,
+      "value": "18%"
+    },
+    "19": {
+      "time": "205d 4h 34m",
+      "cost_q_coins": 4.75,
+      "value": "19%"
+    },
+    "20": {
+      "time": "215d 23h 46m",
+      "cost_q_coins": 5,
+      "value": "20%"
+    },
+    "21": {
+      "time": "226d 18h 57m",
+      "cost_q_coins": 5.25,
+      "value": "21%"
+    },
+    "22": {
+      "time": "237d 14h 8m",
+      "cost_q_coins": 5.5,
+      "value": "22%"
+    },
+    "23": {
+      "time": "248d 9h 20m",
+      "cost_q_coins": 5.75,
+      "value": "23%"
+    },
+    "24": {
+      "time": "259d 4h 31m",
+      "cost_q_coins": 6,
+      "value": "24%"
+    },
+    "25": {
+      "time": "269d 23h 42m",
+      "cost_q_coins": 6.25,
+      "value": "25%"
+    },
+    "26": {
+      "time": "280d 18h 54m",
+      "cost_q_coins": 6.5,
+      "value": "26%"
+    },
+    "27": {
+      "time": "291d 14h 5m",
+      "cost_q_coins": 6.75,
+      "value": "27%"
+    },
+    "28": {
+      "time": "302d 9h 16m",
+      "cost_q_coins": 7,
+      "value": "28%"
+    },
+    "29": {
+      "time": "313d 4h 27m",
+      "cost_q_coins": 7.25,
+      "value": "29%"
+    },
+    "30": {
+      "time": "323d 23h 39m",
+      "cost_q_coins": 7.5,
+      "value": "30%"
+    }
+  }
+}

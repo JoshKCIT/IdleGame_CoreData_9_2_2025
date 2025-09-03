@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Boss enemy enhancement",
+  "category": "boss_enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Bosses have a 0% spawn rate on normal waves and 100% on boss waves. Boss waves are every 10 waves except when a battle condition reduces the waves.",
+  "spawn_mechanics": {
+    "boss_waves": "every 10 waves",
+    "spawn_rate_normal_waves": "0%",
+    "spawn_rate_boss_waves": "100%",
+    "battle_condition_modification": "can modify the boss wave frequency",
+    "spawn_cap": "count toward the 10 boss enemy spawn cap"
+  },
+  "special_rules": {
+    "immunities": [
+      "Orbs (excluding Boss Orb Hit Lab)",
+      "Death Ray",
+      "Shockwave",
+      "Black Hole"
+    ],
+    "drops": [
+      "module shards",
+      "reroll shards"
+    ],
+    "lab_research_bonuses": "Module shard and reroll shard drops are increased after researching the appropriate module-based labs",
+    "affected_by_mechanics": [
+      "heat-up",
+      "coin decay",
+      "mass scaling"
+    ]
+  },
+  "properties": {
+    "speed_multiplier": 0.3,
+    "health_multiplier": 20,
+    "base_coin_value": 5,
+    "spawn_frequency": "every 10 waves",
+    "difficulty": "High health makes them difficult to defeat quickly",
+    "movement": "Lower speed means they take longer to reach the tower"
+  },
+  "rewards": {
+    "module_shards": {
+      "description": "Used for upgrading modules",
+      "base_value": "varies by tier"
+    },
+    "reroll_shards": {
+      "description": "Used for rerolling module effects",
+      "base_value": "varies by tier"
+    },
+    "coin_value": {
+      "base_value": 5,
+      "description": "Base coin value"
+    },
+    "lab_research_bonuses": "Additional shards can be earned through lab research"
+  },
+  "strategic_implications": {
+    "damage_requirement": "Bosses require significant damage output to defeat",
+    "immunity_challenge": "Their immunity to many ultimate weapons makes them challenging",
+    "predictability": "The 10-wave interval provides predictable boss encounters",
+    "value": "High coin value makes them valuable targets despite their difficulty"
+  }
+}

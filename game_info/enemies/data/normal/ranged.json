@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Ranged Enemy",
+  "description": "Enemy that attacks the tower from distance.",
+  "category": "Normal Enemies",
+  "type": "enemy",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+
+    "target_type": "tower",
+    "effect_category": "combat",
+    "scaling_type": "linear",
+    "synergy_groups": [
+      "crowd_control"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Ranged enemies can attack from distance",
+    "priority_level": "High - ranged attacks can bypass some defenses",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High range to counter their ranged attacks",
+      "Fast attack speed to eliminate before they attack",
+      "Area-of-effect abilities for multiple ranged enemies"
+    ],
+    "counter_strategies": [
+      "Can attack from distance, requiring extended range",
+      "Higher coin value makes them priority targets",
+      "Can be dangerous if allowed to attack freely"
+    ],
+    "resource_efficiency": "High - ranged enemies provide double coin income"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 1.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 2,
+    "attack_type": "ranged"
+  },
+  "abilities": [
+    {
+      "name": "Ranged Attack",
+      "description": "Can attack the tower from a distance",
+      "range": "extended"
+    }
+  ],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "normal",
+    "spawn_percentage": "varies based on wave progression",
+    "spawn_cap": 120,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 2,
+    "special_drops": []
+  },
+  "strategy": {
+    "description": "Ranged enemies can attack the tower from a distance",
+    "tips": [
+      "Can attack from distance, requiring extended range to counter",
+      "Higher coin value makes them priority targets",
+      "Can be dangerous if allowed to attack freely"
+    ]
+  },
+  "cross_references": {
+    "cards": [
+      "range.json"
+    ],
+    "perks": [
+      "range.json"
+    ],
+    "lab_research": [
+      "range.json"
+    ],
+    "modules": [
+      "astral_deliverance.json"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Shared Enemy Characteristics",
+  "overview": "All enemies in the game share certain fundamental mechanics that affect their behavior and interactions with the tower.",
+  "shared_mechanics": {
+    "heat_up_mechanic": {
+      "description": "Enemies gain 4% more damage per hit over time",
+      "effect": "The longer an enemy survives, the more dangerous it becomes to the tower"
+    },
+    "coin_decay_mechanic": {
+      "description": "Enemies lose 50% of their coin value if they are alive for more than 3 waves",
+      "effect": "This mechanic encourages players to defeat enemies quickly to maximize coin rewards"
+    },
+    "enemy_mass_scaling": {
+      "description": "Enemy mass increases by 4% each wave they are alive",
+      "effect": "This affects various game mechanics that depend on enemy mass, such as knockback effects and certain ultimate weapon interactions"
+    }
+  },
+  "universal_enemy_properties": [
+    "All enemies can be targeted by the tower's basic attacks",
+    "All enemies follow the same path toward the tower",
+    "All enemies have health, speed, and coin value properties",
+    "All enemies are affected by the heat-up, coin decay, and mass scaling mechanics"
+  ]
+}

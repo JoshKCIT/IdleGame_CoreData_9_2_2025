@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Recovery Package Chance",
+  "description": "Enhances package mechanics",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "utility_research",
+    "stat_type": "recovery_chance",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "utility",
+      "survival",
+      "defensive_utility"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "0.002",
+    "increment_per_level": "0.002",
+    "total_chance": "0.002 × Level",
+    "final_chance": "Base Chance + Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Increases chance of recovery package drops"
+  },
+  "context_fields": {
+    "when_to_use": "Late game - very expensive research for recovery package chance",
+    "priority_level": "Very low - extremely expensive luxury research",
+    "upgrade_priority": "Very low priority - extremely expensive",
+    "synergy_combinations": [
+      "Recovery Package Max research for better effectiveness",
+      "Recovery Package Amount research for more healing",
+      "Defense research for survival"
+    ],
+    "counter_strategies": [
+      "Increases recovery package chance",
+      "Improves survival chances",
+      "Enhances healing availability"
+    ],
+    "resource_efficiency": "Very low - extremely expensive for limited benefit"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 20000000000,
+      "time": "2d 7h 33m",
+      "value": 0.002,
+      "delta_value": null,
+      "cum_cost": 20000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 25010000000,
+      "time": "2d 15h 54m",
+      "value": 0.004,
+      "delta_value": 0.002,
+      "cum_cost": 45010000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 30070000000,
+      "time": "3d 0h 27m",
+      "value": 0.006,
+      "delta_value": 0.002,
+      "cum_cost": 75080000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 35330000000,
+      "time": "3d 9h 34m",
+      "value": 0.008,
+      "delta_value": 0.002,
+      "cum_cost": 110410000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 40970000000,
+      "time": "3d 19h 44m",
+      "value": 0.01,
+      "delta_value": 0.002,
+      "cum_cost": 151380000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 47260000000,
+      "time": "4d 7h 36m",
+      "value": 0.012,
+      "delta_value": 0.002,
+      "cum_cost": 198640000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 54530000000,
+      "time": "4d 21h 51m",
+      "value": 0.014,
+      "delta_value": 0.002,
+      "cum_cost": 253170000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 63130000000,
+      "time": "5d 15h 19m",
+      "value": 0.016,
+      "delta_value": 0.002,
+      "cum_cost": 316300000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 73510000000,
+      "time": "6d 12h 53m",
+      "value": 0.018,
+      "delta_value": 0.002,
+      "cum_cost": 389810000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 86140000000,
+      "time": "7d 15h 31m",
+      "value": 0.02,
+      "delta_value": 0.002,
+      "cum_cost": 475950000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 101550000000,
+      "time": "9d 0h 17m",
+      "value": 0.022,
+      "delta_value": 0.002,
+      "cum_cost": 577500000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 120320000000,
+      "time": "10d 16h 19m",
+      "value": 0.024,
+      "delta_value": 0.002,
+      "cum_cost": 697820000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 143080000000,
+      "time": "12d 16h 46m",
+      "value": 0.026,
+      "delta_value": 0.002,
+      "cum_cost": 840900000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 170500000000,
+      "time": "15d 2h 57m",
+      "value": 0.028,
+      "delta_value": 0.002,
+      "cum_cost": 1011400000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 203310000000,
+      "time": "18d 0h 9m",
+      "value": 0.03,
+      "delta_value": 0.002,
+      "cum_cost": 1214710000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 242270000000,
+      "time": "21d 9h 46m",
+      "value": 0.032,
+      "delta_value": 0.002,
+      "cum_cost": 1456980000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 17,
+      "cost": 288200000000,
+      "time": "25d 9h 15m",
+      "value": 0.034,
+      "delta_value": 0.002,
+      "cum_cost": 1745180000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 18,
+      "cost": 341960000000,
+      "time": "30d 0h 6m",
+      "value": 0.036,
+      "delta_value": 0.002,
+      "cum_cost": 2087140000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 19,
+      "cost": 404450000000,
+      "time": "35d 7h 54m",
+      "value": 0.038,
+      "delta_value": 0.002,
+      "cum_cost": 2491590000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 476600000000,
+      "time": "41d 10h 16m",
+      "value": 0.04,
+      "delta_value": 0.002,
+      "cum_cost": 2968190000000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Extremely expensive from level 1",
+    "mid_levels": "Consistently very expensive",
+    "late_levels": "Extremely expensive, minimal benefit",
+    "recommended_stop": "Level 1-5 for most players, if at all"
+  },
+  "max_level": 20,
+  "cross_references": {
+    "cards": [
+      "recovery_package_chance.json"
+    ],
+    "perks": [
+      "recovery_package_chance.json"
+    ]
+  }
+}

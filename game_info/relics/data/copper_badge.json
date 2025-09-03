@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Copper Badge",
+  "description": "Increase tower damage by 3%",
+  "category": "Tournament Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "damage_amplification",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Entry-level tournament relic, rewards competitive play",
+  "tournament_bracket": "Copper",
+  "unlock_method": "Tournament",
+  "bonus_type": "tower_damage",
+  "bonus_value": 3,
+  "unlock_requirement": "Tournament: Finish top 4 in copper",
+  "rarity": "Rare",
+  "effect": "Tower damage +3%"
+}

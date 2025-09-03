@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Damage",
+  "description": "Increases tower damage",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "offensive",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "damage_type": "physical",
+    "target_type": "tower",
+    "activation": "automatic",
+    "range": "tower_range",
+    "stat_type": "damage_amplification",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "critical_hits",
+      "attack_speed",
+      "range"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "bosses",
+      "tanks"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "0.15 per perk level",
+    "total_bonus": "(1 + 0.15 × Quantity) × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_damage": "Base Damage × (1 + Perk Bonus) × (1 + Card Bonus) × (1 + Relic Bonus)"
+  },
+  "context_fields": {
+    "when_to_use": "Always take when available - damage is fundamental",
+    "priority_level": "Highest - damage scales multiplicatively with other bonuses",
+    "upgrade_priority": "First priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Critical Chance + Critical Factor for burst damage",
+      "Attack Speed for sustained DPS",
+      "Range for better target coverage",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against high-health enemies (tanks, bosses, fleet)",
+      "Scales exponentially with multiple damage sources",
+      "Combines with damage amplification effects (Amplify Bot, Berserker)"
+    ],
+    "resource_efficiency": "Extremely High - multiplicative scaling makes it the most valuable perk",
+    "effect": "x1.15 Damage",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "multiplicative",
+    "formula": "Total Bonus = (1 + Base Value x Quantity) x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/damage.json",
+    "related_research": "lab_upgrades/attack_research/damage.json",
+    "related_relics": [
+      "relics/data/t_iv_harmonic.json",
+      "relics/data/t_xiv_arcane.json",
+      "relics/data/t_xix_atomic.json"
+    ],
+    "cards": [
+      "damage.json"
+    ],
+    "perks": [
+      "damage.json"
+    ],
+    "relics": [
+      "t_iv_harmonic.json",
+      "t_xiv_arcane.json",
+      "t_xix_atomic.json"
+    ],
+    "lab_research": [
+      "damage.json"
+    ],
+    "modules": [
+      "astral_deliverance.json",
+      "being_annihilator.json",
+      "havoc_bringer.json"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Intro Sprint",
+  "description": "Card enhancement",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Rare": {
+      "description": "Waves Increases by 10 each time, for the first [x] waves or up to your highest wave. A Boss spawns every waves and no coins are earned during Intro Sprint.",
+      "levels": [
+        20,
+        30,
+        40,
+        50,
+        60,
+        80,
+        100
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Increases how many waves it's active",
+      "stone_cost": "1250",
+      "levels": [
+        "x1.8",
+        "x3.6",
+        "x5.4",
+        "x7.2",
+        "x9",
+        "x10.8",
+        "x12.6",
+        "x14.4",
+        "x16.2",
+        "x18"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Increases how many waves it's active",
+      "stone_cost": "1250",
+      "levels": [
+        {
+          "multiplier": 1.8
+        },
+        {
+          "multiplier": 3.6
+        },
+        {
+          "multiplier": 5.4
+        },
+        {
+          "multiplier": 7.2
+        },
+        {
+          "multiplier": 9.0
+        },
+        {
+          "multiplier": 10.8
+        },
+        {
+          "multiplier": 12.6
+        },
+        {
+          "multiplier": 14.4
+        },
+        {
+          "multiplier": 16.2
+        },
+        {
+          "multiplier": 18.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "intro_sprint.json"
+    ],
+    "lab_research": [
+      "intro_sprint.json"
+    ]
+  }
+}

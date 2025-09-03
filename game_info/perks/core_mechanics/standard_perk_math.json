@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "Standard Perk Math",
+  "overview": "Most standard perks can be selected more than once in a round. The game has 2 formulas for multiplicative and additive perks.",
+  "additive_perks": {
+    "formula": "Total Bonus = Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "examples": [
+      "Defense Percent",
+      "Perk Wave Requirement"
+    ]
+  },
+  "multiplicative_perks": {
+    "formula": "Total Bonus = (1 + Base Value × Quantity) × (1 + Standard Perk Bonus)",
+    "examples": [
+      "All Coin Bonuses",
+      "Cash Bonus",
+      "Max Health",
+      "Damage",
+      "Health Regen",
+      "Interest",
+      "Land Mine Damage",
+      "Defense Absolute"
+    ]
+  },
+  "standard_perk_bonus": {
+    "description": "Standard perk bonuses can be increased using the Standard Perk Bonus lab. This bonus applies to all standard perks and is calculated differently for additive and multiplicative perks",
+    "multiplicative_formula": "(1 + perk base × quantity) × (1 + standard perk bonus)",
+    "additive_formula": "Perk Base × quantity × (1 + standard perk bonus)"
+  }
+}

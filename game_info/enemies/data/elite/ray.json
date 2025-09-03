@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Ray Enemy",
+  "description": "Elite enemy that charges up a powerful beam attack.",
+  "category": "Elite Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+
+    "target_type": "tower",
+    "effect_category": "combat",
+    "scaling_type": "linear",
+    "synergy_groups": [
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Ray enemies charge up powerful beam attacks",
+    "priority_level": "High - charged attacks can deal significant damage",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High damage output to eliminate before charging",
+      "Fast attack speed to interrupt charging",
+      "Stun effects to prevent beam attacks"
+    ],
+    "counter_strategies": [
+      "Priority targets due to charged beam attacks",
+      "Eliminate quickly to prevent beam charging",
+      "Use stun effects to interrupt charging process"
+    ],
+    "resource_efficiency": "High - ray enemies provide quadruple coin income and elite cells"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 2.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 4,
+    "attack_type": "charged_beam"
+  },
+  "abilities": [
+    {
+      "name": "Charged Beam",
+      "description": "Charges up a powerful beam attack",
+      "damage_type": "high_damage",
+      "charge_time": "variable"
+    }
+  ],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "elite",
+    "spawn_percentage": "1-2 spawns per wave depending on wave progression",
+    "spawn_cap": 20,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 4,
+    "special_drops": [
+      "Elite Cells"
+    ]
+  },
+  "strategy": {
+    "description": "Ray enemies charge up powerful beam attacks",
+    "tips": [
+      "Priority targets due to their charged beam attacks",
+      "Eliminate quickly to prevent beam charging",
+      "Use stun effects to interrupt charging process",
+      "Can deal significant damage if allowed to complete charge"
+    ]
+  }
+}

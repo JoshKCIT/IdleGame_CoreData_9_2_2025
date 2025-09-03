@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Module Coin Cost",
+  "description": "Increases coin generation",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "research_category": "module_research",
+    "stat_type": "coin_cost_reduction",
+    "target": "module_system",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "module_system"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "coin_multiplier"
+  },
+  "calculation_formulas": {
+    "base_value": -0.01,
+    "increment_per_level": -0.01,
+    "total_value": "-0.01 × Level",
+    "effect": "Reduces module coin costs by -1% per level"
+  },
+  "context_fields": {
+    "when_to_use": "When you want to reduce module coin costs",
+    "priority_level": "High - reduces module upgrade costs",
+    "upgrade_priority": "High priority for module efficiency",
+    "synergy_combinations": [
+      "Module shard cost research",
+      "All module-related research",
+      "Module coin generation research"
+    ],
+    "counter_strategies": [
+      "Reduces module upgrade costs",
+      "Improves module system efficiency",
+      "Enables more frequent module upgrades"
+    ],
+    "resource_efficiency": "High - directly reduces upgrade costs"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 5000000000,
+      "time": "5d 4h 59m",
+      "value": -0.01,
+      "delta_value": null,
+      "cum_cost": 5000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 5130000000,
+      "time": "5d 9h 11m",
+      "value": -0.02,
+      "delta_value": -0.01,
+      "cum_cost": 10130000000,
+      "efficiency": -0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 5980000000,
+      "time": "5d 13h 28m",
+      "value": -0.03,
+      "delta_value": -0.01,
+      "cum_cost": 16110000000,
+      "efficiency": -0.0,
+      "notes": null
+    }
+  ],
+  "notes": "This research has 30 levels. Only first 3 levels shown for brevity. Full data available in original markdown file.",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency for cost reduction",
+    "mid_levels": "Decreasing efficiency at higher levels",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 15-20 for most players"
+  },
+  "max_level": 30,
+  "cross_references": {
+    "cards": [
+      "module_coin_cost.json"
+    ],
+    "perks": [
+      "module_coin_cost.json"
+    ]
+  }
+}

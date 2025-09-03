@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_research",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "First Perk Choice Lab",
+  "overview": "Unlocked in Milestones at tier 2 wave 250 and after Unlock Perk completed. Allows players to select a standard perk as a guaranteed choice when selecting the first perk of the round. Can only be selected outside of a round on the home screen in the top right corner. Has 1 level.",
+  "how_it_works": [
+    "Allows you to choose a specific standard perk that will always appear as the top choice for your first perk selection",
+    "Can only be configured outside of a round on the home screen",
+    "Located in the top right corner of the home screen",
+    "Works in conjunction with Auto Pick Perks"
+  ],
+  "lab_details": [
+    {
+      "level": 1,
+      "time": "4d 15h 6m",
+      "cost": "1,000,000,000",
+      "value": "Unlocked"
+    }
+  ],
+  "important_notes": [
+    "Auto Pick Ranking supersedes First Perk Choice",
+    "Example: if first choice is \"Perk Waves Required\" but the \"Golden Tower\" perk is ranked above it and both are available as first perk, Golden Tower will be taken instead"
+  ]
+}

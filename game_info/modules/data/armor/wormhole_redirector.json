@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Wormhole Redirector",
+  "description": "This module creates wormhole effects that redirect enemy projectiles and attacks.",
+  "category": "General",
+  "type": "Armor",
+  "focus": "Defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "module_type": "armor",
+    "focus_area": "defense",
+    "target_type": "enemy_projectiles",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "defensive",
+      "projectile_redirection"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "high_damage_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "redirect_chance": "Base Percentage × Rarity Multiplier",
+    "effect_duration": "Variable based on module level",
+    "redirect_range": "Area of effect around tower"
+  },
+  "context_fields": {
+    "when_to_use": "When facing ranged enemies and projectile attacks",
+    "priority_level": "Medium - useful against ranged enemies",
+    "upgrade_priority": "Medium priority for defensive builds",
+    "synergy_combinations": [
+      "Other defensive modules for comprehensive protection",
+      "Range bonuses to counter ranged enemies",
+      "Defense research for enhanced survivability"
+    ],
+    "counter_strategies": [
+      "Redirects enemy projectiles away from tower",
+      "Effective against ranged enemy attacks",
+      "Provides additional defensive layer"
+    ],
+    "resource_efficiency": "Medium - useful against specific enemy types"
+  },
+  "rarity_scaling": {
+    "Epic": "10%",
+    "Legendary": "15%",
+    "Mythic": "20%",
+    "Ancestral": "25%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Creates wormhole effects that redirect enemy attacks and projectiles."
+}

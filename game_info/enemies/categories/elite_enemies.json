@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Elite enemy enhancement",
+  "category": "elite_enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Elite enemies include Vampire, Ray and Scatter. There is a limit of only 1 spawn per wave or up to 2 at higher waves.",
+  "spawn_mechanics": {
+    "spawn_limit": "1 spawn per wave initially, up to 2 at higher waves",
+    "spawn_distribution": "Elite enemies share a total % spawn split between the 3 types",
+    "spawn_percentages": [
+      1,
+      4,
+      9,
+      16,
+      25,
+      36,
+      49,
+      64,
+      81,
+      100
+    ],
+    "hidden_mechanic": "There is a hidden 0.33 repeating when the value is not divisible by 3",
+    "display_behavior": "The displayed chance jumps from 33% to 100% once the background chance for a second elite per wave also reaches 100%"
+  },
+  "spawn_interpretation": {
+    "33_percent": "guaranteed at least one, possibly two elites per wave",
+    "100_percent": "guaranteed two elite per wave",
+    "type_distribution": "Elite enemies share spawn percentages between the 3 types (Vampire, Ray, Scatter)"
+  },
+  "special_rules": {
+    "immunities": [
+      "Orbs",
+      "Death Ray",
+      "Shockwave",
+      "Black Hole"
+    ],
+    "drops": "Elite enemies will drop Elite Cells when defeated",
+    "on_screen_limit": "8 per Elite type (Scatter children do not count towards this limit)",
+    "affected_by_mechanics": [
+      "heat-up",
+      "coin decay",
+      "mass scaling"
+    ]
+  },
+  "enemy_types": {
+    "vampire": {
+      "health_multiplier": 2,
+      "attack_mechanic": "Deals 2% of tower max health per second and disables all tower regen effects",
+      "base_coin_value": 4,
+      "attack_modification": "Vampire attacks cannot be increased or reduced through perks or other modifiers",
+      "regen_disable": "Tower regen, lifesteal, but not wall regen, are disabled when a vampire ray is attacking the tower"
+    },
+    "ray": {
+      "health_multiplier": 1,
+      "attack_mechanic": "Charges up for 30 seconds to fire a ray that deals 2x damage of basic enemy damage",
+      "base_coin_value": 4,
+      "knockback_immunity": true
+    },
+    "scatter": {
+      "health_multiplier": 2,
+      "split_mechanic": "Splits in half 4 times",
+      "health_reduction": "Each time a split happens, the health is cut in half",
+      "base_coin_value": 4,
+      "drop_mechanic": "Only 1 split scatter will only drop Elite Cells when defeated"
+    }
+  }
+}

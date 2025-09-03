@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Havoc Bringer",
+  "description": "This module brings chaos and destruction to the battlefield with devastating effects.",
+  "category": "General",
+  "type": "Cannon",
+  "focus": "Attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "module_type": "cannon",
+    "focus_area": "attack",
+    "target_type": "multiple_enemies",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "offensive",
+      "area_damage",
+      "chaos"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "chaos_effect": "Base Percentage × Rarity Multiplier",
+    "effect_duration": "Variable based on module level",
+    "area_of_effect": "Large area around tower"
+  },
+  "context_fields": {
+    "when_to_use": "When needing maximum chaos and destruction on the battlefield",
+    "priority_level": "High - devastating battlefield effects",
+    "upgrade_priority": "High priority for offensive builds",
+    "synergy_combinations": [
+      "Other offensive modules for enhanced damage",
+      "Area-of-effect abilities for maximum chaos",
+      "Damage amplification effects for devastating results"
+    ],
+    "counter_strategies": [
+      "Brings chaos and destruction to battlefield",
+      "Affects multiple enemies simultaneously",
+      "Provides devastating offensive capabilities"
+    ],
+    "resource_efficiency": "High - devastating effects provide significant advantage"
+  },
+  "rarity_scaling": {
+    "Epic": "10%",
+    "Legendary": "15%",
+    "Mythic": "20%",
+    "Ancestral": "25%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Brings chaos and destruction with devastating battlefield effects."
+}

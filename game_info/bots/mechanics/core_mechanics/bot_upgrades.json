@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Upgrade mechanics enhancement",
+  "category": "General",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Bot Upgrades",
+  "upgrade_system_overview": "Each bot has 3-4 different upgrade paths that can be pursued independently. Upgrades are purchased using event medals through the Event Shop.",
+  "cost_structure": {
+    "base_cost": 100,
+    "cost_increase": 40,
+    "formula": "Cost = 100 + (40 × level)",
+    "example_cost_progression": {
+      "level_1": {
+        "cost_calculation": "100 + (40 × 1)",
+        "total_cost": 140
+      },
+      "level_2": {
+        "cost_calculation": "100 + (40 × 2)",
+        "total_cost": 180
+      },
+      "level_3": {
+        "cost_calculation": "100 + (40 × 3)",
+        "total_cost": 220
+      },
+      "level_10": {
+        "cost_calculation": "100 + (40 × 10)",
+        "total_cost": 500
+      },
+      "level_15": {
+        "cost_calculation": "100 + (40 × 15)",
+        "total_cost": 700
+      },
+      "level_30": {
+        "cost_calculation": "100 + (40 × 30)",
+        "total_cost": 1300
+      }
+    }
+  },
+  "upgrade_paths_by_bot": {
+    "flame_bot": {
+      "damage_reduction": {
+        "levels": 25,
+        "range": "20% → 95%"
+      },
+      "cooldown": {
+        "levels": 15,
+        "range": "75s → 30s"
+      },
+      "damage": {
+        "levels": 30,
+        "range": "50x → 290x tower damage"
+      },
+      "range": {
+        "levels": 15,
+        "range": "30m → 90m"
+      }
+    },
+    "thunder_bot": {
+      "duration": {
+        "levels": 20,
+        "range": "5.5s → 15.0s stun"
+      },
+      "cooldown": {
+        "levels": 15,
+        "range": "120s → 75s"
+      },
+      "linger": {
+        "levels": 20,
+        "range": "20% → 80% stun linger"
+      },
+      "range": {
+        "levels": 15,
+        "range": "28m → 70m"
+      }
+    },
+    "golden_bot": {
+      "duration": {
+        "levels": 30,
+        "range": "20s → 35s active time"
+      },
+      "cooldown": {
+        "levels": 15,
+        "range": "120s → 75s"
+      },
+      "bonus": {
+        "levels": 30,
+        "range": "2.0x → 8.0x coin multiplier"
+      },
+      "range": {
+        "levels": 15,
+        "range": "20m → 50m"
+      }
+    },
+    "amplify_bot": {
+      "duration": {
+        "levels": 30,
+        "range": "20s → 35s active time"
+      },
+      "cooldown": {
+        "levels": 15,
+        "range": "120s → 75s"
+      },
+      "bonus": {
+        "levels": 30,
+        "range": "3.5x → 15.5x damage multiplier"
+      },
+      "range": {
+        "levels": 15,
+        "range": "25m → 55m"
+      }
+    }
+  },
+  "total_investment_costs": {
+    "flame_bot": {
+      "damage_reduction": {
+        "max_level": 25,
+        "total_cost": 14500
+      },
+      "cooldown": {
+        "max_level": 15,
+        "total_cost": 5700
+      },
+      "damage": {
+        "max_level": 30,
+        "total_cost": 20400
+      },
+      "range": {
+        "max_level": 15,
+        "total_cost": 5700
+      }
+    },
+    "thunder_bot": {
+      "duration": {
+        "max_level": 20,
+        "total_cost": 20400
+      },
+      "cooldown": {
+        "max_level": 15,
+        "total_cost": 5700
+      },
+      "linger": {
+        "max_level": 20,
+        "total_cost": 20400
+      },
+      "range": {
+        "max_level": 15,
+        "total_cost": 5700
+      }
+    },
+    "golden_bot": {
+      "duration": {
+        "max_level": 30,
+        "total_cost": 20400
+      },
+      "cooldown": {
+        "max_level": 15,
+        "total_cost": 5700
+      },
+      "bonus": {
+        "max_level": 30,
+        "total_cost": 20400
+      },
+      "range": {
+        "max_level": 15,
+        "total_cost": 5700
+      }
+    },
+    "amplify_bot": {
+      "duration": {
+        "max_level": 30,
+        "total_cost": 20400
+      },
+      "cooldown": {
+        "max_level": 15,
+        "total_cost": 5700
+      },
+      "bonus": {
+        "max_level": 30,
+        "total_cost": 20400
+      },
+      "range": {
+        "max_level": 15,
+        "total_cost": 5700
+      }
+    }
+  },
+  "strategic_upgrade_priorities": {
+    "early_investment": {
+      "medal_range": "First 5,000 medals",
+      "priorities": [
+        "Range upgrades: Increase coverage area",
+        "Cooldown upgrades: More frequent activations",
+        "Basic effect upgrades: Modest improvements"
+      ]
+    },
+    "mid_investment": {
+      "medal_range": "5,000-15,000 medals",
+      "priorities": [
+        "Duration upgrades: Longer active periods",
+        "Moderate effect upgrades: Noticeable improvements"
+      ]
+    },
+    "high_investment": {
+      "medal_range": "15,000+ medals",
+      "priorities": [
+        "Maximum effect upgrades: Maximum power",
+        "All upgrades: Complete bot optimization"
+      ]
+    }
+  },
+  "upgrade_synergies": [
+    "Range + Duration: Maximum coverage time",
+    "Cooldown + Effect: High frequency, high impact",
+    "All paths: Maximum bot effectiveness"
+  ]
+}

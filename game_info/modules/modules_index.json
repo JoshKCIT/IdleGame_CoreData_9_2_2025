@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "modules_index",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "module",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "modules_overview": {
+    "total_modules": 16,
+    "categories": {
+      "cannon": 6,
+      "armor": 5,
+      "core": 6,
+      "generator": 5
+    }
+  },
+  "modules_by_category": {
+    "cannon": [
+      {
+        "name": "Bounce Shot Enhancement",
+        "file_path": "modules/data/cannon/bounce_shot_enhancement.json",
+        "primary_function": "offensive",
+        "focus_area": "attack_enhancement",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "bounce_shot",
+          "projectile_enhancement"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Astral Deliverance",
+        "file_path": "modules/data/cannon/astral_deliverance.json",
+        "primary_function": "offensive",
+        "focus_area": "attack",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "bounce_shot",
+          "projectile_enhancement"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Being Annihilator",
+        "file_path": "modules/data/cannon/being_annihilator.json",
+        "primary_function": "offensive",
+        "focus_area": "attack",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "critical_hits",
+          "super_critical"
+        ],
+        "optimal_use": [
+          "late_game"
+        ]
+      },
+      {
+        "name": "Death Penalty",
+        "file_path": "modules/data/cannon/death_penalty.json",
+        "primary_function": "offensive",
+        "focus_area": "attack",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "damage_amplification"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Havoc Bringer",
+        "file_path": "modules/data/cannon/havoc_bringer.json",
+        "primary_function": "offensive",
+        "focus_area": "attack",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "area_damage"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Shrink Ray",
+        "file_path": "modules/data/cannon/shrink_ray.json",
+        "primary_function": "utility",
+        "focus_area": "attack",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "crowd_control"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      }
+    ],
+    "armor": [
+      {
+        "name": "Anti-Cube Portal",
+        "file_path": "modules/data/armor/anti_cube_portal.json",
+        "primary_function": "defensive",
+        "focus_area": "defense",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "shockwave",
+          "damage_amplification"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Sharp Fortitude",
+        "file_path": "modules/data/armor/sharp_fortitude.json",
+        "primary_function": "defensive",
+        "focus_area": "defense",
+        "effect_category": "survival",
+        "synergy_groups": [
+          "wall_defense",
+          "thorns"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Wormhole Redirector",
+        "file_path": "modules/data/armor/wormhole_redirector.json",
+        "primary_function": "defensive",
+        "focus_area": "defense",
+        "effect_category": "survival",
+        "synergy_groups": [
+          "crowd_control"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Space Displacer",
+        "file_path": "modules/data/armor/space_displacer.json",
+        "primary_function": "defensive",
+        "focus_area": "defense",
+        "effect_category": "survival",
+        "synergy_groups": [
+          "crowd_control"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Negative Mass Projector",
+        "file_path": "modules/data/armor/negative_mass_projector.json",
+        "primary_function": "defensive",
+        "focus_area": "defense",
+        "effect_category": "survival",
+        "synergy_groups": [
+          "crowd_control"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      }
+    ],
+    "core": [
+      {
+        "name": "Harmony Conductor",
+        "file_path": "modules/data/core/harmony_conductor.json",
+        "primary_function": "defensive",
+        "focus_area": "ultimate_weapons",
+        "effect_category": "survival",
+        "synergy_groups": [
+          "poison",
+          "defensive_utility"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Dimension Core",
+        "file_path": "modules/data/core/dimension_core.json",
+        "primary_function": "offensive",
+        "focus_area": "ultimate_weapons",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "chain_lightning",
+          "shock_effects"
+        ],
+        "optimal_use": [
+          "late_game"
+        ]
+      },
+      {
+        "name": "Primordial Collapse",
+        "file_path": "modules/data/core/primordial_collapse.json",
+        "primary_function": "offensive",
+        "focus_area": "ultimate_weapons",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "damage_amplification"
+        ],
+        "optimal_use": [
+          "late_game"
+        ]
+      },
+      {
+        "name": "OM Chip",
+        "file_path": "modules/data/core/om_chip.json",
+        "primary_function": "utility",
+        "focus_area": "ultimate_weapons",
+        "effect_category": "efficiency",
+        "synergy_groups": [
+          "research_efficiency"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Multiverse Nexus",
+        "file_path": "modules/data/core/multiverse_nexus.json",
+        "primary_function": "utility",
+        "focus_area": "ultimate_weapons",
+        "effect_category": "efficiency",
+        "synergy_groups": [
+          "research_efficiency"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Magnetic Hook",
+        "file_path": "modules/data/core/magnetic_hook.json",
+        "primary_function": "utility",
+        "focus_area": "ultimate_weapons",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "crowd_control"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      }
+    ],
+    "generator": [
+      {
+        "name": "Project Funding",
+        "file_path": "modules/data/generator/project_funding.json",
+        "primary_function": "economy",
+        "focus_area": "utility",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "economy",
+          "damage_scaling"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Pulsar Harvester",
+        "file_path": "modules/data/generator/pulsar_harvester.json",
+        "primary_function": "utility",
+        "focus_area": "utility",
+        "effect_category": "combat",
+        "synergy_groups": [
+          "enemy_weakening",
+          "projectile_effects"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Singularity Harness",
+        "file_path": "modules/data/generator/singularity_harness.json",
+        "primary_function": "utility",
+        "focus_area": "utility",
+        "effect_category": "efficiency",
+        "synergy_groups": [
+          "research_efficiency"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Galaxy Compressor",
+        "file_path": "modules/data/generator/galaxy_compressor.json",
+        "primary_function": "utility",
+        "focus_area": "utility",
+        "effect_category": "efficiency",
+        "synergy_groups": [
+          "research_efficiency"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      },
+      {
+        "name": "Black Hole Digestor",
+        "file_path": "modules/data/generator/black_hole_digestor.json",
+        "primary_function": "utility",
+        "focus_area": "utility",
+        "effect_category": "efficiency",
+        "synergy_groups": [
+          "research_efficiency"
+        ],
+        "optimal_use": [
+          "mid_game",
+          "late_game"
+        ]
+      }
+    ]
+  },
+  "priority_guide": {
+    "early_game": [
+      "Project Funding (economy scaling)",
+      "Harmony Conductor (defensive utility)"
+    ],
+    "mid_game": [
+      "Astral Deliverance (bounce shot enhancement)",
+      "Anti-Cube Portal (shockwave enhancement)",
+      "Sharp Fortitude (wall defense)"
+    ],
+    "late_game": [
+      "Being Annihilator (critical hit chains)",
+      "Dimension Core (chain lightning enhancement)",
+      "Pulsar Harvester (enemy weakening)"
+    ]
+  },
+  "synergy_groups": {
+    "bounce_shot_builds": [
+      "Bounce Shot Enhancement",
+      "Astral Deliverance"
+    ],
+    "critical_hit_builds": [
+      "Being Annihilator"
+    ],
+    "shockwave_builds": [
+      "Anti-Cube Portal"
+    ],
+    "wall_defense_builds": [
+      "Sharp Fortitude"
+    ],
+    "poison_builds": [
+      "Harmony Conductor"
+    ],
+    "chain_lightning_builds": [
+      "Dimension Core"
+    ],
+    "economy_builds": [
+      "Project Funding"
+    ]
+  },
+  "conversion_status": {
+    "converted_to_json": 16,
+    "remaining_markdown": 0,
+    "conversion_progress": "100%"
+  }
+}

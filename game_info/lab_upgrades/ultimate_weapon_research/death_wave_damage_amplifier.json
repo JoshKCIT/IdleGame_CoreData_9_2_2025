@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Death Wave Damage Amplifier",
+  "description": "Increases tower damage output",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "ultimate_weapon_research",
+    "stat_type": "damage_amplifier",
+    "target": "enemies",
+    "effect_category": "combat",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "offensive",
+      "death_wave",
+      "damage_amplifier"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "multiple_enemies",
+      "swarms",
+      "bosses"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "6.5",
+    "increment_per_level": "1.5",
+    "total_amplifier": "6.5 + (1.5 × (Level - 1))",
+    "final_amplifier": "Base Amplifier + Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Increases damage amplifier for death wave ultimate weapon"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - increases death wave damage amplifier",
+    "priority_level": "Medium - important for death wave builds",
+    "upgrade_priority": "Medium priority for death wave specialization",
+    "synergy_combinations": [
+      "Other death wave research for comprehensive builds",
+      "Death wave health research for survival",
+      "Death wave coins bonus research for economy"
+    ],
+    "counter_strategies": [
+      "Increases damage amplifier",
+      "Improves death wave effectiveness",
+      "Enhances wave damage output"
+    ],
+    "resource_efficiency": "Medium - important for death wave builds but expensive at high levels"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 100000000000,
+      "time": "0d 8h 0m",
+      "value": 6.5,
+      "delta_value": null,
+      "cum_cost": 100000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 150000000000,
+      "time": "9d 8h 0m",
+      "value": 8,
+      "delta_value": 1.5,
+      "cum_cost": 250000000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 225000000000,
+      "time": "10d 10h 52m",
+      "value": 9.5,
+      "delta_value": 1.5,
+      "cum_cost": 475000000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 337500000000,
+      "time": "11d 16h 59m",
+      "value": 11,
+      "delta_value": 1.5,
+      "cum_cost": 812500000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 506250000000,
+      "time": "13d 2h 42m",
+      "value": 12.5,
+      "delta_value": 1.5,
+      "cum_cost": 1318750000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 759380000000,
+      "time": "14d 16h 28m",
+      "value": 14,
+      "delta_value": 1.5,
+      "cum_cost": 2078130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 1140000000000,
+      "time": "16d 10h 45m",
+      "value": 15.5,
+      "delta_value": 1.5,
+      "cum_cost": 3218130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 1710000000000,
+      "time": "18d 10h 8m",
+      "value": 17,
+      "delta_value": 1.5,
+      "cum_cost": 4928130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 2560000000000,
+      "time": "20d 15h 11m",
+      "value": 18.5,
+      "delta_value": 1.5,
+      "cum_cost": 7488130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 3840000000000,
+      "time": "23d 2h 36m",
+      "value": 20,
+      "delta_value": 1.5,
+      "cum_cost": 11328130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 5770000000000,
+      "time": "25d 21h 10m",
+      "value": 21.5,
+      "delta_value": 1.5,
+      "cum_cost": 17098130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 8650000000000,
+      "time": "28d 23h 42m",
+      "value": 23,
+      "delta_value": 1.5,
+      "cum_cost": 25748130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 12970000000000,
+      "time": "32d 11h 11m",
+      "value": 24.5,
+      "delta_value": 1.5,
+      "cum_cost": 38718130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 19460000000000,
+      "time": "36d 8h 41m",
+      "value": 26,
+      "delta_value": 1.5,
+      "cum_cost": 58178130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 29190000000000,
+      "time": "40d 17h 25m",
+      "value": 27.5,
+      "delta_value": 1.5,
+      "cum_cost": 87368130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 43790000000000,
+      "time": "45d 14h 42m",
+      "value": 29,
+      "delta_value": 1.5,
+      "cum_cost": 131158130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 17,
+      "cost": 65680000000000,
+      "time": "51d 2h 4m",
+      "value": 30.5,
+      "delta_value": 1.5,
+      "cum_cost": 196838130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 18,
+      "cost": 98530000000000,
+      "time": "57d 5h 12m",
+      "value": 32,
+      "delta_value": 1.5,
+      "cum_cost": 295368130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 19,
+      "cost": 147790000000000,
+      "time": "64d 1h 59m",
+      "value": 33.5,
+      "delta_value": 1.5,
+      "cum_cost": 443158130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 221680000000000,
+      "time": "71d 18h 33m",
+      "value": 35,
+      "delta_value": 1.5,
+      "cum_cost": 664838130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 21,
+      "cost": 332530000000000,
+      "time": "80d 9h 15m",
+      "value": 36.5,
+      "delta_value": 1.5,
+      "cum_cost": 997368130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 22,
+      "cost": 498790000000000,
+      "time": "90d 0h 46m",
+      "value": 38,
+      "delta_value": 1.5,
+      "cum_cost": 1496158130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 23,
+      "cost": 748180000000000,
+      "time": "100d 20h 3m",
+      "value": 39.5,
+      "delta_value": 1.5,
+      "cum_cost": 2244338130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 24,
+      "cost": 1120000000000000,
+      "time": "112d 22h 28m",
+      "value": 41,
+      "delta_value": 1.5,
+      "cum_cost": 3364338130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 25,
+      "cost": 1680000000000000,
+      "time": "126d 11h 43m",
+      "value": 42.5,
+      "delta_value": 1.5,
+      "cum_cost": 5044338130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 26,
+      "cost": 2530000000000000,
+      "time": "141d 16h 0m",
+      "value": 44,
+      "delta_value": 1.5,
+      "cum_cost": 7574338130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 27,
+      "cost": 3790000000000000,
+      "time": "158d 16h 0m",
+      "value": 45.5,
+      "delta_value": 1.5,
+      "cum_cost": 11364338130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 28,
+      "cost": 5680000000000000,
+      "time": "177d 16h 58m",
+      "value": 47,
+      "delta_value": 1.5,
+      "cum_cost": 17044338130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 29,
+      "cost": 8520000000000000,
+      "time": "199d 0h 46m",
+      "value": 48.5,
+      "delta_value": 1.5,
+      "cum_cost": 25564338130000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 30,
+      "cost": 12780000000000000,
+      "time": "222d 21h 59m",
+      "value": 50,
+      "delta_value": 1.5,
+      "cum_cost": 38344338130000000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 15",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 20-25 for most players"
+  },
+  "max_level": 30,
+  "cross_references": {
+    "cards": [
+      "death_wave_damage_amplifier.json"
+    ],
+    "perks": [
+      "death_wave_damage_amplifier.json"
+    ],
+    "relics": [
+      "t_iv_harmonic.json",
+      "t_xiv_arcane.json",
+      "t_xix_atomic.json"
+    ],
+    "modules": [
+      "astral_deliverance.json",
+      "being_annihilator.json",
+      "havoc_bringer.json"
+    ]
+  }
+}

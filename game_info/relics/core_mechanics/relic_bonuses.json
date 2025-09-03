@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "passive",
+    "damage_type": "coin_multiplier"
+  },
+  "notes": "Additional information",
+  "title": "Relic Bonuses",
+  "overview": "Relics provide comprehensive stat improvements across all major game systems. When all relics are unlocked, they provide massive bonuses that significantly enhance tower performance.",
+  "complete_bonus_breakdown": {
+    "misc_bonuses": {
+      "lab_speed": "61%",
+      "bot_range": "6m"
+    },
+    "damage_bonuses": {
+      "damage": "85%",
+      "ultimate_damage": "25%",
+      "attack_speed": "8%",
+      "crit_chance": "4%",
+      "crit_factor": "86%",
+      "damage_per_meter": "64%",
+      "super_critical_chance": "6%",
+      "super_critical_mult": "5%"
+    },
+    "defense_bonuses": {
+      "health": "91%",
+      "health_regen": "9%",
+      "defense_absolute": "66%",
+      "thorns": "4%",
+      "knockback_force": "7%",
+      "orb_speed": "17%",
+      "wall_rebuild": "-2s"
+    },
+    "utility_bonuses": {
+      "cash": "9%",
+      "coins": "70%",
+      "free_attack_upgrade": "3%",
+      "free_defense_upgrade": "4%",
+      "free_utility_upgrade": "2%",
+      "recovery_amount": "7%",
+      "enemy_attack_level_skip": "2%",
+      "enemy_health_level_skip": "2%"
+    }
+  },
+  "bonus_sources_by_category": {
+    "milestone_relics": {
+      "t_i_v_rare": "2% bonuses each",
+      "t_vi_x_epic": "5% bonuses each",
+      "t_xi_xxi_legendary": "8-10% bonuses each",
+      "total": "21 relics providing foundational bonuses"
+    },
+    "tournament_relics": {
+      "copper_silver": "3-5% bonuses",
+      "gold_platinum": "4-5% bonuses",
+      "champion_legend": "10% bonuses",
+      "total": "7 relics with competitive bonuses"
+    },
+    "event_relics": {
+      "rare_events": "2% bonuses each",
+      "epic_events": "4-8% bonuses each",
+      "total": "100+ relics from various events"
+    },
+    "guild_relics": {
+      "rare_guild": "2% bonuses",
+      "epic_guild": "5% bonuses",
+      "total": "4 relics from guild participation"
+    },
+    "anniversary_relics": {
+      "all_rare": "2% bonuses each",
+      "total": "6 relics for years of gameplay"
+    }
+  },
+  "calculation_examples": {
+    "damage_calculation": {
+      "base_tower_damage": 100,
+      "relic_bonuses": "+85%",
+      "perk_bonuses": "+50%",
+      "final_damage": "100 × 1.85 × 1.50 = 277.5"
+    },
+    "health_calculation": {
+      "base_tower_health": 1000,
+      "relic_bonuses": "+91%",
+      "module_bonuses": "+30%",
+      "final_health": "1000 × 1.91 × 1.30 = 2483"
+    },
+    "coin_calculation": {
+      "base_coin_gain": 100,
+      "relic_bonuses": "+70%",
+      "perk_bonuses": "+25%",
+      "final_coins": "100 × 1.70 × 1.25 = 212.5"
+    }
+  },
+  "strategic_impact": [
+    "Late Game Progression: Required for high-tier content",
+    "Tournament Performance: Competitive advantages",
+    "Efficiency Gains: Faster lab research and progression",
+    "Survivability: Enhanced defense and health",
+    "Resource Generation: Improved coin and cash income"
+  ],
+  "conclusion": "The comprehensive nature of relic bonuses ensures they enhance every aspect of tower performance, making relic collection a core progression goal."
+}

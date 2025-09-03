@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Death Ray",
+  "description": "Enhances death ray ultimate weapon",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "manual"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "A powerful ray that destroys enemies on contact (except bosses), with a duration of # sec",
+      "levels": [
+        "2.3 sec",
+        "2.7 sec",
+        "3.1 sec",
+        "3.5 sec",
+        "3.9 sec",
+        "4.4 sec",
+        "4.9 sec"
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Death ray partially pierces protector shield",
+      "stone_cost": "750",
+      "levels": [
+        "5%",
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%",
+        "35%",
+        "40%",
+        "45%",
+        "50%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Death ray partially pierces protector shield",
+      "stone_cost": "750",
+      "levels": [
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 25.0
+        },
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 35.0
+        },
+        {
+          "percent": 40.0
+        },
+        {
+          "percent": 45.0
+        },
+        {
+          "percent": 50.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "death_ray.json"
+    ],
+    "lab_research": [
+      "death_ray.json"
+    ]
+  }
+}

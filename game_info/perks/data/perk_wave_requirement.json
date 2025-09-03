@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Perk Wave Requirement",
+  "description": "Reduces waves required for next perk",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "damage_type": "time_optimization",
+    "target_type": "tower",
+    "activation": "automatic",
+    "range": "global",
+    "stat_type": "research_speed",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "time_optimization",
+      "research_efficiency"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "20.00% per perk level",
+    "total_bonus": "Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_wave_requirement": "Base Perk Wave Requirement - (Perk Bonus × Quantity)"
+  },
+  "context_fields": {
+    "when_to_use": "Always valuable for faster perk acquisition and progression",
+    "priority_level": "High - significantly improves progression speed",
+    "upgrade_priority": "High priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Game Speed for overall time efficiency",
+      "Standard Perk Bonus lab research for maximum effect",
+      "Time optimization relics and cards"
+    ],
+    "counter_strategies": [
+      "Provides passive progression acceleration for all game phases",
+      "Scales additively with other wave requirement bonuses",
+      "Essential for faster perk acquisition and overall progression"
+    ],
+    "resource_efficiency": "Very High - significant progression impact",
+    "effect": "Perk Wave Requirement -20.00%",
+    "appearance_chance": "65%",
+    "max_quantity": 3,
+    "calculation_type": "additive",
+    "formula": "Total Bonus = Base Value x Quantity x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/wave_accelerator.json",
+    "related_research": "lab_upgrades/utility_research/perk_wave_requirement.json",
+    "cards": [
+      "perk_wave_requirement.json"
+    ],
+    "lab_research": [
+      "perk_wave_requirement.json"
+    ]
+  }
+}

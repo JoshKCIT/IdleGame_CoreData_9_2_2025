@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Bounce Shot",
+  "description": "Increases bounce shot count",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "offensive",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "damage_type": "area_damage",
+    "target_type": "multiple_enemies",
+    "activation": "automatic",
+    "range": "projectile_based",
+    "stat_type": "damage_amplification",
+    "effect_category": "combat",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "bounce_shot",
+      "projectile_enhancement",
+      "area_damage"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "swarms",
+      "grouped_enemies",
+      "low_health_groups"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "2 per perk level",
+    "total_bonus": "Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_bounces": "Base Bounces + (Perk Bonus × Quantity)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for crowd control and area damage",
+    "priority_level": "High - powerful against grouped enemies",
+    "upgrade_priority": "High priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Damage for increased bounce damage",
+      "Range for better bounce coverage",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against swarms and grouped enemies",
+      "Scales additively with other bounce shot bonuses",
+      "Combines with damage perks for maximum area damage"
+    ],
+    "resource_efficiency": "Very High - excellent crowd control",
+    "effect": "Bounce Shot +2",
+    "appearance_chance": "65%",
+    "max_quantity": 3,
+    "calculation_type": "additive",
+    "formula": "Total Bonus = Base Value x Quantity x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Bounce shot perk is not available if bounce shot has not been unlocked. Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/bounce_shot_mechanics.json",
+    "related_research": "lab_upgrades/attack_research/range.json",
+    "cards": [
+      "bounce_shot.json"
+    ],
+    "perks": [
+      "bounce_shot.json"
+    ],
+    "lab_research": [
+      "bounce_shot.json"
+    ],
+    "modules": [
+      "bounce_shot_enhancement.json",
+      "astral_deliverance.json"
+    ]
+  }
+}

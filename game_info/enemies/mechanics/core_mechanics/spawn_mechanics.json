@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Enemy Spawn Mechanics",
+  "spawn_caps": {
+    "total_maximum": 150,
+    "normal_enemies": 120,
+    "elite_enemies": 20,
+    "boss_enemies": 10,
+    "fleet_enemies": "Use Normal enemy spawn cap (count toward the 120 normal enemy limit)"
+  },
+  "spawn_behavior": {
+    "normal_enemies": "spawn based on percentage chances that add up to 100% per wave",
+    "elite_enemies": "have special spawn rules with limits of 1-2 per wave depending on wave progression",
+    "boss_enemies": "only spawn on boss waves (every 10 waves, unless modified by battle conditions)",
+    "fleet_enemies": "spawn on specific wave intervals starting from Tier 14"
+  },
+  "special_spawn_rules": {
+    "protector": {
+      "spawn_limit": "Only 1 Protector can spawn per wave",
+      "cooldown": "There is a cooldown between Protector spawn chances",
+      "max_active": "Maximum of 8 Protectors can be active at once"
+    },
+    "elite": {
+      "spawn_limit": "Limited to 1 spawn per wave initially, up to 2 at higher waves",
+      "spawn_distribution": "Elite enemies share spawn percentages between the 3 types (Vampire, Ray, Scatter)",
+      "max_active": "Maximum of 8 of each elite type on screen at once (Scatter children don't count toward this limit)"
+    },
+    "fleet": {
+      "guaranteed_spawn": "Fleet enemies will always spawn when they should",
+      "wave_skip_behavior": "Wave skipping a wave where a Fleet Enemy would spawn will still spawn the fleet enemy",
+      "spawn_group_size": "Fleet enemies spawn with a group of 10-14 related enemies",
+      "spawn_priority": "If enemy spawn count is capped, a related enemy will despawn to allow the fleet to spawn"
+    }
+  }
+}

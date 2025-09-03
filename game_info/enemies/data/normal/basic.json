@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Basic Enemy",
+  "description": "Your basic enemy, does nothing special.",
+  "category": "Normal Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "target_type": "tower",
+    "effect_category": "combat",
+    "scaling_type": "linear",
+    "synergy_groups": [
+      "crowd_control"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Basic enemies are the foundation of enemy waves",
+    "priority_level": "Low - basic enemies with no special abilities",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "Area-of-effect abilities for efficient clearing",
+      "Basic damage and attack speed for consistent elimination"
+    ],
+    "counter_strategies": [
+      "Easy to defeat but can accumulate if not managed",
+      "Good targets for area-of-effect abilities",
+      "Provide baseline for understanding enemy mechanics"
+    ],
+    "resource_efficiency": "High - basic enemies provide consistent coin income"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 1.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 1,
+    "attack_type": "standard"
+  },
+  "abilities": [],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "normal",
+    "spawn_percentage": "varies based on wave progression",
+    "spawn_cap": 120,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 1,
+    "special_drops": []
+  },
+  "strategy": {
+    "description": "Basic enemies are the foundation of the enemy waves",
+    "tips": [
+      "They provide a baseline for understanding enemy mechanics",
+      "Easy to defeat but can accumulate if not managed properly",
+      "Good targets for area-of-effect abilities"
+    ]
+  }
+}

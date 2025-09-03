@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Damage",
+  "description": "Increases tower damage output",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "stat_type": "damage_amplification",
+    "target": "tower",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "critical_hits",
+      "attack_speed",
+      "range"
+    ],
+    "counter_enemies": [
+      "tanks",
+      "bosses",
+      "high_health_enemies"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_damage": "Tower Base Damage × Card Multiplier",
+    "total_damage": "Base Damage × (1 + Perk Bonuses) × (1 + Relic Bonuses)",
+    "card_multiplier": "1 + (Card Level - 1) × 0.5",
+    "mastery_multiplier": "1 + Mastery Level Bonus",
+    "final_multiplier": "Card Multiplier × Mastery Multiplier"
+  },
+  "context_fields": {
+    "when_to_use": "Always active - provides permanent damage increase",
+    "priority_level": "High - damage is fundamental to tower defense",
+    "upgrade_priority": "First priority for offensive builds",
+    "synergy_combinations": [
+      "Critical Chance + Critical Factor for burst damage",
+      "Attack Speed for sustained DPS",
+      "Range for better target coverage"
+    ],
+    "counter_strategies": [
+      "Use against high-health enemies (tanks, bosses)",
+      "Essential for late-game scaling",
+      "Combines well with damage amplification effects"
+    ],
+    "resource_efficiency": "High - damage scales multiplicatively with other bonuses"
+  },
+  "notes": "Additional information",
+  "cross_references": {
+    "related_perk": "perks/data/damage.json",
+    "related_research": "lab_upgrades/attack_research/damage.json",
+    "related_relics": [
+      "relics/data/t_iv_harmonic.json",
+      "relics/data/t_xiv_arcane.json",
+      "relics/data/t_xix_atomic.json"
+    ],
+    "cards": [
+      "damage.json"
+    ],
+    "perks": [
+      "damage.json"
+    ],
+    "relics": [
+      "t_iv_harmonic.json",
+      "t_xiv_arcane.json",
+      "t_xix_atomic.json"
+    ],
+    "lab_research": [
+      "damage.json"
+    ],
+    "modules": [
+      "astral_deliverance.json",
+      "being_annihilator.json",
+      "havoc_bringer.json"
+    ]
+  },
+  "mastery": {
+    "description": "Increases card stat multiplier",
+    "stone_cost": 750,
+    "levels": [
+      {
+        "multiplier": 1.4
+      },
+      {
+        "multiplier": 1.8
+      },
+      {
+        "multiplier": 2.2
+      },
+      {
+        "multiplier": 2.6
+      },
+      {
+        "multiplier": 3.0
+      },
+      {
+        "multiplier": 3.4
+      },
+      {
+        "multiplier": 3.8
+      },
+      {
+        "multiplier": 4.2
+      },
+      {
+        "multiplier": 4.6
+      },
+      {
+        "multiplier": 5.0
+      }
+    ]
+  },
+  "rarities": {
+    "Common": {
+      "description": "Increase tower damage by x #",
+      "levels": [
+        1.5,
+        2.0,
+        2.4,
+        2.8,
+        3.2,
+        3.6,
+        4.0
+      ]
+    }
+  }
+}

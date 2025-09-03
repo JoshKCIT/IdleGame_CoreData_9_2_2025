@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Boss Health Speed",
+  "description": "Increases damage based on boss health and speed",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "offensive",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "damage_type": "health_reduction",
+    "target_type": "enemies",
+    "activation": "automatic",
+    "range": "tower_range",
+    "stat_type": "damage_amplification",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "bosses",
+      "high_health_enemies",
+      "fast_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "0.40 per perk level",
+    "total_bonus": "(1 + 0.40 × Quantity) × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_damage": "Base Damage × (1 + Perk Bonus) × (1 + Card Bonus) × (1 + Relic Bonus)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for countering bosses and high-health fast enemies",
+    "priority_level": "Medium-High - situational but powerful",
+    "upgrade_priority": "Medium priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Damage for increased base damage",
+      "Critical Chance for burst damage against bosses",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against bosses and high-health fast enemies",
+      "Scales multiplicatively with other damage bonuses",
+      "Combines with damage perks for maximum effectiveness"
+    ],
+    "resource_efficiency": "High - excellent situational damage scaling",
+    "effect": "Boss Health Speed x1.40",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "multiplicative",
+    "formula": "Total Bonus = (1 + Base Value x Quantity) x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/damage.json",
+    "related_research": "lab_upgrades/attack_research/damage.json",
+    "cards": [
+      "boss_health_speed.json"
+    ],
+    "perks": [
+      "max_health.json",
+      "health_regen.json"
+    ],
+    "lab_research": [
+      "boss_health_speed.json"
+    ],
+    "modules": [
+      "sharp_fortitude.json"
+    ]
+  }
+}

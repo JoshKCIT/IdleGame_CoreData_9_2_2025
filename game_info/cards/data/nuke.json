@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Nuke",
+  "description": "Enhances nuke ultimate weapon",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "manual",
+    "damage_type": "area_damage"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "Destroys [x] of enemies.",
+      "levels": [
+        {
+          "percent": 25.0
+        },
+        {
+          "percent": 35.0
+        },
+        {
+          "percent": 45.0
+        },
+        {
+          "percent": 55.0
+        },
+        {
+          "percent": 65.0
+        },
+        {
+          "percent": 80.0
+        },
+        {
+          "percent": 100.0
+        }
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Reduces enemy attack speed for 300 waves after Nuke use",
+      "stone_cost": "750",
+      "levels": [
+        "5%",
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%",
+        "35%",
+        "40%",
+        "45%",
+        "50%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Reduces enemy attack speed for 300 waves after Nuke use",
+      "stone_cost": "750",
+      "levels": [
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 25.0
+        },
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 35.0
+        },
+        {
+          "percent": 40.0
+        },
+        {
+          "percent": 45.0
+        },
+        {
+          "percent": 50.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "nuke.json"
+    ],
+    "lab_research": [
+      "nuke.json"
+    ]
+  }
+}

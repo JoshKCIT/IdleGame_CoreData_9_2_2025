@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Enemy Speed Damage",
+  "description": "Increases damage based on enemy speed",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "offensive",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "damage_type": "physical",
+    "target_type": "enemies",
+    "activation": "automatic",
+    "range": "tower_range",
+    "stat_type": "damage_amplification",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "fast_enemies",
+      "high_damage_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "0.20 per perk level",
+    "total_bonus": "(1 + 0.20 × Quantity) × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_damage": "Base Damage × (1 + Perk Bonus) × (1 + Card Bonus) × (1 + Relic Bonus)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for countering fast enemies and high-damage threats",
+    "priority_level": "Medium-High - situational but powerful",
+    "upgrade_priority": "Medium priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Damage for increased base damage",
+      "Attack Speed for sustained DPS against fast enemies",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against fast enemies and high-damage threats",
+      "Scales multiplicatively with other damage bonuses",
+      "Combines with damage perks for maximum effectiveness"
+    ],
+    "resource_efficiency": "High - excellent situational damage scaling",
+    "effect": "Enemy Speed Damage x1.20",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "multiplicative",
+    "formula": "Total Bonus = (1 + Base Value x Quantity) x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/damage.json",
+    "related_research": "lab_upgrades/attack_research/damage.json",
+    "cards": [
+      "enemy_speed_damage.json"
+    ],
+    "perks": [
+      "damage.json"
+    ],
+    "relics": [
+      "t_iv_harmonic.json",
+      "t_xiv_arcane.json",
+      "t_xix_atomic.json"
+    ],
+    "lab_research": [
+      "enemy_speed_damage.json"
+    ],
+    "modules": [
+      "astral_deliverance.json",
+      "being_annihilator.json",
+      "havoc_bringer.json"
+    ]
+  }
+}

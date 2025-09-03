@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Land Mine Stun",
+  "description": "Enhances land mine mechanics",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Rare": {
+      "description": "Land mines have a 40% chance to stun enemies for [x] sec (except bosses)",
+      "levels": [
+        1.4,
+        1.8,
+        2.2,
+        2.6,
+        3.0,
+        3.4,
+        3.8
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Chance stunned enemies will miss attacks",
+      "stone_cost": "1000",
+      "levels": [
+        "2.5%",
+        "5.0%",
+        "7.5%",
+        "10.0%",
+        "12.5%",
+        "15.0%",
+        "17.5%",
+        "20.0%",
+        "22.5%",
+        "25.0%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Chance stunned enemies will miss attacks",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "percent": 2.5
+        },
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 7.5
+        },
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 12.5
+        },
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 17.5
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 22.5
+        },
+        {
+          "percent": 25.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "land_mine_stun.json"
+    ],
+    "lab_research": [
+      "land_mine_stun.json"
+    ]
+  }
+}

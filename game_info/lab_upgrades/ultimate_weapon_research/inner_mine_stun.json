@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Inner Mine Stun",
+  "description": "Enhances inner mine mechanics",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "ultimate_weapon_research",
+    "stat_type": "unlock_mechanic",
+    "target": "enemies",
+    "effect_category": "combat",
+    "scaling_type": "flat",
+    "synergy_groups": [
+      "offensive",
+      "inner_mine",
+      "stun",
+      "crowd_control"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "multiple_enemies",
+      "fast_enemies",
+      "bosses"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "Unlocked",
+    "increment_per_level": "N/A",
+    "effect": "Enables inner mine stun effect",
+    "unlock_cost": "250,000,000 coins"
+  },
+  "context_fields": {
+    "when_to_use": "Late game - expensive unlock for inner mine stun",
+    "priority_level": "Low - expensive luxury unlock",
+    "upgrade_priority": "Low priority - expensive unlock",
+    "synergy_combinations": [
+      "Inner mine rotation speed research for better coverage",
+      "Inner mine blast radius research for area effect",
+      "Other inner mine research for comprehensive builds"
+    ],
+    "counter_strategies": [
+      "Enables inner mine stun",
+      "Improves crowd control",
+      "Enhances inner mine effectiveness"
+    ],
+    "resource_efficiency": "Low - expensive for limited benefit"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 250000000,
+      "time": "13d 21h 19m",
+      "value": "Unlocked",
+      "delta_value": null,
+      "cum_cost": 250000000,
+      "efficiency": null,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "N/A - single level unlock",
+    "mid_levels": "N/A - single level unlock",
+    "late_levels": "Expensive unlock",
+    "recommended_stop": "Single level unlock only"
+  },
+  "max_level": 1,
+  "cross_references": {
+    "cards": [
+      "inner_mine_stun.json"
+    ],
+    "perks": [
+      "inner_mine_stun.json"
+    ]
+  }
+}

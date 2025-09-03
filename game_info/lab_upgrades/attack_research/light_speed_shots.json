@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Light Speed Shots",
+  "description": "Increases game speed",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "attack_research",
+    "stat_type": "light_speed_shots",
+    "target": "tower",
+    "effect_category": "combat",
+    "scaling_type": "unlock",
+    "synergy_groups": [
+      "damage_amplification",
+      "attack_speed",
+      "range"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "effect": "Unlocks light speed shot capability",
+    "shot_travel_time": "Instant (no travel time)",
+    "range_effectiveness": "Effective at any range",
+    "damage_output": "Same as normal shots but instant hit"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - expensive one-time unlock for instant shot travel",
+    "priority_level": "Medium - useful quality of life improvement",
+    "upgrade_priority": "After core damage and attack speed research",
+    "synergy_combinations": [
+      "Damage research for base damage output",
+      "Attack speed research for more shots per second",
+      "Range research for better target coverage"
+    ],
+    "counter_strategies": [
+      "Effective against all enemy types",
+      "Eliminates shot travel time issues",
+      "Improves accuracy against fast enemies"
+    ],
+    "resource_efficiency": "Medium - one-time cost for permanent benefit"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 3000000,
+      "time": "0d 19h 59m",
+      "value": "Unlocked",
+      "delta_value": null,
+      "cum_cost": 3000000,
+      "efficiency": null,
+      "notes": "Unlocks light speed shot capability"
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "One-time unlock - no further levels",
+    "mid_levels": "N/A - single level research",
+    "late_levels": "N/A - single level research",
+    "recommended_stop": "Level 1 (maximum)"
+  },
+  "max_level": 1,
+  "cross_references": {
+    "cards": [
+      "light_speed_shots.json"
+    ],
+    "perks": [
+      "light_speed_shots.json"
+    ]
+  }
+}

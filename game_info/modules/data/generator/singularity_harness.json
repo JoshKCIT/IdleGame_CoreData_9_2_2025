@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Singularity Harness",
+  "description": "This module harnesses singularity energy to provide enhanced resource generation and power.",
+  "category": "General",
+  "type": "Generator",
+  "focus": "Economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "module_type": "generator",
+    "focus_area": "economy",
+    "target_type": "resources",
+    "effect_category": "efficiency",
+    "synergy_groups": [
+      "economy",
+      "singularity_energy",
+      "power_generation"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "harness_rate": "Base Percentage × Rarity Multiplier",
+    "power_efficiency": "Variable based on module level",
+    "generation_bonus": "Enhanced resource generation through singularity energy"
+  },
+  "context_fields": {
+    "when_to_use": "When needing enhanced resource generation through singularity energy harnessing",
+    "priority_level": "High - enhances resource generation through singularity power",
+    "upgrade_priority": "High priority for economy builds",
+    "synergy_combinations": [
+      "Other economy modules for enhanced generation",
+      "Power generation strategies",
+      "Singularity energy-based effects"
+    ],
+    "counter_strategies": [
+      "Harnesses singularity energy for enhanced generation",
+      "Provides significant resource generation bonuses",
+      "Offers unique economic advantages through singularity power"
+    ],
+    "resource_efficiency": "High - enhanced resource generation through singularity harnessing provides significant benefits"
+  },
+  "rarity_scaling": {
+    "Epic": "10%",
+    "Legendary": "15%",
+    "Mythic": "20%",
+    "Ancestral": "25%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Harnesses singularity energy to provide enhanced resource generation and power."
+}

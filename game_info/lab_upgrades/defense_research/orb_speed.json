@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Orb Speed",
+  "description": "Increases game speed",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "defense_research",
+    "stat_type": "orb_speed",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "defensive_utility",
+      "wall_defense",
+      "thorns"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "melee_enemies",
+      "high_health_enemies",
+      "tanks"
+    ],
+    "target_type": "projectiles",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "0.1",
+    "increment_per_level": "0.1",
+    "total_speed": "0.1 × Level",
+    "final_orb_speed": "Base Orb Speed + Research Bonus + Card Bonus + Perk Bonus",
+    "orb_rotation": "Orb Speed × Time Factor"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - enhances defensive orb rotation speed",
+    "priority_level": "Low - expensive research for defensive utility",
+    "upgrade_priority": "After core defense and health research",
+    "synergy_combinations": [
+      "Defense research for maximum survivability",
+      "Health research for sustained survival",
+      "Wall defense for additional protection layers"
+    ],
+    "counter_strategies": [
+      "Effective against melee enemies",
+      "Increases defensive orb effectiveness",
+      "Combines with high health for maximum effect"
+    ],
+    "resource_efficiency": "Low - expensive for defensive utility"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 15000,
+      "time": "0d 1h 19m",
+      "value": 0.1,
+      "delta_value": null,
+      "cum_cost": 15000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 22500,
+      "time": "0d 3h 1m",
+      "value": 0.2,
+      "delta_value": 0.1,
+      "cum_cost": 37500,
+      "efficiency": 4e-06,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 105740,
+      "time": "0d 4h 52m",
+      "value": 0.3,
+      "delta_value": 0.1,
+      "cum_cost": 143240,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 474530,
+      "time": "0d 7h 8m",
+      "value": 0.4,
+      "delta_value": 0.1,
+      "cum_cost": 617770,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 1500000,
+      "time": "0d 10h 10m",
+      "value": 0.5,
+      "delta_value": 0.1,
+      "cum_cost": 2117770,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 40900000,
+      "time": "2d 2h 28m",
+      "value": 1.0,
+      "delta_value": 0.1,
+      "cum_cost": 94367770,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 250140000,
+      "time": "7d 9h 59m",
+      "value": 1.5,
+      "delta_value": 0.1,
+      "cum_cost": 818157770,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 874760000,
+      "time": "19d 10h 10m",
+      "value": 2.0,
+      "delta_value": 0.1,
+      "cum_cost": 3712537770,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Low efficiency - expensive for minimal benefit",
+    "mid_levels": "Very low efficiency - requires weeks of research time",
+    "late_levels": "Minimal efficiency - luxury research only",
+    "recommended_stop": "Level 5-10 for most players"
+  },
+  "max_level": 20,
+  "cross_references": {
+    "cards": [
+      "orb_speed.json"
+    ],
+    "perks": [
+      "orb_speed.json"
+    ]
+  }
+}

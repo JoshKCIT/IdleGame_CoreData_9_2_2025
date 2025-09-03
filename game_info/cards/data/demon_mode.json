@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Demon Mode",
+  "description": "Card enhancement",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "Once per round, activate Demon mode, increasing the damage by x3 and becoming invincible for [x] sec",
+      "levels": [
+        "180 sec",
+        "200 sec",
+        "220 sec",
+        "240 sec",
+        "260 sec",
+        "280 sec",
+        "300 sec"
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Lingering damage multi for 300 waves",
+      "stone_cost": "1000",
+      "levels": [
+        "x1.5",
+        "x2",
+        "x2.5",
+        "x3",
+        "x3.5",
+        "x4",
+        "x4.5",
+        "x5",
+        "x5.5",
+        "x6"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Lingering damage multi for 300 waves",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "multiplier": 1.5
+        },
+        {
+          "multiplier": 2.0
+        },
+        {
+          "multiplier": 2.5
+        },
+        {
+          "multiplier": 3.0
+        },
+        {
+          "multiplier": 3.5
+        },
+        {
+          "multiplier": 4.0
+        },
+        {
+          "multiplier": 4.5
+        },
+        {
+          "multiplier": 5.0
+        },
+        {
+          "multiplier": 5.5
+        },
+        {
+          "multiplier": 6.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "demon_mode.json"
+    ],
+    "lab_research": [
+      "demon_mode.json"
+    ]
+  }
+}

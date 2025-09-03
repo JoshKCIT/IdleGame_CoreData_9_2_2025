@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Astral Deliverance",
+  "description": "This module enhances bounce shot mechanics by extending their effective range and increasing damage with each bounce, making it particularly effective against grouped enemies.",
+  "category": "General",
+  "type": "Cannon",
+  "focus": "Attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "module_type": "cannon",
+    "focus_area": "attack",
+    "target_type": "projectiles",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "bounce_shot",
+      "projectile_enhancement"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "swarms",
+      "grouped_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "range_increase": "Tower Range × 0.03",
+    "damage_per_bounce": "Base Damage × (1 + Rarity Multiplier)",
+    "total_damage": "Base Damage × (1 + Rarity Multiplier)^Bounce_Count"
+  },
+  "context_fields": {
+    "when_to_use": "When using bounce shot mechanics and need enhanced range and damage scaling",
+    "priority_level": "High for bounce shot builds",
+    "upgrade_priority": "Focus on higher rarity versions for better damage scaling",
+    "synergy_combinations": [
+      "Bounce shot cards and perks",
+      "Range bonuses for better coverage",
+      "Damage bonuses for enhanced effectiveness"
+    ],
+    "counter_strategies": [
+      "Most effective against grouped enemies",
+      "Scales exponentially with bounce count",
+      "Combines well with range bonuses"
+    ],
+    "resource_efficiency": "Very High - significant damage scaling with bounces"
+  },
+  "rarity_scaling": {
+    "Epic": "20%",
+    "Legendary": "40%",
+    "Mythic": "60%",
+    "Ancestral": "80%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Bounce shot's range is increased by 3% of the tower's total range. Each bounce increases the projectile's damage by [x]%"
+}

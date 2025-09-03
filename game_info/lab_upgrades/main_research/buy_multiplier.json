@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Buy Multiplier",
+  "description": "Lab research enhancement",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "main_research",
+    "stat_type": "buy_multiplier",
+    "target": "tower",
+    "effect_category": "efficiency",
+    "scaling_type": "unlock",
+    "synergy_groups": [
+      "economy",
+      "resource_generation",
+      "efficiency"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "effect": "Unlocks bulk purchase multipliers",
+    "multiplier_values": "5x, 10x, Max, 100x",
+    "purchase_efficiency": "Bulk purchases reduce time and clicks",
+    "cost_scaling": "Exponential cost increase per level"
+  },
+  "context_fields": {
+    "when_to_use": "Early to mid game - essential for efficient bulk purchases",
+    "priority_level": "High - significantly improves gameplay efficiency",
+    "upgrade_priority": "First priority for quality of life improvements",
+    "synergy_combinations": [
+      "Cash Bonus research for economy scaling",
+      "Coin Bonus research for resource generation",
+      "Labs Speed research for faster research"
+    ],
+    "counter_strategies": [
+      "Effective for all game phases",
+      "Improves bulk purchase efficiency",
+      "Reduces manual clicking time"
+    ],
+    "resource_efficiency": "High - essential quality of life improvement"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 2500,
+      "time": "0d 0h 59m",
+      "value": "5x",
+      "delta_value": null,
+      "cum_cost": 2500,
+      "efficiency": null,
+      "notes": "Unlocks 5x bulk purchase"
+    },
+    {
+      "level": 2,
+      "cost": 10000,
+      "time": "0d 5h 33m",
+      "value": "10x",
+      "delta_value": "5x",
+      "cum_cost": 12500,
+      "efficiency": 0.0005,
+      "notes": "Unlocks 10x bulk purchase"
+    },
+    {
+      "level": 3,
+      "cost": 50000,
+      "time": "1d 3h 46m",
+      "value": "Max",
+      "delta_value": null,
+      "cum_cost": 62500,
+      "efficiency": null,
+      "notes": "Unlocks Max bulk purchase"
+    },
+    {
+      "level": 4,
+      "cost": 500000,
+      "time": "2d 7h 33m",
+      "value": "100x",
+      "delta_value": null,
+      "cum_cost": 562500,
+      "efficiency": null,
+      "notes": "Unlocks 100x bulk purchase"
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency - essential for gameplay",
+    "mid_levels": "Medium efficiency - useful but expensive",
+    "late_levels": "Low efficiency - luxury improvement",
+    "recommended_stop": "Level 3 for most players, level 4 if resources allow"
+  },
+  "max_level": 4,
+  "cross_references": {
+    "cards": [
+      "buy_multiplier.json"
+    ],
+    "perks": [
+      "buy_multiplier.json"
+    ]
+  }
+}

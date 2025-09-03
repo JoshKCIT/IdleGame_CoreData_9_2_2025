@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Land Mine Damage",
+  "description": "Increases land mine damage",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "offensive",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "damage_type": "area_damage",
+    "target_type": "tower",
+    "activation": "automatic",
+    "range": "area_of_effect",
+    "stat_type": "land_mine_damage",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "thorns",
+      "area_damage",
+      "defensive_utility"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "swarms",
+      "grouped_enemies",
+      "melee_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "2.50 per perk level",
+    "total_bonus": "(1 + 2.50 × Quantity) × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_mine_damage": "Base Land Mine Damage × (1 + Perk Bonus) × (1 + Card Bonus) × (1 + Relic Bonus)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for area damage and crowd control",
+    "priority_level": "Medium-High - situational but powerful",
+    "upgrade_priority": "Medium priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Land Mine Decay for sustained area damage",
+      "Shockwave Size for larger area coverage",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against swarms and grouped enemies",
+      "Scales multiplicatively with other land mine bonuses",
+      "Combines with defensive perks for area control"
+    ],
+    "resource_efficiency": "High - excellent area damage scaling",
+    "effect": "Land Mine Damage x3.50",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "multiplicative",
+    "formula": "Total Bonus = (1 + Base Value x Quantity) x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/land_mine_stun.json",
+    "related_research": "lab_upgrades/defense_research/land_mine_damage.json",
+    "cards": [
+      "land_mine_damage.json"
+    ],
+    "perks": [
+      "damage.json"
+    ],
+    "relics": [
+      "t_iv_harmonic.json",
+      "t_xiv_arcane.json",
+      "t_xix_atomic.json"
+    ],
+    "lab_research": [
+      "land_mine_damage.json"
+    ],
+    "modules": [
+      "astral_deliverance.json",
+      "being_annihilator.json",
+      "havoc_bringer.json"
+    ]
+  }
+}

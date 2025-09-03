@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Cash Per Wave Kill Cash",
+  "description": "Increases cash per wave kill",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "damage_type": "coin_multiplier",
+    "target_type": "tower",
+    "activation": "automatic",
+    "range": "global",
+    "stat_type": "cash_bonus",
+    "effect_category": "economy",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "economy",
+      "resource_generation"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "0.25 per perk level",
+    "total_bonus": "(1 + 0.25 × Quantity) × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_cash_per_kill": "Base Cash Per Kill × (1 + Perk Bonus) × (1 + Card Bonus) × (1 + Relic Bonus)"
+  },
+  "context_fields": {
+    "when_to_use": "Always valuable for economy scaling and resource generation",
+    "priority_level": "High - significant economy impact",
+    "upgrade_priority": "High priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Cash Bonus and Interest for comprehensive economy scaling",
+      "Standard Perk Bonus lab research for maximum effect",
+      "Economy-focused relics and cards"
+    ],
+    "counter_strategies": [
+      "Provides passive economy boost per enemy kill",
+      "Scales multiplicatively with other economy bonuses",
+      "Essential for comprehensive economy scaling"
+    ],
+    "resource_efficiency": "Very High - significant economy impact",
+    "effect": "Cash Per Wave Kill Cash x1.25",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "multiplicative",
+    "formula": "Total Bonus = (1 + Base Value x Quantity) x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/cash.json",
+    "related_research": "lab_upgrades/utility_research/cash_bonus.json",
+    "cards": [
+      "cash_per_wave_kill_cash.json"
+    ],
+    "lab_research": [
+      "cash_per_wave_kill_cash.json"
+    ]
+  }
+}

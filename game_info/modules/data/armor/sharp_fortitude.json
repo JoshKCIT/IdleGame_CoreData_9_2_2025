@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Sharp Fortitude",
+  "description": "This module enhances wall durability and creates escalating damage from thorns, making walls more effective defensive structures that become more dangerous to enemies over time.",
+  "category": "General",
+  "type": "Armor",
+  "focus": "Defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "module_type": "armor",
+    "focus_area": "defense",
+    "target_type": "walls",
+    "effect_category": "survival",
+    "synergy_groups": [
+      "wall_defense",
+      "thorns"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "melee_enemies",
+      "swarms"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "wall_health_multiplier": "Base Health × Rarity Multiplier",
+    "wall_regen_multiplier": "Base Regen × Rarity Multiplier",
+    "thorn_damage_increase": "1% per subsequent hit (stacking)"
+  },
+  "context_fields": {
+    "when_to_use": "When using wall defenses and need enhanced durability with escalating damage",
+    "priority_level": "Medium for wall-focused builds",
+    "upgrade_priority": "Focus on higher rarity versions for better multipliers",
+    "synergy_combinations": [
+      "Wall health and regen bonuses",
+      "Thorn damage enhancements",
+      "Defense bonuses for survivability"
+    ],
+    "counter_strategies": [
+      "Most effective against melee enemies",
+      "Escalating damage punishes repeated attacks",
+      "Combines well with wall-focused strategies"
+    ],
+    "resource_efficiency": "Medium - specialized for wall defense builds"
+  },
+  "rarity_scaling": {
+    "Epic": "1.25x",
+    "Legendary": "1.5x",
+    "Mythic": "2x",
+    "Ancestral": "2.5x"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Increase the Wall's health and regen by x[x]. Enemies take +1% increased damage from wall thorns per subsequent hit."
+}

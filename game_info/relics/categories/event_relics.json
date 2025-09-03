@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "event_relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Event relics are unlocked through special limited-time events. These relics provide unique bonuses and are often themed around specific events or seasons. Event relics are the most numerous category of relics.",
+  "unlock_requirements": {
+    "requirement": "Earn medals during special events",
+    "medal_requirements": {
+      "rare": 350,
+      "rare_premium": 550,
+      "epic": 700,
+      "epic_premium": 1100
+    },
+    "availability": "Limited time events with specific durations",
+    "re_runs": "Some relics can only be obtained during event re-runs"
+  },
+  "event_structure": {
+    "duration": "Limited time (typically 1-2 weeks)",
+    "medal_sources": [
+      "Event challenges",
+      "daily tasks",
+      "special objectives"
+    ],
+    "relic_tiers": "Usually 2-4 relics per event (rare, epic, premium variants)",
+    "themes": "Each event has a unique theme and visual style"
+  },
+  "medal_requirements": {
+    "standard_event_relics": {
+      "rare_relics": "350 medals",
+      "epic_relics": "700 medals",
+      "description": "Basic event participation rewards"
+    },
+    "premium_event_relics": {
+      "rare_premium": "550 medals",
+      "epic_premium": "1100 medals",
+      "description": "Enhanced rewards for dedicated players"
+    }
+  },
+  "major_event_categories": {
+    "seasonal_events": {
+      "halloween": "Spooky themed relics",
+      "christmas_new_year": "Holiday themed relics",
+      "easter": "Spring themed relics",
+      "autumn": "Fall themed relics"
+    },
+    "sci_fi_events": {
+      "into_the_matrix": "Matrix themed relics",
+      "aliens": "Alien invasion themed relics",
+      "plasma_returns": "Plasma themed relics",
+      "faster_than_light": "Space travel themed relics"
+    },
+    "nature_events": {
+      "cherry_blossom": "Japanese themed relics",
+      "deep_blue_sea": "Ocean themed relics",
+      "volcano": "Volcanic themed relics",
+      "aurora": "Northern lights themed relics"
+    },
+    "retro_events": {
+      "retro_arcade": "Arcade themed relics",
+      "retrowave": "80s themed relics",
+      "towers_channel": "TV themed relics"
+    }
+  },
+  "notable_event_relics": {
+    "high_value_relics": {
+      "red_pill": {
+        "rarity": "Epic",
+        "bonus": "Tower health +5%",
+        "event": "Into the Matrix"
+      },
+      "spirit_wolf": {
+        "rarity": "Epic",
+        "bonus": "Critical factor +5%",
+        "event": "Full Moon"
+      },
+      "neuron": {
+        "rarity": "Epic",
+        "bonus": "Tower health +5%",
+        "event": "Viral Outbreak"
+      },
+      "plasma_arc": {
+        "rarity": "Epic",
+        "bonus": "Lab speed +4%",
+        "event": "Plasma Returns"
+      }
+    },
+    "unique_bonuses": {
+      "lunar_cat_paw": {
+        "rarity": "Rare",
+        "bonus": "Critical chance +1%",
+        "event": "Meowy Night"
+      },
+      "confetti_ball": {
+        "rarity": "Epic",
+        "bonus": "Free Attack Upgrade +1%",
+        "event": "New Year II"
+      },
+      "falling_apple": {
+        "rarity": "Rare",
+        "bonus": "Free attack upgrade +1%",
+        "event": "Gravity"
+      },
+      "3_body_solution": {
+        "rarity": "Epic",
+        "bonus": "Super critical chance +2%",
+        "event": "Gravity"
+      }
+    },
+    "premium_relics": {
+      "time_compass": {
+        "rarity": "Epic",
+        "bonus": "Attack speed +2%",
+        "event": "What Time is It?"
+      },
+      "cursed_candle": {
+        "rarity": "Epic",
+        "bonus": "Super critical chance +2%",
+        "event": "Dark Strands II"
+      },
+      "photon_blade": {
+        "rarity": "Epic",
+        "bonus": "Damage +2%",
+        "event": "Faster Than Light II"
+      },
+      "magic_egg": {
+        "rarity": "Epic",
+        "bonus": "Free attack upgrade +2%",
+        "event": "Easter"
+      }
+    }
+  },
+  "event_strategy": {
+    "medal_collection": [
+      "Complete daily challenges for consistent medal income",
+      "Focus on event objectives for bonus medals",
+      "Prioritize high-value relics based on current needs",
+      "Save medals for premium relics if possible"
+    ],
+    "relic_prioritization": [
+      "Epic relics provide better bonuses than rare",
+      "Unique stat bonuses (like critical chance) are rare",
+      "Premium relics offer enhanced bonuses",
+      "Complement existing relics for additive bonuses"
+    ],
+    "event_participation": [
+      "Participate early to maximize medal collection time",
+      "Complete all event challenges for maximum medals",
+      "Plan relic purchases based on available medals",
+      "Track event schedules for future planning"
+    ]
+  },
+  "total_event_bonuses": {
+    "damage_bonuses": "Multiple 2-5% damage relics",
+    "health_bonuses": "Various health and regen improvements",
+    "utility_bonuses": "Lab speed, coin, and cash improvements",
+    "unique_bonuses": "Critical chance, free upgrades, special effects"
+  },
+  "event_re_runs": {
+    "limited_availability": "Some relics only available on re-runs",
+    "event_store": "Special purchase options during re-runs",
+    "rare_opportunities": "Don't miss re-run events",
+    "planning": "Track which events have re-run potential"
+  },
+  "summary": "Event relics provide the majority of relic variety and offer unique bonuses not available through other unlock methods, making event participation essential for comprehensive relic collection."
+}

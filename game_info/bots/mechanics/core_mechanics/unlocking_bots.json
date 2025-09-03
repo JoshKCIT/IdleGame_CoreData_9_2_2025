@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Unlocking Bots",
+  "event_shop_system": "Bots are unlocked and upgraded exclusively through the Event Shop menu using event medals.",
+  "unlock_requirements": [
+    "Bots become available in the Event Shop after certain game progression milestones",
+    "Each bot must be unlocked before it can be upgraded",
+    "Unlock cost scales based on how many other bots have been purchased"
+  ],
+  "unlock_cost_scaling": {
+    "first_bot": "Base cost",
+    "second_bot": "Increased cost",
+    "third_bot": "Further increased cost",
+    "fourth_bot": "Highest cost",
+    "strategic_implication": "This scaling encourages strategic planning about which bots to unlock first based on your playstyle and current needs."
+  },
+  "unlock_order_considerations": {
+    "early_game_priority": [
+      "Golden Bot: Provides immediate economic benefits",
+      "Amplify Bot: Enhances existing damage output"
+    ],
+    "mid_game_priority": [
+      "Flame Bot: Provides area damage and crowd control",
+      "Thunder Bot: Offers strong crowd control capabilities"
+    ],
+    "strategic_synergies": [
+      "Golden + Amplify: Economic and damage synergy",
+      "Thunder + Flame: Crowd control and damage over time",
+      "All Bots: Maximum coverage and versatility"
+    ]
+  },
+  "post_unlock": "Once unlocked, bots can be upgraded using the same Event Shop interface. Each bot has multiple upgrade paths that can be pursued independently based on your strategic priorities."
+}

@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perks_index",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "total_perks": 33,
+  "categories": {
+    "standard_perks": {
+      "count": 15,
+      "description": "Basic stat improvements with 65% appearance chance",
+      "perks": [
+        {
+          "name": "Damage",
+          "file": "perks/data/damage.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Damage",
+          "max_quantity": 5,
+          "priority": "Highest",
+          "optimal_use": [
+            "early_game",
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Max Health",
+          "file": "perks/data/max_health.json",
+          "primary_function": "defensive",
+          "effect": "x1.15 Max Health",
+          "max_quantity": 5,
+          "priority": "High",
+          "optimal_use": [
+            "early_game",
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "All Coin Bonuses",
+          "file": "perks/data/all_coin_bonuses.json",
+          "primary_function": "economy",
+          "effect": "x1.15 All Coin Bonuses",
+          "max_quantity": 5,
+          "priority": "High",
+          "optimal_use": [
+            "early_game",
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Defense Absolute",
+          "file": "perks/data/defense_absolute.json",
+          "primary_function": "defensive",
+          "effect": "x1.15 Defense Absolute",
+          "max_quantity": 5,
+          "priority": "High",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Cash Bonus",
+          "file": "perks/data/cash_bonus.json",
+          "primary_function": "economy",
+          "effect": "x1.15 Cash Bonus",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "early_game",
+            "mid_game"
+          ]
+        },
+        {
+          "name": "Health Regen",
+          "file": "perks/data/health_regen.json",
+          "primary_function": "defensive",
+          "effect": "x1.15 Health Regen",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Interest",
+          "file": "perks/data/interest.json",
+          "primary_function": "economy",
+          "effect": "x1.15 Interest",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Land Mine Damage",
+          "file": "perks/data/land_mine_damage.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Land Mine Damage",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Free Upgrade Chance",
+          "file": "perks/data/free_upgrade_chance.json",
+          "primary_function": "economy",
+          "effect": "x1.15 Free Upgrade Chance",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Defense Percent",
+          "file": "perks/data/defense_percent.json",
+          "primary_function": "defensive",
+          "effect": "x1.15 Defense Percent",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Bounce Shot",
+          "file": "perks/data/bounce_shot.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Bounce Shot",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Perk Wave Requirement",
+          "file": "perks/data/perk_wave_requirement.json",
+          "primary_function": "utility",
+          "effect": "x1.15 Perk Wave Requirement",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Orbs",
+          "file": "perks/data/orbs.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Orbs",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Unlock Random Ultimate Weapon",
+          "file": "perks/data/unlock_random_ultimate_weapon.json",
+          "primary_function": "utility",
+          "effect": "x1.15 Unlock Random Ultimate Weapon",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "late_game"
+          ]
+        },
+        {
+          "name": "Game Speed",
+          "file": "perks/data/game_speed.json",
+          "primary_function": "utility",
+          "effect": "x1.15 Game Speed",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        }
+      ]
+    },
+    "ultimate_weapon_perks": {
+      "count": 9,
+      "description": "Ultimate weapon enhancements with 20% appearance chance",
+      "perks": [
+        {
+          "name": "Chain Lightning Damage",
+          "file": "perks/data/chain_lightning_damage.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Chain Lightning Damage",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Swamp Radius",
+          "file": "perks/data/swamp_radius.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Swamp Radius",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Death Wave",
+          "file": "perks/data/death_wave.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Death Wave",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Chrono Field Duration",
+          "file": "perks/data/chrono_field_duration.json",
+          "primary_function": "utility",
+          "effect": "x1.15 Chrono Field Duration",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Black Hole Duration",
+          "file": "perks/data/black_hole_duration.json",
+          "primary_function": "utility",
+          "effect": "x1.15 Black Hole Duration",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Golden Tower Bonus",
+          "file": "perks/data/golden_tower_bonus.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Golden Tower Bonus",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Extra Inner Mines",
+          "file": "perks/data/extra_inner_mines.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Extra Inner Mines",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Smart Missiles",
+          "file": "perks/data/smart_missiles.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Smart Missiles",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Spotlight Damage Bonus",
+          "file": "perks/data/spotlight_damage_bonus.json",
+          "primary_function": "offensive",
+          "effect": "x1.15 Spotlight Damage Bonus",
+          "max_quantity": 5,
+          "priority": "Medium",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        }
+      ]
+    },
+    "trade_off_perks": {
+      "count": 9,
+      "description": "Powerful bonuses with drawbacks, 15% appearance chance",
+      "perks": [
+        {
+          "name": "Lifesteal Knockback",
+          "file": "perks/data/lifesteal_knockback.json",
+          "primary_function": "defensive",
+          "effect": "Lifesteal bonus with knockback penalty",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "late_game"
+          ]
+        },
+        {
+          "name": "Boss Health Speed",
+          "file": "perks/data/boss_health_speed.json",
+          "primary_function": "offensive",
+          "effect": "Boss health reduction with speed increase",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "late_game"
+          ]
+        },
+        {
+          "name": "Cash Per Wave Kill Cash",
+          "file": "perks/data/cash_per_wave_kill_cash.json",
+          "primary_function": "economy",
+          "effect": "Cash per wave with kill cash penalty",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Ranged Enemy Distance Damage",
+          "file": "perks/data/ranged_enemy_distance_damage.json",
+          "primary_function": "offensive",
+          "effect": "Ranged enemy distance reduction with damage bonus",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Enemy Speed Damage",
+          "file": "perks/data/enemy_speed_damage.json",
+          "primary_function": "offensive",
+          "effect": "Enemy speed reduction with damage increase",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Enemy Health Tower Regen",
+          "file": "perks/data/enemy_health_tower_regen.json",
+          "primary_function": "defensive",
+          "effect": "Enemy health reduction with tower regen penalty",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Enemy Damage Tower Damage",
+          "file": "perks/data/enemy_damage_tower_damage.json",
+          "primary_function": "offensive",
+          "effect": "Enemy damage reduction with tower damage penalty",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Coins Tower Health",
+          "file": "perks/data/coins_tower_health.json",
+          "primary_function": "economy",
+          "effect": "Coin bonus with tower health penalty",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "mid_game",
+            "late_game"
+          ]
+        },
+        {
+          "name": "Tower Damage Boss Health",
+          "file": "perks/data/tower_damage_boss_health.json",
+          "primary_function": "offensive",
+          "effect": "Tower damage bonus with boss health increase",
+          "max_quantity": 5,
+          "priority": "Low",
+          "optimal_use": [
+            "late_game"
+          ]
+        }
+      ]
+    }
+  },
+  "priority_guide": {
+    "always_take": [
+      "Damage",
+      "Max Health",
+      "All Coin Bonuses",
+      "Defense Absolute"
+    ],
+    "high_priority": [
+      "Cash Bonus",
+      "Health Regen",
+      "Interest",
+      "Free Upgrade Chance"
+    ],
+    "medium_priority": [
+      "Defense Percent",
+      "Bounce Shot",
+      "Orbs",
+      "Chain Lightning Damage",
+      "Swamp Radius",
+      "Death Wave"
+    ],
+    "low_priority": [
+      "Land Mine Damage",
+      "Perk Wave Requirement",
+      "Game Speed",
+      "Trade-off Perks"
+    ]
+  },
+  "synergy_groups": {
+    "damage_focus": [
+      "Damage",
+      "Chain Lightning Damage",
+      "Death Wave",
+      "Golden Tower Bonus",
+      "Spotlight Damage Bonus"
+    ],
+    "defense_focus": [
+      "Max Health",
+      "Defense Absolute",
+      "Defense Percent",
+      "Health Regen"
+    ],
+    "economy_focus": [
+      "All Coin Bonuses",
+      "Cash Bonus",
+      "Interest",
+      "Free Upgrade Chance"
+    ],
+    "ultimate_weapon_focus": [
+      "Chain Lightning Damage",
+      "Swamp Radius",
+      "Death Wave",
+      "Chrono Field Duration",
+      "Black Hole Duration"
+    ],
+    "utility_focus": [
+      "Bounce Shot",
+      "Orbs",
+      "Game Speed",
+      "Perk Wave Requirement"
+    ]
+  },
+  "calculation_notes": {
+    "standard_perks": "Total Bonus = (1 + Base Value × Quantity) × (1 + Standard Perk Bonus)",
+    "ultimate_weapon_perks": "Enhance specific ultimate weapon abilities",
+    "trade_off_perks": "Provide powerful bonuses but with significant drawbacks",
+    "appearance_chances": "Standard: 65%, Ultimate Weapon: 20%, Trade-off: 15%"
+  }
+}

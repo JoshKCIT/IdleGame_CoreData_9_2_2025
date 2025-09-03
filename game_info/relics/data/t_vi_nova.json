@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "T:VI Nova",
+  "description": "Increase defense absolute by 5%",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "survival",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "physical",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "defense"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "First epic milestone relic, significant defense improvement",
+  "tier": 6,
+  "unlock_method": "Milestone",
+  "bonus_type": "defense_absolute",
+  "bonus_value": 5,
+  "unlock_requirement": "Milestone: Beat wave 4500 in tier 6",
+  "rarity": "Epic",
+  "effect": "Defense absolute +5%"
+}

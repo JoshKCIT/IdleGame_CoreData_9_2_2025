@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Plasma Arc",
+  "description": "Increase lab speed by 4%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "manual",
+    "damage_type": "area_damage",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "attack_speed"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Epic event relic from Plasma Returns event, accelerates research",
+  "bonus_type": "lab_speed",
+  "unlock_requirement": "Event: Earn 700 medals during the \"Plasma Returns\"",
+  "rarity": "Epic",
+  "unlock_method": "Event",
+  "bonus_value": 4,
+  "medal_requirement": 700,
+  "effect": "Lab speed +4%",
+  "event_name": "Plasma Returns"
+}

@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Package After Boss",
+  "description": "Enhances package mechanics",
+  "category": "Enemy Research",
+  "type": "lab_research",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "utility_research",
+    "stat_type": "unlock_mechanic",
+    "target": "enemies",
+    "effect_category": "utility",
+    "scaling_type": "flat",
+    "synergy_groups": [
+      "utility",
+      "enemy_research"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "bosses"
+    ],
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "Unlocked",
+    "increment_per_level": "N/A",
+    "effect": "Enables package drops after boss waves",
+    "unlock_cost": "1,000,000,000 coins"
+  },
+  "context_fields": {
+    "when_to_use": "Late game - expensive unlock for boss wave packages",
+    "priority_level": "Low - expensive luxury unlock",
+    "upgrade_priority": "Very low priority - expensive unlock",
+    "synergy_combinations": [
+      "Coins per Wave research for better rewards",
+      "Coins per Kill Bonus research for additional income",
+      "Recovery Package research for survival"
+    ],
+    "counter_strategies": [
+      "Provides package drops after boss waves",
+      "Improves boss wave rewards",
+      "Enhances late game progression"
+    ],
+    "resource_efficiency": "Very low - expensive unlock for limited benefit"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 1000000000,
+      "time": "8d 2h 26m",
+      "value": "Unlocked",
+      "delta_value": null,
+      "cum_cost": 1000000000,
+      "efficiency": null,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "N/A - single level unlock",
+    "mid_levels": "N/A - single level unlock",
+    "late_levels": "Very expensive unlock",
+    "recommended_stop": "Single level unlock only"
+  },
+  "max_level": 1,
+  "cross_references": {
+    "cards": [
+      "package_after_boss.json"
+    ],
+    "perks": [
+      "package_after_boss.json"
+    ]
+  }
+}

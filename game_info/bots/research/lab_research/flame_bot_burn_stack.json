@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_research",
+    "file_format": "json"
+  },
+  "name": "Flame Bot-Burn Stack",
+  "description": "This lab research increases the burn damage stacking capability of Flame Bot, allowing burn effects to stack more effectively.",
+  "category": "Bot Research",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "bot_research",
+    "stat_type": "damage",
+    "target": "flame_bot",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "utility",
+      "damage_amplification",
+      "poison"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "tanks",
+      "high_health_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_burn_damage": "Bot Damage per tick",
+    "stack_multiplier": "Increases with research level",
+    "total_burn_damage": "Base Damage × Stack Multiplier × Number of Stacks",
+    "effect": "Increases burn damage stacking for more effective damage over time"
+  },
+  "context_fields": {
+    "when_to_use": "When using Flame Bot and need stronger burn damage",
+    "priority_level": "High for Flame Bot damage builds",
+    "upgrade_priority": "High priority for Flame Bot damage optimization",
+    "synergy_combinations": [
+      "Flame Bot cooldown research for more frequent activations",
+      "Flame Bot duration research for longer burn effects",
+      "Other damage amplification research"
+    ],
+    "counter_strategies": [
+      "More effective against tanky enemies",
+      "Better damage over time",
+      "Enhanced crowd control through stronger burn effects"
+    ],
+    "resource_efficiency": "High - significantly increases Flame Bot damage output"
+  },
+  "notes": "Additional information",
+  "research_details": {
+    "category": "Bot Research",
+    "effect": "Increases burn damage stacking",
+    "research_type": "Damage enhancement"
+  },
+  "benefits": [
+    "Higher burn damage per stack",
+    "More effective damage over time",
+    "Better damage reduction from multiple burn stacks",
+    "Enhanced crowd control through stronger burn effects"
+  ],
+  "strategic_value": {
+    "early_game": "Provides stronger burn damage",
+    "mid_game": "Maximizes burn effectiveness against tanky enemies",
+    "late_game": "Essential for high-tier content with strong enemies"
+  },
+  "synergies": [
+    "Works excellently with Flame Bot cooldown research",
+    "Complements duration research for longer burn effects",
+    "Enhances overall Flame Bot damage output"
+  ]
+}

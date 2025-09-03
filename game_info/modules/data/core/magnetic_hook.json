@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Magnetic Hook",
+  "description": "This module creates magnetic effects that pull enemies and projectiles toward the tower.",
+  "category": "General",
+  "type": "Core",
+  "focus": "Utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "module_type": "core",
+    "focus_area": "utility",
+    "target_type": "enemies",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "utility",
+      "magnetic_effects",
+      "positioning"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "magnetic_strength": "Base Percentage × Rarity Multiplier",
+    "pull_range": "Area of effect around tower",
+    "effect_duration": "Variable based on module level"
+  },
+  "context_fields": {
+    "when_to_use": "When needing to control enemy positioning and pull enemies closer",
+    "priority_level": "Medium - useful for positioning control",
+    "upgrade_priority": "Medium priority for utility builds",
+    "synergy_combinations": [
+      "Other utility modules for enhanced effects",
+      "Area-of-effect abilities for pulled enemies",
+      "Positioning-based strategies"
+    ],
+    "counter_strategies": [
+      "Pulls enemies and projectiles toward tower",
+      "Improves positioning for area-of-effect attacks",
+      "Provides tactical advantage through positioning control"
+    ],
+    "resource_efficiency": "Medium - useful for positioning control strategies"
+  },
+  "rarity_scaling": {
+    "Epic": "10%",
+    "Legendary": "15%",
+    "Mythic": "20%",
+    "Ancestral": "25%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Creates magnetic effects that pull enemies and projectiles toward the tower."
+}

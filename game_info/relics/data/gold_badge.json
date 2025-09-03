@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Gold Badge",
+  "description": "Increase critical factor by 5%",
+  "category": "Tournament Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "critical_hit",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "critical_hits"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Epic tournament relic, significant critical hit improvement",
+  "tournament_bracket": "Gold",
+  "unlock_method": "Tournament",
+  "bonus_type": "critical_factor",
+  "bonus_value": 5,
+  "unlock_requirement": "Tournament: Finish Top 4 in Gold",
+  "rarity": "Epic",
+  "effect": "Critical factor +5%"
+}

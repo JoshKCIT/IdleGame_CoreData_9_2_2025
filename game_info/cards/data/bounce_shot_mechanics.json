@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Bounce Shot Mechanics",
+  "description": "Core bounce shot system mechanics and interactions",
+  "category": "Tower Mechanics",
+  "type": "card",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "special_rules": [
+    "Enemies targeted by bounce shot cannot be hit toward the tower with knockback",
+    "Once a target is selected, projectiles will chase that enemy even if knocked beyond maximum bounce range",
+    "Bounce shot mechanics can be enhanced by various cannon modules",
+    "Bounce shot perk can increase maximum targets from 8 to 14"
+  ],
+  "related_systems": [
+    "Workshop Upgrades",
+    "Perks System",
+    "Module System",
+    "Tower Range",
+    "Projectile Mechanics"
+  ],
+  "prerequisites": [
+    "Rapid Fire"
+  ],
+  "unlock_requirement": "Workshop: 10,000 coins after unlocking Rapid Fire",
+  "mechanics": {
+    "bounce_chance": {
+      "description": "Chance for projectiles to bounce between enemies",
+      "workshop_upgrade": "Bounce Shot Chance",
+      "max_levels": 85,
+      "max_value": "68%"
+    },
+    "bounce_targets": {
+      "description": "Number of times a projectile can bounce",
+      "workshop_upgrade": "Bounce Shot Targets",
+      "max_levels": 7,
+      "max_value": "8 targets",
+      "perk_enhancement": "Can be increased to 14 targets with Bounce Shot perk"
+    },
+    "bounce_range": {
+      "description": "Range projectiles can travel between bounces",
+      "workshop_upgrade": "Bounce Shot Range",
+      "max_levels": 60,
+      "max_value": "8.0m"
+    }
+  },
+  "cross_references": {
+    "cards": [
+      "bounce_shot_mechanics.json"
+    ],
+    "perks": [
+      "bounce_shot_mechanics.json"
+    ],
+    "lab_research": [
+      "bounce_shot_mechanics.json"
+    ],
+    "modules": [
+      "bounce_shot_enhancement.json",
+      "astral_deliverance.json"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Being Annihilator",
+  "description": "This module creates a chain reaction effect where super critical hits guarantee additional super critical hits, significantly boosting damage output during critical moments.",
+  "category": "General",
+  "type": "Cannon",
+  "focus": "Attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "module_type": "cannon",
+    "focus_area": "attack",
+    "target_type": "tower",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "critical_hits",
+      "super_critical"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "guaranteed_crits": "Rarity Value (3-6 attacks)",
+    "trigger_condition": "After super critical hit",
+    "damage_multiplier": "Super Critical Factor × Guaranteed Crit Count"
+  },
+  "context_fields": {
+    "when_to_use": "When using critical hit builds and need guaranteed super critical chains",
+    "priority_level": "High for critical hit builds",
+    "upgrade_priority": "Focus on higher rarity versions for more guaranteed crits",
+    "synergy_combinations": [
+      "Critical chance and factor bonuses",
+      "Super critical enhancements",
+      "Attack speed for more crit opportunities"
+    ],
+    "counter_strategies": [
+      "Most effective with high critical chance",
+      "Creates burst damage windows",
+      "Combines well with critical hit bonuses"
+    ],
+    "resource_efficiency": "Very High - significant damage boost for crit builds"
+  },
+  "rarity_scaling": {
+    "Epic": "3 attacks",
+    "Legendary": "4 attacks",
+    "Mythic": "5 attacks",
+    "Ancestral": "6 attacks"
+  },
+  "notes": "Additional information",
+  "unique_effect": "When you super crit, your next [x] attacks are guaranteed super crits."
+}

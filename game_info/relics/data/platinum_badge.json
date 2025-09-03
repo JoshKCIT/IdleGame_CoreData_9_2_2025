@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Platinum Badge",
+  "description": "Increase lab speed by 4%",
+  "category": "Tournament Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "efficiency",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "research_efficiency",
+      "time_optimization"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Epic tournament relic, accelerates research progression",
+  "tournament_bracket": "Platinum",
+  "unlock_method": "Tournament",
+  "bonus_type": "lab_speed",
+  "bonus_value": 4,
+  "unlock_requirement": "Tournament: Finish top 4 in Platinum",
+  "rarity": "Epic",
+  "effect": "Lab speed +4%"
+}

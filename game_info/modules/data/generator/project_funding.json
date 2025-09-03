@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Project Funding",
+  "description": "This module scales tower damage based on the amount of cash you have, creating a direct relationship between wealth and combat effectiveness.",
+  "category": "General",
+  "type": "Generator",
+  "focus": "Utility",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "module_type": "generator",
+    "focus_area": "utility",
+    "target_type": "tower",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "economy",
+      "damage_scaling"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "damage_multiplier": "1 + (Log(cash) × Rarity Multiplier)",
+    "minimum_multiplier": "1.00",
+    "effective_formula": "(1 + Log(cash) × Rarity Multiplier)"
+  },
+  "context_fields": {
+    "when_to_use": "When you have high cash amounts and want damage scaling based on wealth",
+    "priority_level": "High for economy-focused builds",
+    "upgrade_priority": "Focus on higher rarity versions for better scaling",
+    "synergy_combinations": [
+      "Cash bonus cards and perks",
+      "Economy-focused strategies",
+      "Damage bonuses for enhanced effectiveness"
+    ],
+    "counter_strategies": [
+      "Scales with cash accumulation",
+      "Most effective with high cash amounts",
+      "Combines well with economy bonuses"
+    ],
+    "resource_efficiency": "Very High - scales with cash accumulation"
+  },
+  "rarity_scaling": {
+    "Epic": "12.5%",
+    "Legendary": "25%",
+    "Mythic": "50%",
+    "Ancestral": "100%"
+  },
+  "notes": [
+    "Project Funding will not go below a multiplier of x1.00 and has an effective multiplier of (1+Log(cash)*rarityMult)"
+  ],
+  "unique_effect": "Tower damage is multiplied by [x]% of the number of digits in your current cash"
+}

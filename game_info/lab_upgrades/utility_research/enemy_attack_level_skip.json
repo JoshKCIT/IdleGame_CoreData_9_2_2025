@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Enemy Attack Level Skip",
+  "description": "Enemy mechanics enhancement",
+  "category": "Enemy Research",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "utility_research",
+    "stat_type": "level_skip",
+    "target": "enemies",
+    "effect_category": "utility",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "utility",
+      "enemy_research"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "0.1",
+    "increment_per_level": "0.1",
+    "total_skip": "0.1 × Level",
+    "final_skip": "Base Skip + Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Enemies skip attack levels based on skip value"
+  },
+  "context_fields": {
+    "when_to_use": "Late game - very expensive research for enemy attack skipping",
+    "priority_level": "Very low - extremely expensive luxury research",
+    "upgrade_priority": "Very low priority - extremely expensive",
+    "synergy_combinations": [
+      "Other enemy research for comprehensive enemy control",
+      "Defense research for survival",
+      "Attack research for faster kills"
+    ],
+    "counter_strategies": [
+      "Enemies skip attack levels",
+      "Reduces enemy attack frequency",
+      "Improves survival chances"
+    ],
+    "resource_efficiency": "Very low - extremely expensive for limited benefit"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 900000000,
+      "time": "0d 16h 39m",
+      "value": 0.1,
+      "delta_value": null,
+      "cum_cost": 900000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 1010000000,
+      "time": "1d 1h 1m",
+      "value": 0.2,
+      "delta_value": 0.1,
+      "cum_cost": 1910000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 1160000000,
+      "time": "1d 9h 30m",
+      "value": 0.3,
+      "delta_value": 0.1,
+      "cum_cost": 3070000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 1430000000,
+      "time": "1d 18h 19m",
+      "value": 0.4,
+      "delta_value": 0.1,
+      "cum_cost": 4500000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 1940000000,
+      "time": "2d 3h 38m",
+      "value": 0.5,
+      "delta_value": 0.1,
+      "cum_cost": 6440000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 2800000000,
+      "time": "2d 13h 41m",
+      "value": 0.6,
+      "delta_value": 0.1,
+      "cum_cost": 9240000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 4150000000,
+      "time": "3d 0h 40m",
+      "value": 0.7,
+      "delta_value": 0.1,
+      "cum_cost": 13390000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 6140000000,
+      "time": "3d 12h 50m",
+      "value": 0.8,
+      "delta_value": 0.1,
+      "cum_cost": 19530000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 8940000000,
+      "time": "4d 2h 25m",
+      "value": 0.9,
+      "delta_value": 0.1,
+      "cum_cost": 28470000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 12730000000,
+      "time": "4d 17h 39m",
+      "value": 1,
+      "delta_value": 0.1,
+      "cum_cost": 41200000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 17710000000,
+      "time": "5d 10h 49m",
+      "value": 1.1,
+      "delta_value": 0.1,
+      "cum_cost": 58910000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 24070000000,
+      "time": "6d 6h 8m",
+      "value": 1.2,
+      "delta_value": 0.1,
+      "cum_cost": 82980000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 32030000000,
+      "time": "7d 3h 53m",
+      "value": 1.3,
+      "delta_value": 0.1,
+      "cum_cost": 115010000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 41810000000,
+      "time": "8d 4h 21m",
+      "value": 1.4,
+      "delta_value": 0.1,
+      "cum_cost": 156820000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 53640000000,
+      "time": "9d 7h 46m",
+      "value": 1.5,
+      "delta_value": 0.1,
+      "cum_cost": 210460000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 67760000000,
+      "time": "10d 14h 27m",
+      "value": 1.6,
+      "delta_value": 0.1,
+      "cum_cost": 278220000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 17,
+      "cost": 84420000000,
+      "time": "12d 0h 40m",
+      "value": 1.7,
+      "delta_value": 0.1,
+      "cum_cost": 362640000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 18,
+      "cost": 103880000000,
+      "time": "13d 14h 41m",
+      "value": 1.8,
+      "delta_value": 0.1,
+      "cum_cost": 466520000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 19,
+      "cost": 126420000000,
+      "time": "15d 8h 48m",
+      "value": 1.9,
+      "delta_value": 0.1,
+      "cum_cost": 592940000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 152290000000,
+      "time": "17d 7h 19m",
+      "value": 2,
+      "delta_value": 0.1,
+      "cum_cost": 745230000000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Extremely expensive from level 1",
+    "mid_levels": "Consistently very expensive",
+    "late_levels": "Extremely expensive, minimal benefit",
+    "recommended_stop": "Level 1-5 for most players, if at all"
+  },
+  "max_level": 20,
+  "cross_references": {
+    "cards": [
+      "enemy_attack_level_skip.json"
+    ],
+    "perks": [
+      "enemy_attack_level_skip.json"
+    ]
+  }
+}

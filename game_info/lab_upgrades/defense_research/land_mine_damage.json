@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Land Mine Damage",
+  "description": "Increases tower damage output",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "defense_research",
+    "stat_type": "land_mine_damage",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "thorns",
+      "defensive_utility",
+      "wall_defense"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "melee_enemies",
+      "high_health_enemies",
+      "tanks"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "0.1",
+    "increment_per_level": "0.1",
+    "total_damage": "0.1 × Level",
+    "final_mine_damage": "Base Mine Damage + Research Bonus + Card Bonus + Perk Bonus",
+    "explosion_damage": "Mine Damage × Enemy Proximity"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - expensive but powerful defensive weapon",
+    "priority_level": "Low - expensive research for defensive utility",
+    "upgrade_priority": "After core defense and health research",
+    "synergy_combinations": [
+      "Defense research for maximum survivability",
+      "Health research for sustained survival",
+      "Wall defense for additional protection layers"
+    ],
+    "counter_strategies": [
+      "Effective against melee enemies",
+      "Area damage to nearby enemies",
+      "Combines with high health for maximum effect"
+    ],
+    "resource_efficiency": "Low - very expensive for defensive utility"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 25000,
+      "time": "0d 1h 39m",
+      "value": 0.1,
+      "delta_value": null,
+      "cum_cost": 25000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 40000,
+      "time": "0d 5h 1m",
+      "value": 0.2,
+      "delta_value": 0.1,
+      "cum_cost": 65000,
+      "efficiency": 3e-06,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 231980,
+      "time": "0d 8h 33m",
+      "value": 0.3,
+      "delta_value": 0.1,
+      "cum_cost": 296980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 1170000,
+      "time": "0d 12h 34m",
+      "value": 0.4,
+      "delta_value": 0.1,
+      "cum_cost": 1466980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 3930000,
+      "time": "0d 17h 29m",
+      "value": 0.5,
+      "delta_value": 0.1,
+      "cum_cost": 5396980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 126910000,
+      "time": "3d 2h 11m",
+      "value": 1.0,
+      "delta_value": 0.1,
+      "cum_cost": 284326980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 848010000,
+      "time": "10d 7h 58m",
+      "value": 1.5,
+      "delta_value": 0.1,
+      "cum_cost": 2686316980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 3150000000,
+      "time": "26d 22h 20m",
+      "value": 2.0,
+      "delta_value": 0.1,
+      "cum_cost": 12936316980,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Low efficiency - expensive for minimal benefit",
+    "mid_levels": "Very low efficiency - requires weeks of research time",
+    "late_levels": "Minimal efficiency - luxury research only",
+    "recommended_stop": "Level 5-10 for most players"
+  },
+  "max_level": 20,
+  "cross_references": {
+    "cards": [
+      "land_mine_damage.json"
+    ],
+    "perks": [
+      "land_mine_damage.json"
+    ],
+    "relics": [
+      "t_iv_harmonic.json",
+      "t_xiv_arcane.json",
+      "t_xix_atomic.json"
+    ],
+    "modules": [
+      "astral_deliverance.json",
+      "being_annihilator.json",
+      "havoc_bringer.json"
+    ]
+  }
+}

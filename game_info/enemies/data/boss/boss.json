@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Boss Enemy",
+  "description": "High-health enemy that drops module shards when defeated.",
+  "category": "Boss Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+
+    "target_type": "enemies",
+    "effect_category": "combat",
+    "scaling_type": "exponential",
+    "synergy_groups": [
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Boss enemies are high-health enemies that drop module shards",
+    "priority_level": "Highest - boss enemies provide valuable module shards",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "Maximum damage output for sustained elimination",
+      "Critical hit bonuses for burst damage",
+      "Damage amplification effects for efficiency"
+    ],
+    "counter_strategies": [
+      "Requires sustained high damage output",
+      "Slower movement allows for focused fire",
+      "Valuable module shard drops make them priority targets"
+    ],
+    "resource_efficiency": "Very High - boss enemies provide module shards and high coin income"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 10.0,
+    "speed_multiplier": 0.5,
+    "coin_value": 10,
+    "attack_type": "high_damage"
+  },
+  "abilities": [
+    {
+      "name": "Boss Attack",
+      "description": "High-damage attack with special properties",
+      "damage_type": "high_damage"
+    }
+  ],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "boss",
+    "spawn_percentage": "appears at specific wave intervals",
+    "spawn_cap": 1,
+    "max_active": 1
+  },
+  "rewards": {
+    "coins": 10,
+    "special_drops": [
+      "Module Shards"
+    ]
+  },
+  "strategy": {
+    "description": "Boss enemies are high-health enemies that drop module shards",
+    "tips": [
+      "Requires sustained high damage output due to high health",
+      "Slower movement allows for focused fire",
+      "Valuable module shard drops make them priority targets",
+      "Appear at specific wave intervals"
+    ]
+  }
+}

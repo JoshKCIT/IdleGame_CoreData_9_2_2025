@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Unmerge Module",
+  "description": "Lab research enhancement",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "module_research",
+    "stat_type": "module_unmerge",
+    "target": "module_system",
+    "effect_category": "efficiency",
+    "scaling_type": "flat",
+    "synergy_groups": [
+      "module_system"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "effect": "Unlocks module unmerge functionality",
+    "unlock_condition": "Research level 1"
+  },
+  "context_fields": {
+    "when_to_use": "When you need to separate merged modules",
+    "priority_level": "Medium - convenience feature for module management",
+    "upgrade_priority": "After basic module research",
+    "synergy_combinations": [
+      "All module-related research",
+      "Module shard cost research",
+      "Module coin cost research"
+    ],
+    "counter_strategies": [
+      "Enables module separation for better organization",
+      "Allows module reconfiguration",
+      "Improves module management flexibility"
+    ],
+    "resource_efficiency": "Medium - convenience feature"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 10000000,
+      "time": "2d 0h 0m",
+      "value": "Unlocked",
+      "delta_value": null,
+      "cum_cost": 10000000,
+      "efficiency": null,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Good convenience unlock",
+    "mid_levels": "Not applicable - single level",
+    "late_levels": "Not applicable - single level",
+    "recommended_stop": "Level 1 (max level)"
+  },
+  "max_level": 1,
+  "cross_references": {
+    "cards": [
+      "unmerge_module.json"
+    ],
+    "perks": [
+      "unmerge_module.json"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_research",
+    "file_format": "json"
+  },
+  "name": "Golden Bot-Duration",
+  "description": "This lab research increases the duration of Golden Bot's active time, extending how long the coin multiplier effect lasts.",
+  "category": "Bot Research",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "research_category": "bot_research",
+    "stat_type": "health_regen",
+    "target": "golden_bot",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "utility",
+      "economy",
+      "utility"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_duration": "Base Golden Bot duration",
+    "duration_extension": "Increases with research level",
+    "final_duration": "Base Duration + (Level × Extension)",
+    "effect": "Extends Golden Bot duration for longer coin multiplier effects"
+  },
+  "context_fields": {
+    "when_to_use": "When using Golden Bot and need longer economic bonuses",
+    "priority_level": "High for economy-focused builds",
+    "upgrade_priority": "High priority for Golden Bot optimization",
+    "synergy_combinations": [
+      "Golden Bot cooldown research for more frequent activations",
+      "Golden Bot bonus research for stronger coin multipliers",
+      "Other economy research"
+    ],
+    "counter_strategies": [
+      "Longer coin multiplier effects",
+      "Better economic coverage over time",
+      "More coin generation per activation"
+    ],
+    "resource_efficiency": "High - significantly increases Golden Bot economic effectiveness"
+  },
+  "notes": "Additional information",
+  "research_details": {
+    "category": "Bot Research",
+    "effect": "Increases Golden Bot duration",
+    "research_type": "Duration enhancement"
+  },
+  "benefits": [
+    "Longer coin multiplier effects",
+    "Better economic coverage over time",
+    "More coin generation per activation",
+    "Enhanced economic efficiency"
+  ],
+  "strategic_value": {
+    "early_game": "Provides longer economic bonuses",
+    "mid_game": "Maximizes coin generation per activation",
+    "late_game": "Essential for high-tier content requiring sustained coin income"
+  },
+  "synergies": [
+    "Works excellently with Golden Bot cooldown research",
+    "Complements bonus research for stronger coin multipliers",
+    "Enhances overall Golden Bot economic effectiveness"
+  ]
+}

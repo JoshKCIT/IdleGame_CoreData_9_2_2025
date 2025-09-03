@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "T:XI Resonance",
+  "description": "Increase defense absolute by 10%",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "survival",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "physical",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "defense"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "First legendary milestone relic, massive defense improvement",
+  "tier": 11,
+  "unlock_method": "Milestone",
+  "bonus_type": "defense_absolute",
+  "bonus_value": 10,
+  "unlock_requirement": "Milestone: Beat wave 4500 in tier 11",
+  "rarity": "Legendary",
+  "effect": "Defense absolute +10%"
+}

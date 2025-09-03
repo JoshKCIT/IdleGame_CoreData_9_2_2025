@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Chrono Field Duration",
+  "description": "Increases chrono field duration",
+  "category": "Ultimate Weapon Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "damage_type": "time_optimization",
+    "target_type": "all_enemies",
+    "activation": "automatic",
+    "range": "area_of_effect",
+    "stat_type": "research_speed",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "ultimate_weapons",
+      "time_optimization"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "fast_enemies",
+      "high_damage_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "5s per perk level",
+    "total_bonus": "Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_duration": "Base Chrono Field Duration + (Perk Bonus × Quantity)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for ultimate weapon enhancement and time control",
+    "priority_level": "Medium-High - powerful ultimate weapon enhancement",
+    "upgrade_priority": "Medium priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Chrono Field Size for larger area coverage",
+      "Game Speed for overall time efficiency",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential for ultimate weapon effectiveness",
+      "Scales additively with other chrono field bonuses",
+      "Combines with time optimization perks for maximum efficiency"
+    ],
+    "resource_efficiency": "High - excellent ultimate weapon scaling",
+    "effect": "Chrono Field Duration +5s",
+    "appearance_chance": "20%",
+    "max_quantity": 1,
+    "calculation_type": "special",
+    "formula": "N/A"
+  },
+  "notes": "Ultimate weapon perks will only be shown when the affected Ultimate Weapon is unlocked. If the ultimate weapon is unlocked from the 'Unlock a random ultimate weapon' perk, the Ultimate Weapon perk will become available for that run.",
+  "cross_references": {
+    "related_card": "cards/data/chrono_field.json",
+    "related_research": "lab_upgrades/ultimate_weapon_research/chrono_field_duration.json",
+    "cards": [
+      "chrono_field_duration.json"
+    ],
+    "lab_research": [
+      "chrono_field_duration.json"
+    ]
+  }
+}

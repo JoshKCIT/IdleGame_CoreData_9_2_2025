@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot",
+    "file_format": "json"
+  },
+  "name": "Flame Bot",
+  "description": "Damage enemies in an area around the bot",
+  "category": "General",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "damage_type": "burn",
+    "target_type": "multiple_enemies",
+    "activation": "automatic",
+    "range": "area_of_effect",
+    "synergy_groups": [
+      "damage_amplification",
+      "crowd_control"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "swarms",
+      "fast_enemies",
+      "low_health_groups"
+    ],
+    "effect_category": "combat"
+  },
+  "calculation_formulas": {
+    "damage_per_tick": "Bot Damage × (1 + Critical Factor) × (1 + Super Critical Factor)",
+    "total_burn_damage": "Damage Per Tick × Burn Duration",
+    "damage_reduction": "Enemy Damage × (1 - Bot Damage Reduction)",
+    "range_calculation": "Base Range × (1 + Tower Range Amplification)",
+    "cooldown_reduction": "Base Cooldown - (Level × 3 seconds)"
+  },
+  "context_fields": {
+    "when_to_use": "Against enemy swarms, when you need area damage",
+    "priority_level": "High for area damage builds",
+    "upgrade_priority": "Damage > Range > Cooldown > Damage Reduction",
+    "synergy_combinations": [
+      "Amplify Bot for increased damage",
+      "Critical hit bonuses for burst damage",
+      "Range bonuses for better coverage"
+    ],
+    "counter_strategies": [
+      "Effective against fast, low-health enemies",
+      "Combines well with stun effects",
+      "Area denial against enemy groups"
+    ],
+    "resource_efficiency": "High - area damage scales well with multiple enemies"
+  },
+  "upgrades": {
+    "damage_reduction": {
+      "description": "Reduces the amount of damage burned enemies deal. Damage reduction begins at 20% and has 25 levels increasing by 3% per level.",
+      "max_levels": 25,
+      "base_value": 20,
+      "increment_per_level": 3
+    },
+    "cooldown": {
+      "description": "The amount of time between initial activations. Cooldown starts at 75 seconds and has 15 levels reducing cooldown by 3 seconds per level.",
+      "max_levels": 15,
+      "base_value": 75,
+      "increment_per_level": -3
+    },
+    "damage": {
+      "description": "Increases the damage dealt when the flame bot activates. Takes in account crit/super crit factor and chance. See Ultimate Weapons for damage calculation. Multiplier begins at x50 tower damage and has 30 levels increasing by +8x per level.",
+      "max_levels": 30,
+      "base_value": 50,
+      "increment_per_level": 8
+    },
+    "range": {
+      "description": "Increases the range the bot covers when active. Range is amplified by tower range. Begins with 30m range and has 15 levels increasing by 4m per level.",
+      "max_levels": 15,
+      "base_value": 30,
+      "increment_per_level": 4
+    }
+  },
+  "notes": "Additional information",
+  "unlocking_upgrading": {
+    "description": "Like all bots, Flame Bot is unlocked and upgraded in the Event Shop menu. The unlock cost will depend on how many other bots have been bought. Each of the 3 flame bot upgrades start with a base upgrade cost of 100 medals and increase by 40 medals each level. Flame bot deals burn damage and will do 1 tick of damage equal to bot damage per second."
+  },
+  "upgrade_costs_and_stats": {
+    "levels": [
+      {
+        "level": 1,
+        "cost": 100,
+        "damage_reduction": "23%",
+        "cooldown": "72s",
+        "damage": "58x",
+        "range": "34m"
+      },
+      {
+        "level": 2,
+        "cost": 140,
+        "damage_reduction": "26%",
+        "cooldown": "69s",
+        "damage": "66x",
+        "range": "38m"
+      },
+      {
+        "level": 3,
+        "cost": 180,
+        "damage_reduction": "29%",
+        "cooldown": "66s",
+        "damage": "74x",
+        "range": "42m"
+      },
+      {
+        "level": 4,
+        "cost": 220,
+        "damage_reduction": "32%",
+        "cooldown": "63s",
+        "damage": "82x",
+        "range": "46m"
+      },
+      {
+        "level": 5,
+        "cost": 260,
+        "damage_reduction": "35%",
+        "cooldown": "60s",
+        "damage": "90x",
+        "range": "50m"
+      },
+      {
+        "level": 6,
+        "cost": 300,
+        "damage_reduction": "38%",
+        "cooldown": "57s",
+        "damage": "98x",
+        "range": "54m"
+      },
+      {
+        "level": 7,
+        "cost": 340,
+        "damage_reduction": "41%",
+        "cooldown": "54s",
+        "damage": "106x",
+        "range": "58m"
+      },
+      {
+        "level": 8,
+        "cost": 380,
+        "damage_reduction": "44%",
+        "cooldown": "51s",
+        "damage": "114x",
+        "range": "62m"
+      },
+      {
+        "level": 9,
+        "cost": 420,
+        "damage_reduction": "47%",
+        "cooldown": "48s",
+        "damage": "122x",
+        "range": "66m"
+      },
+      {
+        "level": 10,
+        "cost": 460,
+        "damage_reduction": "50%",
+        "cooldown": "45s",
+        "damage": "130x",
+        "range": "70m"
+      },
+      {
+        "level": 11,
+        "cost": 500,
+        "damage_reduction": "53%",
+        "cooldown": "42s",
+        "damage": "138x",
+        "range": "74m"
+      },
+      {
+        "level": 12,
+        "cost": 540,
+        "damage_reduction": "56%",
+        "cooldown": "39s",
+        "damage": "146x",
+        "range": "78m"
+      },
+      {
+        "level": 13,
+        "cost": 580,
+        "damage_reduction": "59%",
+        "cooldown": "36s",
+        "damage": "154x",
+        "range": "82m"
+      },
+      {
+        "level": 14,
+        "cost": 620,
+        "damage_reduction": "62%",
+        "cooldown": "33s",
+        "damage": "162x",
+        "range": "86m"
+      },
+      {
+        "level": 15,
+        "cost": 660,
+        "damage_reduction": "65%",
+        "cooldown": "30s",
+        "damage": "170x",
+        "range": "90m"
+      },
+      {
+        "level": 16,
+        "cost": 700,
+        "damage_reduction": "68%",
+        "cooldown": null,
+        "damage": "178x",
+        "range": null
+      },
+      {
+        "level": 17,
+        "cost": 740,
+        "damage_reduction": "71%",
+        "cooldown": null,
+        "damage": "186x",
+        "range": null
+      },
+      {
+        "level": 18,
+        "cost": 780,
+        "damage_reduction": "74%",
+        "cooldown": null,
+        "damage": "194x",
+        "range": null
+      },
+      {
+        "level": 19,
+        "cost": 820,
+        "damage_reduction": "77%",
+        "cooldown": null,
+        "damage": "202x",
+        "range": null
+      },
+      {
+        "level": 20,
+        "cost": 860,
+        "damage_reduction": "80%",
+        "cooldown": null,
+        "damage": "210x",
+        "range": null
+      },
+      {
+        "level": 21,
+        "cost": 900,
+        "damage_reduction": "83%",
+        "cooldown": null,
+        "damage": "218x",
+        "range": null
+      },
+      {
+        "level": 22,
+        "cost": 940,
+        "damage_reduction": "86%",
+        "cooldown": null,
+        "damage": "226x",
+        "range": null
+      },
+      {
+        "level": 23,
+        "cost": 980,
+        "damage_reduction": "89%",
+        "cooldown": null,
+        "damage": "234x",
+        "range": null
+      },
+      {
+        "level": 24,
+        "cost": 1020,
+        "damage_reduction": "92%",
+        "cooldown": null,
+        "damage": "242x",
+        "range": null
+      },
+      {
+        "level": 25,
+        "cost": 1060,
+        "damage_reduction": "95%",
+        "cooldown": null,
+        "damage": "250x",
+        "range": null
+      },
+      {
+        "level": 26,
+        "cost": 1100,
+        "damage_reduction": null,
+        "cooldown": null,
+        "damage": "258x",
+        "range": null
+      },
+      {
+        "level": 27,
+        "cost": 1140,
+        "damage_reduction": null,
+        "cooldown": null,
+        "damage": "266x",
+        "range": null
+      },
+      {
+        "level": 28,
+        "cost": 1180,
+        "damage_reduction": null,
+        "cooldown": null,
+        "damage": "274x",
+        "range": null
+      },
+      {
+        "level": 29,
+        "cost": 1220,
+        "damage_reduction": null,
+        "cooldown": null,
+        "damage": "282x",
+        "range": null
+      },
+      {
+        "level": 30,
+        "cost": 1260,
+        "damage_reduction": null,
+        "cooldown": null,
+        "damage": "290x",
+        "range": null
+      }
+    ],
+    "total_costs": {
+      "damage_reduction": 14500,
+      "cooldown": 5700,
+      "damage": 20400,
+      "range": 5700
+    }
+  },
+  "labs": {
+    "description": "Flame Bot has lab upgrades available in the Bot Research category",
+    "available_research": [
+      "Flame Bot Cooldown",
+      "Flame Bot-Burn Stack"
+    ]
+  }
+}

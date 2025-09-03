@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Package Chance",
+  "description": "Enhances package mechanics",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {},
+  "mastery": {
+    "overview": {
+      "description": "Packages have a chance to drop common modules",
+      "stone_cost": "1000",
+      "levels": [
+        "0.4%",
+        "0.8%",
+        "1.2%",
+        "1.6%",
+        "2%",
+        "2.4%",
+        "2.8%",
+        "3.2%",
+        "3.6%",
+        "4%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Packages have a chance to drop common modules",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "percent": 0.4
+        },
+        {
+          "percent": 0.8
+        },
+        {
+          "percent": 1.2
+        },
+        {
+          "percent": 1.6
+        },
+        {
+          "percent": 2.0
+        },
+        {
+          "percent": 2.4
+        },
+        {
+          "percent": 2.8
+        },
+        {
+          "percent": 3.2
+        },
+        {
+          "percent": 3.6
+        },
+        {
+          "percent": 4.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "package_chance.json"
+    ],
+    "lab_research": [
+      "package_chance.json"
+    ]
+  }
+}

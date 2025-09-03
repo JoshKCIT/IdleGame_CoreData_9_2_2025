@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Super Tower",
+  "description": "Card enhancement",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "The tower becomes super for 15 seconds, tower damage increased by x # (30 sec cooldown)",
+      "levels": [
+        2.5,
+        2.9,
+        3.3,
+        3.7,
+        4.1,
+        4.5,
+        5.0
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "35% of super tower bonus is applied to UWs, reduces cooldown",
+      "stone_cost": "1000",
+      "levels": [
+        "-3s",
+        "-6s",
+        "-9s",
+        "-12s",
+        "-15s",
+        "-18s",
+        "-21s",
+        "-24s",
+        "-27s",
+        "-30s"
+      ]
+    },
+    "overview_normalized": {
+      "description": "35% of super tower bonus is applied to UWs, reduces cooldown",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "seconds": -3
+        },
+        {
+          "seconds": -6
+        },
+        {
+          "seconds": -9
+        },
+        {
+          "seconds": -12
+        },
+        {
+          "seconds": -15
+        },
+        {
+          "seconds": -18
+        },
+        {
+          "seconds": -21
+        },
+        {
+          "seconds": -24
+        },
+        {
+          "seconds": -27
+        },
+        {
+          "seconds": -30
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "super_tower.json"
+    ],
+    "lab_research": [
+      "super_tower.json"
+    ]
+  }
+}

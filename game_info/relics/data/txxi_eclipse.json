@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "T:XXI Eclipse",
+  "description": "Increase lab speed by 10%",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "damage_type": "efficiency",
+    "target_type": "tower",
+    "activation": "automatic",
+    "effect_category": "efficiency",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "research_efficiency",
+      "time_optimization"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Legendary milestone relics",
+  "tier": 21,
+  "unlock_method": "Milestone",
+  "bonus_type": "lab_speed",
+  "bonus_value": 10.0,
+  "unlock_requirement": "Milestone: Beat wave 4500 in tier 21",
+  "rarity": "Legendary",
+  "effect": "Increase lab speed by 10%"
+}

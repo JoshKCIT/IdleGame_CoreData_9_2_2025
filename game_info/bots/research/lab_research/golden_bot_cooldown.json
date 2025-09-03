@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_research",
+    "file_format": "json"
+  },
+  "name": "Golden Bot Cooldown",
+  "description": "This lab research reduces the cooldown time for Golden Bot activations, allowing it to provide coin multipliers more frequently.",
+  "category": "Bot Research",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "research_category": "bot_research",
+    "stat_type": "attack_speed",
+    "target": "golden_bot",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "utility",
+      "economy",
+      "attack_speed"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "cooldown_based"
+  },
+  "calculation_formulas": {
+    "base_cooldown": "75 seconds",
+    "cooldown_reduction": "3 seconds per level",
+    "final_cooldown": "Base Cooldown - (Level × 3 seconds)",
+    "effect": "Reduces Golden Bot cooldown for more frequent coin multipliers"
+  },
+  "context_fields": {
+    "when_to_use": "When using Golden Bot and need more frequent economic bonuses",
+    "priority_level": "High for economy-focused builds",
+    "upgrade_priority": "High priority for Golden Bot optimization",
+    "synergy_combinations": [
+      "Golden Bot duration research for extended uptime",
+      "Golden Bot bonus research for stronger coin multipliers",
+      "Other economy research for comprehensive optimization"
+    ],
+    "counter_strategies": [
+      "More frequent coin multiplier uptime",
+      "Better economic coverage",
+      "Enhanced coin generation from enemy kills"
+    ],
+    "resource_efficiency": "High - increases Golden Bot economic effectiveness significantly"
+  },
+  "notes": "Additional information",
+  "research_details": {
+    "category": "Bot Research",
+    "effect": "Reduces Golden Bot cooldown",
+    "research_type": "Cooldown reduction"
+  },
+  "benefits": [
+    "More frequent Golden Bot activations",
+    "Increased coin multiplier uptime",
+    "Better economic coverage",
+    "Enhanced coin generation from enemy kills"
+  ],
+  "strategic_value": {
+    "early_game": "Provides more frequent economic bonuses",
+    "mid_game": "Enhances coin generation and economic growth",
+    "late_game": "Maximizes Golden Bot uptime for optimal coin farming"
+  },
+  "synergies": [
+    "Works well with Golden Bot duration research",
+    "Complements bonus research for stronger coin multipliers",
+    "Enhances overall Golden Bot economic effectiveness"
+  ]
+}

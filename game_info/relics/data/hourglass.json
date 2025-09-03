@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Hourglass",
+  "description": "Increase coins by 2%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "effect_category": "economy",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "coin_multiplier",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "economy",
+      "resource_generation"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Rare event relics",
+  "bonus_type": "coins_earned",
+  "unlock_requirement": "Event Premium: Earn 550 medals during the \"What Time Is It?\"",
+  "rarity": "Rare",
+  "unlock_method": "Event",
+  "bonus_value": 2.0,
+  "medal_requirement": 550,
+  "effect": "Increase coins by 2%",
+  "event_name": "What Time Is It?"
+}

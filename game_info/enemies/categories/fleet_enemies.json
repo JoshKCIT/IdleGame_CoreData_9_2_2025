@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Fleet enemy enhancement",
+  "category": "fleet_enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Fleet Enemies include Saboteur, Commander, and Overcharge and can be encountered on T14 and beyond.",
+  "availability": {
+    "tier_requirement": "Tier 14 and higher",
+    "description": "They represent the most advanced enemy types in the game",
+    "spawn_cap": "Fleet enemies use the Normal enemy spawn cap (count toward the 120 normal enemy limit)"
+  },
+  "special_resistances": {
+    "full_immunities": [
+      "Orbs",
+      "Death Ray",
+      "Shockwave",
+      "Knockback",
+      "Black Hole Damage",
+      "Black Hole Pull"
+    ],
+    "partial_resistances": {
+      "thorns": "90% resistance",
+      "chrono_field": "50% resistance",
+      "chrono_loop_cf_plus": "50% resistance",
+      "thunder_bot": "50% resistance",
+      "poison_swamp_stun": "50% resistance",
+      "land_mine_stun": "50% resistance",
+      "inner_land_mine_stun": "50% resistance"
+    }
+  },
+  "targeting_restrictions": [
+    "The Magnetic Hook module cannot target fleet enemies",
+    "Plasma cannon cannot target fleet enemies",
+    "Smart Missile cannot target fleet enemies"
+  ],
+  "special_properties": {
+    "collision": "Fleet enemies do not collide with other enemies",
+    "range_behavior": "Commander and Overcharge reach their range outside of tower range",
+    "saboteur_behavior": "Saboteur will fully approach the tower",
+    "affected_by_mechanics": [
+      "heat-up",
+      "coin decay",
+      "mass scaling"
+    ]
+  },
+  "enemy_types": {
+    "saboteur": {
+      "health_multiplier": 20,
+      "ability": "Disables a random Ultimate Weapon when impacting the Tower",
+      "recovery": "Ultimate weapon is re-enabled when the Saboteur dies",
+      "wall_interaction": "Wall can prevent Saboteur from debuffing the tower",
+      "attack_rolls": "Attacks are rolled for thorns but not for Energy shield"
+    },
+    "commander": {
+      "health_multiplier": 20,
+      "ability": "Empowers enemies within an area, providing a 2x buff to enemy health",
+      "speed_multiplier": 0.5,
+      "attack_damage": "No direct attack damage"
+    },
+    "overcharge": {
+      "health_multiplier": 20,
+      "ability": "Shoots a returning projectile at the Tower",
+      "damage_escalation": "Deals double damage with each subsequent hit",
+      "speed_multiplier": 1,
+      "base_attack_damage": "1/65536 (very low)"
+    }
+  },
+  "rewards": {
+    "reroll_shards": {
+      "drop_chance": "80%",
+      "description": "Used for rerolling module effects"
+    },
+    "module_shards": {
+      "drop_chance": "20%",
+      "description": "Used for upgrading modules"
+    },
+    "scaling": "The rewards scale with tier level"
+  }
+}

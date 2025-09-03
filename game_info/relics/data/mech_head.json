@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Mech Head",
+  "description": "Increase bot range by 2m",
+  "category": "Guild Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "physical",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "damage_amplification",
+      "range"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Epic guild relic with unique bot range bonus",
+  "bonus_type": "bot_range",
+  "unlock_requirement": "Guild: Spend 150 Tokens during the \"Season 2\"",
+  "rarity": "Epic",
+  "unlock_method": "Guild",
+  "bonus_value": 2,
+  "guild_season": 2,
+  "effect": "Bot range +2m",
+  "token_requirement": 150
+}

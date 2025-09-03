@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Second Wind Blast",
+  "description": "Lab research enhancement",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "card_research",
+    "stat_type": "second_wind_blast",
+    "target": "second_wind_card",
+    "effect_category": "combat",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "second_wind",
+      "card_enhancement"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": 0.25,
+    "increment_per_level": 0.25,
+    "total_value": "0.25 × Level",
+    "effect": "Increases second wind blast damage by +25% per level"
+  },
+  "context_fields": {
+    "when_to_use": "When using second wind card and want enhanced blast damage",
+    "priority_level": "Medium - only affects second wind card",
+    "upgrade_priority": "After basic card research",
+    "synergy_combinations": [
+      "Recharge Second Wind research",
+      "All second wind related research",
+      "Card enhancement research"
+    ],
+    "counter_strategies": [
+      "Increases second wind blast effectiveness",
+      "Enhances second wind card damage",
+      "Improves second wind card utility"
+    ],
+    "resource_efficiency": "Medium - only useful if using second wind card"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 1800000,
+      "time": "1d 3h 46m",
+      "value": 0.25,
+      "delta_value": null,
+      "cum_cost": 1800000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 3000000,
+      "time": "1d 17h 39m",
+      "value": 0.5,
+      "delta_value": 0.25,
+      "cum_cost": 4800000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 4500000,
+      "time": "2d 7h 33m",
+      "value": 0.75,
+      "delta_value": 0.25,
+      "cum_cost": 9300000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 75000000,
+      "time": "3d 11h 19m",
+      "value": 1.0,
+      "delta_value": 0.25,
+      "cum_cost": 84300000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Good efficiency for second wind enhancement",
+    "mid_levels": "Decreasing efficiency at higher levels",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 3-4 for most players"
+  },
+  "max_level": 4,
+  "cross_references": {
+    "cards": [
+      "second_wind_blast.json"
+    ],
+    "perks": [
+      "second_wind_blast.json"
+    ]
+  }
+}

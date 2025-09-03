@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Missile Barrage Quantity",
+  "description": "Enhances missile mechanics",
+  "category": "Abilities",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "ultimate_weapon_research",
+    "stat_type": "missile_quantity",
+    "target": "enemies",
+    "effect_category": "combat",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "offensive",
+      "missile_barrage",
+      "area_damage"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "multiple_enemies",
+      "swarms",
+      "bosses"
+    ],
+    "target_type": "projectiles",
+    "activation": "automatic",
+    "damage_type": "area_damage"
+  },
+  "calculation_formulas": {
+    "base_value": "25",
+    "increment_per_level": "5",
+    "total_missiles": "25 + (5 × (Level - 1))",
+    "final_quantity": "Base Quantity + Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Increases number of missiles in barrage"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - increases missile barrage quantity",
+    "priority_level": "Medium - important for missile builds",
+    "upgrade_priority": "Medium priority for missile specialization",
+    "synergy_combinations": [
+      "Missile barrage research for base ability",
+      "Missile amplifier research for better damage",
+      "Missile despawn time research for persistence"
+    ],
+    "counter_strategies": [
+      "Increases missile quantity",
+      "Improves area coverage",
+      "Enhances barrage effectiveness"
+    ],
+    "resource_efficiency": "Medium - important for missile builds but limited levels"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 750000,
+      "time": "0d 20h 0m",
+      "value": 25,
+      "delta_value": null,
+      "cum_cost": 750000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 1660000,
+      "time": "1d 18h 14m",
+      "value": 30,
+      "delta_value": 5,
+      "cum_cost": 2410000,
+      "efficiency": 3e-06,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 2860000,
+      "time": "2d 16h 46m",
+      "value": 35,
+      "delta_value": 5,
+      "cum_cost": 5270000,
+      "efficiency": 2e-06,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 5750000,
+      "time": "3d 16h 25m",
+      "value": 40,
+      "delta_value": 5,
+      "cum_cost": 11020000,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 13900000,
+      "time": "4d 18h 36m",
+      "value": 45,
+      "delta_value": 5,
+      "cum_cost": 24920000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 34080000,
+      "time": "6d 1h 23m",
+      "value": 50,
+      "delta_value": 5,
+      "cum_cost": 59000000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 3 levels",
+    "mid_levels": "Decreasing efficiency after level 4",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 4-5 for most players"
+  },
+  "max_level": 6,
+  "cross_references": {
+    "cards": [
+      "missile_barrage_quantity.json"
+    ],
+    "perks": [
+      "missile_barrage_quantity.json"
+    ]
+  }
+}

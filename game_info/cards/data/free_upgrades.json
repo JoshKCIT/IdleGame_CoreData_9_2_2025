@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Free Upgrades",
+  "description": "Increases free upgrade chance",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Rare": {
+      "description": "Increases all free upgrade chances per wave by #%",
+      "levels": [
+        {
+          "percent": 4.0
+        },
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 6.0
+        },
+        {
+          "percent": 7.0
+        },
+        {
+          "percent": 8.0
+        },
+        {
+          "percent": 9.0
+        },
+        {
+          "percent": 10.0
+        }
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Lock a stat from free ups",
+      "stone_cost": "500",
+      "levels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Lock a stat from free ups",
+      "stone_cost": "500",
+      "levels": [
+        {
+          "value": 1
+        },
+        {
+          "value": 2
+        },
+        {
+          "value": 3
+        },
+        {
+          "value": 4
+        },
+        {
+          "value": 5
+        },
+        {
+          "value": 6
+        },
+        {
+          "value": 7
+        },
+        {
+          "value": 8
+        },
+        {
+          "value": 9
+        },
+        {
+          "value": 10
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "free_upgrades.json"
+    ],
+    "lab_research": [
+      "free_upgrades.json"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Health Regen",
+  "description": "Increases tower health",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "passive",
+    "damage_type": "health_reduction"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Common": {
+      "description": "Increase tower health regen by x # / sec",
+      "levels": [
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Increases card stat multiplier",
+      "stone_cost": "750",
+      "levels": [
+        "x1.4",
+        "x1.8",
+        "x2.2",
+        "x2.6",
+        "x3",
+        "x3.4",
+        "x3.8",
+        "x4.2",
+        "x4.6",
+        "x5"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Increases card stat multiplier",
+      "stone_cost": "750",
+      "levels": [
+        {
+          "multiplier": 1.4
+        },
+        {
+          "multiplier": 1.8
+        },
+        {
+          "multiplier": 2.2
+        },
+        {
+          "multiplier": 2.6
+        },
+        {
+          "multiplier": 3.0
+        },
+        {
+          "multiplier": 3.4
+        },
+        {
+          "multiplier": 3.8
+        },
+        {
+          "multiplier": 4.2
+        },
+        {
+          "multiplier": 4.6
+        },
+        {
+          "multiplier": 5.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "cards": [
+      "health.json",
+      "health_regen.json"
+    ],
+    "perks": [
+      "health_regen.json"
+    ],
+    "lab_research": [
+      "health_regen.json"
+    ],
+    "modules": [
+      "sharp_fortitude.json"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Infinite Ruler",
+  "description": "Increase free utility upgrade by 1%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "physical",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "utility"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Rare event relics",
+  "unlock_method": "Event",
+  "bonus_type": "free_utility_upgrade",
+  "bonus_value": 1.0,
+  "unlock_requirement": "Event : Earn 350 medals during the \"Pi\"",
+  "rarity": "Rare",
+  "effect": "Increase free utility upgrade by 1%"
+}

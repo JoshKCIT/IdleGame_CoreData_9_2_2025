@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Energy Net",
+  "description": "Card enhancement",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "Fire a special net at a boss immobilizing it for # sec",
+      "levels": [
+        "2.5 sec",
+        "2.8 sec",
+        "3.1 sec",
+        "3.4 sec",
+        "3.7 sec",
+        "4.0 sec",
+        "4.3 sec"
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Damage multi to bosses when trapped and 10s after",
+      "stone_cost": "750",
+      "levels": [
+        "x2",
+        "x4",
+        "x6",
+        "x8",
+        "x10",
+        "x12",
+        "x14",
+        "x16",
+        "x18",
+        "x20"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Damage multi to bosses when trapped and 10s after",
+      "stone_cost": "750",
+      "levels": [
+        {
+          "multiplier": 2.0
+        },
+        {
+          "multiplier": 4.0
+        },
+        {
+          "multiplier": 6.0
+        },
+        {
+          "multiplier": 8.0
+        },
+        {
+          "multiplier": 10.0
+        },
+        {
+          "multiplier": 12.0
+        },
+        {
+          "multiplier": 14.0
+        },
+        {
+          "multiplier": 16.0
+        },
+        {
+          "multiplier": 18.0
+        },
+        {
+          "multiplier": 20.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "energy_net.json"
+    ],
+    "lab_research": [
+      "energy_net.json"
+    ]
+  }
+}

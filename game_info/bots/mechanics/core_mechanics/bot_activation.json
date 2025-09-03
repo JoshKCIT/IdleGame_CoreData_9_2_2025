@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Bot Activation",
+  "activation_mechanics": "Bots activate automatically based on their individual cooldown timers. When a bot activates, it immediately applies its effect to all enemies within its range.",
+  "activation_sequence": [
+    {
+      "step": 1,
+      "name": "Cooldown Timer",
+      "description": "Each bot has an independent cooldown timer"
+    },
+    {
+      "step": 2,
+      "name": "Activation Trigger",
+      "description": "When cooldown reaches zero, bot activates"
+    },
+    {
+      "step": 3,
+      "name": "Effect Application",
+      "description": "Bot effect is applied to all enemies in range"
+    },
+    {
+      "step": 4,
+      "name": "Duration Timer",
+      "description": "Bot remains active for its duration"
+    },
+    {
+      "step": 5,
+      "name": "Cooldown Reset",
+      "description": "New cooldown timer begins after activation"
+    }
+  ],
+  "bot_specific_activation_effects": {
+    "flame_bot": {
+      "immediate_effect": "Deals damage to all enemies in range",
+      "burn_application": "Applies burn damage over time",
+      "damage_reduction": "Reduces damage dealt by burned enemies",
+      "duration": "Effect lasts for the bot's active duration"
+    },
+    "thunder_bot": {
+      "immediate_effect": "Stuns all enemies in range",
+      "stun_duration": "Enemies remain stunned for the bot's duration",
+      "linger_effect": "Partial stun effect continues for 3 seconds after bot deactivates",
+      "duration": "Primary stun lasts for the bot's active duration"
+    },
+    "golden_bot": {
+      "immediate_effect": "Applies coin multiplier to area",
+      "enemy_death_bonus": "Enemies destroyed in range receive multiplied coins",
+      "duration": "Multiplier effect lasts for the bot's active duration",
+      "no_immediate_effect": "Only affects enemies that die while bot is active"
+    },
+    "amplify_bot": {
+      "immediate_effect": "Applies damage amplification to area",
+      "damage_boost": "All damage dealt to enemies in range is multiplied",
+      "duration": "Amplification effect lasts for the bot's active duration",
+      "stacking": "Works with all damage sources (tower, ultimate weapons, etc.)"
+    }
+  },
+  "range_and_coverage": {
+    "base_range": "Each bot has a base range that can be upgraded",
+    "tower_range_amplification": "Bot range is multiplied by tower range",
+    "additional_bonuses": "Range can be further increased with relics and vault upgrades",
+    "visual_indicators": "Active bots typically show visual effects in their range"
+  },
+  "timing_considerations": {
+    "cooldown_management": {
+      "independent_timers": "Each bot has its own cooldown",
+      "no_synchronization": "Bots activate independently",
+      "strategic_timing": "Consider when different bots will activate"
+    },
+    "duration_overlap": {
+      "multiple_active_bots": "Multiple bots can be active simultaneously",
+      "synergistic_effects": "Some bot combinations work well together",
+      "coverage_optimization": "Plan upgrades to maximize active time"
+    },
+    "enemy_wave_timing": {
+      "wave_start": "Bots may activate at different points in enemy waves",
+      "boss_encounters": "Consider bot timing for boss fights",
+      "continuous_coverage": "Higher duration and lower cooldown provide better coverage"
+    }
+  },
+  "activation_optimization": {
+    "upgrade_cooldown": "Reduce time between activations",
+    "upgrade_duration": "Increase active time",
+    "upgrade_range": "Cover more enemies",
+    "strategic_timing": "Consider enemy spawn patterns",
+    "lab_research": "Use lab upgrades to enhance activation frequency and duration"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Vampire Enemy",
+  "description": "2x health of basic enemies. Deals 2% of tower max health per second and disables all tower regen effects. Worth 4 coins as base value.",
+  "category": "Elite Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+
+    "target_type": "tower",
+    "effect_category": "combat",
+    "scaling_type": "linear",
+    "synergy_groups": [
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Vampires are extremely dangerous due to their life drain ability",
+    "priority_level": "Highest - life drain can quickly deplete tower health",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High damage output to eliminate quickly",
+      "Single-target focus fire for priority elimination",
+      "Abilities that can bypass their immunities"
+    ],
+    "counter_strategies": [
+      "Priority targets due to life drain ability",
+      "Can quickly deplete tower health if not dealt with promptly",
+      "Regen disable makes them particularly dangerous",
+      "Immunity to many ultimate weapons makes them challenging"
+    ],
+    "resource_efficiency": "High - vampire enemies provide quadruple coin income and elite cells"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 2.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 4,
+    "attack_type": "life_drain"
+  },
+  "abilities": [
+    {
+      "name": "Life Drain",
+      "description": "Deals 2% of tower max health per second",
+      "damage_type": "percentage_based",
+      "damage_value": 0.02
+    },
+    {
+      "name": "Regen Disable",
+      "description": "Disables all tower regen effects",
+      "effect_type": "debuff"
+    },
+    {
+      "name": "Persistent Damage",
+      "description": "Continues to deal damage while alive",
+      "effect_type": "continuous"
+    }
+  ],
+  "immunities": [
+    "orbs",
+    "death_ray",
+    "shockwave",
+    "black_hole"
+  ],
+  "special_properties": [
+    "Vampire attacks cannot be increased or reduced through perks or other modifiers",
+    "Tower regen, lifesteal, but not wall regen, are disabled when a vampire ray is attacking the tower"
+  ],
+  "spawn_rules": {
+    "spawn_group": "elite",
+    "spawn_percentage": "1-2 spawns per wave depending on wave progression",
+    "spawn_cap": 20,
+    "max_active": 8
+  },
+  "rewards": {
+    "coins": 4,
+    "special_drops": [
+      "Elite Cells"
+    ]
+  },
+  "strategy": {
+    "description": "Vampires are extremely dangerous due to their life drain ability",
+    "tips": [
+      "They can quickly deplete tower health if not dealt with promptly",
+      "Their regen disable makes them particularly dangerous",
+      "Priority targets due to their persistent damage",
+      "Good candidates for single-target focus fire",
+      "Their immunity to many ultimate weapons makes them challenging",
+      "Consider using abilities that can bypass their immunities"
+    ]
+  }
+}

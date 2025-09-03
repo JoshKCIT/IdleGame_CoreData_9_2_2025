@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_research",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "title": "Auto Pick Perks Lab",
+  "overview": "Unlocked in Milestones at tier 4 wave 50 and after Unlock Perk completed. A toggleable ability that will select the first perk available when perks are available. Has 1 level.",
+  "how_it_works": [
+    "Auto Pick Perks is toggled during a run by clicking the perk bar at the top of the screen",
+    "When an offering of perks is presented, and none of them are in the auto perk ranking, the first perk will be chosen",
+    "Always selects the top choice on the list, which will always pick your first perk choice (if available)",
+    "Works in conjunction with Auto Pick Ranking and First Perk Choice"
+  ],
+  "lab_details": [
+    {
+      "level": 1,
+      "time": "4d 23h 26m",
+      "cost": "100,000,000",
+      "value": "Unlocked"
+    }
+  ],
+  "requirements": [
+    "Must reach tier 4 wave 50 in Milestones",
+    "Must complete Unlock Perks lab first"
+  ]
+}

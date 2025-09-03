@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Protector Enemy",
+  "description": "Enemy that reduces damage to nearby allies.",
+  "category": "Normal Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "support",
+
+    "target_type": "multiple_enemies",
+    "effect_category": "combat",
+    "scaling_type": "linear",
+    "synergy_groups": [
+      "defensive_utility"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Protector enemies reduce damage to nearby allies",
+    "priority_level": "High - protection aura affects multiple enemies",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High damage to overcome protection effects",
+      "Area-of-effect abilities to target multiple protected enemies",
+      "Single-target focus to eliminate protectors first"
+    ],
+    "counter_strategies": [
+      "Priority targets due to protection aura",
+      "Eliminate protectors first to remove damage reduction",
+      "Higher coin value makes them worth targeting"
+    ],
+    "resource_efficiency": "High - protector enemies provide double coin income"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 1.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 2,
+    "attack_type": "standard"
+  },
+  "abilities": [
+    {
+      "name": "Protection Aura",
+      "description": "Reduces damage dealt to nearby allies",
+      "range": "area_of_effect"
+    }
+  ],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "normal",
+    "spawn_percentage": "varies based on wave progression",
+    "spawn_cap": 120,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 2,
+    "special_drops": []
+  },
+  "strategy": {
+    "description": "Protector enemies reduce damage dealt to nearby allies",
+    "tips": [
+      "Priority targets due to their protection aura",
+      "Eliminate protectors first to remove damage reduction from other enemies",
+      "Higher coin value makes them worth targeting"
+    ]
+  }
+}

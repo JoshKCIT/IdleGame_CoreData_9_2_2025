@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Overcharge Enemy",
+  "description": "Fleet enemy that shoots returning projectiles (Tier 14+).",
+  "category": "Fleet Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+
+    "target_type": "tower",
+    "effect_category": "combat",
+    "scaling_type": "exponential",
+    "synergy_groups": [
+      "enemy_weakening"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Overcharge enemies shoot returning projectiles in Tier 14+",
+    "priority_level": "High - returning projectiles can deal multiple hits",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High damage to eliminate quickly",
+      "Defense bonuses to reduce projectile damage",
+      "Single-target focus to eliminate overcharge enemies"
+    ],
+    "counter_strategies": [
+      "Priority targets due to returning projectile attacks",
+      "High damage output to eliminate before multiple hits",
+      "Defense bonuses to reduce projectile damage"
+    ],
+    "resource_efficiency": "High - overcharge enemies provide high coin income"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 5.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 8,
+    "attack_type": "returning_projectile"
+  },
+  "abilities": [
+    {
+      "name": "Returning Projectiles",
+      "description": "Shoots projectiles that return to the enemy",
+      "damage_type": "projectile",
+      "special_property": "returning"
+    }
+  ],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "fleet",
+    "spawn_percentage": "appears in Tier 14+",
+    "spawn_cap": 5,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 8,
+    "special_drops": []
+  },
+  "strategy": {
+    "description": "Overcharge enemies shoot returning projectiles in Tier 14+",
+    "tips": [
+      "Priority targets due to returning projectile attacks",
+      "High damage output to eliminate before multiple hits",
+      "Defense bonuses to reduce projectile damage",
+      "Only appear in Tier 14 and above"
+    ]
+  }
+}

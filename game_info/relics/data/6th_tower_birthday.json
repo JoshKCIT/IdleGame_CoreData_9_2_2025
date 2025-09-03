@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "6th Tower Birthday",
+  "description": "Increase damage/meter by 2%",
+  "category": "Anniversary Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "damage_amplification",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Sixth anniversary relic, improves damage scaling",
+  "unlock_method": "Anniversary",
+  "bonus_type": "damage_per_meter",
+  "bonus_value": 2,
+  "anniversary_year": 6,
+  "unlock_requirement": "Play for 6 years",
+  "rarity": "Rare",
+  "effect": "Damage/meter +2%"
+}

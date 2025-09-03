@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Increases tower attack range",
+  "category": "General",
+  "type": "bot",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Bot Range",
+  "range_calculation": "Bot range is calculated using a multiplicative system that amplifies the base range through various bonuses.",
+  "base_range_system": {
+    "flame_bot": {
+      "base_range": "30m",
+      "max_range": "90m"
+    },
+    "thunder_bot": {
+      "base_range": "28m",
+      "max_range": "70m"
+    },
+    "golden_bot": {
+      "base_range": "20m",
+      "max_range": "50m"
+    },
+    "amplify_bot": {
+      "base_range": "25m",
+      "max_range": "55m"
+    }
+  },
+  "range_amplification": {
+    "tower_range_multiplier": {
+      "description": "Bot range is multiplied by tower range",
+      "formula": "Effective Range = Bot Base Range × Tower Range",
+      "example": "50m bot range × 2.0 tower range = 100m effective range"
+    },
+    "additional_range_bonuses": {
+      "relics": {
+        "bot_range_relics": "Direct percentage increases to bot range",
+        "tower_range_relics": "Indirect increases through tower range amplification",
+        "example_relics": [
+          "Mech Head: +2m bot range",
+          "Various tower range relics: +2-10% tower range"
+        ]
+      },
+      "vault_upgrades": {
+        "bot_range_upgrades": "Permanent increases to bot range",
+        "tower_range_upgrades": "Indirect increases through tower range"
+      },
+      "lab_research": {
+        "bot_specific_labs": "Some lab research may increase bot range",
+        "tower_range_labs": "Indirect increases through tower range research"
+      }
+    }
+  },
+  "range_optimization_strategy": {
+    "early_game": [
+      "Focus on Bot Range Upgrades: Direct range increases are most cost-effective",
+      "Basic Tower Range: Modest tower range improvements",
+      "Relic Collection: Gather bot range relics when available"
+    ],
+    "mid_game": [
+      "Balanced Approach: Mix bot range and tower range improvements",
+      "Relic Synergy: Combine multiple range bonuses",
+      "Lab Research: Use lab upgrades to enhance range"
+    ],
+    "late_game": [
+      "Maximum Range: Pursue all available range bonuses",
+      "Synergistic Bonuses: Combine all range amplification sources",
+      "Strategic Positioning: Use maximum range for optimal coverage"
+    ]
+  },
+  "range_effectiveness": {
+    "coverage_area": {
+      "formula": "Coverage = π × (Range)²",
+      "exponential_growth": "Doubling range quadruples coverage area",
+      "strategic_value": "Larger range covers more enemies per activation"
+    },
+    "range_vs_other_upgrades": [
+      "Range vs. Duration: More coverage vs. longer effect time",
+      "Range vs. Effect: More enemies vs. stronger effect per enemy",
+      "Range vs. Cooldown: More coverage vs. more frequent activations"
+    ]
+  },
+  "practical_range_examples": {
+    "typical_mid_game_setup": {
+      "bot_range": "50m (upgraded)",
+      "tower_range": "1.5x",
+      "relic_bonus": "+2m",
+      "effective_range": "(50m + 2m) × 1.5 = 78m"
+    },
+    "high_end_setup": {
+      "bot_range": "90m (maximum)",
+      "tower_range": "3.0x",
+      "relic_bonuses": "+10m total",
+      "effective_range": "(90m + 10m) × 3.0 = 300m"
+    }
+  },
+  "range_visualization": [
+    "Visual Indicators: Active bots typically show their range visually",
+    "Enemy Coverage: Range determines which enemies are affected",
+    "Strategic Planning: Use range visualization to optimize bot placement and timing"
+  ],
+  "cross_references": {
+    "cards": [
+      "range.json"
+    ],
+    "perks": [
+      "range.json"
+    ],
+    "lab_research": [
+      "range.json"
+    ],
+    "modules": [
+      "astral_deliverance.json"
+    ]
+  }
+}

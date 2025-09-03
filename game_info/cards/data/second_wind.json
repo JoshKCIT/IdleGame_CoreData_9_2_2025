@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Second Wind",
+  "description": "Card enhancement",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Epic": {
+      "description": "Revive the tower with half health once per round and creates an invincible shield for [x] sec",
+      "levels": [
+        "10 sec",
+        "15 sec",
+        "20 sec",
+        "25 sec",
+        "30 sec",
+        "35 sec",
+        "40 sec"
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Increases HP regen for 400 waves when triggered",
+      "stone_cost": "1000",
+      "levels": [
+        "x1.9",
+        "x2.8",
+        "x3.7",
+        "x4.6",
+        "x5.5",
+        "x6.4",
+        "x7.3",
+        "x8.2",
+        "x9.1",
+        "x10"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Increases HP regen for 400 waves when triggered",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "multiplier": 1.9
+        },
+        {
+          "multiplier": 2.8
+        },
+        {
+          "multiplier": 3.7
+        },
+        {
+          "multiplier": 4.6
+        },
+        {
+          "multiplier": 5.5
+        },
+        {
+          "multiplier": 6.4
+        },
+        {
+          "multiplier": 7.3
+        },
+        {
+          "multiplier": 8.2
+        },
+        {
+          "multiplier": 9.1
+        },
+        {
+          "multiplier": 10.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "second_wind.json"
+    ],
+    "lab_research": [
+      "second_wind.json"
+    ]
+  }
+}

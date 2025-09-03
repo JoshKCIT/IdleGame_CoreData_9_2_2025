@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "system_data",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Range that a projectile can bounce from enemy to enemy if activated",
+  "category": "General",
+  "type": "unknown",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "unit": "m",
+  "upgrade_name": "Bounce Shot Range",
+  "max_value": 8.0,
+  "costs": [
+    {
+      "level": 1,
+      "value": 2.1,
+      "cost": 200,
+      "total_cost": 200
+    },
+    {
+      "level": 2,
+      "value": 2.2,
+      "cost": 279,
+      "total_cost": 479
+    },
+    {
+      "level": 3,
+      "value": 2.3,
+      "cost": 368,
+      "total_cost": 847
+    },
+    {
+      "level": 4,
+      "value": 2.4,
+      "cost": 472,
+      "total_cost": 1320
+    },
+    {
+      "level": 5,
+      "value": 2.5,
+      "cost": 591,
+      "total_cost": 1911
+    },
+    {
+      "level": 6,
+      "value": 2.6,
+      "cost": 728,
+      "total_cost": 2639
+    },
+    {
+      "level": 7,
+      "value": 2.7,
+      "cost": 884,
+      "total_cost": 3523
+    },
+    {
+      "level": 8,
+      "value": 2.8,
+      "cost": 1060,
+      "total_cost": 4583
+    },
+    {
+      "level": 9,
+      "value": 2.9,
+      "cost": 1260,
+      "total_cost": 5843
+    },
+    {
+      "level": 10,
+      "value": 3.0,
+      "cost": 1480,
+      "total_cost": 7323
+    },
+    {
+      "level": 11,
+      "value": 3.1,
+      "cost": 1720,
+      "total_cost": 9043
+    },
+    {
+      "level": 12,
+      "value": 3.2,
+      "cost": 1990,
+      "total_cost": 11033
+    },
+    {
+      "level": 13,
+      "value": 3.3,
+      "cost": 2280,
+      "total_cost": 13313
+    },
+    {
+      "level": 14,
+      "value": 3.4,
+      "cost": 2590,
+      "total_cost": 15903
+    },
+    {
+      "level": 15,
+      "value": 3.5,
+      "cost": 2940,
+      "total_cost": 18843
+    },
+    {
+      "level": 16,
+      "value": 3.6,
+      "cost": 3310,
+      "total_cost": 22153
+    },
+    {
+      "level": 17,
+      "value": 3.7,
+      "cost": 3700,
+      "total_cost": 25853
+    },
+    {
+      "level": 18,
+      "value": 3.8,
+      "cost": 4130,
+      "total_cost": 29983
+    },
+    {
+      "level": 19,
+      "value": 3.9,
+      "cost": 4580,
+      "total_cost": 34563
+    },
+    {
+      "level": 20,
+      "value": 4.0,
+      "cost": 5060,
+      "total_cost": 39623
+    },
+    {
+      "level": 21,
+      "value": 4.1,
+      "cost": 5570,
+      "total_cost": 45193
+    },
+    {
+      "level": 22,
+      "value": 4.2,
+      "cost": 6110,
+      "total_cost": 51303
+    },
+    {
+      "level": 23,
+      "value": 4.3,
+      "cost": 6680,
+      "total_cost": 57983
+    },
+    {
+      "level": 24,
+      "value": 4.4,
+      "cost": 7290,
+      "total_cost": 65273
+    },
+    {
+      "level": 25,
+      "value": 4.5,
+      "cost": 7920,
+      "total_cost": 73193
+    },
+    {
+      "level": 26,
+      "value": 4.6,
+      "cost": 8580,
+      "total_cost": 81773
+    },
+    {
+      "level": 27,
+      "value": 4.7,
+      "cost": 9280,
+      "total_cost": 91053
+    },
+    {
+      "level": 28,
+      "value": 4.8,
+      "cost": 10010,
+      "total_cost": 101063
+    },
+    {
+      "level": 29,
+      "value": 4.9,
+      "cost": 10780,
+      "total_cost": 111843
+    },
+    {
+      "level": 30,
+      "value": 5.0,
+      "cost": 11570,
+      "total_cost": 123413
+    },
+    {
+      "level": 31,
+      "value": 5.1,
+      "cost": 12400,
+      "total_cost": 135813
+    },
+    {
+      "level": 32,
+      "value": 5.2,
+      "cost": 13270,
+      "total_cost": 149083
+    },
+    {
+      "level": 33,
+      "value": 5.3,
+      "cost": 14170,
+      "total_cost": 163253
+    },
+    {
+      "level": 34,
+      "value": 5.4,
+      "cost": 15100,
+      "total_cost": 178353
+    },
+    {
+      "level": 35,
+      "value": 5.5,
+      "cost": 16070,
+      "total_cost": 194423
+    },
+    {
+      "level": 36,
+      "value": 5.6,
+      "cost": 17080,
+      "total_cost": 211503
+    },
+    {
+      "level": 37,
+      "value": 5.7,
+      "cost": 18120,
+      "total_cost": 229623
+    },
+    {
+      "level": 38,
+      "value": 5.8,
+      "cost": 19200,
+      "total_cost": 248823
+    },
+    {
+      "level": 39,
+      "value": 5.9,
+      "cost": 20320,
+      "total_cost": 269143
+    },
+    {
+      "level": 40,
+      "value": 6.0,
+      "cost": 21470,
+      "total_cost": 290613
+    },
+    {
+      "level": 41,
+      "value": 6.1,
+      "cost": 226580,
+      "total_cost": 517193
+    },
+    {
+      "level": 42,
+      "value": 6.2,
+      "cost": 238860,
+      "total_cost": 756053
+    },
+    {
+      "level": 43,
+      "value": 6.3,
+      "cost": 251510,
+      "total_cost": 1007563
+    },
+    {
+      "level": 44,
+      "value": 6.4,
+      "cost": 2650000,
+      "total_cost": 3657563
+    },
+    {
+      "level": 45,
+      "value": 6.5,
+      "cost": 2780000,
+      "total_cost": 6437563
+    },
+    {
+      "level": 46,
+      "value": 6.6,
+      "cost": 2920000,
+      "total_cost": 9357563
+    },
+    {
+      "level": 47,
+      "value": 6.7,
+      "cost": 33660000,
+      "total_cost": 43017563
+    },
+    {
+      "level": 48,
+      "value": 6.8,
+      "cost": 35260000,
+      "total_cost": 78277563
+    },
+    {
+      "level": 49,
+      "value": 6.9,
+      "cost": 36910000,
+      "total_cost": 115187563
+    },
+    {
+      "level": 50,
+      "value": 7.0,
+      "cost": 424670000,
+      "total_cost": 539857563
+    },
+    {
+      "level": 51,
+      "value": 7.1,
+      "cost": 457100000,
+      "total_cost": 996957563
+    },
+    {
+      "level": 52,
+      "value": 7.2,
+      "cost": 477300000,
+      "total_cost": 1474257563
+    },
+    {
+      "level": 53,
+      "value": 7.3,
+      "cost": 5980000000,
+      "total_cost": 7454257563
+    },
+    {
+      "level": 54,
+      "value": 7.4,
+      "cost": 6230000000,
+      "total_cost": 13684257563
+    },
+    {
+      "level": 55,
+      "value": 7.5,
+      "cost": 77900000000,
+      "total_cost": 91584257563
+    },
+    {
+      "level": 56,
+      "value": 7.6,
+      "cost": 81100000000,
+      "total_cost": 172684257563
+    },
+    {
+      "level": 57,
+      "value": 7.7,
+      "cost": 84380000000,
+      "total_cost": 257064257563
+    },
+    {
+      "level": 58,
+      "value": 7.8,
+      "cost": 1140000000000,
+      "total_cost": 1397064257563
+    },
+    {
+      "level": 59,
+      "value": 7.9,
+      "cost": 1190000000000,
+      "total_cost": 2587064257563
+    },
+    {
+      "level": 60,
+      "value": 8.0,
+      "cost": 1230000000000,
+      "total_cost": 3817064257563
+    }
+  ],
+  "increase_per_level": 0.1,
+  "max_levels": 60,
+  "base_value": 2.0,
+  "cross_references": {
+    "cards": [
+      "bounce_shot_mechanics.json"
+    ],
+    "perks": [
+      "bounce_shot.json"
+    ],
+    "lab_research": [
+      "bounce_shot.json"
+    ],
+    "modules": [
+      "bounce_shot_enhancement.json",
+      "astral_deliverance.json"
+    ]
+  }
+}

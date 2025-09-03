@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Enemy Mass Scaling is a mechanic that increases the mass of enemies over time, affecting various game interactions.",
+  "category": "General",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Enemy Mass Scaling",
+  "mechanics": {
+    "mass_increase": "Enemy mass increases by 4% each wave they are alive",
+    "applies_to_all": "This applies to all enemy types (Normal, Elite, Boss, Fleet)",
+    "cumulative_effect": "The mass increase is cumulative and continues to stack",
+    "affects_interactions": "Mass affects various game mechanics that depend on enemy weight/size"
+  },
+  "affected_mechanics": {
+    "knockback_effects": "Higher mass enemies are harder to knock back",
+    "ultimate_weapon_interactions": "Some ultimate weapons have effects that scale with enemy mass",
+    "collision_detection": "Mass may affect how enemies interact with each other and the environment",
+    "module_effects": "Some modules may have effects that depend on enemy mass"
+  },
+  "strategic_implications": [
+    "Enemies that survive multiple waves become harder to control with knockback effects",
+    "Some ultimate weapons may become less effective against high-mass enemies",
+    "Players should consider mass scaling when planning defensive strategies",
+    "The mechanic creates additional incentive to defeat enemies quickly"
+  ],
+  "counterplay": [
+    "Focus on defeating enemies before they accumulate too much mass",
+    "Use ultimate weapons that aren't affected by mass scaling",
+    "Consider using abilities that don't rely on knockback or mass-dependent effects",
+    "Prioritize high-mass enemies that are approaching the tower"
+  ]
+}

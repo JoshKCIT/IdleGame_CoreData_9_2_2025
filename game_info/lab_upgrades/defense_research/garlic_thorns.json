@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Garlic Thorns",
+  "description": "Enhances thorns damage",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "defense_research",
+    "stat_type": "thorns_damage",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "thorns",
+      "defensive_utility",
+      "wall_defense"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "melee_enemies",
+      "high_health_enemies",
+      "tanks"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "0.5",
+    "increment_per_level": "0.5",
+    "total_thorns": "0.5 × Level",
+    "final_thorns_damage": "Base Thorns + Research Bonus + Card Bonus + Perk Bonus",
+    "reflected_damage": "Thorns Damage × Enemy Attack"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - adds reflected damage to tower defense",
+    "priority_level": "Medium - useful for defensive builds",
+    "upgrade_priority": "After core defense and health research",
+    "synergy_combinations": [
+      "Defense research for maximum survivability",
+      "Health research for sustained survival",
+      "Wall defense for additional protection layers"
+    ],
+    "counter_strategies": [
+      "Effective against melee enemies",
+      "Reflects damage back to attackers",
+      "Combines with high health for maximum effect"
+    ],
+    "resource_efficiency": "Medium - reasonable cost for defensive utility"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 4500,
+      "time": "1d 3h 13m",
+      "value": 0.5,
+      "delta_value": null,
+      "cum_cost": 4500,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 7100,
+      "time": "1d 6h 5m",
+      "value": 1.0,
+      "delta_value": 0.5,
+      "cum_cost": 11600,
+      "efficiency": 7e-05,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 13300,
+      "time": "1d 9h 49m",
+      "value": 1.5,
+      "delta_value": 0.5,
+      "cum_cost": 24900,
+      "efficiency": 3.8e-05,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 26700,
+      "time": "1d 14h 59m",
+      "value": 2.0,
+      "delta_value": 0.5,
+      "cum_cost": 51600,
+      "efficiency": 1.9e-05,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 50900,
+      "time": "1d 22h 5m",
+      "value": 2.5,
+      "delta_value": 0.5,
+      "cum_cost": 102500,
+      "efficiency": 1e-05,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 89500,
+      "time": "2d 7h 33m",
+      "value": 3.0,
+      "delta_value": 0.5,
+      "cum_cost": 192000,
+      "efficiency": 6e-06,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 146100,
+      "time": "2d 19h 45m",
+      "value": 3.5,
+      "delta_value": 0.5,
+      "cum_cost": 338100,
+      "efficiency": 3e-06,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 224300,
+      "time": "3d 11h 5m",
+      "value": 4.0,
+      "delta_value": 0.5,
+      "cum_cost": 562400,
+      "efficiency": 2e-06,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 327700,
+      "time": "4d 5h 54m",
+      "value": 4.5,
+      "delta_value": 0.5,
+      "cum_cost": 890100,
+      "efficiency": 2e-06,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 459900,
+      "time": "5d 4h 32m",
+      "value": 5.0,
+      "delta_value": 0.5,
+      "cum_cost": 1350000,
+      "efficiency": 1e-06,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Medium efficiency in first 5 levels",
+    "mid_levels": "Decreasing efficiency after level 5",
+    "late_levels": "Low efficiency, high cost",
+    "recommended_stop": "Level 5-8 for most players"
+  },
+  "max_level": 10,
+  "cross_references": {
+    "cards": [
+      "garlic_thorns.json"
+    ],
+    "perks": [
+      "garlic_thorns.json"
+    ]
+  }
+}

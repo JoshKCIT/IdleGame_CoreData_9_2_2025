@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Plasma Cannon",
+  "description": "Enhances plasma cannon ultimate weapon",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "manual",
+    "damage_type": "area_damage"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Rare": {
+      "description": "Fire one big plasma shot at a boss dropping its health by #%",
+      "levels": [
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 34.0
+        },
+        {
+          "percent": 38.0
+        },
+        {
+          "percent": 42.0
+        },
+        {
+          "percent": 46.0
+        },
+        {
+          "percent": 50.0
+        },
+        {
+          "percent": 54.0
+        }
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Percent of plasma cannon applied to elites",
+      "stone_cost": "1250",
+      "levels": [
+        "5%",
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%",
+        "35%",
+        "40%",
+        "45%",
+        "50%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Percent of plasma cannon applied to elites",
+      "stone_cost": "1250",
+      "levels": [
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 25.0
+        },
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 35.0
+        },
+        {
+          "percent": 40.0
+        },
+        {
+          "percent": 45.0
+        },
+        {
+          "percent": 50.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "perks": [
+      "plasma_cannon.json"
+    ],
+    "lab_research": [
+      "plasma_cannon.json"
+    ]
+  }
+}

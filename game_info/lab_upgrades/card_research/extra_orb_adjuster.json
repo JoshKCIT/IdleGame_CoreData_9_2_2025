@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Extra Orb Adjuster",
+  "description": "Enhances orb mechanics",
+  "category": "Card Research",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "card_research",
+    "stat_type": "orb_count",
+    "target": "tower",
+    "effect_category": "combat",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "orb_system",
+      "bounce_shot"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "projectiles",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": 1,
+    "increment_per_level": 1,
+    "total_value": "1 + (Level - 1)",
+    "effect": "Increases extra orb count by +1 per level"
+  },
+  "context_fields": {
+    "when_to_use": "When using orb-based systems and need additional orbs",
+    "priority_level": "High - orbs are fundamental to tower defense",
+    "upgrade_priority": "High priority for orb-based builds",
+    "synergy_combinations": [
+      "Bounce shot mechanics for enhanced orb effectiveness",
+      "Orb speed research for faster orb movement",
+      "Other orb-related research for comprehensive builds"
+    ],
+    "counter_strategies": [
+      "Increases orb count for better coverage",
+      "Enhances bounce shot effectiveness",
+      "Improves overall combat capabilities"
+    ],
+    "resource_efficiency": "High - orbs are fundamental to tower defense"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 1000000000,
+      "time": "1d 2h 30m",
+      "value": 1,
+      "delta_value": null,
+      "cum_cost": 1000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 2500000000,
+      "time": "2d 5h 15m",
+      "value": 2,
+      "delta_value": 1,
+      "cum_cost": 3500000000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency for orb-based builds",
+    "mid_levels": "Good efficiency for additional orbs",
+    "late_levels": "Decreasing efficiency at higher levels",
+    "recommended_stop": "Level 5-8 for most players"
+  },
+  "max_level": 10,
+  "cross_references": {
+    "cards": [
+      "extra_orb_adjuster.json"
+    ],
+    "perks": [
+      "extra_orb_adjuster.json"
+    ]
+  }
+}

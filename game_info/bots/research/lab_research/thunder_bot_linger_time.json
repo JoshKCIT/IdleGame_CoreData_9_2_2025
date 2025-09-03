@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_research",
+    "file_format": "json"
+  },
+  "name": "Thunder Bot-Linger Time",
+  "description": "This lab research increases the linger time for Thunder Bot's stun effect, extending the duration of stun effects after the bot deactivates.",
+  "category": "Bot Research",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "bot_research",
+    "stat_type": "health_regen",
+    "target": "thunder_bot",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "utility",
+      "crowd_control",
+      "utility"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "fast_enemies",
+      "swarms"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_linger_time": "Base stun duration",
+    "linger_extension": "Increases with research level",
+    "final_linger_time": "Base Linger Time + (Level × Extension)",
+    "effect": "Extends stun duration after Thunder Bot deactivation"
+  },
+  "context_fields": {
+    "when_to_use": "When using Thunder Bot and need longer crowd control effects",
+    "priority_level": "High for Thunder Bot crowd control builds",
+    "upgrade_priority": "High priority for Thunder Bot optimization",
+    "synergy_combinations": [
+      "Thunder Bot cooldown research for more frequent activations",
+      "Thunder Bot duration research for longer active stuns",
+      "Other crowd control research"
+    ],
+    "counter_strategies": [
+      "Longer stun effects after bot deactivation",
+      "Better crowd control coverage",
+      "More effective protection against enemy waves"
+    ],
+    "resource_efficiency": "High - significantly increases Thunder Bot crowd control effectiveness"
+  },
+  "notes": "Additional information",
+  "research_details": {
+    "category": "Bot Research",
+    "effect": "Increases stun linger duration",
+    "research_type": "Duration enhancement"
+  },
+  "benefits": [
+    "Longer stun effects after bot deactivation",
+    "Better crowd control coverage",
+    "More effective protection against enemy waves",
+    "Enhanced stun stacking with multiple activations"
+  ],
+  "strategic_value": {
+    "early_game": "Provides longer crowd control effects",
+    "mid_game": "Maximizes stun effectiveness",
+    "late_game": "Essential for high-tier content with fast enemies"
+  },
+  "synergies": [
+    "Works excellently with Thunder Bot cooldown research",
+    "Complements duration research for longer active stuns",
+    "Enhances overall Thunder Bot crowd control effectiveness"
+  ]
+}

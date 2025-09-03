@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bots_index",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "General",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "bots_overview": {
+    "total_bots": 4,
+    "primary_functions": {
+      "offensive": 2,
+      "utility": 1,
+      "economy": 1
+    }
+  },
+  "bots_list": [
+    {
+      "name": "Flame Bot",
+      "file_path": "bots/data/flame_bot.json",
+      "primary_function": "offensive",
+      "damage_type": "burn",
+      "target_type": "multiple_enemies",
+      "activation": "automatic",
+      "range": "area_of_effect",
+      "synergy_groups": [
+        "damage_amplification",
+        "crowd_control"
+      ],
+      "optimal_use": [
+        "mid_game",
+        "late_game"
+      ],
+      "counter_enemies": [
+        "swarms",
+        "fast_enemies",
+        "low_health_groups"
+      ],
+      "upgrade_priority": "Damage > Range > Cooldown > Damage Reduction",
+      "total_upgrade_cost": 46300
+    },
+    {
+      "name": "Thunder Bot",
+      "file_path": "bots/data/thunder_bot.json",
+      "primary_function": "utility",
+      "damage_type": "stun",
+      "target_type": "multiple_enemies",
+      "activation": "automatic",
+      "range": "area_of_effect",
+      "synergy_groups": [
+        "crowd_control",
+        "defensive_utility"
+      ],
+      "optimal_use": [
+        "mid_game",
+        "late_game"
+      ],
+      "counter_enemies": [
+        "fast_enemies",
+        "high_damage_enemies",
+        "bosses"
+      ],
+      "upgrade_priority": "Duration > Linger > Range > Cooldown",
+      "total_upgrade_cost": 52500
+    },
+    {
+      "name": "Golden Bot",
+      "file_path": "bots/data/golden_bot.json",
+      "primary_function": "economy",
+      "damage_type": "coin_multiplier",
+      "target_type": "enemies_in_range",
+      "activation": "automatic",
+      "range": "area_of_effect",
+      "synergy_groups": [
+        "economy",
+        "resource_generation"
+      ],
+      "optimal_use": [
+        "early_game",
+        "mid_game",
+        "late_game"
+      ],
+      "counter_enemies": [
+        "all_enemies"
+      ],
+      "upgrade_priority": "Bonus > Duration > Range > Cooldown",
+      "total_upgrade_cost": 52500
+    },
+    {
+      "name": "Amplify Bot",
+      "file_path": "bots/data/amplify_bot.json",
+      "primary_function": "offensive",
+      "damage_type": "damage_amplification",
+      "target_type": "enemies_in_range",
+      "activation": "automatic",
+      "range": "area_of_effect",
+      "synergy_groups": [
+        "damage_amplification",
+        "offensive_support"
+      ],
+      "optimal_use": [
+        "mid_game",
+        "late_game"
+      ],
+      "counter_enemies": [
+        "high_health_enemies",
+        "bosses",
+        "tanks"
+      ],
+      "upgrade_priority": "Bonus > Duration > Range > Cooldown",
+      "total_upgrade_cost": 52500
+    }
+  ],
+  "priority_guide": {
+    "early_game": [
+      "Golden Bot (economy scaling)"
+    ],
+    "mid_game": [
+      "Flame Bot (area damage)",
+      "Thunder Bot (crowd control)"
+    ],
+    "late_game": [
+      "Amplify Bot (damage amplification)",
+      "Flame Bot (enhanced area damage)"
+    ]
+  },
+  "synergy_combinations": {
+    "area_damage_builds": [
+      "Flame Bot + Amplify Bot",
+      "Flame Bot + Thunder Bot (stun + burn)"
+    ],
+    "economy_builds": [
+      "Golden Bot + Economy cards/perks"
+    ],
+    "defensive_builds": [
+      "Thunder Bot + Defensive bonuses"
+    ],
+    "boss_killer_builds": [
+      "Amplify Bot + High damage cards"
+    ]
+  },
+  "upgrade_efficiency": {
+    "most_efficient": [
+      "Flame Bot Damage (area damage scaling)",
+      "Amplify Bot Bonus (multiplicative scaling)",
+      "Golden Bot Bonus (economy scaling)"
+    ],
+    "least_efficient": [
+      "Range upgrades (diminishing returns)",
+      "Cooldown upgrades (limited impact)"
+    ]
+  },
+  "lab_research_available": {
+    "flame_bot": [
+      "Flame Bot Cooldown",
+      "Flame Bot-Burn Stack"
+    ],
+    "thunder_bot": [
+      "Thunder Bot Cooldown",
+      "Thunder Bot-Linger Time"
+    ],
+    "golden_bot": [
+      "Golden Bot Cooldown",
+      "Golden Bot-Duration"
+    ],
+    "amplify_bot": [
+      "Amplify Bot Cooldown",
+      "Amplify Bot-Duration"
+    ]
+  },
+  "conversion_status": {
+    "converted_to_json": 4,
+    "remaining_markdown": 0,
+    "conversion_progress": "100%"
+  }
+}

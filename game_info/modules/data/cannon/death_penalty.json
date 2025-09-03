@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Death Penalty",
+  "description": "This module inflicts death penalty effects that deal massive damage to enemies.",
+  "category": "General",
+  "type": "Cannon",
+  "focus": "Attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "module_type": "cannon",
+    "focus_area": "attack",
+    "target_type": "enemies",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "offensive",
+      "high_damage",
+      "death_effects"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "death_penalty": "Base Percentage × Rarity Multiplier",
+    "damage_multiplier": "Massive damage increase",
+    "effect_duration": "Variable based on module level"
+  },
+  "context_fields": {
+    "when_to_use": "When needing massive damage output against enemies",
+    "priority_level": "High - massive damage potential",
+    "upgrade_priority": "High priority for offensive builds",
+    "synergy_combinations": [
+      "Other offensive modules for enhanced damage",
+      "Critical hit bonuses for maximum damage",
+      "Damage amplification effects for devastating results"
+    ],
+    "counter_strategies": [
+      "Inflicts massive damage through death penalty effects",
+      "Effective against all enemy types",
+      "Provides significant offensive advantage"
+    ],
+    "resource_efficiency": "High - massive damage provides significant advantage"
+  },
+  "rarity_scaling": {
+    "Epic": "10%",
+    "Legendary": "15%",
+    "Mythic": "20%",
+    "Ancestral": "25%"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Inflicts death penalty effects that deal massive damage to enemies."
+}

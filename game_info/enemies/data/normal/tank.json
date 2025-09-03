@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Tank Enemy",
+  "description": "High-health enemy with reduced speed.",
+  "category": "Normal Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "target_type": "tower",
+    "effect_category": "combat",
+    "scaling_type": "linear",
+    "synergy_groups": [
+      "defensive_utility"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Tank enemies have high health but move slowly",
+    "priority_level": "Medium - high health requires sustained damage",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High damage output for sustained elimination",
+      "Critical hit bonuses for burst damage",
+      "Damage amplification effects"
+    ],
+    "counter_strategies": [
+      "Requires sustained damage due to high health",
+      "Slower movement allows for focused fire",
+      "Higher coin value compensates for time investment"
+    ],
+    "resource_efficiency": "High - tank enemies provide triple coin income"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 3.0,
+    "speed_multiplier": 0.5,
+    "coin_value": 3,
+    "attack_type": "standard"
+  },
+  "abilities": [],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "normal",
+    "spawn_percentage": "varies based on wave progression",
+    "spawn_cap": 120,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 3,
+    "special_drops": []
+  },
+  "strategy": {
+    "description": "Tank enemies have triple health but move at half speed",
+    "tips": [
+      "Require sustained damage due to high health pool",
+      "Slower movement allows for focused fire",
+      "Higher coin value compensates for time investment"
+    ]
+  }
+}

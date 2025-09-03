@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Health",
+  "description": "Increases tower health",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "stat_type": "health",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "health_regen",
+      "defense",
+      "energy_shield"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction"
+  },
+  "calculation_formulas": {
+    "base_health": "Tower Base Health × Card Multiplier",
+    "total_health": "Base Health × (1 + Perk Bonuses) × (1 + Relic Bonuses)",
+    "card_multiplier": "1 + (Card Level - 1) × 0.5",
+    "mastery_multiplier": "1 + Mastery Level Bonus",
+    "final_multiplier": "Card Multiplier × Mastery Multiplier"
+  },
+  "context_fields": {
+    "when_to_use": "Always active - provides permanent health increase",
+    "priority_level": "High - health is fundamental to tower survival",
+    "upgrade_priority": "First priority for defensive builds",
+    "synergy_combinations": [
+      "Health Regen for sustained survivability",
+      "Defense bonuses for damage reduction",
+      "Energy Shield for additional protection"
+    ],
+    "counter_strategies": [
+      "Use against all enemy types for survival",
+      "Essential for late-game scaling",
+      "Combines well with defensive bonuses"
+    ],
+    "resource_efficiency": "High - health is essential for survival"
+  },
+  "notes": "Additional information",
+  "cross_references": {
+    "related_perk": "perks/data/max_health.json",
+    "related_research": "lab_upgrades/defense_research/health.json",
+    "related_relics": [
+      "relics/data/t_iv_harmonic.json",
+      "relics/data/t_xiv_arcane.json",
+      "relics/data/t_xix_atomic.json"
+    ],
+    "cards": [
+      "health.json",
+      "health_regen.json"
+    ],
+    "perks": [
+      "health.json"
+    ],
+    "lab_research": [
+      "health.json"
+    ],
+    "modules": [
+      "sharp_fortitude.json"
+    ]
+  },
+  "mastery": {
+    "description": "Increases card stat multiplier",
+    "stone_cost": 750,
+    "levels": [
+      {
+        "multiplier": 1.2
+      },
+      {
+        "multiplier": 1.4
+      },
+      {
+        "multiplier": 1.6
+      },
+      {
+        "multiplier": 1.8
+      },
+      {
+        "multiplier": 2.0
+      },
+      {
+        "multiplier": 2.2
+      },
+      {
+        "multiplier": 2.4
+      },
+      {
+        "multiplier": 2.6
+      },
+      {
+        "multiplier": 2.8
+      },
+      {
+        "multiplier": 3.0
+      }
+    ]
+  },
+  "rarities": {
+    "Common": {
+      "description": "Increase tower health by x #",
+      "levels": [
+        1.5,
+        2.0,
+        2.4,
+        2.8,
+        3.2,
+        3.6,
+        4.0
+      ]
+    }
+  }
+}

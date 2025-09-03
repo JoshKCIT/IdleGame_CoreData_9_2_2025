@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Increase Max Game Speed",
+  "description": "Increases maximum game speed",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "damage_type": "time_optimization",
+    "target_type": "tower",
+    "activation": "automatic",
+    "range": "global",
+    "stat_type": "research_speed",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "time_optimization",
+      "research_efficiency"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "1.00 per perk level",
+    "total_bonus": "Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_game_speed": "Base Max Game Speed + (Perk Bonus × Quantity)"
+  },
+  "context_fields": {
+    "when_to_use": "Always valuable for time efficiency and progression speed",
+    "priority_level": "Medium-High - improves overall game efficiency",
+    "upgrade_priority": "Medium priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Research Speed bonuses for faster progression",
+      "Standard Perk Bonus lab research for maximum effect",
+      "Time optimization relics and cards"
+    ],
+    "counter_strategies": [
+      "Provides passive time efficiency for all game phases",
+      "Scales additively with other game speed bonuses",
+      "Essential for faster progression and farming"
+    ],
+    "resource_efficiency": "High - improves overall game efficiency",
+    "effect": "Increase Max Game Speed by +1.00",
+    "appearance_chance": "65%",
+    "max_quantity": 1,
+    "calculation_type": "additive",
+    "formula": "Total Bonus = Base Value x Quantity x (1 + Standard Perk Bonus)"
+  },
+  "notes": "When the standard perk bonus lab is maxed, the Game Speed perk will be increased to 1.25 making the max game speed 6.25. It will display as 6.3, as Game speed visually rounds to the tenths place.",
+  "cross_references": {
+    "related_card": "cards/data/wave_accelerator.json",
+    "related_research": "lab_upgrades/utility_research/game_speed.json",
+    "cards": [
+      "game_speed.json"
+    ],
+    "lab_research": [
+      "game_speed.json"
+    ]
+  }
+}

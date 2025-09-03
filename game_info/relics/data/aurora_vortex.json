@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Aurora Vortex",
+  "description": "Increase tower health by 2%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "survival",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "defense",
+      "health_regen"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Rare event relics",
+  "bonus_type": "tower_health",
+  "unlock_requirement": "Event: Earn 350 medals during the \"Aurora\"",
+  "rarity": "Rare",
+  "unlock_method": "Event",
+  "bonus_value": 2.0,
+  "medal_requirement": 350,
+  "effect": "Increase tower health by 2%",
+  "event_name": "Aurora"
+}

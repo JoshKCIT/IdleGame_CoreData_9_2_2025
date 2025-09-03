@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Fast Enemy",
+  "description": "High-speed enemy with increased coin value.",
+  "category": "Normal Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+
+    "target_type": "tower",
+    "effect_category": "combat",
+    "scaling_type": "linear",
+    "synergy_groups": [
+      "fast_enemies"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Fast enemies move quickly and provide higher coin rewards",
+    "priority_level": "Medium - faster movement requires quicker response",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "High attack speed for consistent hits",
+      "Range bonuses to catch fast-moving targets",
+      "Area-of-effect abilities for multiple fast enemies"
+    ],
+    "counter_strategies": [
+      "Requires faster response due to high speed",
+      "Higher coin value makes them priority targets",
+      "Can overwhelm if not dealt with quickly"
+    ],
+    "resource_efficiency": "High - fast enemies provide double coin income"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 1.0,
+    "speed_multiplier": 2.0,
+    "coin_value": 2,
+    "attack_type": "standard"
+  },
+  "abilities": [],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "normal",
+    "spawn_percentage": "varies based on wave progression",
+    "spawn_cap": 120,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 2,
+    "special_drops": []
+  },
+  "strategy": {
+    "description": "Fast enemies move at double speed and provide double coin rewards",
+    "tips": [
+      "Require faster response due to high movement speed",
+      "Higher coin value makes them priority targets",
+      "Can overwhelm defenses if not dealt with quickly"
+    ]
+  }
+}

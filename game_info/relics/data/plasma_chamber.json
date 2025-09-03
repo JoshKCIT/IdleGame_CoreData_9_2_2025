@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Plasma Chamber",
+  "description": "Increase tower health by 5%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "manual",
+    "damage_type": "area_damage",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Epic event relics",
+  "bonus_type": "tower_health",
+  "unlock_requirement": "Event Premium: Earn 1100 medals during the \"Plasma Returns (II)\"",
+  "rarity": "Epic",
+  "unlock_method": "Event",
+  "bonus_value": 5.0,
+  "medal_requirement": 1100,
+  "effect": "Increase tower health by 5%",
+  "event_name": "Plasma Returns (II)"
+}

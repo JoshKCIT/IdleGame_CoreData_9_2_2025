@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Critical Coin",
+  "description": "Enhances critical hit mechanics",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "critical_hit"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Rare": {
+      "description": "If a basic enemy dies from a critical shot it has a chance to drop coins of #%",
+      "levels": [
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 18.0
+        },
+        {
+          "percent": 21.0
+        },
+        {
+          "percent": 24.0
+        },
+        {
+          "percent": 27.0
+        },
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 33.0
+        }
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Chance of double coin drop",
+      "stone_cost": "1000",
+      "levels": [
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%",
+        "60%",
+        "70%",
+        "80%",
+        "90%",
+        "100%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Chance of double coin drop",
+      "stone_cost": "1000",
+      "levels": [
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 20.0
+        },
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 40.0
+        },
+        {
+          "percent": 50.0
+        },
+        {
+          "percent": 60.0
+        },
+        {
+          "percent": 70.0
+        },
+        {
+          "percent": 80.0
+        },
+        {
+          "percent": 90.0
+        },
+        {
+          "percent": 100.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "cards": [
+      "critical_chance.json",
+      "critical_coin.json",
+      "ultimate_crit.json"
+    ],
+    "perks": [
+      "critical_coin.json"
+    ],
+    "lab_research": [
+      "critical_coin.json"
+    ],
+    "modules": [
+      "astral_deliverance.json"
+    ]
+  }
+}

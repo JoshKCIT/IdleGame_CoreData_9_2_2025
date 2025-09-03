@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "random_ultimate_weapon_stats",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "manual"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "overview": "When the random ultimate weapon perk is obtained during a run, it will select one that you currently don't own and give you a semi upgraded version.",
+  "key_features": [
+    "Unlocking a weapon this way doesn't allow you to do lab research on the weapon",
+    "Example: Getting poison swamp will not allow you to research swamp stun or swamp radius labs",
+    "Sub stats on modules will affect the chosen weapon if applicable",
+    "Example: +damage multi ILM will increase the multiplier by the given amount",
+    "When all UW are unlocked, this perk is removed from the perk pool"
+  ],
+  "ultimate_weapon_stats_table": {
+    "chain_lightning": {
+      "stone_value": 700,
+      "effects": {
+        "1st_effect": "Damage",
+        "1st_amount": "x46",
+        "2nd_effect": "Quantity",
+        "2nd_amount": "3",
+        "3rd_effect": "Chance",
+        "3rd_amount": "15.5%"
+      }
+    },
+    "smart_missiles": {
+      "stone_value": 741,
+      "effects": {
+        "1st_effect": "Damage",
+        "1st_amount": "x42",
+        "2nd_effect": "Quantity",
+        "2nd_amount": "11",
+        "3rd_effect": "Cooldown",
+        "3rd_amount": "130s"
+      }
+    },
+    "death_wave": {
+      "stone_value": 1009,
+      "effects": {
+        "1st_effect": "Damage",
+        "1st_amount": "x46",
+        "2nd_effect": "Quantity",
+        "2nd_amount": "2",
+        "3rd_effect": "Cooldown",
+        "3rd_amount": "210s"
+      }
+    },
+    "chrono_field": {
+      "stone_value": 1824,
+      "effects": {
+        "1st_effect": "Duration",
+        "1st_amount": "22s",
+        "2nd_effect": "Speed Reduction",
+        "2nd_amount": "40%",
+        "3rd_effect": "Cooldown",
+        "3rd_amount": "120s"
+      }
+    },
+    "inner_land_mines": {
+      "stone_value": 600,
+      "effects": {
+        "1st_effect": "Damage",
+        "1st_amount": "x16",
+        "2nd_effect": "Quantity",
+        "2nd_amount": "5",
+        "3rd_effect": "Cooldown",
+        "3rd_amount": "130s"
+      }
+    },
+    "golden_tower": {
+      "stone_value": 1639,
+      "effects": {
+        "1st_effect": "Bonus",
+        "1st_amount": "x9.0",
+        "2nd_effect": "Duration",
+        "2nd_amount": "30s",
+        "3rd_effect": "Cooldown",
+        "3rd_amount": "230s"
+      }
+    },
+    "poison_swamp": {
+      "stone_value": 715,
+      "effects": {
+        "1st_effect": "Damage",
+        "1st_amount": "x43",
+        "2nd_effect": "Duration",
+        "2nd_amount": "50s",
+        "3rd_effect": "Cooldown",
+        "3rd_amount": "90s"
+      }
+    },
+    "black_hole": {
+      "stone_value": 984,
+      "effects": {
+        "1st_effect": "Size",
+        "1st_amount": "50m",
+        "2nd_effect": "Duration",
+        "2nd_amount": "20s",
+        "3rd_effect": "Cooldown",
+        "3rd_amount": "130s"
+      }
+    },
+    "spotlight": {
+      "stone_value": 2426,
+      "effects": {
+        "1st_effect": "Bonus",
+        "1st_amount": "x27.6",
+        "2nd_effect": "Angle",
+        "2nd_amount": "45",
+        "3rd_effect": "Quantity",
+        "3rd_amount": "1"
+      }
+    }
+  }
+}

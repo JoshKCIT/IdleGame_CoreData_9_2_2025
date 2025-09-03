@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy",
+    "file_format": "json"
+  },
+  "name": "Scatter Enemy",
+  "description": "Elite enemy that splits into multiple smaller enemies when defeated.",
+  "category": "Elite Enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+
+    "target_type": "multiple_enemies",
+    "effect_category": "combat",
+    "scaling_type": "linear",
+    "synergy_groups": [
+      "crowd_control"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "context_fields": {
+    "when_to_use": "Scatter enemies split into multiple smaller enemies when defeated",
+    "priority_level": "High - splitting creates additional enemies",
+    "upgrade_priority": "Not applicable - enemy type",
+    "synergy_combinations": [
+      "Area-of-effect abilities to handle split enemies",
+      "High damage to eliminate before splitting",
+      "Multiple target abilities for split management"
+    ],
+    "counter_strategies": [
+      "Priority targets due to splitting ability",
+      "Use area-of-effect abilities to handle split enemies",
+      "Consider timing of elimination to manage split effects"
+    ],
+    "resource_efficiency": "High - scatter enemies provide quadruple coin income and elite cells"
+  },
+  "notes": "Additional information",
+  "stats": {
+    "health_multiplier": 2.0,
+    "speed_multiplier": 1.0,
+    "coin_value": 4,
+    "attack_type": "standard"
+  },
+  "abilities": [
+    {
+      "name": "Scatter Split",
+      "description": "Splits into multiple smaller enemies when defeated",
+      "effect_type": "death_effect",
+      "split_count": "variable"
+    }
+  ],
+  "immunities": [],
+  "spawn_rules": {
+    "spawn_group": "elite",
+    "spawn_percentage": "1-2 spawns per wave depending on wave progression",
+    "spawn_cap": 20,
+    "max_active": null
+  },
+  "rewards": {
+    "coins": 4,
+    "special_drops": [
+      "Elite Cells"
+    ]
+  },
+  "strategy": {
+    "description": "Scatter enemies split into multiple smaller enemies when defeated",
+    "tips": [
+      "Priority targets due to their splitting ability",
+      "Use area-of-effect abilities to handle split enemies",
+      "Consider timing of elimination to manage split effects",
+      "Can create additional enemies that need to be dealt with"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Bounce Shot Enhancement",
+  "description": "This module category enhances the bounce shot mechanic, improving various aspects of projectile bouncing between enemies.",
+  "category": "General",
+  "type": "Cannon",
+  "focus": "Attack Enhancement",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "module_type": "cannon",
+    "focus_area": "attack_enhancement",
+    "target_type": "projectiles",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "bounce_shot",
+      "projectile_enhancement"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "swarms",
+      "grouped_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When using bounce shot mechanics and need enhanced projectile behavior",
+    "priority_level": "Medium for bounce shot builds",
+    "upgrade_priority": "Focus on modules that complement your bounce shot strategy",
+    "synergy_combinations": [
+      "Bounce shot cards and perks",
+      "Range bonuses for better coverage",
+      "Damage bonuses for enhanced effectiveness"
+    ],
+    "counter_strategies": [
+      "Most effective against grouped enemies",
+      "Scales with tower range and damage",
+      "Combines well with area damage effects"
+    ],
+    "resource_efficiency": "Medium - specialized for bounce shot builds"
+  },
+  "notes": "Additional information",
+  "related_modules": [
+    {
+      "name": "Astral Deliverance",
+      "description": "Increases bounce shot range by 3% of tower's total range and increases damage with each bounce"
+    }
+  ],
+  "enhancement_types": [
+    {
+      "type": "Range Enhancement",
+      "description": "Extends the distance projectiles can travel between bounces"
+    },
+    {
+      "type": "Damage Scaling",
+      "description": "Increases damage with each successful bounce"
+    },
+    {
+      "type": "Target Selection",
+      "description": "Improves target selection algorithms"
+    },
+    {
+      "type": "Chance Modifiers",
+      "description": "Affects bounce shot activation chance"
+    }
+  ],
+  "integration_notes": [
+    "Works with base bounce shot workshop upgrades",
+    "Synergizes with bounce shot perks",
+    "May interact with other projectile-based modules",
+    "Effectiveness scales with tower range and damage stats"
+  ],
+  "cross_references": {
+    "cards": [
+      "bounce_shot_mechanics.json"
+    ],
+    "perks": [
+      "bounce_shot.json"
+    ],
+    "lab_research": [
+      "bounce_shot.json"
+    ],
+    "modules": [
+      "bounce_shot_enhancement.json",
+      "astral_deliverance.json"
+    ]
+  }
+}

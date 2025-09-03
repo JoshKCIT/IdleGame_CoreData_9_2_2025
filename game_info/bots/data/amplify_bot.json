@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot",
+    "file_format": "json"
+  },
+  "name": "Amplify Bot",
+  "description": "Amplify damage against enemies inside range.",
+  "category": "General",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "damage_type": "damage_amplification",
+    "target_type": "enemies_in_range",
+    "activation": "automatic",
+    "range": "area_of_effect",
+    "synergy_groups": [
+      "damage_amplification",
+      "damage_amplification"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "high_health_enemies",
+      "bosses",
+      "tanks"
+    ],
+    "effect_category": "combat"
+  },
+  "calculation_formulas": {
+    "damage_amplification": "Base Bonus + (Level × 0.4x)",
+    "duration_calculation": "Base Duration + (Level × 0.5 seconds)",
+    "cooldown_reduction": "Base Cooldown - (Level × 3 seconds)",
+    "range_calculation": "Base Range × (1 + Tower Range Amplification)"
+  },
+  "context_fields": {
+    "when_to_use": "Against high-health enemies, bosses, or when you need maximum damage output",
+    "priority_level": "High for damage-focused builds",
+    "upgrade_priority": "Bonus > Duration > Range > Cooldown",
+    "synergy_combinations": [
+      "Damage cards and perks for multiplicative scaling",
+      "Critical hit bonuses for burst damage",
+      "Range bonuses for better coverage"
+    ],
+    "counter_strategies": [
+      "Essential against high-health enemies",
+      "Most effective during boss fights",
+      "Scales multiplicatively with other damage bonuses"
+    ],
+    "resource_efficiency": "Very High - amplifies all damage sources"
+  },
+  "upgrades": {
+    "duration": {
+      "description": "Increases the amount of time Amplify Bot is active. Duration starts at 20 seconds and has 30 levels. Each level increases duration by 0.5 seconds.",
+      "max_levels": 30,
+      "base_value": 20,
+      "increment_per_level": 0.5
+    },
+    "cooldown": {
+      "description": "The amount of time between initial activations. Cooldown starts at 120 seconds and has 15 levels. Each level decreases cooldown by 3 seconds.",
+      "max_levels": 15,
+      "base_value": 120,
+      "increment_per_level": -3
+    },
+    "bonus": {
+      "description": "Increases the damage bonus against enemies. Bonus starts at x3.50 and has 30 levels. Each level increases bonus by 0.4.",
+      "max_levels": 30,
+      "base_value": 3.5,
+      "increment_per_level": 0.4
+    },
+    "range": {
+      "description": "Increases the range the bot covers when active. Range is amplified by tower range. Range starts at 25m and has 15 levels. Each level increases range by 2m.",
+      "max_levels": 15,
+      "base_value": 25,
+      "increment_per_level": 2
+    }
+  },
+  "notes": "Additional information",
+  "unlocking_upgrading": {
+    "description": "Like all bots, Amplify Bot is unlocked and upgraded in the Event Shop menu. The unlock cost will depend on how many other bots have been bought. Each of the four amplify bot upgrades start with a base upgrade cost of 100 medals and increase by 40 medals each level."
+  },
+  "upgrade_costs_and_stats": {
+    "levels": [
+      {
+        "level": 1,
+        "cost": 100,
+        "duration": "20.5s",
+        "cooldown": "117s",
+        "bonus": "3.9x",
+        "range": "27m"
+      },
+      {
+        "level": 2,
+        "cost": 140,
+        "duration": "21.0s",
+        "cooldown": "114s",
+        "bonus": "4.3x",
+        "range": "29m"
+      },
+      {
+        "level": 3,
+        "cost": 180,
+        "duration": "21.5s",
+        "cooldown": "111s",
+        "bonus": "4.7x",
+        "range": "31m"
+      },
+      {
+        "level": 4,
+        "cost": 220,
+        "duration": "22.0s",
+        "cooldown": "108s",
+        "bonus": "5.1x",
+        "range": "33m"
+      },
+      {
+        "level": 5,
+        "cost": 260,
+        "duration": "22.5s",
+        "cooldown": "105s",
+        "bonus": "5.5x",
+        "range": "35m"
+      },
+      {
+        "level": 6,
+        "cost": 300,
+        "duration": "23.0s",
+        "cooldown": "102s",
+        "bonus": "5.9x",
+        "range": "37m"
+      },
+      {
+        "level": 7,
+        "cost": 340,
+        "duration": "23.5s",
+        "cooldown": "99s",
+        "bonus": "6.3x",
+        "range": "39m"
+      },
+      {
+        "level": 8,
+        "cost": 380,
+        "duration": "24.0s",
+        "cooldown": "96s",
+        "bonus": "6.7x",
+        "range": "41m"
+      },
+      {
+        "level": 9,
+        "cost": 420,
+        "duration": "24.5s",
+        "cooldown": "93s",
+        "bonus": "7.1x",
+        "range": "43m"
+      },
+      {
+        "level": 10,
+        "cost": 460,
+        "duration": "25.0s",
+        "cooldown": "90s",
+        "bonus": "7.5x",
+        "range": "45m"
+      },
+      {
+        "level": 11,
+        "cost": 500,
+        "duration": "25.5s",
+        "cooldown": "87s",
+        "bonus": "7.9x",
+        "range": "47m"
+      },
+      {
+        "level": 12,
+        "cost": 540,
+        "duration": "26.0s",
+        "cooldown": "84s",
+        "bonus": "8.3x",
+        "range": "49m"
+      },
+      {
+        "level": 13,
+        "cost": 580,
+        "duration": "26.5s",
+        "cooldown": "81s",
+        "bonus": "8.7x",
+        "range": "51m"
+      },
+      {
+        "level": 14,
+        "cost": 620,
+        "duration": "27.0s",
+        "cooldown": "78s",
+        "bonus": "9.1x",
+        "range": "53m"
+      },
+      {
+        "level": 15,
+        "cost": 660,
+        "duration": "27.5s",
+        "cooldown": "75s",
+        "bonus": "9.5x",
+        "range": "55m"
+      },
+      {
+        "level": 16,
+        "cost": 700,
+        "duration": "28.0s",
+        "cooldown": null,
+        "bonus": "9.9x",
+        "range": null
+      },
+      {
+        "level": 17,
+        "cost": 740,
+        "duration": "28.5s",
+        "cooldown": null,
+        "bonus": "10.3x",
+        "range": null
+      },
+      {
+        "level": 18,
+        "cost": 780,
+        "duration": "29.0s",
+        "cooldown": null,
+        "bonus": "10.7x",
+        "range": null
+      },
+      {
+        "level": 19,
+        "cost": 820,
+        "duration": "29.5s",
+        "cooldown": null,
+        "bonus": "11.1x",
+        "range": null
+      },
+      {
+        "level": 20,
+        "cost": 860,
+        "duration": "30.0s",
+        "cooldown": null,
+        "bonus": "11.5x",
+        "range": null
+      },
+      {
+        "level": 21,
+        "cost": 900,
+        "duration": "30.5s",
+        "cooldown": null,
+        "bonus": "11.9x",
+        "range": null
+      },
+      {
+        "level": 22,
+        "cost": 940,
+        "duration": "31.0s",
+        "cooldown": null,
+        "bonus": "12.3x",
+        "range": null
+      },
+      {
+        "level": 23,
+        "cost": 980,
+        "duration": "31.5s",
+        "cooldown": null,
+        "bonus": "12.7x",
+        "range": null
+      },
+      {
+        "level": 24,
+        "cost": 1020,
+        "duration": "32.0s",
+        "cooldown": null,
+        "bonus": "13.1x",
+        "range": null
+      },
+      {
+        "level": 25,
+        "cost": 1060,
+        "duration": "32.5s",
+        "cooldown": null,
+        "bonus": "13.5x",
+        "range": null
+      },
+      {
+        "level": 26,
+        "cost": 1100,
+        "duration": "33.0s",
+        "cooldown": null,
+        "bonus": "13.9x",
+        "range": null
+      },
+      {
+        "level": 27,
+        "cost": 1140,
+        "duration": "33.5s",
+        "cooldown": null,
+        "bonus": "14.3x",
+        "range": null
+      },
+      {
+        "level": 28,
+        "cost": 1180,
+        "duration": "34.0s",
+        "cooldown": null,
+        "bonus": "14.7x",
+        "range": null
+      },
+      {
+        "level": 29,
+        "cost": 1220,
+        "duration": "34.5s",
+        "cooldown": null,
+        "bonus": "15.1x",
+        "range": null
+      },
+      {
+        "level": 30,
+        "cost": 1260,
+        "duration": "35.0s",
+        "cooldown": null,
+        "bonus": "15.5x",
+        "range": null
+      }
+    ],
+    "total_costs": {
+      "duration": 20400,
+      "cooldown": 5700,
+      "bonus": 20400,
+      "range": 5700
+    }
+  },
+  "labs": {
+    "description": "Amplify Bot has lab upgrades available in the Bot Research category",
+    "available_research": [
+      "Amplify Bot Cooldown",
+      "Amplify Bot-Duration"
+    ]
+  }
+}

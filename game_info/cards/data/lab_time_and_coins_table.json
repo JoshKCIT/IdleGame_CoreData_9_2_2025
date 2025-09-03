@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Lab Time and Coins Table",
+  "description": "Increases coin generation",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "coin_multiplier"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "data": [
+    {
+      "level": 1,
+      "time": "20d 20h 0m 0s",
+      "coins": "1.10q"
+    },
+    {
+      "level": 2,
+      "time": "31d 6h 0m 0s",
+      "coins": "1.30q"
+    },
+    {
+      "level": 3,
+      "time": "41d 16h 0m 0s",
+      "coins": "2.00q"
+    },
+    {
+      "level": 4,
+      "time": "52d 2h 0m 0s",
+      "coins": "3.40q"
+    },
+    {
+      "level": 5,
+      "time": "62d 12h 0m 0s",
+      "coins": "5.60q"
+    },
+    {
+      "level": 6,
+      "time": "72d 22h 0m 0s",
+      "coins": "7.70q"
+    },
+    {
+      "level": 7,
+      "time": "83d 8h 0m 0s",
+      "coins": "9.10q"
+    },
+    {
+      "level": 8,
+      "time": "93d 18h 0m 0s",
+      "coins": "9.80q"
+    },
+    {
+      "level": 9,
+      "time": "104d 4h 0m 0s",
+      "coins": "10.00q"
+    }
+  ],
+  "cross_references": {
+    "perks": [
+      "lab_time_and_coins_table.json"
+    ],
+    "lab_research": [
+      "lab_time_and_coins_table.json"
+    ]
+  }
+}

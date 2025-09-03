@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot",
+    "file_format": "json"
+  },
+  "name": "Thunder Bot",
+  "description": "Stuns enemies in an area around the bot",
+  "category": "General",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "damage_type": "stun",
+    "target_type": "multiple_enemies",
+    "activation": "automatic",
+    "range": "area_of_effect",
+    "synergy_groups": [
+      "crowd_control",
+      "defensive_utility"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "fast_enemies",
+      "high_damage_enemies",
+      "bosses"
+    ],
+    "effect_category": "utility"
+  },
+  "calculation_formulas": {
+    "stun_duration": "Base Duration + (Level × 0.5 seconds)",
+    "cooldown_reduction": "Base Cooldown - (Level × 3 seconds)",
+    "linger_effect": "Base Linger + (Level × 3%)",
+    "range_calculation": "Base Range × (1 + Tower Range Amplification)"
+  },
+  "context_fields": {
+    "when_to_use": "Against fast or high-damage enemies, when you need crowd control",
+    "priority_level": "Medium for defensive builds",
+    "upgrade_priority": "Duration > Linger > Range > Cooldown",
+    "synergy_combinations": [
+      "Flame Bot for area damage while stunned",
+      "Defense bonuses for survivability",
+      "Range bonuses for better coverage"
+    ],
+    "counter_strategies": [
+      "Effective against fast enemies",
+      "Provides breathing room during difficult waves",
+      "Combines well with area damage effects"
+    ],
+    "resource_efficiency": "Medium - utility focused, not direct damage"
+  },
+  "upgrades": {
+    "duration": {
+      "description": "Increase the duration enemies are stunned. Has 20 levels.",
+      "max_levels": 20,
+      "base_value": 5.0,
+      "increment_per_level": 0.5
+    },
+    "cooldown": {
+      "description": "The amount of time between initial activations. Cooldown starts at 120 seconds and has 15 levels.",
+      "max_levels": 15,
+      "base_value": 120,
+      "increment_per_level": -3
+    },
+    "linger": {
+      "description": "A portion of the stun effect will remain for 3 seconds after thunder bot's duration. Starts at 20% and has 20 levels.",
+      "max_levels": 20,
+      "base_value": 20,
+      "increment_per_level": 3
+    },
+    "range": {
+      "description": "Increases the range the bot covers when active. Range is amplified by tower range. Has 15 levels.",
+      "max_levels": 15,
+      "base_value": 25,
+      "increment_per_level": 3
+    }
+  },
+  "notes": "Additional information",
+  "unlocking_upgrading": {
+    "description": "Like all bots, Thunder Bot is unlocked and upgraded in the Event Shop menu. The unlock cost will depend on how many other bots have been bought. Each of the 3 Thunder bot upgrades start with a base upgrade cost of 100 medals and increase by 40 medals each level."
+  },
+  "upgrade_costs_and_stats": {
+    "levels": [
+      {
+        "level": 1,
+        "cost": 100,
+        "duration": "5.5s",
+        "cooldown": "117s",
+        "linger": "23%",
+        "range": "28m"
+      },
+      {
+        "level": 2,
+        "cost": 140,
+        "duration": "6.0s",
+        "cooldown": "114s",
+        "linger": "26%",
+        "range": "31m"
+      },
+      {
+        "level": 3,
+        "cost": 180,
+        "duration": "6.5s",
+        "cooldown": "111s",
+        "linger": "29%",
+        "range": "34m"
+      },
+      {
+        "level": 4,
+        "cost": 220,
+        "duration": "7.0s",
+        "cooldown": "108s",
+        "linger": "32%",
+        "range": "37m"
+      },
+      {
+        "level": 5,
+        "cost": 260,
+        "duration": "7.5s",
+        "cooldown": "105s",
+        "linger": "35%",
+        "range": "40m"
+      },
+      {
+        "level": 6,
+        "cost": 300,
+        "duration": "8.0s",
+        "cooldown": "102s",
+        "linger": "38%",
+        "range": "43m"
+      },
+      {
+        "level": 7,
+        "cost": 340,
+        "duration": "8.5s",
+        "cooldown": "99s",
+        "linger": "41%",
+        "range": "46m"
+      },
+      {
+        "level": 8,
+        "cost": 380,
+        "duration": "9.0s",
+        "cooldown": "96s",
+        "linger": "44%",
+        "range": "49m"
+      },
+      {
+        "level": 9,
+        "cost": 420,
+        "duration": "9.5s",
+        "cooldown": "93s",
+        "linger": "47%",
+        "range": "52m"
+      },
+      {
+        "level": 10,
+        "cost": 460,
+        "duration": "10.0s",
+        "cooldown": "90s",
+        "linger": "50%",
+        "range": "55m"
+      },
+      {
+        "level": 11,
+        "cost": 500,
+        "duration": "10.5s",
+        "cooldown": "87s",
+        "linger": "53%",
+        "range": "58m"
+      },
+      {
+        "level": 12,
+        "cost": 540,
+        "duration": "11.0s",
+        "cooldown": "84s",
+        "linger": "56%",
+        "range": "61m"
+      },
+      {
+        "level": 13,
+        "cost": 580,
+        "duration": "11.5s",
+        "cooldown": "81s",
+        "linger": "59%",
+        "range": "64m"
+      },
+      {
+        "level": 14,
+        "cost": 620,
+        "duration": "12.0s",
+        "cooldown": "78s",
+        "linger": "62%",
+        "range": "67m"
+      },
+      {
+        "level": 15,
+        "cost": 660,
+        "duration": "12.5s",
+        "cooldown": "75s",
+        "linger": "65%",
+        "range": "70m"
+      },
+      {
+        "level": 16,
+        "cost": 700,
+        "duration": "13.0s",
+        "cooldown": null,
+        "linger": "68%",
+        "range": null
+      },
+      {
+        "level": 17,
+        "cost": 740,
+        "duration": "13.5s",
+        "cooldown": null,
+        "linger": "71%",
+        "range": null
+      },
+      {
+        "level": 18,
+        "cost": 780,
+        "duration": "14.0s",
+        "cooldown": null,
+        "linger": "74%",
+        "range": null
+      },
+      {
+        "level": 19,
+        "cost": 820,
+        "duration": "14.5s",
+        "cooldown": null,
+        "linger": "77%",
+        "range": null
+      },
+      {
+        "level": 20,
+        "cost": 860,
+        "duration": "15.0s",
+        "cooldown": null,
+        "linger": "80%",
+        "range": null
+      }
+    ],
+    "total_costs": {
+      "duration": 20400,
+      "cooldown": 5700,
+      "linger": 20400,
+      "range": 5700
+    }
+  },
+  "labs": {
+    "description": "Thunder Bot has lab upgrades available in the Bot Research category",
+    "available_research": [
+      "Thunder Bot Cooldown",
+      "Thunder Bot-Linger Time"
+    ]
+  }
+}

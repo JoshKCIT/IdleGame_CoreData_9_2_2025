@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Pulsar Harvester",
+  "description": "This module weakens enemies by reducing their level stats through projectile hits, making them progressively easier to defeat.",
+  "category": "General",
+  "type": "Generator",
+  "focus": "Utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "module_type": "generator",
+    "focus_area": "utility",
+    "target_type": "enemies",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "enemy_weakening",
+      "projectile_effects"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "high_level_enemies",
+      "bosses"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "reduction_chance": "Rarity Value (1.0-2.5%)",
+    "level_reduction": "1 level per proc",
+    "max_reductions": "100 levels (diminishing returns after)",
+    "trigger_condition": "Projectile hit on enemy"
+  },
+  "context_fields": {
+    "when_to_use": "When facing high-level enemies and need progressive weakening effects",
+    "priority_level": "Medium for utility-focused builds",
+    "upgrade_priority": "Focus on higher rarity versions for better proc chance",
+    "synergy_combinations": [
+      "Attack speed for more projectile hits",
+      "Range bonuses for better coverage",
+      "Damage bonuses for faster enemy defeat"
+    ],
+    "counter_strategies": [
+      "Most effective against high-level enemies",
+      "Progressive weakening over time",
+      "Combines well with sustained damage"
+    ],
+    "resource_efficiency": "Medium - utility focused, not direct damage"
+  },
+  "rarity_scaling": {
+    "Epic": "1.0%",
+    "Legendary": "1.5%",
+    "Mythic": "2.0%",
+    "Ancestral": "2.5%"
+  },
+  "notes": [
+    "Pulsar Harvester has diminishing returns after reducing 100 levels on an enemy"
+  ],
+  "unique_effect": "Each time a projectile hits an enemy, there is a [x]% chance that it will reduce the enemy's Health and Attack level by 1 (diminishing returns after 100 reductions)"
+}

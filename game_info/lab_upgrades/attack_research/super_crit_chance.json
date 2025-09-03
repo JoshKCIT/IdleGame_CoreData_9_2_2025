@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Super Critical Chance",
+  "description": "Enhances super critical hit mechanics",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "attack_research",
+    "stat_type": "super_crit_chance",
+    "target": "tower",
+    "effect_category": "combat",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "damage_amplification",
+      "critical_hits",
+      "super_critical"
+    ],
+    "optimal_use": [
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "critical_hit"
+  },
+  "calculation_formulas": {
+    "base_value": "0.1",
+    "increment_per_level": "0.1",
+    "total_chance": "0.1 × Level",
+    "final_super_crit_chance": "Base Super Crit Chance + Research Bonus + Card Bonus + Perk Bonus",
+    "damage_multiplier": "Super Crit Factor × Super Crit Chance"
+  },
+  "context_fields": {
+    "when_to_use": "Late game only - extremely expensive research that requires significant investment",
+    "priority_level": "Low - only after core stats are maximized",
+    "upgrade_priority": "Last priority after damage, attack speed, range, and critical research",
+    "synergy_combinations": [
+      "Super Critical Factor research for damage scaling",
+      "Critical Chance research for base critical hits",
+      "Damage research for base damage output"
+    ],
+    "counter_strategies": [
+      "Effective against all enemy types when triggered",
+      "Requires massive resource investment",
+      "Scales with super critical factor research"
+    ],
+    "resource_efficiency": "Very Low - extremely expensive with diminishing returns"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 200000,
+      "time": "1d 3h 46m",
+      "value": 0.1,
+      "delta_value": null,
+      "cum_cost": 200000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 401000,
+      "time": "1d 17h 41m",
+      "value": 0.2,
+      "delta_value": 0.1,
+      "cum_cost": 601000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 625990,
+      "time": "2d 7h 54m",
+      "value": 0.3,
+      "delta_value": 0.1,
+      "cum_cost": 1226990,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 974770,
+      "time": "2d 23h 24m",
+      "value": 0.4,
+      "delta_value": 0.1,
+      "cum_cost": 2201760,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 1680000,
+      "time": "3d 17h 54m",
+      "value": 0.5,
+      "delta_value": 0.1,
+      "cum_cost": 3881760,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 32540000,
+      "time": "14d 14h 45m",
+      "value": 1.0,
+      "delta_value": 0.1,
+      "cum_cost": 75821760,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 1030000000,
+      "time": "202d 9h 55m",
+      "value": 2.0,
+      "delta_value": 0.1,
+      "cum_cost": 3989361760,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 30,
+      "cost": 7480000000,
+      "time": "1141d 15h 40m",
+      "value": 3.0,
+      "delta_value": 0.1,
+      "cum_cost": 41929361760,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 40,
+      "cost": 30070000000,
+      "time": "3923d 15h 26m",
+      "value": 4.0,
+      "delta_value": 0.1,
+      "cum_cost": 221109361760,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 50,
+      "cost": 87900000000,
+      "time": "10201d 12h 58m",
+      "value": 5.0,
+      "delta_value": 0.1,
+      "cum_cost": 800359361760,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Extremely low efficiency - massive cost for minimal benefit",
+    "mid_levels": "Very low efficiency - requires years of research time",
+    "late_levels": "Minimal efficiency - luxury research only",
+    "recommended_stop": "Level 10-20 for most players, if at all"
+  },
+  "max_level": 50,
+  "cross_references": {
+    "cards": [
+      "super_crit_chance.json"
+    ],
+    "perks": [
+      "super_crit_chance.json"
+    ]
+  }
+}

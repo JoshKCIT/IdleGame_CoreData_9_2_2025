@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "4th Tower Birthday",
+  "description": "Increase health by 2%",
+  "category": "Anniversary Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "survival",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "defense",
+      "health_regen"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Fourth anniversary relic, enhances tower survivability",
+  "unlock_method": "Anniversary",
+  "bonus_type": "tower_health",
+  "bonus_value": 2,
+  "anniversary_year": 4,
+  "unlock_requirement": "Play for 4 year",
+  "rarity": "Rare",
+  "effect": "Health +2%"
+}

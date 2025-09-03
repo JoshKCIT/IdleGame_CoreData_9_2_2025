@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "trade_off_perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "overview": "Trade-off perks have a 15% chance of appearing and provide powerful bonuses with significant drawbacks.",
+  "key_features": [
+    "Each trade-off perk can only be selected once per run",
+    "Provide substantial benefits but with major penalties",
+    "The benefit for trade-off perks can be increased by upgrading the \"Improve Trade-off Perks\" lab",
+    "The lab does not affect the ranged enemy distance perk"
+  ],
+  "available_trade_off_perks": [
+    "x1.50 Tower Damage, but Bosses Have 8x Health",
+    "x1.80 coins, but Tower Max Health -70%",
+    "Enemies Have -50% Health, but Tower Health Regen and Lifesteal -90%",
+    "Enemies Damage -50%, but Tower Damage -50%",
+    "Ranged Enemies Attack Distance Reduced, But Tower Ranged Enemies Damage x3",
+    "Enemies Speed -40%, But Enemies Damage x2.5",
+    "x12.00 Cash Per Wave, But Enemy Kill Don't Give Cash",
+    "Tower Health Regen x8.00, But Tower Max Max Health -60%",
+    "Boss Health -70%, But Boss Speed +50%",
+    "Lifesteal x2.50, But Knockback force -70%"
+  ],
+  "individual_perks_info": "Each trade-off perk has detailed information in its corresponding JSON file, including:",
+  "perk_details": [
+    "Benefit description",
+    "Drawback description",
+    "Maximum quantity (always 1)",
+    "Special calculation type",
+    "Lab improvement effects"
+  ]
+}

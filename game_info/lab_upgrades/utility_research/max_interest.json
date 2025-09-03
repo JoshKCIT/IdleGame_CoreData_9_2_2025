@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Max Interest",
+  "description": "Increases interest generation",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "research_category": "utility_research",
+    "stat_type": "interest_cap",
+    "target": "tower",
+    "effect_category": "economy",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "economy",
+      "resource_generation",
+      "efficiency"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "passive"
+  },
+  "calculation_formulas": {
+    "base_value": "100",
+    "increment_per_level": "Variable (100-2500)",
+    "total_interest_cap": "Base + Level Bonuses",
+    "final_cap": "Max Interest + Research Bonus + Card Bonus + Perk Bonus",
+    "interest_accumulation": "Capped at Max Interest level"
+  },
+  "context_fields": {
+    "when_to_use": "Early to mid game - increases interest cap for economy",
+    "priority_level": "Medium - important for economy scaling",
+    "upgrade_priority": "Medium priority for economy improvements",
+    "synergy_combinations": [
+      "Interest research for faster accumulation",
+      "Cash per Wave research for income",
+      "Coins per Wave research for rewards"
+    ],
+    "counter_strategies": [
+      "Increases interest cap",
+      "Improves economy scaling",
+      "Enables better resource accumulation"
+    ],
+    "resource_efficiency": "Medium - important for economy but limited levels"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 250,
+      "time": "0d 0h 41m",
+      "value": 100,
+      "delta_value": null,
+      "cum_cost": 250,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 910,
+      "time": "0d 1h 9m",
+      "value": 200,
+      "delta_value": 100,
+      "cum_cost": 1160,
+      "efficiency": 0.10989,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 2130,
+      "time": "0d 2h 8m",
+      "value": 350,
+      "delta_value": 150,
+      "cum_cost": 3290,
+      "efficiency": 0.070423,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 4860,
+      "time": "0d 4h 33m",
+      "value": 500,
+      "delta_value": 150,
+      "cum_cost": 8150,
+      "efficiency": 0.030864,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 10330,
+      "time": "0d 9h 42m",
+      "value": 700,
+      "delta_value": 200,
+      "cum_cost": 18480,
+      "efficiency": 0.019361,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 20020,
+      "time": "0d 19h 11m",
+      "value": 1000,
+      "delta_value": 300,
+      "cum_cost": 38500,
+      "efficiency": 0.014985,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 35600,
+      "time": "1d 10h 50m",
+      "value": 1500,
+      "delta_value": 500,
+      "cum_cost": 74100,
+      "efficiency": 0.014045,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 58900,
+      "time": "2d 10h 43m",
+      "value": 2000,
+      "delta_value": 500,
+      "cum_cost": 133000,
+      "efficiency": 0.008489,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 91940,
+      "time": "3d 21h 10m",
+      "value": 2500,
+      "delta_value": 500,
+      "cum_cost": 224940,
+      "efficiency": 0.005438,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 136870,
+      "time": "5d 20h 39m",
+      "value": 3500,
+      "delta_value": 1000,
+      "cum_cost": 361810,
+      "efficiency": 0.007306,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 195990,
+      "time": "8d 11h 54m",
+      "value": 5000,
+      "delta_value": 1500,
+      "cum_cost": 557800,
+      "efficiency": 0.007653,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 271720,
+      "time": "11d 21h 48m",
+      "value": 7500,
+      "delta_value": 2500,
+      "cum_cost": 829520,
+      "efficiency": 0.009201,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 366610,
+      "time": "16d 5h 25m",
+      "value": 10000,
+      "delta_value": 2500,
+      "cum_cost": 1196130,
+      "efficiency": 0.006819,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 483330,
+      "time": "21d 13h 39m",
+      "value": 12500,
+      "delta_value": 2500,
+      "cum_cost": 1679460,
+      "efficiency": 0.005172,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 624680,
+      "time": "28d 2h 55m",
+      "value": 15000,
+      "delta_value": 2500,
+      "cum_cost": 2304140,
+      "efficiency": 0.004002,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 5 levels",
+    "mid_levels": "Decreasing efficiency after level 8",
+    "late_levels": "Low efficiency, high cost",
+    "recommended_stop": "Level 10-12 for most players"
+  },
+  "max_level": 15,
+  "cross_references": {
+    "cards": [
+      "max_interest.json"
+    ],
+    "perks": [
+      "max_interest.json"
+    ]
+  }
+}

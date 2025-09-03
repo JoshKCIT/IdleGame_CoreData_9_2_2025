@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Damage",
+  "description": "Increases tower damage output",
+  "category": "Tower Stats",
+  "type": "lab_research",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "research_category": "tower_stats",
+    "stat_type": "damage_amplification",
+    "target": "tower",
+    "effect_category": "combat",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "critical_hits",
+      "attack_speed",
+      "range"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_multiplier": "1.02",
+    "increment_per_level": "0.02",
+    "total_multiplier": "1 + (Level × 0.02)",
+    "final_damage": "Base Damage × Research Multiplier × Card Multiplier × Perk Multiplier"
+  },
+  "context_fields": {
+    "when_to_use": "Always prioritize - damage is fundamental to tower defense",
+    "priority_level": "Highest - damage scales multiplicatively with other bonuses",
+    "upgrade_priority": "First priority for offensive builds",
+    "synergy_combinations": [
+      "Critical Chance + Critical Factor for burst damage",
+      "Attack Speed for sustained DPS",
+      "Range for better target coverage"
+    ],
+    "counter_strategies": [
+      "Essential against all enemy types",
+      "Scales exponentially with multiple damage sources",
+      "Combines with damage amplification effects"
+    ],
+    "resource_efficiency": "Extremely High - multiplicative scaling makes it most valuable"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 30,
+      "time": "0d 0h 0m",
+      "value": 1.02,
+      "delta_value": null,
+      "cum_cost": 30,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 71,
+      "time": "0d 0h 6m",
+      "value": 1.04,
+      "delta_value": 0.02,
+      "cum_cost": 101,
+      "efficiency": 0.000282,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 178,
+      "time": "0d 0h 16m",
+      "value": 1.06,
+      "delta_value": 0.02,
+      "cum_cost": 279,
+      "efficiency": 0.000112,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 398,
+      "time": "0d 0h 31m",
+      "value": 1.08,
+      "delta_value": 0.02,
+      "cum_cost": 677,
+      "efficiency": 5e-05,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 772,
+      "time": "0d 0h 52m",
+      "value": 1.1,
+      "delta_value": 0.02,
+      "cum_cost": 1449,
+      "efficiency": 2.6e-05,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 6170,
+      "time": "0d 4h 32m",
+      "value": 1.2,
+      "delta_value": 0.02,
+      "cum_cost": 18759,
+      "efficiency": 3e-06,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 46540,
+      "time": "1d 0h 22m",
+      "value": 1.4,
+      "delta_value": 0.02,
+      "cum_cost": 262319,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 50,
+      "cost": 623890,
+      "time": "9d 9h 31m",
+      "value": 2.0,
+      "delta_value": 0.02,
+      "cum_cost": 8483269,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 100,
+      "cost": 4310000,
+      "time": "50d 5h 52m",
+      "value": 3.0,
+      "delta_value": 0.02,
+      "cum_cost": 116005939,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 20",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 50-75 for most players"
+  },
+  "max_level": 100,
+  "cross_references": {
+    "cards": [
+      "damage.json"
+    ],
+    "perks": [
+      "damage.json"
+    ],
+    "relics": [
+      "t_iv_harmonic.json",
+      "t_xiv_arcane.json",
+      "t_xix_atomic.json"
+    ],
+    "modules": [
+      "astral_deliverance.json",
+      "being_annihilator.json",
+      "havoc_bringer.json"
+    ]
+  }
+}

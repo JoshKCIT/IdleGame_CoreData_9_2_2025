@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Recovery Package Chance",
+  "description": "Enhances package mechanics",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Rare": {
+      "description": "Increase recovery package spawn chance by [x]",
+      "levels": [
+        {
+          "percent": 15.0
+        },
+        {
+          "percent": 18.0
+        },
+        {
+          "percent": 21.0
+        },
+        {
+          "percent": 24.0
+        },
+        {
+          "percent": 27.0
+        },
+        {
+          "percent": 30.0
+        },
+        {
+          "percent": 33.0
+        }
+      ]
+    }
+  },
+  "mastery": {},
+  "cross_references": {
+    "perks": [
+      "recovery_package_chance.json"
+    ],
+    "lab_research": [
+      "recovery_package_chance.json"
+    ]
+  }
+}

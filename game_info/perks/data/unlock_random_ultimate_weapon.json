@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Unlock Random Ultimate Weapon",
+  "description": "Unlocks a random ultimate weapon",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "damage_type": "time_optimization",
+    "target_type": "tower",
+    "activation": "manual",
+    "range": "global",
+    "stat_type": "research_speed",
+    "effect_category": "efficiency",
+    "scaling_type": "flat",
+    "synergy_groups": [
+      "ultimate_weapons",
+      "time_optimization"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "1 per perk level",
+    "total_bonus": "Base Value × Quantity × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_unlock_count": "Base Unlock Count + (Perk Bonus × Quantity)"
+  },
+  "context_fields": {
+    "when_to_use": "Excellent for early ultimate weapon access and progression",
+    "priority_level": "High - unlocks powerful ultimate weapons",
+    "upgrade_priority": "High priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Ultimate Weapon Damage perks for enhanced effectiveness",
+      "Standard Perk Bonus lab research for maximum effect",
+      "Ultimate weapon-focused relics and cards"
+    ],
+    "counter_strategies": [
+      "Provides access to powerful ultimate weapons",
+      "Scales additively with other unlock bonuses",
+      "Essential for ultimate weapon progression"
+    ],
+    "resource_efficiency": "Very High - unlocks powerful abilities",
+    "effect": "Unlock Random Ultimate Weapon +1",
+    "appearance_chance": "65%",
+    "max_quantity": 1,
+    "calculation_type": "special",
+    "formula": "N/A"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/ultimate_weapons.json",
+    "related_research": "lab_upgrades/ultimate_weapon_research/unlock_random_ultimate_weapon.json",
+    "cards": [
+      "unlock_random_ultimate_weapon.json"
+    ],
+    "lab_research": [
+      "unlock_random_ultimate_weapon.json"
+    ]
+  }
+}

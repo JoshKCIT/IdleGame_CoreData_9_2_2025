@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Crown",
+  "description": "Increase critical factor by 5%",
+  "category": "Guild Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "combat",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "critical_hit",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "damage_amplification",
+      "critical_hits"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies",
+      "high_health_enemies",
+      "tanks"
+    ]
+  },
+  "notes": "Epic guild relic, significant critical hit improvement",
+  "bonus_type": "critical_factor",
+  "unlock_requirement": "Guild: Spend 150 tokens in Guild Season 1",
+  "rarity": "Epic",
+  "unlock_method": "Guild",
+  "bonus_value": 5,
+  "guild_season": 1,
+  "effect": "Critical factor +5%",
+  "token_requirement": 150
+}

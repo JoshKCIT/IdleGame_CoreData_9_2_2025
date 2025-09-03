@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Normal enemy enhancement",
+  "category": "normal_enemies",
+  "type": "enemy",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Normal enemies include Basic, Fast, Range, Tank and Protector. These enemies are in a single group and their chance to spawn in a wave will add to 100% for each wave.",
+  "spawn_mechanics": {
+    "spawn_distribution": "Normal enemies share a total spawn percentage that adds up to 100% per wave",
+    "distribution_variation": "The distribution between different normal enemy types varies based on wave progression",
+    "spawn_cap": "All normal enemies count toward the 120 normal enemy spawn cap"
+  },
+  "enemy_types": {
+    "basic": {
+      "description": "Your basic enemy, does nothing special",
+      "properties": [
+        "Standard health, speed, and coin value",
+        "No special abilities or immunities"
+      ]
+    },
+    "fast": {
+      "speed_multiplier": 2,
+      "base_coin_value": 2,
+      "description": "Higher speed makes them reach the tower faster"
+    },
+    "tank": {
+      "speed_multiplier": 0.5,
+      "health_multiplier": 5,
+      "base_coin_value": 4,
+      "description": "High health makes them difficult to defeat quickly"
+    },
+    "ranged": {
+      "ability": "Shoots projectiles from range",
+      "base_coin_value": 2,
+      "description": "Can attack the tower from a distance"
+    },
+    "protector": {
+      "ability": "Enemies within range cannot be insta killed and take 60% reduced damage",
+      "base_coin_value": 3,
+      "tier_requirement": "Can only spawn on tier 2 or higher",
+      "spawn_limit": "Only 10 can be spawned at one time",
+      "spawn_rules": "Special spawn rules with only 1 per wave and a cooldown between spawn chances"
+    }
+  },
+  "special_rules": {
+    "protector_mechanics": "Protectors have unique spawn mechanics with cooldowns and limits",
+    "affected_by_mechanics": [
+      "heat-up",
+      "coin decay",
+      "mass scaling"
+    ],
+    "targeting": "Normal enemies can be targeted by all tower abilities and ultimate weapons"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "World Domination",
+  "description": "Increase health earned by 2%",
+  "category": "Guild Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "damage_type": "health_reduction",
+    "target_type": "tower",
+    "activation": "automatic",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "health_regen",
+      "defense"
+    ],
+    "optimal_use": [
+      "all_phases"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Guild Season 4 relic, enhances health gain",
+  "bonus_type": "health_earned",
+  "unlock_requirement": "Guild: Spend 75 Tokens during the \"Season 4\"",
+  "rarity": "Rare",
+  "unlock_method": "Guild",
+  "bonus_value": 2,
+  "guild_season": 4,
+  "effect": "Health earned +2%",
+  "token_requirement": 75
+}

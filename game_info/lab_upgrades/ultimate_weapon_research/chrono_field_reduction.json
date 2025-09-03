@@ -1,0 +1,377 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Chrono Field Reduction %",
+  "description": "Enhances chrono field mechanics",
+  "category": "Abilities",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "ultimate_weapon_research",
+    "stat_type": "damage_reduction",
+    "target": "enemies",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "defensive",
+      "chrono_field",
+      "damage_reduction"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": "0.105",
+    "increment_per_level": "0.005",
+    "total_reduction": "0.105 + (0.005 × (Level - 1))",
+    "final_reduction": "Base Reduction + Research Bonus + Card Bonus + Perk Bonus",
+    "effect": "Increases damage reduction percentage from chrono field ultimate weapon"
+  },
+  "context_fields": {
+    "when_to_use": "Mid to late game - increases chrono field damage reduction",
+    "priority_level": "Medium - important for chrono field builds",
+    "upgrade_priority": "Medium priority for chrono field specialization",
+    "synergy_combinations": [
+      "Other chrono field research for comprehensive builds",
+      "Chrono field range research for coverage",
+      "Chrono field duration research for uptime"
+    ],
+    "counter_strategies": [
+      "Increases damage reduction",
+      "Improves survival chances",
+      "Enhances chrono field effectiveness"
+    ],
+    "resource_efficiency": "Medium - important for chrono field builds but expensive at high levels"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 250000,
+      "time": "0d 19h 59m",
+      "value": 0.105,
+      "delta_value": null,
+      "cum_cost": 250000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 285000,
+      "time": "0d 23h 21m",
+      "value": 0.11,
+      "delta_value": 0.005,
+      "cum_cost": 535000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 496980,
+      "time": "1d 2h 53m",
+      "value": 0.115,
+      "delta_value": 0.005,
+      "cum_cost": 1031980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 1450000,
+      "time": "1d 6h 54m",
+      "value": 0.12,
+      "delta_value": 0.005,
+      "cum_cost": 2481980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 4230000,
+      "time": "1d 11h 49m",
+      "value": 0.125,
+      "delta_value": 0.005,
+      "cum_cost": 6711980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 10500000,
+      "time": "1d 18h 6m",
+      "value": 0.13,
+      "delta_value": 0.005,
+      "cum_cost": 17211980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 22580000,
+      "time": "2d 2h 17m",
+      "value": 0.135,
+      "delta_value": 0.005,
+      "cum_cost": 39791980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 43470000,
+      "time": "2d 12h 58m",
+      "value": 0.14,
+      "delta_value": 0.005,
+      "cum_cost": 83261980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 76880000,
+      "time": "3d 2h 49m",
+      "value": 0.145,
+      "delta_value": 0.005,
+      "cum_cost": 160141980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 127310000,
+      "time": "3d 20h 31m",
+      "value": 0.15,
+      "delta_value": 0.005,
+      "cum_cost": 287451980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 11,
+      "cost": 200030000,
+      "time": "4d 18h 49m",
+      "value": 0.155,
+      "delta_value": 0.005,
+      "cum_cost": 487481980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 12,
+      "cost": 301120000,
+      "time": "5d 22h 30m",
+      "value": 0.16,
+      "delta_value": 0.005,
+      "cum_cost": 788601980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 13,
+      "cost": 437550000,
+      "time": "7d 8h 23m",
+      "value": 0.165,
+      "delta_value": 0.005,
+      "cum_cost": 1226151980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 14,
+      "cost": 617110000,
+      "time": "9d 1h 21m",
+      "value": 0.17,
+      "delta_value": 0.005,
+      "cum_cost": 1843261980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 15,
+      "cost": 848510000,
+      "time": "11d 2h 18m",
+      "value": 0.175,
+      "delta_value": 0.005,
+      "cum_cost": 2691771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 16,
+      "cost": 1140000000,
+      "time": "13d 12h 9m",
+      "value": 0.18,
+      "delta_value": 0.005,
+      "cum_cost": 3831771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 17,
+      "cost": 1510000000,
+      "time": "16d 7h 54m",
+      "value": 0.185,
+      "delta_value": 0.005,
+      "cum_cost": 5341771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 18,
+      "cost": 1950000000,
+      "time": "19d 14h 32m",
+      "value": 0.19,
+      "delta_value": 0.005,
+      "cum_cost": 7291771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 19,
+      "cost": 2500000000,
+      "time": "23d 9h 6m",
+      "value": 0.195,
+      "delta_value": 0.005,
+      "cum_cost": 9791771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 3150000000,
+      "time": "27d 16h 40m",
+      "value": 0.2,
+      "delta_value": 0.005,
+      "cum_cost": 12941771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 21,
+      "cost": 3930000000,
+      "time": "32d 14h 19m",
+      "value": 0.205,
+      "delta_value": 0.005,
+      "cum_cost": 16871771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 22,
+      "cost": 4850000000,
+      "time": "38d 3h 12m",
+      "value": 0.21,
+      "delta_value": 0.005,
+      "cum_cost": 21721771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 23,
+      "cost": 5920000000,
+      "time": "44d 8h 27m",
+      "value": 0.215,
+      "delta_value": 0.005,
+      "cum_cost": 27641771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 24,
+      "cost": 7170000000,
+      "time": "51d 7h 16m",
+      "value": 0.22,
+      "delta_value": 0.005,
+      "cum_cost": 34811771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 25,
+      "cost": 8610000000,
+      "time": "59d 0h 50m",
+      "value": 0.225,
+      "delta_value": 0.005,
+      "cum_cost": 43421771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 26,
+      "cost": 10260000000,
+      "time": "67d 14h 25m",
+      "value": 0.23,
+      "delta_value": 0.005,
+      "cum_cost": 53681771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 27,
+      "cost": 12150000000,
+      "time": "77d 1h 17m",
+      "value": 0.235,
+      "delta_value": 0.005,
+      "cum_cost": 65831771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 28,
+      "cost": 14290000000,
+      "time": "87d 10h 41m",
+      "value": 0.24,
+      "delta_value": 0.005,
+      "cum_cost": 80121771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 29,
+      "cost": 16700000000,
+      "time": "98d 19h 58m",
+      "value": 0.245,
+      "delta_value": 0.005,
+      "cum_cost": 96821771980,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 30,
+      "cost": 19420000000,
+      "time": "111d 6h 28m",
+      "value": 0.25,
+      "delta_value": 0.005,
+      "cum_cost": 116241771980,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 15",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 20-25 for most players"
+  },
+  "max_level": 30,
+  "cross_references": {
+    "cards": [
+      "chrono_field_reduction.json"
+    ],
+    "perks": [
+      "chrono_field_reduction.json"
+    ]
+  }
+}

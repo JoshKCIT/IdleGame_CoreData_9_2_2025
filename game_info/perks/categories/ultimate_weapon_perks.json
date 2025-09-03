@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "ultimate_weapon_perks",
+  "type": "perk",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "manual"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "overview": "Ultimate Weapon perks have a 20% chance of appearing and provide enhancements for specific ultimate weapons.",
+  "key_features": [
+    "Ultimate weapon perks will only be shown when the affected Ultimate Weapon is unlocked",
+    "If the ultimate weapon is unlocked from the \"Unlock a random ultimate weapon\" perk, the Ultimate Weapon perk will become available for that run",
+    "Each ultimate weapon perk can only be selected once per run"
+  ],
+  "available_ultimate_weapon_perks": [
+    "4 More Smart Missiles",
+    "Swamp Radius x1.5",
+    "+1 Wave on Death Wave",
+    "Extra Set of Inner Mines",
+    "Golden Tower Bonus x1.5",
+    "Chain Lightning Damage x2",
+    "Chrono Field Duration +5s",
+    "Black Hole Duration +12.0s",
+    "Spotlight Damage Bonus x1.5"
+  ],
+  "individual_perks_info": "Each ultimate weapon perk has detailed information in its corresponding JSON file, including:",
+  "perk_details": [
+    "Effect description",
+    "Maximum quantity (always 1)",
+    "Special calculation type",
+    "Unlock requirements",
+    "Related ultimate weapon information"
+  ]
+}

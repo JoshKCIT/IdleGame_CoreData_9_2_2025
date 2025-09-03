@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module",
+    "file_format": "json"
+  },
+  "name": "Anti-Cube Portal",
+  "description": "This module creates a damage amplification effect after shockwave hits, making shockwave attacks significantly more effective against affected enemies.",
+  "category": "General",
+  "type": "Armor",
+  "focus": "Defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "module_type": "armor",
+    "focus_area": "defense",
+    "target_type": "enemies",
+    "effect_category": "combat",
+    "synergy_groups": [
+      "shockwave",
+      "damage_amplification"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "damage_amplification": "Base Multiplier × Rarity Multiplier",
+    "duration": "7 seconds (fixed)",
+    "trigger_condition": "After shockwave hit"
+  },
+  "context_fields": {
+    "when_to_use": "When using shockwave mechanics and need enhanced damage output",
+    "priority_level": "High for shockwave builds",
+    "upgrade_priority": "Focus on higher rarity versions for better multipliers",
+    "synergy_combinations": [
+      "Shockwave cards and perks",
+      "Health reduction effects",
+      "Damage bonuses for enhanced effectiveness"
+    ],
+    "counter_strategies": [
+      "Most effective after shockwave activation",
+      "Scales with shockwave frequency",
+      "Combines well with damage amplification effects"
+    ],
+    "resource_efficiency": "High - significant damage boost for shockwave builds"
+  },
+  "rarity_scaling": {
+    "Epic": "10x",
+    "Legendary": "15x",
+    "Mythic": "20x",
+    "Ancestral": "25x"
+  },
+  "notes": "Additional information",
+  "unique_effect": "Enemies take [x]x damage for 7s after they are hit by a shockwave."
+}

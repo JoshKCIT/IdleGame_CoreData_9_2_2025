@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Energy Shield Extra Hit",
+  "description": "Enhances energy shield mechanics",
+  "category": "Card Research",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "card_research",
+    "stat_type": "energy_shield_hits",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "energy_shield",
+      "defensive"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": 1,
+    "increment_per_level": 1,
+    "total_value": "1 + (Level - 1)",
+    "effect": "Increases energy shield extra hits by +1 per level"
+  },
+  "context_fields": {
+    "when_to_use": "When using energy shield cards and need additional protection",
+    "priority_level": "Medium - useful for energy shield builds",
+    "upgrade_priority": "Medium priority for defensive builds using energy shield",
+    "synergy_combinations": [
+      "Energy shield cards for enhanced protection",
+      "Other defensive research for comprehensive builds",
+      "Health and defense bonuses for maximum survivability"
+    ],
+    "counter_strategies": [
+      "Increases energy shield effectiveness",
+      "Provides additional protection against enemy attacks",
+      "Enhances defensive capabilities"
+    ],
+    "resource_efficiency": "Medium - expensive but useful for energy shield builds"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 40000000000,
+      "time": "11d 13h 46m",
+      "value": 1,
+      "delta_value": null,
+      "cum_cost": 40000000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 850000000000,
+      "time": "32d 9h 46m",
+      "value": 2,
+      "delta_value": 1,
+      "cum_cost": 890000000000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Very expensive for early game",
+    "mid_levels": "Expensive but useful for energy shield builds",
+    "late_levels": "High cost for additional energy shield hits",
+    "recommended_stop": "Level 1-2 for most players"
+  },
+  "max_level": 2,
+  "cross_references": {
+    "cards": [
+      "energy_shield_extra_hit.json"
+    ],
+    "perks": [
+      "energy_shield_extra_hit.json"
+    ]
+  }
+}

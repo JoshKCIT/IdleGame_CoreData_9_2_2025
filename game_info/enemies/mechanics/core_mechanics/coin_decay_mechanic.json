@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "enemy_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "The Coin Decay Mechanic reduces the coin value of enemies that survive for extended periods, encouraging players to defeat enemies quickly.",
+  "category": "General",
+  "type": "enemy",
+  "focus": "economy",
+  "semantic_tags": {
+    "primary_function": "economy",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "coin_multiplier"
+  },
+  "notes": "Additional information",
+  "title": "Coin Decay Mechanic",
+  "mechanics": {
+    "decay_threshold": "Enemies lose 50% of their coin value if they are alive for more than 3 waves",
+    "applies_to_all": "This applies to all enemy types (Normal, Elite, Boss, Fleet)",
+    "decay_type": "The decay is a flat 50% reduction, not a gradual decrease",
+    "reset_condition": "The mechanic resets if an enemy is defeated and respawns"
+  },
+  "strategic_implications": [
+    "Players are incentivized to defeat enemies quickly to maximize coin rewards",
+    "Enemies that survive multiple waves provide significantly less economic benefit",
+    "This creates a trade-off between defensive strategies and economic efficiency",
+    "Boss enemies that survive multiple waves become less valuable targets"
+  ],
+  "economic_impact": [
+    "Early wave enemies that survive become poor coin sources",
+    "Players should focus on clearing waves efficiently rather than letting enemies accumulate",
+    "The mechanic encourages active gameplay over passive strategies",
+    "Elite and Fleet enemies that survive multiple waves lose significant value"
+  ],
+  "counterplay": [
+    "Prioritize defeating enemies before they reach the 3-wave threshold",
+    "Use area-of-effect abilities to clear groups of enemies quickly",
+    "Focus on high-value enemies (Bosses, Elites) to prevent coin decay",
+    "Consider using ultimate weapons to clear waves efficiently"
+  ]
+}

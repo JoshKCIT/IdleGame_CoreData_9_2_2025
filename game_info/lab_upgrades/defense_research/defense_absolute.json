@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Defense Absolute",
+  "description": "Increases tower defense",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "defense",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "research_category": "defense_research",
+    "stat_type": "defense",
+    "target": "tower",
+    "effect_category": "survival",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "health",
+      "health_regen",
+      "wall_defense"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction"
+  },
+  "calculation_formulas": {
+    "base_multiplier": "1.03",
+    "increment_per_level": "0.03",
+    "total_multiplier": "1 + (Level × 0.03)",
+    "final_defense": "Base Defense × Research Multiplier × Card Multiplier × Perk Multiplier",
+    "damage_reduction": "Incoming Damage ÷ (1 + Defense Multiplier)"
+  },
+  "context_fields": {
+    "when_to_use": "Essential for all builds - defense directly reduces incoming damage",
+    "priority_level": "Highest - defense is crucial for tower survival",
+    "upgrade_priority": "First priority alongside health for defensive builds",
+    "synergy_combinations": [
+      "Health research for maximum survivability",
+      "Health regeneration for sustained survival",
+      "Wall defense for additional protection layers"
+    ],
+    "counter_strategies": [
+      "Effective against all enemy types",
+      "Scales multiplicatively with other bonuses",
+      "Combines with health bonuses for maximum survival"
+    ],
+    "resource_efficiency": "Extremely High - multiplicative damage reduction"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 30,
+      "time": "0d 0h 0m",
+      "value": 1.03,
+      "delta_value": null,
+      "cum_cost": 30,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 71,
+      "time": "0d 0h 6m",
+      "value": 1.06,
+      "delta_value": 0.03,
+      "cum_cost": 101,
+      "efficiency": 0.000423,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 178,
+      "time": "0d 0h 16m",
+      "value": 1.09,
+      "delta_value": 0.03,
+      "cum_cost": 279,
+      "efficiency": 0.000169,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 398,
+      "time": "0d 0h 31m",
+      "value": 1.12,
+      "delta_value": 0.03,
+      "cum_cost": 677,
+      "efficiency": 7.5e-05,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 772,
+      "time": "0d 0h 52m",
+      "value": 1.15,
+      "delta_value": 0.03,
+      "cum_cost": 1449,
+      "efficiency": 3.9e-05,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 6170,
+      "time": "0d 4h 32m",
+      "value": 1.3,
+      "delta_value": 0.03,
+      "cum_cost": 18759,
+      "efficiency": 5e-06,
+      "notes": null
+    },
+    {
+      "level": 20,
+      "cost": 46540,
+      "time": "1d 0h 22m",
+      "value": 1.6,
+      "delta_value": 0.03,
+      "cum_cost": 262319,
+      "efficiency": 1e-06,
+      "notes": null
+    },
+    {
+      "level": 30,
+      "cost": 147950,
+      "time": "2d 17h 18m",
+      "value": 1.9,
+      "delta_value": 0.03,
+      "cum_cost": 1225239,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 40,
+      "cost": 333400,
+      "time": "5d 11h 17m",
+      "value": 2.2,
+      "delta_value": 0.03,
+      "cum_cost": 3646489,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 50,
+      "cost": 623890,
+      "time": "9d 9h 31m",
+      "value": 2.5,
+      "delta_value": 0.03,
+      "cum_cost": 8483269,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 60,
+      "cost": 1040000,
+      "time": "14d 14h 43m",
+      "value": 2.8,
+      "delta_value": 0.03,
+      "cum_cost": 16895939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 70,
+      "cost": 1600000,
+      "time": "21d 5h 17m",
+      "value": 3.1,
+      "delta_value": 0.03,
+      "cum_cost": 30225939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 80,
+      "cost": 2320000,
+      "time": "29d 7h 22m",
+      "value": 3.4,
+      "delta_value": 0.03,
+      "cum_cost": 50035939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 90,
+      "cost": 3220000,
+      "time": "38d 22h 57m",
+      "value": 3.7,
+      "delta_value": 0.03,
+      "cum_cost": 77995939,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 100,
+      "cost": 4310000,
+      "time": "50d 5h 52m",
+      "value": 4.0,
+      "delta_value": 0.03,
+      "cum_cost": 116005939,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "High efficiency in first 10 levels",
+    "mid_levels": "Decreasing efficiency after level 20",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 50-75 for most players"
+  },
+  "max_level": 100,
+  "cross_references": {
+    "cards": [
+      "defense_absolute.json"
+    ],
+    "perks": [
+      "defense_absolute.json"
+    ],
+    "modules": [
+      "anti_cube_portal.json",
+      "negative_mass_projector.json",
+      "space_displacer.json"
+    ]
+  }
+}

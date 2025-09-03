@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic_mechanics",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "Milestone Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "title": "Unlocking Relics",
+  "overview": "Relics can be unlocked through 6 main methods. Each method provides different types of relics with varying rarities and bonuses.",
+  "unlock_methods": {
+    "milestones": {
+      "requirement": "Beat wave 4500 in specific tiers",
+      "relics": "T:I through T:XXI tier relics",
+      "rarity": "Rare (T:I-V), Epic (T:VI-X), Legendary (T:XI-XXI)",
+      "bonus_range": "2% (early tiers) to 10% (later tiers)",
+      "total_relics": 21
+    },
+    "tournament_placement": {
+      "requirement": "Finish in top 4 of tournament brackets",
+      "brackets": [
+        "Copper",
+        "Silver",
+        "Gold",
+        "Platinum",
+        "Champion",
+        "Legends"
+      ],
+      "rarity": "Rare (Copper, Silver), Epic (Gold, Platinum), Legendary (Champion, Tower Master, Legend)",
+      "bonus_range": "3-10% depending on bracket",
+      "total_relics": 7
+    },
+    "event_completion_store": {
+      "requirement": "Earn medals during special events",
+      "medal_requirements": {
+        "rare": 350,
+        "rare_premium": 550,
+        "epic": 700,
+        "epic_premium": 1100
+      },
+      "availability": "Limited time events, some require event re-runs",
+      "rarity": "Primarily Rare and Epic",
+      "total_relics": "100+"
+    },
+    "guild_store": {
+      "requirement": "Spend guild tokens during guild seasons",
+      "token_requirements": {
+        "rare": 75,
+        "epic": 150
+      },
+      "availability": "During active guild seasons",
+      "rarity": "Rare and Epic",
+      "total_relics": 4
+    },
+    "anniversary": {
+      "requirement": "Play the game for consecutive years",
+      "anniversary_years": "1st through 6th year",
+      "rarity": "All Rare",
+      "bonus": "2% per relic",
+      "total_relics": 6
+    },
+    "event_store_reruns": {
+      "requirement": "Purchase with medals during event re-runs",
+      "availability": "Only during event re-runs",
+      "rarity": "Varies",
+      "note": "Some relics can only be obtained on event re-runs"
+    }
+  },
+  "unlock_progression": {
+    "early_game": "Focus on milestone relics (T:I-V) and basic tournament relics",
+    "mid_game": "Unlock higher tier milestones (T:VI-X) and event relics",
+    "late_game": "Complete all milestone relics (T:XI-XXI) and premium tournament relics",
+    "end_game": "Collect all event relics and anniversary rewards"
+  },
+  "viewing_unlocks": [
+    "Relic unlock progress can be viewed in the **Themes Menu**",
+    "Each relic shows its unlock requirement and current status",
+    "Completed relics are automatically active and provide their bonuses"
+  ]
+}

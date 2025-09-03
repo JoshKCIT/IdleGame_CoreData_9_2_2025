@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "More Round Stats",
+  "description": "Lab research enhancement",
+  "category": "General Labs",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "main_research",
+    "stat_type": "round_stats",
+    "target": "tower",
+    "effect_category": "efficiency",
+    "scaling_type": "unlock",
+    "synergy_groups": [
+      "economy",
+      "resource_generation",
+      "efficiency"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "effect": "Unlocks additional round statistics",
+    "stat_tracking": "Enhanced performance monitoring",
+    "progress_analysis": "Better understanding of game progression",
+    "optimization_data": "Data for build improvement decisions"
+  },
+  "context_fields": {
+    "when_to_use": "Early to mid game - useful for performance analysis",
+    "priority_level": "Medium - helpful for optimization",
+    "upgrade_priority": "After core quality of life improvements",
+    "synergy_combinations": [
+      "Buy Multiplier research for bulk purchases",
+      "Card Presets research for efficient management",
+      "Game Speed research for faster progression"
+    ],
+    "counter_strategies": [
+      "Effective for all game phases",
+      "Improves performance tracking",
+      "Enables data-driven optimization"
+    ],
+    "resource_efficiency": "Medium - useful but not essential"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 250000,
+      "time": "0d 11h 59m",
+      "value": "Unlocked",
+      "delta_value": null,
+      "cum_cost": 250000,
+      "efficiency": null,
+      "notes": "Unlocks additional round statistics"
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "One-time unlock - no further levels",
+    "mid_levels": "N/A - single level research",
+    "late_levels": "N/A - single level research",
+    "recommended_stop": "Level 1 (maximum)"
+  },
+  "max_level": 1,
+  "cross_references": {
+    "cards": [
+      "more_round_stats.json"
+    ],
+    "perks": [
+      "more_round_stats.json"
+    ]
+  }
+}

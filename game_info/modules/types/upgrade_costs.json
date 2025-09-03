@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "module_system",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Upgrade mechanics enhancement",
+  "category": "General",
+  "type": "module",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "system_type": "upgrade_costs",
+  "leveling_costs": {
+    "description": "Modules can be leveled up to improve their main stat using shards and coins. The cost increases significantly at higher levels.",
+    "cost_table": {
+      "1": {
+        "shard_cost": 0,
+        "coin_cost": 0,
+        "total_shards": 0,
+        "total_coins": 0
+      },
+      "2": {
+        "shard_cost": 7,
+        "coin_cost": 10000,
+        "total_shards": 14,
+        "total_coins": 20000
+      },
+      "11": {
+        "shard_cost": 20,
+        "coin_cost": 45000,
+        "total_shards": 108,
+        "total_coins": 210000
+      },
+      "21": {
+        "shard_cost": 40,
+        "coin_cost": 120000,
+        "total_shards": 353,
+        "total_coins": 810000
+      },
+      "31": {
+        "shard_cost": 75,
+        "coin_cost": 350000,
+        "total_shards": 838,
+        "total_coins": 2540000
+      },
+      "41": {
+        "shard_cost": 120,
+        "coin_cost": 1000000,
+        "total_shards": 1708,
+        "total_coins": 7440000
+      },
+      "51": {
+        "shard_cost": 180,
+        "coin_cost": 3000000,
+        "total_shards": 2968,
+        "total_coins": 19440000
+      },
+      "61": {
+        "shard_cost": 250,
+        "coin_cost": 25000000,
+        "total_shards": 4838,
+        "total_coins": 71440000
+      },
+      "71": {
+        "shard_cost": 350,
+        "coin_cost": 100000000,
+        "total_shards": 7438,
+        "total_coins": 396440000
+      },
+      "81": {
+        "shard_cost": 500,
+        "coin_cost": 350000000,
+        "total_shards": 11088,
+        "total_coins": 1650000000
+      },
+      "91": {
+        "shard_cost": 700,
+        "coin_cost": 350000000,
+        "total_shards": 16288,
+        "total_coins": 5150000000
+      },
+      "101": {
+        "shard_cost": 1000,
+        "coin_cost": 8000000000,
+        "total_shards": 23588,
+        "total_coins": 16300000000
+      },
+      "111": {
+        "shard_cost": 1300,
+        "coin_cost": 8000000000,
+        "total_shards": 33888,
+        "total_coins": 96300000000
+      },
+      "121": {
+        "shard_cost": 1800,
+        "coin_cost": 32000000000,
+        "total_shards": 47388,
+        "total_coins": 200300000000
+      },
+      "131": {
+        "shard_cost": 2500,
+        "coin_cost": 32000000000,
+        "total_shards": 66088,
+        "total_coins": 520300000000
+      },
+      "141": {
+        "shard_cost": 3000,
+        "coin_cost": 500000000000,
+        "total_shards": 91588,
+        "total_coins": 1310000000000
+      },
+      "151": {
+        "shard_cost": 4000,
+        "coin_cost": 500000000000,
+        "total_shards": 122588,
+        "total_coins": 6310000000000
+      },
+      "161": {
+        "shard_cost": 5000,
+        "coin_cost": 10000000000000,
+        "total_shards": 163588,
+        "total_coins": 20810000000000
+      },
+      "171": {
+        "shard_cost": 6250,
+        "coin_cost": 510000000000000,
+        "total_shards": 220463,
+        "total_coins": "2.87q"
+      },
+      "181": {
+        "shard_cost": 7500,
+        "coin_cost": "1.01q",
+        "total_shards": 289838,
+        "total_coins": "10.73q"
+      },
+      "191": {
+        "shard_cost": 8750,
+        "coin_cost": "1.51q",
+        "total_shards": 371713,
+        "total_coins": "23.57q"
+      },
+      "201": {
+        "shard_cost": 10000,
+        "coin_cost": "2.5q",
+        "total_shards": 592588,
+        "total_coins": "41.91q"
+      },
+      "221": {
+        "shard_cost": 15000,
+        "coin_cost": "265q",
+        "total_shards": 718588,
+        "total_coins": "2.02Q"
+      },
+      "241": {
+        "shard_cost": 20000,
+        "coin_cost": "1.00Q",
+        "total_shards": 1071088,
+        "total_coins": "144.46Q"
+      },
+      "261": {
+        "shard_cost": 30000,
+        "coin_cost": "106.00Q",
+        "total_shards": 1576088,
+        "total_coins": "804.46Q"
+      },
+      "281": {
+        "shard_cost": 40000,
+        "coin_cost": "411.00Q",
+        "total_shards": 2281088,
+        "total_coins": "5.79s"
+      },
+      "300": {
+        "shard_cost": 49500,
+        "coin_cost": "886.00Q",
+        "total_shards": 3136088,
+        "total_coins": "18.07s"
+      }
+    }
+  },
+  "sub_module_effect_slots": {
+    "unlock_levels": [
+      41,
+      101,
+      141,
+      161,
+      201,
+      241
+    ],
+    "description": "Leveling up modules to these levels unlock additional slots for sub-module effects"
+  },
+  "sub_module_reroll_costs": {
+    "description": "Sub-module effects that you do not want to be rerolled can be locked. Locking sub-module effects will raise the cost of rerolls.",
+    "cost_table": {
+      "0_locks": 10,
+      "1_lock": 40,
+      "2_locks": 160,
+      "3_locks": 500,
+      "4_locks": 1000,
+      "5_locks": 1600,
+      "6_locks": 2250,
+      "7_locks": 3000
+    },
+    "note": "Costs marked with asterisk may be subject to change"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "perk",
+    "file_format": "json"
+  },
+  "name": "Defense Absolute",
+  "description": "Increases absolute defense",
+  "category": "Standard Perks",
+  "type": "perk",
+  "focus": "defensive",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "damage_type": "health_reduction",
+    "target_type": "tower",
+    "activation": "automatic",
+    "range": "tower_range",
+    "stat_type": "defense",
+    "effect_category": "survival",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "defense",
+      "wall_defense",
+      "health_regen"
+    ],
+    "optimal_use": [
+      "early_game",
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "high_damage_enemies",
+      "bosses",
+      "fast_enemies"
+    ]
+  },
+  "calculation_formulas": {
+    "base_bonus": "0.15 per perk level",
+    "total_bonus": "(1 + 0.15 × Quantity) × (1 + Standard Perk Bonus)",
+    "standard_perk_bonus": "Lab research bonus (stacks multiplicatively)",
+    "final_defense": "Base Defense × (1 + Perk Bonus) × (1 + Card Bonus) × (1 + Relic Bonus)"
+  },
+  "context_fields": {
+    "when_to_use": "Essential for damage mitigation against all enemy types",
+    "priority_level": "High - fundamental for tower survival",
+    "upgrade_priority": "High priority for Standard Perk Bonus lab research",
+    "synergy_combinations": [
+      "Defense Percent for comprehensive damage reduction",
+      "Max Health and Health Regen for complete survival package",
+      "Standard Perk Bonus lab research for maximum effect"
+    ],
+    "counter_strategies": [
+      "Essential against all enemy damage types",
+      "Scales multiplicatively with other defense bonuses",
+      "Combines with health perks for maximum survivability"
+    ],
+    "resource_efficiency": "Very High - fundamental survival stat",
+    "effect": "x1.15 Defense Absolute",
+    "appearance_chance": "65%",
+    "max_quantity": 5,
+    "calculation_type": "multiplicative",
+    "formula": "Total Bonus = (1 + Base Value x Quantity) x (1 + Standard Perk Bonus)"
+  },
+  "notes": "Standard perk bonuses can be increased using the Standard Perk Bonus lab",
+  "cross_references": {
+    "related_card": "cards/data/extra_defense.json",
+    "related_research": "lab_upgrades/defense_research/defense_absolute.json",
+    "cards": [
+      "defense_absolute.json"
+    ],
+    "perks": [
+      "defense_absolute.json",
+      "defense_percent.json"
+    ],
+    "lab_research": [
+      "defense_absolute.json"
+    ],
+    "modules": [
+      "anti_cube_portal.json",
+      "negative_mass_projector.json",
+      "space_displacer.json"
+    ]
+  }
+}

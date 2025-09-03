@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic",
+    "file_format": "json"
+  },
+  "name": "Man Skull",
+  "description": "Increase health by 5%",
+  "category": "Event Relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "defensive",
+    "effect_category": "survival",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "health_reduction",
+    "scaling_type": "multiplicative",
+    "synergy_groups": [
+      "defense",
+      "health_regen"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ]
+  },
+  "notes": "Epic event relics",
+  "bonus_type": "tower_health",
+  "unlock_requirement": "Event: Earn 700 medals during the \"Halloween\"",
+  "rarity": "Epic",
+  "unlock_method": "Event",
+  "bonus_value": 5.0,
+  "medal_requirement": 700,
+  "effect": "Increase health by 5%",
+  "event_name": "Halloween"
+}

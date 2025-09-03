@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "card",
+    "file_format": "json"
+  },
+  "name": "Critical Chance",
+  "description": "Enhances critical hit mechanics",
+  "category": "Utility Cards",
+  "type": "card",
+  "focus": "attack",
+  "semantic_tags": {
+    "primary_function": "offensive",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic",
+    "damage_type": "critical_hit"
+  },
+  "calculation_formulas": {
+    "base_calculation": "Base Value × Multiplier",
+    "total_calculation": "Base Value × (1 + Bonuses)"
+  },
+  "context_fields": {
+    "when_to_use": "When this effect is beneficial",
+    "priority_level": "Medium",
+    "resource_efficiency": "Medium"
+  },
+  "notes": "Additional information",
+  "rarities": {
+    "Common": {
+      "description": "Increase critical chance by +#%",
+      "levels": [
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 6.0
+        },
+        {
+          "percent": 7.0
+        },
+        {
+          "percent": 8.0
+        },
+        {
+          "percent": 9.0
+        },
+        {
+          "percent": 10.0
+        },
+        {
+          "percent": 11.0
+        }
+      ]
+    }
+  },
+  "mastery": {
+    "overview": {
+      "description": "Bonus to Crit Chance, super Crit chance, and Super Crit Factor",
+      "stone_cost": "750",
+      "levels": [
+        "+1%",
+        "+2%",
+        "+3%",
+        "+4%",
+        "+5%",
+        "+6%",
+        "+7%",
+        "+8%",
+        "+9%",
+        "+10%"
+      ]
+    },
+    "overview_normalized": {
+      "description": "Bonus to Crit Chance, super Crit chance, and Super Crit Factor",
+      "stone_cost": "750",
+      "levels": [
+        {
+          "percent": 1.0
+        },
+        {
+          "percent": 2.0
+        },
+        {
+          "percent": 3.0
+        },
+        {
+          "percent": 4.0
+        },
+        {
+          "percent": 5.0
+        },
+        {
+          "percent": 6.0
+        },
+        {
+          "percent": 7.0
+        },
+        {
+          "percent": 8.0
+        },
+        {
+          "percent": 9.0
+        },
+        {
+          "percent": 10.0
+        }
+      ]
+    }
+  },
+  "cross_references": {
+    "cards": [
+      "critical_chance.json",
+      "critical_coin.json",
+      "ultimate_crit.json"
+    ],
+    "perks": [
+      "critical_chance.json"
+    ],
+    "lab_research": [
+      "critical_chance.json"
+    ],
+    "modules": [
+      "astral_deliverance.json"
+    ]
+  }
+}

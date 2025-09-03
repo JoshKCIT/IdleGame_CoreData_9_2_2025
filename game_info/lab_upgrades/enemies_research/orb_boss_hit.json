@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "lab_research",
+    "file_format": "json"
+  },
+  "name": "Orb Boss Hit",
+  "description": "Enhances orb mechanics",
+  "category": "Enemy Research",
+  "type": "lab_research",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "enemies_research",
+    "stat_type": "boss_hit_bonus",
+    "target": "orb_boss",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "boss_weakening"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "orb_boss"
+    ],
+    "target_type": "enemies",
+    "activation": "automatic"
+  },
+  "calculation_formulas": {
+    "base_value": 0.002,
+    "increment_per_level": 0.002,
+    "total_value": "0.002 × Level",
+    "effect": "Increases orb boss hit bonus by +0.2% per level"
+  },
+  "context_fields": {
+    "when_to_use": "When fighting orb boss and need additional hit bonus",
+    "priority_level": "Medium - only affects orb boss",
+    "upgrade_priority": "After basic enemy research",
+    "synergy_combinations": [
+      "All boss-related research",
+      "Boss weakening research",
+      "Elite enemy research"
+    ],
+    "counter_strategies": [
+      "Increases hit bonus against orb boss",
+      "Makes orb boss easier to defeat",
+      "Improves survival against orb boss"
+    ],
+    "resource_efficiency": "Medium - only useful against orb boss"
+  },
+  "research_levels": [
+    {
+      "level": 1,
+      "cost": 800000000,
+      "time": "1d 3h 46m",
+      "value": 0.002,
+      "delta_value": null,
+      "cum_cost": 800000000,
+      "efficiency": null,
+      "notes": null
+    },
+    {
+      "level": 2,
+      "cost": 1210000000,
+      "time": "1d 12h 7m",
+      "value": 0.004,
+      "delta_value": 0.002,
+      "cum_cost": 2010000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 3,
+      "cost": 1670000000,
+      "time": "1d 20h 40m",
+      "value": 0.006,
+      "delta_value": 0.002,
+      "cum_cost": 3680000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 4,
+      "cost": 2330000000,
+      "time": "2d 5h 47m",
+      "value": 0.008,
+      "delta_value": 0.002,
+      "cum_cost": 6010000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 5,
+      "cost": 3370000000,
+      "time": "2d 15h 58m",
+      "value": 0.01,
+      "delta_value": 0.002,
+      "cum_cost": 9380000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 6,
+      "cost": 5060000000,
+      "time": "3d 3h 49m",
+      "value": 0.012,
+      "delta_value": 0.002,
+      "cum_cost": 14440000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 7,
+      "cost": 7730000000,
+      "time": "3d 18h 5m",
+      "value": 0.014,
+      "delta_value": 0.002,
+      "cum_cost": 22170000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 8,
+      "cost": 11730000000,
+      "time": "4d 11h 32m",
+      "value": 0.016,
+      "delta_value": 0.002,
+      "cum_cost": 33900000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 9,
+      "cost": 17510000000,
+      "time": "5d 9h 6m",
+      "value": 0.018,
+      "delta_value": 0.002,
+      "cum_cost": 51410000000,
+      "efficiency": 0.0,
+      "notes": null
+    },
+    {
+      "level": 10,
+      "cost": 25540000000,
+      "time": "6d 11h 45m",
+      "value": 0.02,
+      "delta_value": 0.002,
+      "cum_cost": 76950000000,
+      "efficiency": 0.0,
+      "notes": null
+    }
+  ],
+  "notes": "Additional information",
+  "efficiency_analysis": {
+    "early_levels": "Good efficiency for orb boss hit bonus",
+    "mid_levels": "Decreasing efficiency at higher levels",
+    "late_levels": "Very low efficiency, high cost",
+    "recommended_stop": "Level 5-7 for most players"
+  },
+  "max_level": 10,
+  "cross_references": {
+    "cards": [
+      "orb_boss_hit.json"
+    ],
+    "perks": [
+      "orb_boss_hit.json"
+    ]
+  }
+}

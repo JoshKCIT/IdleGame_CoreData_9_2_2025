@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "relic_category",
+    "file_format": "json"
+  },
+  "name": "Unknown Item",
+  "description": "Game mechanics enhancement",
+  "category": "guild_relics",
+  "type": "relic",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "effect_category": "utility",
+    "target_type": "tower",
+    "activation": "automatic"
+  },
+  "notes": "Additional information",
+  "overview": "Guild relics are unlocked through guild participation and spending guild tokens during guild seasons. These relics provide unique bonuses and reward active guild membership.",
+  "unlock_requirements": {
+    "requirement": "Spend guild tokens during guild seasons",
+    "token_requirements": {
+      "rare": 75,
+      "epic": 150
+    },
+    "availability": "During active guild seasons only",
+    "participation": "Requires active guild membership"
+  },
+  "guild_season_structure": {
+    "duration": "Limited time guild seasons",
+    "token_sources": [
+      "Guild activities",
+      "contributions",
+      "achievements"
+    ],
+    "relic_availability": "Different relics available each season",
+    "progression": "Must accumulate tokens through guild participation"
+  },
+  "individual_guild_relics": {
+    "season_1": {
+      "throne": {
+        "rarity": "Rare",
+        "bonus": "Tower health +2%",
+        "requirement": "Spend 75 tokens in Guild Season 1",
+        "description": "Basic health improvement",
+        "status": "Foundation guild relic"
+      },
+      "crown": {
+        "rarity": "Epic",
+        "bonus": "Critical factor +5%",
+        "requirement": "Spend 150 tokens in Guild Season 1",
+        "description": "Significant critical hit improvement",
+        "status": "Premium guild relic"
+      }
+    },
+    "season_2": {
+      "fancy_wings": {
+        "rarity": "Rare",
+        "bonus": "Health regen +2%",
+        "requirement": "Spend 75 tokens in Guild Season 2",
+        "description": "Health regeneration improvement",
+        "status": "Defensive utility relic"
+      },
+      "mech_head": {
+        "rarity": "Epic",
+        "bonus": "Bot range +2m",
+        "requirement": "Spend 150 tokens in Guild Season 2",
+        "description": "Bot range improvement",
+        "status": "Utility enhancement relic"
+      }
+    },
+    "season_3": {
+      "lets_mix": {
+        "rarity": "Rare",
+        "bonus": "Coins earned +2%",
+        "requirement": "Spend 75 tokens in Guild Season 3",
+        "description": "Coin generation improvement",
+        "status": "Economic utility relic"
+      },
+      "night_life": {
+        "rarity": "Epic",
+        "bonus": "Attack speed +2%",
+        "requirement": "Spend 150 tokens in Guild Season 3",
+        "description": "Attack speed improvement",
+        "status": "Combat enhancement relic"
+      }
+    },
+    "season_4": {
+      "world_domination": {
+        "rarity": "Rare",
+        "bonus": "Health earned +2%",
+        "requirement": "Spend 75 tokens in Guild Season 4",
+        "description": "Health gain improvement",
+        "status": "Health utility relic"
+      },
+      "brave_heroes": {
+        "rarity": "Epic",
+        "bonus": "Critical factor +5%",
+        "requirement": "Spend 150 tokens in Guild Season 4",
+        "description": "Critical hit improvement",
+        "status": "Combat enhancement relic"
+      }
+    }
+  },
+  "guild_token_strategy": {
+    "token_accumulation": [
+      "Active Participation: Regular guild activities and contributions",
+      "Guild Events: Special events that provide bonus tokens",
+      "Achievements: Guild-wide achievements and milestones",
+      "Consistent Play: Regular gameplay to maintain guild status"
+    ],
+    "relic_prioritization": [
+      "Epic relics provide better bonuses (150 tokens)",
+      "Rare relics are more accessible (75 tokens)",
+      "Unique bonuses like bot range are valuable",
+      "Complement existing relics for additive effects"
+    ],
+    "season_planning": [
+      "Track season schedules for relic availability",
+      "Save tokens for preferred relic types",
+      "Plan purchases based on current relic needs",
+      "Maximize participation during active seasons"
+    ]
+  },
+  "total_guild_bonuses": {
+    "tower_health": "+2%",
+    "critical_factor": "+10% (5% + 5%)",
+    "health_regen": "+2%",
+    "bot_range": "+2m",
+    "coins_earned": "+2%",
+    "attack_speed": "+2%",
+    "health_earned": "+2%"
+  },
+  "strategic_importance": [
+    "Reward guild participation and community engagement",
+    "Provide unique bonuses not available through other methods",
+    "Offer consistent progression through guild seasons",
+    "Complement other relic types for comprehensive bonuses",
+    "Encourage long-term guild membership"
+  ],
+  "guild_participation_benefits": [
+    "Community support and shared knowledge",
+    "Guild-exclusive content and events",
+    "Collaborative achievements and goals",
+    "Social aspects of the game",
+    "Additional progression paths through guild systems"
+  ],
+  "summary": "Guild relics represent a unique progression path that rewards community participation and provides bonuses that complement other relic categories, making guild membership valuable for comprehensive relic collection."
+}

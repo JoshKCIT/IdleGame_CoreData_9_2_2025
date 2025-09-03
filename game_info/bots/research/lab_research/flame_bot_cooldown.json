@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-09",
+    "source_game_version": "9.2.2025",
+    "data_type": "bot_research",
+    "file_format": "json"
+  },
+  "name": "Flame Bot Cooldown",
+  "description": "This lab research reduces the cooldown time for Flame Bot activations, allowing it to activate more frequently.",
+  "category": "Bot Research",
+  "type": "bot",
+  "focus": "utility",
+  "semantic_tags": {
+    "primary_function": "utility",
+    "research_category": "bot_research",
+    "stat_type": "attack_speed",
+    "target": "flame_bot",
+    "effect_category": "efficiency",
+    "scaling_type": "additive",
+    "synergy_groups": [
+      "utility",
+      "attack_speed"
+    ],
+    "optimal_use": [
+      "mid_game",
+      "late_game"
+    ],
+    "counter_enemies": [
+      "all_enemies"
+    ],
+    "target_type": "tower",
+    "activation": "cooldown_based"
+  },
+  "calculation_formulas": {
+    "base_cooldown": "75 seconds",
+    "cooldown_reduction": "3 seconds per level",
+    "final_cooldown": "Base Cooldown - (Level × 3 seconds)",
+    "effect": "Reduces Flame Bot cooldown for more frequent activations"
+  },
+  "context_fields": {
+    "when_to_use": "When using Flame Bot and need more frequent activations",
+    "priority_level": "High for Flame Bot builds",
+    "upgrade_priority": "High priority for Flame Bot optimization",
+    "synergy_combinations": [
+      "Flame Bot duration research for extended uptime",
+      "Flame Bot burn stack research for enhanced damage",
+      "Other Flame Bot research for comprehensive optimization"
+    ],
+    "counter_strategies": [
+      "More frequent area damage application",
+      "Better burn damage coverage",
+      "Improved crowd control through burn effects"
+    ],
+    "resource_efficiency": "High - increases Flame Bot effectiveness significantly"
+  },
+  "notes": "Additional information",
+  "research_details": {
+    "category": "Bot Research",
+    "effect": "Reduces Flame Bot cooldown",
+    "research_type": "Cooldown reduction"
+  },
+  "benefits": [
+    "More frequent Flame Bot activations",
+    "Increased burn damage application",
+    "Better damage reduction coverage",
+    "Improved crowd control through burn effects"
+  ],
+  "strategic_value": {
+    "early_game": "Provides more frequent area damage",
+    "mid_game": "Enhances burn stacking and damage reduction",
+    "late_game": "Maximizes Flame Bot uptime for optimal coverage"
+  },
+  "synergies": [
+    "Works well with Flame Bot duration research",
+    "Complements burn stack research",
+    "Enhances overall Flame Bot effectiveness"
+  ]
+}
